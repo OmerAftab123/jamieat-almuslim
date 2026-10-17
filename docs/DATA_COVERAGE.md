@@ -41,6 +41,7 @@ If the intended meaning was 100+ families, the dataset needs more families or a 
 | Admission requirements | MIT only: SAT/ACT requirement, English-test minimums and recommended scores, test deadlines. No grade minimum is published, so the matcher cannot check grades for MIT. Not researched for the other 149. |
 | Tuition and fees | Not researched, except the MIT total cost figure |
 | Scholarships | Only MIT has a record (need-based aid) |
+| Free-study dossiers | `data/freeStudy.json` | **1** | MIT only: can/free/should answers, official requirements, scholarship routes by type (merit, need, national, regional, institutional, sports, external), admission trends, reasoning, ranked mapped degrees, roadmap. All other universities: no dossier. |
 | Official website | Not recorded for any university |
 
 The matcher therefore reports `program-not-verified` for pairs without a verified programme. This is the correct behaviour and not a bug.

@@ -73,3 +73,11 @@ test('unknown page shows a helpful not-found page', async ({ page }) => {
   expect(res?.status()).toBe(404);
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Page not found');
 });
+
+test('free-study dossier: MIT answers can/free/should and shows the merit and sports routes as none', async ({ page }) => {
+  await page.goto('/free-study/massachusetts-institute-technology-mit');
+  await expect(page.getByRole('heading', { level: 1 })).toContainText('Free-study dossier');
+  await expect(page.getByText('Can you study for free?')).toBeVisible();
+  await expect(page.getByRole('cell', { name: 'Merit-based' })).toBeVisible();
+  await expect(page.getByText('Mapped degrees, ranked by criteria')).toBeVisible();
+});

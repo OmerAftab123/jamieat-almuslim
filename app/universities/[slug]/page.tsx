@@ -164,6 +164,20 @@ export default async function UniversityProfile({ params }: { params: Promise<Pa
         <p className="small muted">Last verified: {u.lastVerified}.</p>
       </section>
 
+      <section aria-labelledby="free-h">
+        <h2 id="free-h">Free study for international students</h2>
+        {d.freeStudy.dossiers.some((x) => x.universityId === u.id) ? (
+          <p>
+            <Link href={`/free-study/${u.id}`}>Read the free-study dossier</Link>: can, should and how to apply, get admitted,
+            and study here for free, with the scholarship routes and a roadmap.
+          </p>
+        ) : (
+          <p className="empty">
+            No free-study dossier yet. Scholarship and admission routes for this university have not been researched in full.
+          </p>
+        )}
+      </section>
+
       <section aria-labelledby="prog-h">
         <h2 id="prog-h">Undergraduate programmes</h2>
         {u.programs.length === 0 ? (

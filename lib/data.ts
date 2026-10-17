@@ -5,6 +5,7 @@ import universitiesJson from '@/data/universities.json';
 import scholarshipsJson from '@/data/scholarships.json';
 import sourcesJson from '@/data/sources.json';
 import fxJson from '@/data/fx.json';
+import freeStudyJson from '@/data/freeStudy.json';
 import {
   degreesFileSchema,
   familiesFileSchema,
@@ -18,6 +19,8 @@ import {
   type Source,
   type University,
   type FxFile,
+  type FreeStudyFile,
+  freeStudyFileSchema,
 } from '@/lib/schemas';
 
 export type Dataset = {
@@ -27,6 +30,7 @@ export type Dataset = {
   scholarships: Scholarship[];
   sources: Source[];
   fx: FxFile;
+  freeStudy: FreeStudyFile;
   meta: {
     degreesVersion: string;
     familiesVersion: string;
@@ -55,6 +59,7 @@ export function parseDataset(raw: {
   scholarships: unknown;
   sources: unknown;
   fx: unknown;
+  freeStudy: unknown;
 }): Dataset {
   const fail = (file: string, e: unknown): never => {
     if (e instanceof ZodError) {
@@ -67,7 +72,7 @@ export function parseDataset(raw: {
     throw e;
   };
 
-  let degrees, families, universities, scholarships, sources, fx;
+  let degrees, families, universities, scholarships, sources, fx, freeStudy;
   try {
     degrees = degreesFileSchema.parse(raw.degrees);
   } catch (e) {
@@ -98,6 +103,11 @@ export function parseDataset(raw: {
   } catch (e) {
     fail('data/fx.json', e);
   }
+  try {
+    freeStudy = freeStudyFileSchema.parse(raw.freeStudy);
+  } catch (e) {
+    fail('data/freeStudy.json', e);
+  }
 
   return {
     degrees: degrees!.degrees,
@@ -106,6 +116,7 @@ export function parseDataset(raw: {
     scholarships: scholarships!.scholarships,
     sources: sources!.sources,
     fx: fx!,
+    freeStudy: freeStudy!,
     meta: {
       degreesVersion: degrees!.datasetVersion,
       familiesVersion: families!.datasetVersion,
@@ -171,6 +182,23 @@ export function checkIntegrity(d: Dataset): string[] {
       problems.push(`scholarship ${s.id} includes loans but is not classified as partial or unconfirmed`);
     }
   }
+  const dossierIds = d.freeStudy.dossiers.map((x) => x.id);
+  if (new Set(dossierIds).size !== dossierIds.length) problems.push('freeStudy dossier ids must be unique');
+  for (const dos of d.freeStudy.dossiers) {
+    if (!uniIds.has(dos.universityId)) problems.push(`freeStudy ${dos.id} references unknown university ${dos.universityId}`);
+    const cited: string[] = [
+      ...dos.answers.can.sourceIds,
+      ...dos.answers.free.sourceIds,
+      ...dos.answers.should.sourceIds,
+      ...dos.officialRequirements.flatMap((r) => r.sourceIds),
+      ...dos.scholarships.flatMap((r) => r.sourceIds),
+      ...dos.trends.map((t) => t.sourceId),
+      ...dos.degreeRanking.sourceIds,
+    ];
+    for (const id of cited) {
+      if (!sourceIds.has(id)) problems.push(`freeStudy ${dos.id} cites unknown source ${id}`);
+    }
+  }
   for (const r of d.fx.rates) {
     if (!sourceIds.has(r.sourceId)) problems.push(`fx rate ${r.quote} references unknown source ${r.sourceId}`);
   }
@@ -191,6 +219,7 @@ export function getDataset(): Dataset {
     scholarships: scholarshipsJson,
     sources: sourcesJson,
     fx: fxJson,
+    freeStudy: freeStudyJson,
   });
   const problems = checkIntegrity(d);
   if (problems.length > 0) {

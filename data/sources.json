@@ -257,6 +257,47 @@
       "supports": [
         "USD to EUR conversion rate"
       ]
+    },
+    {
+      "id": "mit-admissions-stats",
+      "title": "Admissions statistics (Class of 2029)",
+      "publisher": "MIT Admissions",
+      "url": "https://mitadmissions.org/apply/process/stats/",
+      "type": "primary-official",
+      "publishedOrRevised": "Class of 2029 (first-year applications for entry in 2025)",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched directly on 2026-10-17. Recorded first-year applied/admitted totals and the international and U.S. citizen/permanent-resident splits.",
+      "supports": [
+        "international applicant and admit counts",
+        "overall admit rate"
+      ]
+    },
+    {
+      "id": "mit-scholarship-faq",
+      "title": "Does MIT provide any academic or athletic scholarships?",
+      "publisher": "MIT Admissions",
+      "url": "https://mitadmissions.org/help/faq/scholarships/",
+      "type": "primary-official",
+      "publishedOrRevised": "undated FAQ page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official FAQ (not a full fetch): MIT provides financial aid on the basis of financial need only, with no merit awards of any kind. Re-check the full page before publication.",
+      "supports": [
+        "no merit, athletic or talent awards"
+      ]
+    },
+    {
+      "id": "mit-athletics-letter",
+      "title": "To: Prospective MIT Student Athletes (recruiting letter)",
+      "publisher": "MIT Athletics",
+      "url": "https://web.mit.edu/athletics/www/acs/Athletics_Admissions_Recruiting_Letter.pdf",
+      "type": "primary-official",
+      "publishedOrRevised": "undated letter",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official MIT Athletics PDF: MIT does not offer athletic scholarships or merit scholarships of any kind; all aid is need-based. Re-check the full letter before publication.",
+      "supports": [
+        "no athletic scholarships",
+        "athletes admitted on the same academic standards"
+      ]
     }
   ]
 }

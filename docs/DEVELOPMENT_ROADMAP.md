@@ -29,6 +29,13 @@ Status key: **Done** = in the repository and checked. **In progress** = partly b
 - Costs can be shown in USD, PKR (SBP), EUR (ECB), or a currency the user converts with their own rate. User-entered rates are labelled as unverified everywhere they appear.
 - A "Student life" page and a matcher checklist list questions to ask each university about prayer space, Jumu’ah, halal food, Ramadan, Eid, housing, community, interest-bearing finance, visas and health cover. These are questions, not claims about any university, and not religious rulings.
 
+## Phase 2c: Free-study dossier (MIT pilot, done)
+
+- `data/freeStudy.json` answers, for one university, whether a Pakistani international undergraduate can apply, study for free, and should. Each answer is linked to sources. The page is at `/free-study/<university-id>`.
+- MIT is the only dossier. Its official sources: Class of 2029 admissions statistics (6,926 international applicants, 136 admitted), need-only aid with no merit, athletic or talent awards, and CSS Profile requirements.
+- Not done: dossiers for the other 149 universities; national (HEC, embassy), regional and external scholarships for MIT; unofficial trend data; visa and credential-equivalence checks.
+- Degree rankings use the analyst-draft family scores (`lib/ranking.ts`, tested). They are not evidence of outcomes.
+
 ## Phase 2 next step: Universiti Malaya (started, not recorded)
 
 Universiti Malaya is the next pilot because Malaysia is a common destination for Muslim students from many countries. Official sources located so far: Study@UM FAQs (`study.um.edu.my/faqs-amp-info`), the International Booklet, and the ASD admissions FAQ (`aasd.um.edu.my/faq-admission`). Third-party sites give conflicting figures (IELTS 5.0 in the official FAQ and 6.5 on aggregator sites; a 65% grade threshold on aggregators that the official pages do not state). No UM record is written until the official programme list and entry-requirement pages are read and recorded.

@@ -1,0 +1,214 @@
+{
+  "datasetVersion": "2026.10.17-dossier1",
+  "scope": "Free-study dossiers answer, for one university, whether a Pakistani international undergraduate can apply, get admitted, and study for free, and whether they should. Only official or clearly dated evidence is used. Anything else is labelled. Degree-level rankings come from the analyst-draft family scores in data/families.json and are not evidence of job outcomes.",
+  "dossiers": [
+    {
+      "id": "mit-free-study",
+      "universityId": "massachusetts-institute-technology-mit",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry).",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Yes, you can apply.",
+          "detail": "MIT's official aid pages say international applicants are considered through the same admissions and aid process as domestic applicants. Admission itself is highly competitive: the official Class of 2029 figures show 136 admits from 6,926 international applicants, about 2%.",
+          "sourceIds": ["mit-admissions-stats", "mit-sfs-international"]
+        },
+        "free": {
+          "verdict": "Possibly, but not guaranteed and not automatic.",
+          "detail": "The only free-money route is the need-based MIT Scholarship. MIT says it aims to meet 100% of demonstrated need, and that for families with typical incomes under $200,000 tuition is fully covered. Need is calculated from the CSS Profile and parental income documents, so the award depends on your family's finances. The official total cost of attendance for 2026–27 is $92,760. Travel, visa and health insurance are not verified as covered. MIT aid is grants and work, never loans. There is no merit, athletic or talent award.",
+          "sourceIds": ["mit-affordability", "mit-cost-of-attendance", "mit-catalog-financial-aid", "mit-scholarship-faq", "mit-athletics-letter"]
+        },
+        "should": {
+          "verdict": "Depends on your family's finances, your degree choice, and whether you accept a long-shot application.",
+          "detail": "See the reasoning section. Apply only if you can meet the CSS Profile and document requirements and you would accept a place at a cost you can plan for. Do not treat MIT as the only option.",
+          "sourceIds": []
+        },
+        "how": [
+          "Confirm your entry qualification and English test, both of which MIT lists (see requirements).",
+          "Take the SAT or ACT. Both are required.",
+          "Submit the admission application by the deadline on MIT's admissions page.",
+          "Submit the CSS Profile and translated parental income documents for need-based aid by the financial aid deadline.",
+          "If offered a place with an aid package, compare the package with your actual costs before you accept."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Standardised test",
+          "detail": "SAT or ACT required for first-year applicants.",
+          "status": "verified-official",
+          "sourceIds": ["mit-first-year-tests"]
+        },
+        {
+          "item": "English-language test",
+          "detail": "Required when English is not your main language of instruction, or when you have used English for fewer than five years. Minimums (on a TOEFL iBT scale from 21 Jan 2026): TOEFL 5 (recommended 5.5), IELTS 7 (7.5), PTE 65 (70), Cambridge C1/C2 185 (190), Duolingo 120 (125). The official page says English tests are strongly recommended when English has been used for fewer than five years.",
+          "status": "verified-official",
+          "sourceIds": ["mit-first-year-tests"]
+        },
+        {
+          "item": "Grade or percentage minimum",
+          "detail": "MIT publishes no grade minimum. Your school results are assessed holistically, so the matcher cannot check grades here.",
+          "status": "verified-official-absence",
+          "sourceIds": ["mit-admissions-stats"]
+        },
+        {
+          "item": "Financial aid application",
+          "detail": "CSS Profile and parental income documents (translated into English where applicable).",
+          "status": "verified-official",
+          "sourceIds": ["mit-sfs-international"]
+        },
+        {
+          "item": "Subject-specific requirements",
+          "detail": "Not recorded per degree. Check the programme's prerequisites on MIT's course catalogue for the degree you choose.",
+          "status": "not-verified",
+          "sourceIds": ["mit-degree-charts"]
+        },
+        {
+          "item": "Qualification equivalence (FSc, A-levels, O/A-levels)",
+          "detail": "Not verified for MIT. Check MIT's international credential guidance and ask the admissions office in writing.",
+          "status": "not-verified",
+          "sourceIds": []
+        },
+        {
+          "item": "Student visa (F-1) and travel",
+          "detail": "Not verified in this build. Check the official U.S. government visa information and MIT's International Students Office before you plan travel.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit-based",
+          "status": "none",
+          "detail": "MIT offers no merit, academic, athletic or artistic scholarships. The official FAQ says aid is based only on financial need.",
+          "sourceIds": ["mit-scholarship-faq"]
+        },
+        {
+          "route": "Need-based (institutional)",
+          "status": "available-conditional",
+          "detail": "MIT Scholarship, need-based grant aimed at meeting 100% of demonstrated need for all four undergraduate years. Open to international applicants on the same process. Amount depends on your family's finances. Deadlines quoted: financial aid 30 November (Early Action) and 15 February (Regular Action). Re-check each cycle.",
+          "sourceIds": ["mit-affordability", "mit-sfs-international", "mit-admitted-affordability"]
+        },
+        {
+          "route": "National (Pakistan government or HEC)",
+          "status": "not-verified",
+          "detail": "No Pakistan national scholarship for study at MIT was checked in this build. Check the HEC and the Pakistani embassy's scholarship pages before you assume one exists.",
+          "sourceIds": []
+        },
+        {
+          "route": "Regional or provincial",
+          "status": "not-verified",
+          "detail": "Not checked. Check provincial scholarship schemes in your home province.",
+          "sourceIds": []
+        },
+        {
+          "route": "Sports",
+          "status": "none",
+          "detail": "MIT competes in NCAA Division III, which does not offer athletic scholarships. MIT's athletics letter says the same. Coaches can answer questions about your sport, but no athletic aid is available.",
+          "sourceIds": ["mit-athletics-letter"]
+        },
+        {
+          "route": "External (outside MIT)",
+          "status": "not-verified",
+          "detail": "MIT accepts external scholarships, which can be combined with its aid. None are recorded here. Each external award's terms must be checked with the funder.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [
+        {
+          "label": "International first-year applicants (Class of 2029)",
+          "value": "6,926 applied; 136 admitted (about 2.0%)",
+          "sourceId": "mit-admissions-stats",
+          "kind": "official"
+        },
+        {
+          "label": "U.S. citizens and permanent residents (Class of 2029)",
+          "value": "22,355 applied; 1,198 admitted (about 5.4%)",
+          "sourceId": "mit-admissions-stats",
+          "kind": "official"
+        },
+        {
+          "label": "All first-year applicants (Class of 2029)",
+          "value": "29,281 applied; 1,334 admitted (4.6%)",
+          "sourceId": "mit-admissions-stats",
+          "kind": "official"
+        },
+        {
+          "label": "Middle 50% SAT Math and ERW (admitted students)",
+          "value": "SAT Math 780–800; SAT ERW 740–780",
+          "sourceId": "mit-admissions-stats",
+          "kind": "official"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "not-recorded",
+        "detail": "No verified student-reported or consultant trend data is recorded. Community reports on admissions chances are anecdotal and are not used to judge your odds. Ask current or former students directly for context."
+      },
+      "reasoning": {
+        "forStudy": [
+          "MIT states it meets 100% of demonstrated need, and its aid is grants and work, not loans.",
+          "MIT says international applicants go through the same aid process as domestic applicants.",
+          "Its 22 mapped undergraduate degrees span engineering, science, economics, management and the humanities.",
+          "MIT's admissions review is holistic (MIT's own description of its process), so school results and test scores are read in context."
+        ],
+        "againstOrCaution": [
+          "The international admit rate is about 2%, so an offer is unlikely even for a very strong applicant. Plan for the outcome of not being admitted.",
+          "The free route depends on need. If your family's contribution is higher than MIT's calculation, you pay the difference. Ask for an estimate before you apply.",
+          "Costs outside tuition (travel, visa, health cover, a deposit, and the one-off costs of moving) are not covered by the verified aid.",
+          "The CSS Profile and translated income documents take time. Missing documents can delay or reduce the aid assessment.",
+          "No merit, athletic or talent award exists. If you are not admitted, you need another route."
+        ],
+        "decisionTest": [
+          "Can your family contribute the amount MIT calculates, or is it zero? If you cannot tell, do not rely on the aid until you have an estimate.",
+          "Would you accept and be able to fund a place if MIT admits you with an aid package that leaves a gap?",
+          "Does one of the mapped degrees match what you want to study, and do the entry prerequisites suit your school background?",
+          "Have you also applied to universities that offer merit or national routes, so that a rejection does not leave you without a plan?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Mapped MIT degrees ranked by the mean of the seven analyst-draft family scores (equal weights, unrounded for ordering). Scores are opinions with stated confidence. A high score does not mean the degree is recommended for any individual, and no degree is religiously required or prohibited.",
+        "sourceIds": ["mit-degree-charts"]
+      },
+      "roadmap": [
+        {
+          "window": "Now (October 2026)",
+          "steps": [
+            "Shortlist 2–3 mapped MIT degrees and check each prerequisite on MIT's catalogue.",
+            "Book your SAT or ACT and English test, if you do not have scores yet.",
+            "Ask your family to start gathering parental income and tax documents, and get translations started."
+          ]
+        },
+        {
+          "window": "Before 30 November 2026 (financial aid deadline quoted for Early Action)",
+          "steps": [
+            "Submit the MIT admission application for Early Action if your profile is ready.",
+            "Complete the CSS Profile and upload the translated income documents.",
+            "Keep copies of every document and the confirmation of each submission."
+          ]
+        },
+        {
+          "window": "Before 15 February 2027 (financial aid deadline quoted for Regular Action)",
+          "steps": [
+            "If you did not apply Early Action, submit the Regular Action application and the same financial aid forms.",
+            "Check each deadline against MIT's current admissions page, since MIT may change them."
+          ]
+        },
+        {
+          "window": "After an offer",
+          "steps": [
+            "Read the aid letter in full. Check what it covers, what it leaves to you, and whether it includes any loans.",
+            "Estimate travel, visa, health cover, deposits and living costs in USD, and compare them with the gap.",
+            "Only accept once you know how the gap will be paid. Ask the aid office in writing whether the award is renewed each year."
+          ]
+        },
+        {
+          "window": "Years 1–4 (if admitted)",
+          "steps": [
+            "Check the renewal and progress conditions of your aid each year, since they are not verified in this build.",
+            "Use MIT's international student services for visa renewals and work-permit rules."
+          ]
+        }
+      ]
+    }
+  ]
+}

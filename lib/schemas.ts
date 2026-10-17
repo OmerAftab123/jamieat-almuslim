@@ -206,3 +206,44 @@ export type University = z.infer<typeof universitySchema>;
 export type Scholarship = z.infer<typeof scholarshipSchema>;
 export type FxRate = z.infer<typeof fxRateSchema>;
 export type FxFile = z.infer<typeof fxSchema>;
+
+const answerSchema = z.object({ verdict: z.string().min(1), detail: z.string().min(1), sourceIds: z.array(z.string()) });
+
+export const freeStudyDossierSchema = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/),
+  universityId: z.string().min(1),
+  applicant: z.string().min(1),
+  status: z.enum(['partially-researched', 'verified-official-page']),
+  lastChecked: z.string().min(1),
+  answers: z.object({
+    can: answerSchema,
+    free: answerSchema,
+    should: answerSchema,
+    how: z.array(z.string().min(1)).min(1),
+  }),
+  officialRequirements: z.array(
+    z.object({ item: z.string().min(1), detail: z.string().min(1), status: z.string().min(1), sourceIds: z.array(z.string()) }),
+  ),
+  scholarships: z.array(
+    z.object({ route: z.string().min(1), status: z.string().min(1), detail: z.string().min(1), sourceIds: z.array(z.string()) }),
+  ),
+  trends: z.array(z.object({ label: z.string().min(1), value: z.string().min(1), sourceId: z.string().min(1), kind: z.string().min(1) })),
+  unofficialTrends: z.object({ status: z.string().min(1), detail: z.string().min(1) }),
+  reasoning: z.object({
+    forStudy: z.array(z.string()).min(1),
+    againstOrCaution: z.array(z.string()).min(1),
+    decisionTest: z.array(z.string()).min(1),
+  }),
+  degreeRanking: z.object({ note: z.string().min(1), sourceIds: z.array(z.string()) }),
+  roadmap: z.array(z.object({ window: z.string().min(1), steps: z.array(z.string().min(1)).min(1) })).min(1),
+});
+
+export const freeStudyFileSchema = z.object({
+  datasetVersion: z.string(),
+  scope: z.string(),
+  dossiers: z.array(freeStudyDossierSchema),
+});
+
+export type FreeStudyDossier = z.infer<typeof freeStudyDossierSchema>;
+export type FreeStudyFile = z.infer<typeof freeStudyFileSchema>;
+
