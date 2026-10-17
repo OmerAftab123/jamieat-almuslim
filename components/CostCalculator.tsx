@@ -1,8 +1,10 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import { computeCosts, formatMoney, usdToPkr, type CostInput } from '@/lib/costs';
-import type { FxRate } from '@/lib/schemas';
+import { computeCosts, formatMoney, type CostInput } from '@/lib/costs';
+import type { FxFile } from '@/lib/schemas';
+import { convertForSelection, type CurrencySelection } from '@/lib/currency';
+import { CurrencyChooser } from '@/components/CurrencyChooser';
 
 type Field = Exclude<keyof CostInput, 'durationYears'>;
 
@@ -19,7 +21,8 @@ const FIELDS: Array<{ key: Field; label: string; hint: string }> = [
  * Calculator for a student's own inputs. Pre-filled with zeros: no amount is assumed.
  * Results are sums of what you enter; they are not official costs.
  */
-export function CostCalculator({ fx }: { fx: FxRate }) {
+export function CostCalculator({ fx }: { fx: FxFile }) {
+  const [cur, setCur] = useState<CurrencySelection>({ choice: 'USD', customCode: '', customRate: '' });
   const [values, setValues] = useState<Record<Field, string>>({
     annualTuition: '',
     annualFees: '',
@@ -54,8 +57,11 @@ export function CostCalculator({ fx }: { fx: FxRate }) {
     }
   }
 
-  const pkr = result ? usdToPkr(result.totalNet, fx) : null;
-  const pkrAnnual = result ? usdToPkr(result.annualNet, fx) : null;
+  const displayTotal = result ? convertForSelection(result.totalOutOfPocket, fx, cur) : null;
+  const displayAnnual = result ? convertForSelection(result.annualNet, fx, cur) : null;
+  const displayError = displayTotal && !displayTotal.ok ? displayTotal.error : null;
+  const totalDisplay = displayTotal && displayTotal.ok ? displayTotal : null;
+  const annualDisplay = displayAnnual && displayAnnual.ok ? displayAnnual : null;
 
   return (
     <section className="panel" aria-labelledby="calc-h">
@@ -66,6 +72,7 @@ export function CostCalculator({ fx }: { fx: FxRate }) {
         Enter your own figures in <strong>USD</strong>. Nothing is pre-filled. A total is only as good as the inputs.
         Scholarships reduce annual costs only, up to the annual gross cost, and never one-time costs.
       </p>
+      <CurrencyChooser fx={fx} value={cur} onChange={setCur} idPrefix="calc" />
       <div className="form-grid">
         {FIELDS.map((f) => (
           <div key={f.key}>
@@ -88,11 +95,11 @@ export function CostCalculator({ fx }: { fx: FxRate }) {
           <input id="c-duration" type="number" min={1} max={10} step={1} value={duration} onChange={(e) => setDuration(e.target.value)} />
         </div>
       </div>
-      {error ? (
+      {error || displayError ? (
         <p className="notice bad" role="alert">
-          {error}
+          {error ?? displayError}
         </p>
-      ) : result && pkr && pkrAnnual ? (
+      ) : result && totalDisplay && annualDisplay ? (
         <div aria-live="polite">
           <table>
             <caption className="small muted" style={{ textAlign: 'left' }}>
@@ -127,25 +134,39 @@ export function CostCalculator({ fx }: { fx: FxRate }) {
                   <strong>{formatMoney(result.totalOutOfPocket, 'USD')}</strong>
                 </td>
               </tr>
-              <tr>
-                <th scope="row">Total out of pocket in PKR</th>
-                <td className="num">
-                  <strong>{formatMoney(pkr.amountPkr, 'PKR')}</strong>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">Annual net in PKR</th>
-                <td className="num">{formatMoney(pkrAnnual.amountPkr, 'PKR')}</td>
-              </tr>
+              {totalDisplay.currency !== 'USD' ? (
+                <>
+                  <tr>
+                    <th scope="row">Total out of pocket in {totalDisplay.currency}</th>
+                    <td className="num">
+                      <strong>{formatMoney(totalDisplay.amount, totalDisplay.currency)}</strong>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Annual net in {annualDisplay.currency}</th>
+                    <td className="num">{formatMoney(annualDisplay.amount, annualDisplay.currency)}</td>
+                  </tr>
+                </>
+              ) : null}
             </tbody>
           </table>
-          <p className="small muted">
-            PKR conversion uses {fx.rate} PKR per USD ({fx.rateType}, dated {fx.rateDate}, source:{' '}
-            <a href={fx.sourceUrl} target="_blank" rel="noopener noreferrer">
-              State Bank of Pakistan
-            </a>
-            ). {fx.note} Exchange rates change; re-check before you plan.
-          </p>
+          {totalDisplay.conversion ? (
+            <p className="small muted">
+              {totalDisplay.currency} conversion uses {totalDisplay.conversion.rate} {totalDisplay.currency} per USD (
+              {totalDisplay.conversion.rateType}, dated {totalDisplay.conversion.rateDate}
+              {totalDisplay.conversion.sourceUrl ? (
+                <>
+                  , source:{' '}
+                  <a href={totalDisplay.conversion.sourceUrl} target="_blank" rel="noopener noreferrer">
+                    official page
+                  </a>
+                </>
+              ) : null}
+              ). {totalDisplay.conversion.note} Exchange rates change; re-check before you plan.
+            </p>
+          ) : (
+            <p className="small muted">Amounts are in US dollars, the currency universities publish.</p>
+          )}
         </div>
       ) : null}
     </section>

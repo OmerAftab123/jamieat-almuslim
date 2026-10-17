@@ -37,7 +37,7 @@ Pages that could not be fetched are not replaced by guesses. Record the failure 
 - **University ranks (QS World University Rankings 2027, published 18 June 2026).** Ranks 1 to =150 transcribed from the official ranking page, with ties kept as displayed. The page footer shows 1,504 ranked institutions in total; only ranks 1–150 are in the dataset. **Not yet cross-checked** against a second official QS source. Some displayed ties do not follow strict competition ranking (for example, two institutions at =97 followed by two at =98); these are recorded as published.
 - **MIT undergraduate financial aid.** Need-based aid meeting full demonstrated need, international applicants considered on the same terms, CSS Profile required, grants and work only (no loans) per MIT's own pages. Deadlines recorded from MIT's admissions pages. Re-verify each admissions cycle.
 - **MIT total cost of attendance 2026–27: USD 92,760.** Recorded from MIT's affordability page. It is a total only, with no breakdown.
-- **Exchange rate.** USD to PKR 276.9545 (SBP interbank M2M rate, 14 October 2026). The rate changes daily; the stored value is dated and should be refreshed before use.
+- **Exchange rates.** USD to PKR 276.9545 (SBP interbank M2M rate, 14 October 2026) and USD to EUR from the ECB reference rate (16 October 2026). Rates change daily; each stored value is dated and should be refreshed before use. Any other currency is entered by the user and is not verified.
 - **Programmes, admissions requirements, tuition and funding for the other universities.** Not yet researched. Shown as "not researched".
 
 ## 5. What the matcher does and does not establish

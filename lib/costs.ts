@@ -70,30 +70,60 @@ export function computeCosts(input: CostInput): CostResult {
 }
 
 export type CurrencyConversion = {
-  amountPkr: number;
+  currency: string;
+  amount: number;
   rate: number;
   rateType: string;
   rateDate: string;
   sourceUrl: string;
-  sourceId: string;
+  sourceId: string | null;
+  /** True when the rate was typed in by the user and is not from a stored source. */
+  userSupplied: boolean;
   note: string;
 };
 
-/** Convert a USD amount to PKR with the dated rate from data/fx.json. Shows its source and date. */
-export function usdToPkr(amountUsd: number, fx: { rate: number; rateType: string; rateDate: string; sourceUrl: string; sourceId: string; note: string }): CurrencyConversion {
+/**
+ * Convert a USD amount with a rate expressed as units of the target currency per 1 USD.
+ * Keeps the rate date and source so the UI can show where the number came from.
+ */
+export function convertFromUsd(
+  amountUsd: number,
+  fx: { quote: string; rate: number; rateType: string; rateDate: string; sourceUrl: string; sourceId: string; note: string },
+): CurrencyConversion {
   return {
-    amountPkr: amountUsd * fx.rate,
+    currency: fx.quote,
+    amount: amountUsd * fx.rate,
     rate: fx.rate,
     rateType: fx.rateType,
     rateDate: fx.rateDate,
     sourceUrl: fx.sourceUrl,
     sourceId: fx.sourceId,
+    userSupplied: false,
     note: fx.note,
   };
 }
 
-/** Format a number as a whole-unit currency string without inventing precision. */
-export function formatMoney(amount: number, currency: 'USD' | 'PKR'): string {
+/** Convert with a rate the user typed in. Not verified; labelled as such everywhere it is shown. */
+export function convertWithUserRate(amountUsd: number, currency: string, rate: number): CurrencyConversion {
+  return {
+    currency,
+    amount: amountUsd * rate,
+    rate,
+    rateType: 'User-entered rate (not verified)',
+    rateDate: 'not stated',
+    sourceUrl: '',
+    sourceId: null,
+    userSupplied: true,
+    note: 'You typed this rate in. It has not been checked against an official source. Check it with your bank or an official rate before you plan.',
+  };
+}
+
+/** Format an amount in a currency code without inventing precision. Falls back to a plain number for unknown codes. */
+export function formatMoney(amount: number, currency: string): string {
   const locale = currency === 'PKR' ? 'en-PK' : 'en-US';
-  return new Intl.NumberFormat(locale, { style: 'currency', currency, maximumFractionDigits: 0 }).format(amount);
+  try {
+    return new Intl.NumberFormat(locale, { style: 'currency', currency, maximumFractionDigits: 0 }).format(amount);
+  } catch {
+    return `${Math.round(amount).toLocaleString('en-US')} ${currency}`;
+  }
 }

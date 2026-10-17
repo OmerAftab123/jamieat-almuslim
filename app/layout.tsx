@@ -28,6 +28,7 @@ const navItems = [
   { href: '/matcher', label: 'Free-study matcher' },
   { href: '/compare', label: 'Compare' },
   { href: '/roadmap', label: 'Roadmap' },
+  { href: '/student-life', label: 'Student life' },
   { href: '/methodology', label: 'Methodology' },
   { href: '/about', label: 'About' },
 ];

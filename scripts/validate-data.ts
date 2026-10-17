@@ -9,7 +9,7 @@ function main(): void {
     const d = getDataset();
     console.log(
       `OK: ${d.degrees.length} degrees, ${d.families.length} families, ${d.universities.length} universities, ` +
-        `${d.scholarships.length} scholarship record(s), ${d.sources.length} sources, FX ${d.fx.rate} (${d.fx.rateDate}).`,
+        `${d.scholarships.length} scholarship record(s), ${d.sources.length} sources, FX rates ${d.fx.rates.map((r) => `${r.quote} ${r.rate} (${r.rateDate})`).join(', ')}.`,
     );
   } catch (err) {
     console.error('Data validation FAILED');

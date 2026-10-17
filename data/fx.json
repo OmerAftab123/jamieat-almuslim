@@ -1,11 +1,29 @@
 {
   "base": "USD",
-  "quote": "PKR",
-  "rate": 276.9545,
-  "rateType": "State Bank of Pakistan M2M revaluation rate",
-  "rateDate": "2026-10-14",
-  "sourceId": "sbp-fx",
-  "sourceUrl": "https://www.sbp.org.pk/ecodata/rates/m2m/m2m-current.asp",
-  "retrievedVia": "Search excerpt of the official SBP page (not a full fetch). Re-check before publication.",
-  "note": "Exchange-rate conversions are indicative only. Actual remittance and tuition-payment rates will differ."
+  "datasetVersion": "2026.10.17-mvp2",
+  "note": "Indicative conversions only. Actual tuition-payment and remittance rates differ. Each rate has its own source and date; re-check before you plan.",
+  "rates": [
+    {
+      "quote": "PKR",
+      "label": "Pakistani rupee",
+      "rate": 276.9545,
+      "rateType": "State Bank of Pakistan M2M revaluation rate",
+      "rateDate": "2026-10-14",
+      "sourceId": "sbp-fx",
+      "sourceUrl": "https://www.sbp.org.pk/ecodata/rates/m2m/m2m-current.asp",
+      "retrievedVia": "Search excerpt of the official SBP page (not a full fetch). Re-check before publication.",
+      "note": "Rate is PKR per 1 USD."
+    },
+    {
+      "quote": "EUR",
+      "label": "Euro",
+      "rate": 0.888652,
+      "rateType": "ECB euro reference rate (USD per EUR 1.1253, inverted to EUR per USD)",
+      "rateDate": "2026-10-16",
+      "sourceId": "ecb-fx",
+      "sourceUrl": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
+      "retrievedVia": "Fetched the ECB reference-rate page on 2026-10-17. The ECB publishes EUR per 1 unit of foreign currency; this value is 1 divided by 1.1253.",
+      "note": "Rate is EUR per 1 USD, derived from the ECB reference rate."
+    }
+  ]
 }

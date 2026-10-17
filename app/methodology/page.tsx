@@ -32,7 +32,7 @@ export default function MethodologyPage() {
           evidence that no aid exists.
         </li>
         <li>
-          <strong>Exchange rate:</strong> USD&rarr;PKR {d.fx.rate} ({d.fx.rateType}, {d.fx.rateDate}). Re-check before relying on it.
+          <strong>Exchange rates:</strong> {d.fx.rates.map((r) => `USD→${r.quote} ${r.rate} (${r.rateType}, ${r.rateDate})`).join('; ')}. Other currencies are typed in by the user and are not verified. Re-check before relying on any rate.
         </li>
       </ul>
 

@@ -27,7 +27,7 @@
       },
       "eligibility": {
         "citizenshipOrResidency": "Open to international applicants on the same aid process as domestic applicants (official SFS international page excerpt).",
-        "pakistanNote": "Pakistani applicants follow the international process. Parental income verification from abroad is required, which may need translation of tax documents (official SFS excerpt).",
+        "nonUsApplicantNote": "Applicants from outside the United States (for example from Pakistan, Malaysia, Egypt or Indonesia) follow the same international process. Parental income verification from abroad is required, which may need translation of tax documents (official SFS excerpt).",
         "degreeAndProgramEligibility": "Undergraduate admitted students. Eligible programmes are not verified per degree family in this build.",
         "academicConditions": "Not stated as a merit requirement; aid is need-based, not merit-based (official affordability page).",
         "renewalConditions": "Not verified in detail. Official pages state aid covers the four undergraduate years; GPA and progress rules must be checked.",

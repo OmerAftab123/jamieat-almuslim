@@ -11,7 +11,7 @@ This page states what the dataset contains and what it does not. Figures are as 
 | Universities (QS 2027) | `data/universities.json` | **150** | Ranks 1 to =150 from the official QS page. Ties kept as published. |
 | Scholarships | `data/scholarships.json` | **1** | MIT need-based undergraduate aid. |
 | Sources | `data/sources.json` | **16** | Each with a URL, type and last-checked date. |
-| Exchange rate | `data/fx.json` | **1** | USD to PKR 276.9545, SBP M2M, 14 October 2026. |
+| Exchange rates | `data/fx.json` | **2** | USD to PKR 276.9545 (SBP M2M, 14 Oct 2026); USD to EUR from ECB reference rate (16 Oct 2026). Other currencies: user-entered, unverified. |
 
 Validation status at this commit: `npm run validate:data` passes on these counts.
 
@@ -54,7 +54,7 @@ The matcher therefore reports `program-not-verified` for pairs without a verifie
 
 ## Exchange rate
 
-- USD to PKR: **276.9545** (State Bank of Pakistan, M2M rate, 14 October 2026).
+- USD to PKR: **276.9545** (State Bank of Pakistan, M2M rate, 14 October 2026). USD to EUR: from the ECB reference rate of 16 October 2026 (1.1253 USD per EUR, inverted).
 - Rates change daily. Refresh the value before using cost estimates for a decision.
 
 ## Known gaps

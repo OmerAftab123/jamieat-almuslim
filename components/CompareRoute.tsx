@@ -1,13 +1,13 @@
 'use client';
 
 import { useSearchParams } from 'next/navigation';
-import type { Family, University } from '@/lib/schemas';
+import type { Family, FxFile, University } from '@/lib/schemas';
 import { CompareWorkspace } from '@/components/CompareWorkspace';
 
 type Props = {
   families: Family[];
   universities: University[];
-  fxRate: number;
+  fx: FxFile;
 };
 
 function ids(raw: string | null): string[] {
@@ -16,7 +16,7 @@ function ids(raw: string | null): string[] {
 
 // Reads ?families= and ?universities= on the client, so the page can be
 // statically exported (static export cannot read searchParams on the server).
-export function CompareRoute({ families, universities, fxRate }: Props) {
+export function CompareRoute({ families, universities, fx }: Props) {
   const sp = useSearchParams();
   return (
     <CompareWorkspace
@@ -24,7 +24,7 @@ export function CompareRoute({ families, universities, fxRate }: Props) {
       universities={universities}
       initialFamilies={ids(sp.get('families'))}
       initialUniversities={ids(sp.get('universities'))}
-      fxRate={fxRate}
+      fx={fx}
     />
   );
 }

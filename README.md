@@ -1,6 +1,6 @@
 # Jamieat Al-Muslim: career, university and free-study research for Muslim students
 
-A free, open research website to help Muslim students (default: students from Pakistan considering **international undergraduate** study) compare degrees and careers, look at universities, check possible funding routes, and plan the steps.
+A free, open research website to help Muslim students (students from any country, with Pakistan pre-selected as the starting point, considering **international undergraduate** study) compare degrees and careers, look at universities, check possible funding routes, and plan the steps.
 
 It is a **static website** (Next.js 16, TypeScript). There is no database, no login, no paid AI API, and no server that receives student data. All data ships as versioned JSON files in `data/`, each record with a source, a date and a verification status.
 

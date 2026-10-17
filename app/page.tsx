@@ -21,8 +21,8 @@ export default function HomePage() {
       <section>
         <h1>Choose a degree, a career and a university with evidence you can check</h1>
         <p className="lead">
-          A research platform for Muslim students, especially those applying from Pakistan as international
-          undergraduates. It helps you compare degree families on seven transparent criteria, look up
+          A research platform for Muslim students applying from any country as international undergraduates, with
+          Pakistan as the default starting choice. It helps you compare degree families on seven transparent criteria, look up
           universities from the QS ranking, check whether a free-study route is documented, and plan each step.
         </p>
         <p className="notice warn">
@@ -111,8 +111,8 @@ export default function HomePage() {
 
       <h2>Who this is for, and what it is not</h2>
       <p>
-        The default applicant is a Pakistani student applying as an international undergraduate. You can change the
-        applicant country in the matcher. The platform is not an admissions service, does not issue religious
+        Students from any country can use the matcher: pick your citizenship from the list, or type your country. Pakistan is
+        pre-selected only as a starting point. Costs can be shown in USD, EUR, PKR or a currency you convert yourself. The platform is not an admissions service, does not issue religious
         rulings, and does not guarantee admission, scholarships, jobs or salaries.
       </p>
       <p>

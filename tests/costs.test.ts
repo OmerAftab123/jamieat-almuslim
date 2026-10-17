@@ -1,5 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import { computeCosts, usdToPkr, type CostInput } from '@/lib/costs';
+import { computeCosts, convertFromUsd, convertWithUserRate, formatMoney, type CostInput } from '@/lib/costs';
+import { convertForSelection, currencyOptions } from '@/lib/currency';
+import type { FxFile } from '@/lib/schemas';
 
 const base: CostInput = {
   annualTuition: 20000,
@@ -48,11 +50,71 @@ describe('computeCosts', () => {
   });
 });
 
-describe('usdToPkr', () => {
+describe('convertFromUsd', () => {
   it('converts with the supplied rate and keeps its date and source', () => {
-    const c = usdToPkr(100, { rate: 276.9545, rateType: 'M2M', rateDate: '2026-10-14', sourceUrl: 'https://example.org', sourceId: 's', note: 'n' });
-    expect(c.amountPkr).toBeCloseTo(27695.45, 4);
+    const c = convertFromUsd(100, { quote: 'PKR', rate: 276.9545, rateType: 'M2M', rateDate: '2026-10-14', sourceUrl: 'https://example.org', sourceId: 's', note: 'n' });
+    expect(c.amount).toBeCloseTo(27695.45, 4);
+    expect(c.currency).toBe('PKR');
     expect(c.rateDate).toBe('2026-10-14');
     expect(c.sourceId).toBe('s');
+    expect(c.userSupplied).toBe(false);
+  });
+});
+
+describe('convertWithUserRate', () => {
+  it('is always labelled as user-supplied and unverified', () => {
+    const c = convertWithUserRate(1000, 'BDT', 122.5);
+    expect(c.amount).toBe(122500);
+    expect(c.userSupplied).toBe(true);
+    expect(c.sourceId).toBeNull();
+    expect(c.rateType).toMatch(/not verified/);
+  });
+});
+
+describe('formatMoney', () => {
+  it('falls back to a plain number for an unknown currency code', () => {
+    const out = formatMoney(1234.4, 'XYZ');
+    expect(out).toContain('XYZ');
+    expect(out).toContain('1,234');
+  });
+});
+
+const fxFixture: FxFile = {
+  base: 'USD',
+  datasetVersion: 'test',
+  note: 'n',
+  rates: [
+    { quote: 'PKR', label: 'Pakistani rupee', rate: 280, rateType: 't', rateDate: '2026-01-01', sourceId: 's', sourceUrl: 'https://example.org', retrievedVia: 'r', note: 'n' },
+    { quote: 'EUR', label: 'Euro', rate: 0.9, rateType: 't', rateDate: '2026-01-02', sourceId: 's', sourceUrl: 'https://example.org', retrievedVia: 'r', note: 'n' },
+  ],
+};
+
+describe('convertForSelection', () => {
+  it('returns USD unchanged with no conversion record', () => {
+    const r = convertForSelection(500, fxFixture, { choice: 'USD', customCode: '', customRate: '' });
+    expect(r).toEqual({ ok: true, currency: 'USD', amount: 500, conversion: null });
+  });
+
+  it('uses the stored rate for a sourced currency', () => {
+    const r = convertForSelection(100, fxFixture, { choice: 'EUR', customCode: '', customRate: '' });
+    expect(r.ok && r.amount).toBeCloseTo(90, 6);
+    expect(r.ok && r.conversion?.userSupplied).toBe(false);
+  });
+
+  it('rejects an invalid custom code or rate instead of producing a number', () => {
+    expect(convertForSelection(100, fxFixture, { choice: 'OTHER', customCode: 'bd', customRate: '120' }).ok).toBe(false);
+    expect(convertForSelection(100, fxFixture, { choice: 'OTHER', customCode: 'BDT', customRate: '' }).ok).toBe(false);
+    expect(convertForSelection(100, fxFixture, { choice: 'OTHER', customCode: 'BDT', customRate: '-3' }).ok).toBe(false);
+  });
+
+  it('accepts a valid custom rate and marks it unverified', () => {
+    const r = convertForSelection(100, fxFixture, { choice: 'OTHER', customCode: 'bdt', customRate: '120' });
+    expect(r.ok && r.currency).toBe('BDT');
+    expect(r.ok && r.amount).toBe(12000);
+    expect(r.ok && r.conversion?.userSupplied).toBe(true);
+  });
+
+  it('lists USD, every stored currency and the custom option', () => {
+    expect(currencyOptions(fxFixture).map((o) => o.value)).toEqual(['USD', 'PKR', 'EUR', 'OTHER']);
   });
 });

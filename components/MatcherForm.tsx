@@ -8,6 +8,8 @@ import { evaluateMatch, type EnglishTest, type MatchInput, type MatchResult } fr
 import { buildRoadmap } from '@/lib/roadmap';
 import { ScholarshipCard } from '@/components/ScholarshipCard';
 import { StatusBadge } from '@/components/shared';
+import { COUNTRIES } from '@/lib/countries';
+import { STUDENT_LIFE_DISCLAIMER, STUDENT_LIFE_ITEMS } from '@/lib/studentLife';
 
 const DEFAULT_INPUT = {
   degreeId: '',
@@ -70,11 +72,15 @@ export function MatcherForm({ dataset }: { dataset: Dataset }) {
       setError('Choose an intake year between 2026 and 2035.');
       return;
     }
+    if (form.applicantCountry.trim() === '') {
+      setError('Choose your citizenship (country). It decides which international-only awards may apply to you.');
+      return;
+    }
     const input: MatchInput = {
       degreeId: form.degreeId,
       universityId: form.universityId,
       intakeYear: form.intakeYear,
-      applicantCountry: form.applicantCountry.trim() || 'Pakistan',
+      applicantCountry: form.applicantCountry.trim(),
       overallPercentage: pct,
       englishTest: form.englishTest,
       needsFinancialAid: form.needs === 'yes' ? true : form.needs === 'no' ? false : null,
@@ -131,9 +137,22 @@ export function MatcherForm({ dataset }: { dataset: Dataset }) {
             />
           </div>
           <div>
-            <label htmlFor="m-country">Citizenship (applicant country)</label>
-            <input id="m-country" value={form.applicantCountry} onChange={(e) => set('applicantCountry', e.target.value)} />
-            <span className="hint">Default: Pakistan. Used to check international-only funding.</span>
+            <label htmlFor="m-country">Citizenship (country)</label>
+            <input
+              id="m-country"
+              list="country-options"
+              value={form.applicantCountry}
+              onChange={(e) => set('applicantCountry', e.target.value)}
+              autoComplete="country-name"
+            />
+            <datalist id="country-options">
+              {COUNTRIES.map((c) => (
+                <option key={c.iso2} value={c.name} />
+              ))}
+            </datalist>
+            <span className="hint">
+              Pre-filled with Pakistan as the starting choice. Change it to your own country. Used to check international-only funding.
+            </span>
           </div>
           <div>
             <label htmlFor="m-pct">Overall percentage or grade equivalent (optional)</label>
@@ -213,6 +232,7 @@ export function MatcherForm({ dataset }: { dataset: Dataset }) {
       </form>
 
       {result ? <MatchReport result={result} dataset={dataset} roadmapLength={roadmap.length} /> : null}
+      {result ? <StudentLifeChecklist /> : null}
     </div>
   );
 }
@@ -315,6 +335,24 @@ function MatchReport({ result: r, dataset, roadmapLength }: { result: MatchResul
       <ul className="bullets small">
         {r.disclaimers.map((x) => (
           <li key={x}>{x}</li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+function StudentLifeChecklist() {
+  return (
+    <section className="panel" aria-labelledby="life-h">
+      <h2 id="life-h" style={{ marginTop: 0 }}>
+        Questions to ask about student life
+      </h2>
+      <p className="small muted">{STUDENT_LIFE_DISCLAIMER}</p>
+      <ul className="bullets small">
+        {STUDENT_LIFE_ITEMS.map((item) => (
+          <li key={item.id}>
+            <strong>{item.topic}:</strong> {item.question} <span className="muted">Check: {item.whereToCheck}</span>
+          </li>
         ))}
       </ul>
     </section>

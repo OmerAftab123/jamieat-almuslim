@@ -152,7 +152,7 @@ export const scholarshipSchema = z.object({
     degreeFamilyScope: z.union([z.literal('any'), z.array(z.string())]),
     programmeScopeNote: z.string(),
     citizenshipOrResidency: z.string(),
-    pakistanNote: z.string(),
+    nonUsApplicantNote: z.string(),
     academicConditions: z.string(),
     renewalConditions: z.string(),
   }),
@@ -179,9 +179,10 @@ export const scholarshipsFileSchema = z.object({
   scholarships: z.array(scholarshipSchema),
 });
 
-export const fxSchema = z.object({
-  base: z.literal('USD'),
-  quote: z.literal('PKR'),
+export const fxRateSchema = z.object({
+  quote: z.string().regex(/^[A-Z]{3}$/),
+  label: z.string().min(1),
+  /** Units of the quote currency per 1 USD. */
   rate: z.number().positive(),
   rateType: z.string(),
   rateDate: z.string(),
@@ -191,9 +192,17 @@ export const fxSchema = z.object({
   note: z.string(),
 });
 
+export const fxSchema = z.object({
+  base: z.literal('USD'),
+  datasetVersion: z.string(),
+  note: z.string(),
+  rates: z.array(fxRateSchema).min(1),
+});
+
 export type Source = z.infer<typeof sourceSchema>;
 export type Degree = z.infer<typeof degreeSchema>;
 export type Family = z.infer<typeof familySchema>;
 export type University = z.infer<typeof universitySchema>;
 export type Scholarship = z.infer<typeof scholarshipSchema>;
-export type FxRate = z.infer<typeof fxSchema>;
+export type FxRate = z.infer<typeof fxRateSchema>;
+export type FxFile = z.infer<typeof fxSchema>;

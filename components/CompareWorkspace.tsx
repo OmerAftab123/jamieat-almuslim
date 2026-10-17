@@ -4,6 +4,9 @@ import { useMemo, useState } from 'react';
 import type { Family, University } from '@/lib/schemas';
 import { CRITERION_KEYS, CRITERION_META, scoreFamily, scoreLabel, type CriterionKey } from '@/lib/scoring';
 import { formatMoney } from '@/lib/costs';
+import { convertForSelection, type CurrencySelection } from '@/lib/currency';
+import { CurrencyChooser } from '@/components/CurrencyChooser';
+import type { FxFile } from '@/lib/schemas';
 import { ScoreBar, scoreClass } from '@/components/shared';
 
 const MAX = 4;
@@ -13,10 +16,11 @@ type Props = {
   universities: University[];
   initialFamilies: string[];
   initialUniversities: string[];
-  fxRate: number;
+  fx: FxFile;
 };
 
-export function CompareWorkspace({ families, universities, initialFamilies, initialUniversities, fxRate }: Props) {
+export function CompareWorkspace({ families, universities, initialFamilies, initialUniversities, fx }: Props) {
+  const [cur, setCur] = useState<CurrencySelection>({ choice: 'USD', customCode: '', customRate: '' });
   const [mode, setMode] = useState<'families' | 'universities'>(initialUniversities.length > 0 && initialFamilies.length === 0 ? 'universities' : 'families');
   const [famIds, setFamIds] = useState<string[]>(() => initialFamilies.filter((id) => families.some((f) => f.id === id)));
   const [uniIds, setUniIds] = useState<string[]>(() => initialUniversities.filter((id) => universities.some((u) => u.id === id)));
@@ -153,6 +157,8 @@ export function CompareWorkspace({ families, universities, initialFamilies, init
           {uniRows.length === 0 ? (
             <p className="empty">Select at least one university to compare.</p>
           ) : (
+            <>
+            <CurrencyChooser fx={fx} value={cur} onChange={setCur} idPrefix="cmp" />
             <div className="table-wrap">
               <table>
                 <caption className="small muted" style={{ textAlign: 'left' }}>
@@ -204,9 +210,15 @@ export function CompareWorkspace({ families, universities, initialFamilies, init
                         {u.costs ? (
                           <>
                             {formatMoney(u.costs.totalCostOfAttendance2026_27USD, 'USD')}
-                            <div className="small muted">
-                              about {formatMoney(u.costs.totalCostOfAttendance2026_27USD * fxRate, 'PKR')} (at the stored rate)
-                            </div>
+                            {(() => {
+                              const c = convertForSelection(u.costs.totalCostOfAttendance2026_27USD, fx, cur);
+                              if (!c.ok || c.conversion === null) return null;
+                              return (
+                                <div className="small muted">
+                                  about {formatMoney(c.amount, c.currency)} ({c.conversion.userSupplied ? 'your rate, not verified' : `stored rate, ${c.conversion.rateDate}`})
+                                </div>
+                              );
+                            })()}
                           </>
                         ) : (
                           'Not verified'
@@ -223,6 +235,7 @@ export function CompareWorkspace({ families, universities, initialFamilies, init
                 </tbody>
               </table>
             </div>
+            </>
           )}
         </>
       )}

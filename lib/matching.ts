@@ -1,5 +1,6 @@
 import type { Dataset } from '@/lib/data';
 import type { Degree, Family, Scholarship, University } from '@/lib/schemas';
+import { COUNTRIES } from '@/lib/countries';
 
 /**
  * Deterministic degree x university matcher. Pure function: no network, no AI, no storage.
@@ -12,7 +13,7 @@ export type MatchInput = {
   degreeId: string;
   universityId: string;
   intakeYear: number;
-  /** Applicant country of citizenship, e.g. "PK" or "Pakistan". Defaults to Pakistan in the UI. */
+  /** Applicant country of citizenship: a country name or ISO code, e.g. "Malaysia" or "MY". Defaults to Pakistan in the UI. */
   applicantCountry: string;
   /** Optional: overall percentage or grade equivalent, if the student knows it. */
   overallPercentage: number | null;
@@ -86,24 +87,30 @@ export type FundingMatch = {
 };
 
 const COUNTRY_ALIASES: Record<string, string> = {
-  pk: 'pakistan',
-  pakistan: 'pakistan',
   us: 'united states',
   usa: 'united states',
-  'united states': 'united states',
   'united states of america': 'united states',
   uk: 'united kingdom',
-  'united kingdom': 'united kingdom',
   'great britain': 'united kingdom',
   england: 'united kingdom',
   'hong kong sar': 'hong kong',
   'hong kong': 'hong kong',
+  'south korea': 'south korea',
+  'republic of korea': 'south korea',
+  'korea, republic of': 'south korea',
+  'uae': 'united arab emirates',
 };
+
+/** ISO 3166 alpha-2 codes for the citizenship list, mapped to lower-case names. */
+const ISO2_TO_NAME: Record<string, string> = Object.fromEntries(
+  COUNTRIES.map((c) => [c.iso2.toLowerCase(), c.name.toLowerCase()]),
+);
 
 /** Normalise a country name or code for comparison. Unknown values are returned lower-cased. */
 export function normaliseCountry(value: string): string {
   const key = value.trim().toLowerCase().replace(/\s+/g, ' ');
-  return COUNTRY_ALIASES[key] ?? key;
+  const byCode = key.length === 2 ? ISO2_TO_NAME[key] : undefined;
+  return byCode ?? COUNTRY_ALIASES[key] ?? key;
 }
 
 function isInternational(applicantCountry: string, universityCountry: string): boolean {
@@ -257,7 +264,7 @@ export function evaluateMatch(d: Dataset, input: MatchInput): MatchResult {
     notes.push('Admissions requirements have not been researched for this university. Eligibility cannot be assessed from stored evidence.');
   }
   notes.push(
-    'Pakistani qualification equivalence (FSc, A-levels, O-levels, O/A-level subjects) must be checked on the university’s official international admissions page.',
+    'Equivalence of your school-leaving qualification (for example FSc, A-levels, IB Diploma, a national exam or an O/A-level sequence) must be checked on the university’s official international admissions page.',
   );
 
   // ---- Funding: deterministic filter over stored records. ----

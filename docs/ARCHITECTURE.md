@@ -37,7 +37,10 @@ The trade-off is that data changes need a rebuild. That is acceptable for resear
 | `lib/schemas.ts` | Zod schemas and TypeScript types for every dataset. |
 | `lib/data.ts` | Loads and validates all JSON files, runs cross-file integrity checks (server side only). |
 | `lib/scoring.ts` | Weights, family scoring, ranking, criterion ranking. Client-safe. |
-| `lib/costs.ts` | Cost model, USD to PKR conversion, money formatting. |
+| `lib/costs.ts` | Cost model, USD conversion with a dated rate, money formatting. |
+| `lib/currency.ts` | Display-currency choice: USD, stored rates, or a user-typed rate (never shown as verified). |
+| `lib/countries.ts` | Citizenship list with ISO codes. Any other country can still be typed in. |
+| `lib/studentLife.ts` | Practical questions for Muslim students abroad (questions to ask, not claims). |
 | `lib/matching.ts` | Matcher rules: programme status, admissions check, funding classification. |
 | `lib/roadmap.ts` | Roadmap template and builder. |
 | `scripts/validate-data.ts` | `npm run validate:data`. |
@@ -73,7 +76,7 @@ The trade-off is that data changes need a rebuild. That is acceptable for resear
 | `data/universities.json` | 150 universities | QS 2027 rank, score, location, per-section `dataStatus`, programme/admission/cost/scholarship fields |
 | `data/scholarships.json` | 1 scholarship record | MIT need-based aid. Structured eligibility and classification fields. |
 | `data/sources.json` | 16 sources | Every citation ID used in the data must exist here |
-| `data/fx.json` | 1 rate | USD to PKR, with type, date and source |
+| `data/fx.json` | 2 rates | USD to PKR (SBP) and USD to EUR (ECB), each with type, date and source |
 
 Integrity checks (`checkIntegrity` in `lib/data.ts`) verify that references resolve, that IDs are unique, and that a scholarship classified as a full ride is not described as covering tuition only.
 

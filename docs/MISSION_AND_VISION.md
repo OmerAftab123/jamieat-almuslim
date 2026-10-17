@@ -4,7 +4,7 @@
 
 Help Muslim students make informed decisions about degrees, careers and universities by making the evidence visible: what a degree is documented to lead to, what a university officially publishes, what funding is documented, what it costs, and what is still unknown.
 
-The first audience is students from Pakistan who are considering **international undergraduate** study. The default country in the matcher is Pakistan and the default pathway is undergraduate.
+The audience is Muslim students from any country who are considering **international undergraduate** study. Pakistan is the matcher's pre-selected starting country, not a limit: any country can be chosen, and students from outside Pakistan are supported in the same way. The default pathway is undergraduate.
 
 ## Vision
 

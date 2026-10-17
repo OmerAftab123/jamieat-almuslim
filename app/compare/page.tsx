@@ -15,7 +15,7 @@ export default function ComparePage() {
       <h1>Comparison workspace</h1>
       <p className="lead">Compare up to four career families or four universities. Only stored, dated values are shown.</p>
       <Suspense fallback={<p className="muted">Loading comparison&hellip;</p>}>
-        <CompareRoute families={d.families} universities={d.universities} fxRate={d.fx.rate} />
+        <CompareRoute families={d.families} universities={d.universities} fx={d.fx} />
       </Suspense>
     </>
   );

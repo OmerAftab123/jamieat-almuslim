@@ -51,7 +51,7 @@ export function ScholarshipCard({ scholarship: s, sources }: { scholarship: Scho
         </dd>
         <dt>Who can apply</dt>
         <dd>
-          {s.eligibility.applicantScopeNote} {s.eligibility.pakistanNote}
+          {s.eligibility.applicantScopeNote} {s.eligibility.nonUsApplicantNote}
           {s.eligibility.requiresFinancialNeed ? ' Awards depend on a documented financial-need assessment.' : ''}
         </dd>
         <dt>Academic and renewal conditions</dt>

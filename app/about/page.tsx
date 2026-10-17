@@ -11,7 +11,7 @@ export default function AboutPage() {
       <h1>About this project</h1>
       <p className="lead">
         A free, open research tool to help Muslim students make informed choices about degrees, careers and universities,
-        especially students from Pakistan who are looking at international undergraduate study.
+        especially Muslim students who are looking at international undergraduate study, wherever they are from. Pakistan is the default starting choice in the matcher, not the only audience.
       </p>
 
       <h2>Mission</h2>

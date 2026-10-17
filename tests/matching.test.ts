@@ -153,3 +153,24 @@ describe('country normalisation', () => {
     expect(normaliseCountry('United Kingdom')).toBe('united kingdom');
   });
 });
+
+describe('international applicants', () => {
+  it('treats a Malaysian applicant as international for an international-only award', () => {
+    const r = evaluateMatch(d, { ...baseInput, degreeId: 'bachelor-mathematics', applicantCountry: 'Malaysia', needsFinancialAid: true });
+    expect(r.funding.matches.some((m) => m.scholarshipId === 'mit-need-based-scholarship')).toBe(true);
+    expect(r.funding.excluded.some((x) => x.id === 'mit-need-based-scholarship')).toBe(false);
+  });
+
+  it('excludes an applicant whose citizenship is the university country from international-only aid', () => {
+    const r = evaluateMatch(d, { ...baseInput, degreeId: 'bachelor-mathematics', applicantCountry: 'United States' });
+    expect(r.funding.excluded.some((x) => x.id === 'mit-need-based-scholarship')).toBe(true);
+  });
+
+  it('resolves ISO codes from the citizenship list to country names', () => {
+    expect(normaliseCountry('MY')).toBe('malaysia');
+    expect(normaliseCountry('EG')).toBe('egypt');
+    expect(normaliseCountry('Egypt')).toBe('egypt');
+    expect(normaliseCountry('US')).toBe('united states');
+  });
+});
+

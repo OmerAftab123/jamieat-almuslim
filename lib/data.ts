@@ -14,10 +14,10 @@ import {
   universitiesFileSchema,
   type Degree,
   type Family,
-  type FxRate,
   type Scholarship,
   type Source,
   type University,
+  type FxFile,
 } from '@/lib/schemas';
 
 export type Dataset = {
@@ -26,7 +26,7 @@ export type Dataset = {
   universities: University[];
   scholarships: Scholarship[];
   sources: Source[];
-  fx: FxRate;
+  fx: FxFile;
   meta: {
     degreesVersion: string;
     familiesVersion: string;
@@ -171,7 +171,11 @@ export function checkIntegrity(d: Dataset): string[] {
       problems.push(`scholarship ${s.id} includes loans but is not classified as partial or unconfirmed`);
     }
   }
-  if (!sourceIds.has(d.fx.sourceId)) problems.push(`fx references unknown source ${d.fx.sourceId}`);
+  for (const r of d.fx.rates) {
+    if (!sourceIds.has(r.sourceId)) problems.push(`fx rate ${r.quote} references unknown source ${r.sourceId}`);
+  }
+  const quotes = d.fx.rates.map((r) => r.quote);
+  if (new Set(quotes).size !== quotes.length) problems.push('fx rates contain a duplicate currency code');
   return problems;
 }
 
