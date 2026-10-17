@@ -76,10 +76,11 @@
         },
         {
           "item": "Subject-specific requirements",
-          "detail": "Not recorded per degree. Check the programme's prerequisites on MIT's course catalogue for the degree you choose.",
-          "status": "not-verified",
+          "detail": "No required high school classes (official FAQ). Ideal preparation: calculus, physics, chemistry, biology and four years of English. MIT's Science Core requires two semesters of calculus-based physics, one of chemistry and one of biology, so this is what you will need to take or have credit for.",
+          "status": "verified-official",
           "sourceIds": [
-            "mit-degree-charts"
+            "mit-admissions-faq-classes",
+            "mit-subject-preparation"
           ]
         },
         {
@@ -359,10 +360,11 @@
         },
         {
           "item": "Entry requirements by programme",
-          "detail": "Requirements vary by programme and faculty. Check each programme page and the portal before you apply.",
-          "status": "verified-official",
+          "detail": "Official CS programme page (Malaysian rules) and UM international FAQ (English and documents) read. Programme-level international rules are not confirmed for all 42 programmes.",
+          "status": "partially-verified",
           "sourceIds": [
-            "um-study-faqs"
+            "um-cs-programme-page",
+            "um-international-faq"
           ]
         },
         {
@@ -384,9 +386,11 @@
         },
         {
           "item": "Subject-specific requirements",
-          "detail": "Not recorded per programme beyond the English notes above. Check each programme's prerequisites on UM's portal.",
-          "status": "not-verified",
-          "sourceIds": []
+          "detail": "Official CS programme page lists subject rules for Malaysian citizens (SPM: grade B in three subjects including Mathematics; STPM, A-Level, IB and others). It does not state separate international subject rules; confirm with UM for your qualification.",
+          "status": "partially-verified",
+          "sourceIds": [
+            "um-cs-programme-page"
+          ]
         },
         {
           "item": "Qualification equivalence (FSc, Pakistani boards)",
@@ -401,6 +405,14 @@
           "detail": "Not verified in this build. Check the Malaysian immigration and UM's international office before you plan travel.",
           "status": "not-verified",
           "sourceIds": []
+        },
+        {
+          "item": "Programme tuition (Computer Science, international)",
+          "detail": "RM 89,200 for 3.5 years, not inclusive of 6% SST (official CS programme page). Currency is MYR; fee year as printed on the page.",
+          "status": "verified-official",
+          "sourceIds": [
+            "um-cs-programme-page"
+          ]
         }
       ],
       "scholarships": [
@@ -2680,6 +2692,385 @@
           "steps": [
             "Apply through UCAS.",
             "Apply for the Mathematics scholarship if eligible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ntu-singapore-free-study",
+      "universityId": "nanyang-technological-university-singapore-ntu-singapore",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry). Programme-level checks are not yet researched for this university.",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Possibly, subject to NTU's requirements for Pakistani qualifications (not verified in this batch). Undergraduate applications for August 2027 were open from 15 October 2026 per secondary sources.",
+          "detail": "Official: NTU publishes international undergraduate fees and scholarships. Admission requirements for Pakistani qualifications were not read.",
+          "sourceIds": [
+            "ntu-undergraduate-tuition",
+            "ntu-undergraduate-scholarships-brochure"
+          ]
+        },
+        "free": {
+          "verdict": "No full route found for most applicants. The NTU Scholarship covers tuition in full but is competitive and its Pakistan eligibility is not verified.",
+          "detail": "Official tuition for non-ASEAN international students with the MOE Tuition Grant is S$21,400 per year for most programmes; without the grant it is S$40,600 (lab-based) or S$36,350 (non-lab) per year. The NTU Scholarship gives full subsidised tuition, S$6,500 living per year and more (official brochure). The Tuition Grant may carry a work-in-Singapore bond (secondary sources).",
+          "sourceIds": [
+            "ntu-undergraduate-tuition",
+            "ntu-undergraduate-scholarships-brochure"
+          ]
+        },
+        "should": {
+          "verdict": "Yes, if you can win the NTU Scholarship or fund about S$21,400 a year plus living costs in Singapore.",
+          "detail": "Official tuition is high even with the grant. Singapore is a strong research and engineering base, but the cost of living is high.",
+          "sourceIds": [
+            "ntu-undergraduate-tuition"
+          ]
+        },
+        "how": [
+          "Check NTU's eligibility rules for Pakistani qualifications.",
+          "Submit the NTU undergraduate application (official portal, check the 2027 dates).",
+          "NTU assesses the NTU Scholarship with the admission application (official brochure).",
+          "Compare the grant bond and living costs before accepting."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Tuition with MOE Tuition Grant (non-ASEAN international)",
+          "detail": "S$21,400 per year for most programmes (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "ntu-undergraduate-tuition"
+          ]
+        },
+        {
+          "item": "Tuition without grant",
+          "detail": "S$40,600 (lab-based) or S$36,350 (non-lab) per year (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "ntu-undergraduate-tuition"
+          ]
+        },
+        {
+          "item": "Admission requirements for Pakistani qualifications",
+          "detail": "Not verified in this batch.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit (NTU Scholarship)",
+          "status": "available-conditional",
+          "detail": "Full subsidised tuition, S$6,500 per year living, up to S$2,000 accommodation for hostel residents, up to S$8,000 travel (official brochure). Pakistan eligibility not verified.",
+          "sourceIds": [
+            "ntu-undergraduate-scholarships-brochure"
+          ]
+        },
+        {
+          "route": "National, regional, sports",
+          "status": "not-verified",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [
+        {
+          "label": "Tuition for non-ASEAN international (with grant)",
+          "value": "S$21,400 per year (official)",
+          "sourceId": "ntu-undergraduate-tuition",
+          "kind": "official"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "not-recorded",
+        "detail": "No verified student-reported or consultant trend data is recorded for this university. Third-party admission-chance estimates are not used."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Top-ranked research university with a strong scholarship (official brochure).",
+          "Tuition is subsidised for international students with the MOE grant (official)."
+        ],
+        "againstOrCaution": [
+          "Even subsidised tuition is S$21,400 a year (official).",
+          "Tuition Grant may carry a work bond (secondary sources).",
+          "Pakistan eligibility not verified."
+        ],
+        "decisionTest": [
+          "Can you win the NTU Scholarship or fund S$21,400 a year plus living costs?",
+          "Are you willing to accept the Tuition Grant bond?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "NTU has no degree-level mapping in this dataset yet.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now (October 2026)",
+          "steps": [
+            "Check NTU's requirements for Pakistani qualifications.",
+            "Plan the S$21,400 tuition plus living costs."
+          ]
+        },
+        {
+          "window": "Application window (check official dates)",
+          "steps": [
+            "Submit the NTU undergraduate application; the NTU Scholarship is assessed automatically."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kaist-free-study",
+      "universityId": "kaist",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry). Programme-level checks are not yet researched for this university.",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Possibly, subject to KAIST's admission requirements (not verified in this batch). Foreign citizenship is required.",
+          "detail": "Official applicant page: international applicants must hold foreign citizenship; Korean citizens with dual nationality are not eligible.",
+          "sourceIds": [
+            "kaist-application-guide"
+          ]
+        },
+        "free": {
+          "verdict": "Yes for most admitted international undergraduates. The KAIST Scholarship covers tuition for eight semesters with a monthly stipend (secondary sources), but you must keep a GPA above 2.7 out of 4.3.",
+          "detail": "Official FAQ: no separate application; tick the KAIST Scholarship option; GPA above 2.7 out of 4.3 after freshman year. Tuition and stipend amounts come from secondary sources, not the official fee page.",
+          "sourceIds": [
+            "kaist-international-scholarship"
+          ]
+        },
+        "should": {
+          "verdict": "Yes if you can meet the GPA and English demands, and can fund living costs that the scholarship does not cover.",
+          "detail": "The scholarship covers tuition and a stipend; housing, meals and other costs are not covered (secondary sources).",
+          "sourceIds": [
+            "kaist-international-scholarship"
+          ]
+        },
+        "how": [
+          "Check KAIST's admission requirements for Pakistani qualifications.",
+          "Pay the USD 80 application fee (non-refundable) and submit before the round deadline.",
+          "Tick the KAIST Scholarship option in the financial resources section.",
+          "Plan to keep a GPA above 2.7 out of 4.3 after freshman year."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Citizenship",
+          "detail": "Foreign citizenship required (official applicant page).",
+          "status": "verified-official",
+          "sourceIds": [
+            "kaist-application-guide"
+          ]
+        },
+        {
+          "item": "Application fee",
+          "detail": "USD 80 or KRW 80,000, non-refundable (official applicant page).",
+          "status": "verified-official",
+          "sourceIds": [
+            "kaist-application-guide"
+          ]
+        },
+        {
+          "item": "Admission requirements for Pakistani qualifications",
+          "detail": "Not verified in this batch.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit (KAIST Scholarship)",
+          "status": "available-conditional",
+          "detail": "Automatic for admitted international undergraduates; GPA above 2.7 out of 4.3 needed after freshman year (official). Tuition and stipend from secondary sources.",
+          "sourceIds": [
+            "kaist-international-scholarship"
+          ]
+        },
+        {
+          "route": "National, regional, sports",
+          "status": "not-verified",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [
+        {
+          "label": "Application deadline 2027 entry (secondary sources)",
+          "value": "Early round 22 Oct 2026; regular round 14 Jan 2027 (verify on official site)",
+          "sourceId": "kaist-application-guide",
+          "kind": "secondary"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "not-recorded",
+        "detail": "No verified student-reported or consultant trend data is recorded for this university. Third-party admission-chance estimates are not used."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Scholarship covers tuition for admitted international undergraduates (secondary sources).",
+          "Official GPA rule is clear (official FAQ)."
+        ],
+        "againstOrCaution": [
+          "GPA must stay above 2.7 out of 4.3.",
+          "Living costs beyond the stipend are not covered (secondary sources).",
+          "Early round may close on 22 Oct 2026 (secondary sources)."
+        ],
+        "decisionTest": [
+          "Can you keep above 2.7 out of 4.3 at KAIST?",
+          "Can you cover housing and meals beyond the stipend?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "KAIST has no degree-level mapping in this dataset yet.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Immediately (before 22 Oct 2026)",
+          "steps": [
+            "Check the early-round deadline on KAIST's official site.",
+            "Pay the USD 80 fee and submit the application if you plan to apply early."
+          ]
+        },
+        {
+          "window": "Regular round (verify official date, secondary: 14 Jan 2027)",
+          "steps": [
+            "Submit the regular-round application if you miss the early round."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sydney-free-study",
+      "universityId": "university-sydney",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry). Programme-level checks are not yet researched for this university.",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Possibly, subject to University of Sydney entry criteria (not verified in this batch).",
+          "detail": "Official: scholarships require meeting entry criteria and a personal statement (official Sydney International Student Award page).",
+          "sourceIds": [
+            "sydney-international-student-award"
+          ]
+        },
+        "free": {
+          "verdict": "No full-cost route found. The Academic Excellence award gives 100% tuition, but it goes to top home-curriculum marks, and Pakistan eligibility is not verified. The 20% award is for selected nationalities.",
+          "detail": "Official: Academic Excellence (100% tuition and SSAF, up to 4 years, top home-curriculum marks). Sydney International Student Award (20% of tuition, selected nationalities, 2027 commencements). Fees are in AUD (A$63,600 per year for Engineering and computer science, 2027 entry guide).",
+          "sourceIds": [
+            "sydney-academic-excellence",
+            "sydney-international-student-award",
+            "sydney-tuition-fees"
+          ]
+        },
+        "should": {
+          "verdict": "Yes if you can win the Academic Excellence award or fund about A$63,600 per year for Engineering or Computer Science, plus living costs.",
+          "detail": "Fees are in AUD and are a guide for 2027 entry (official).",
+          "sourceIds": [
+            "sydney-tuition-fees"
+          ]
+        },
+        "how": [
+          "Check whether Pakistan is a selected nationality for the 20% award.",
+          "Apply for the course through the official admission process.",
+          "Check the Academic Excellence eligibility for Pakistani results.",
+          "Plan the full cost if no award is offered."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Tuition guide 2027 entry",
+          "detail": "Engineering and computer science A$63,600 per year; Economics A$59,100; Arts and social sciences A$51,700 to A$59,100 (official, AUD).",
+          "status": "verified-official",
+          "sourceIds": [
+            "sydney-tuition-fees"
+          ]
+        },
+        {
+          "item": "Scholarship eligibility",
+          "detail": "Selected nationalities (20% award); top home-curriculum marks (Academic Excellence). Pakistan not verified.",
+          "status": "not-verified",
+          "sourceIds": [
+            "sydney-international-student-award",
+            "sydney-academic-excellence"
+          ]
+        },
+        {
+          "item": "Entry requirements for Pakistani results",
+          "detail": "Not verified in this batch.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit (Academic Excellence)",
+          "status": "not-verified",
+          "detail": "100% tuition and SSAF for up to 4 years for top home-curriculum marks (official). Pakistan not verified.",
+          "sourceIds": [
+            "sydney-academic-excellence"
+          ]
+        },
+        {
+          "route": "Merit (International Student Award)",
+          "status": "not-verified",
+          "detail": "20% of tuition for selected nationalities (official). Pakistan not verified.",
+          "sourceIds": [
+            "sydney-international-student-award"
+          ]
+        },
+        {
+          "route": "National, regional, sports",
+          "status": "not-verified",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [
+        {
+          "label": "Engineering and computer science tuition (2027 entry)",
+          "value": "A$63,600 per year (official, AUD)",
+          "sourceId": "sydney-tuition-fees",
+          "kind": "official"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "not-recorded",
+        "detail": "No verified student-reported or consultant trend data is recorded for this university. Third-party admission-chance estimates are not used."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Strong global university with merit awards (official).",
+          "Academic Excellence covers 100% of tuition for top performers (official)."
+        ],
+        "againstOrCaution": [
+          "Pakistan eligibility for both merit awards not verified.",
+          "Tuition is high in AUD (official guide).",
+          "Living costs not covered."
+        ],
+        "decisionTest": [
+          "Are your results at the top of the Pakistani curriculum?",
+          "Can you fund A$63,600 per year without an award?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Sydney has no degree-level mapping in this dataset yet.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now (October 2026)",
+          "steps": [
+            "Check eligibility for the Academic Excellence and 20% awards.",
+            "Check entry requirements for Pakistani results."
+          ]
+        },
+        {
+          "window": "Application (check official intake dates)",
+          "steps": [
+            "Apply through the official admission process; the Academic Excellence award is considered from the application."
           ]
         }
       ]

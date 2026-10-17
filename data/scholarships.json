@@ -883,6 +883,189 @@
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-partially-verified",
       "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open."
+    },
+    {
+      "id": "ntu-nanyang-scholarship",
+      "universityId": "nanyang-technological-university-singapore-ntu-singapore",
+      "name": "NTU Nanyang Scholarship (undergraduate)",
+      "funder": "Nanyang Technological University",
+      "awardType": "merit-based",
+      "classification": "full-tuition",
+      "classificationNote": "Official brochure: full coverage of subsidised tuition (after Tuition Grant), living allowance S$6,500 per year, accommodation up to S$2,000 for hostel residents, travel grant up to S$8,000. Eligibility for Pakistani applicants not verified.",
+      "coverage": {
+        "tuition": "Full subsidised tuition (after Tuition Grant)",
+        "living": "S$6,500 per year (official brochure)",
+        "accommodation": "Up to S$2,000 per year (hostel residents)",
+        "travel": "Up to S$8,000 (official brochure)",
+        "computer": "S$2,000 one-off (official brochure; aggregators say S$1,750, conflict)"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Official brochure: applies to undergraduate applicants (nationality rules not verified here).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Undergraduate programmes at NTU (official brochure).",
+        "citizenshipOrResidency": "Not verified for Pakistan.",
+        "nonUsApplicantNote": "Not verified for Pakistan.",
+        "academicConditions": "Merit (official brochure).",
+        "renewalConditions": "Renewal per academic performance (official brochure)."
+      },
+      "requiredDocuments": [
+        "NTU admission application (scholarship assessed with admission)"
+      ],
+      "applicationMethod": "Assessed through the NTU admission application.",
+      "deadlines": {
+        "UG international applications": "Opened 15 Oct 2026 per secondary sources; verify on official site"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Living costs beyond S$6,500 per year"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "ntu-undergraduate-scholarships-brochure",
+        "ntu-undergraduate-tuition"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; items marked not verified remain open."
+    },
+    {
+      "id": "kaist-scholarship-undergraduate",
+      "universityId": "kaist",
+      "name": "KAIST Scholarship (international undergraduate)",
+      "funder": "KAIST",
+      "awardType": "merit-based",
+      "classification": "full-tuition",
+      "classificationNote": "Official KAIST admission FAQ: awarded to admitted international students with no separate application; GPA above 2.7 out of 4.3 after the freshman year. Tuition and stipend amounts from secondary sources, not the official pages read.",
+      "coverage": {
+        "tuition": "Full tuition for 8 semesters (secondary sources)",
+        "living": "Monthly stipend of KRW 350,000 (secondary sources)",
+        "health": "National health insurance (secondary sources)"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Foreign citizenship required; Korean citizens (including dual) cannot apply as international students (official applicant page).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Undergraduate admission (official).",
+        "citizenshipOrResidency": "Foreign citizenship (official applicant page).",
+        "nonUsApplicantNote": "Foreign citizenship (official applicant page).",
+        "academicConditions": "GPA above 2.7 out of 4.3 after freshman year (official).",
+        "renewalConditions": "Maintain GPA (official)."
+      },
+      "requiredDocuments": [
+        "KAIST international application (scholarship box ticked)"
+      ],
+      "applicationMethod": "No separate scholarship application; tick the KAIST Scholarship option in the financial resources section (official FAQ).",
+      "deadlines": {
+        "2027 entry (secondary sources, verify)": "Early round 22 Oct 2026; regular round 14 Jan 2027"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Costs not covered by tuition and stipend, e.g. housing, meals (secondary sources)"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "kaist-international-scholarship",
+        "kaist-application-guide"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; items marked not verified remain open."
+    },
+    {
+      "id": "sydney-international-student-award",
+      "universityId": "university-sydney",
+      "name": "Sydney International Student Award",
+      "funder": "University of Sydney",
+      "awardType": "merit-based",
+      "classification": "partial",
+      "classificationNote": "Official: 20% of tuition for the duration of the course for outstanding students from selected nationalities. Pakistan not confirmed as a selected nationality in this batch.",
+      "coverage": {
+        "tuition": "20% of tuition (official)",
+        "living": "Not covered"
+      },
+      "eligibility": {
+        "applicantScope": "nationalities",
+        "applicantScopeNote": "Selected nationalities only (official). Pakistan not verified.",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Undergraduate and coursework postgraduate degrees where fees are payable to Sydney (official).",
+        "citizenshipOrResidency": "Selected nationalities (not verified for Pakistan).",
+        "nonUsApplicantNote": "Selected nationalities (not verified for Pakistan).",
+        "academicConditions": "Personal statement; entry criteria (official).",
+        "renewalConditions": "No outstanding fees (official)."
+      },
+      "requiredDocuments": [
+        "Personal statement with admission application"
+      ],
+      "applicationMethod": "Applied through the admission application (official).",
+      "deadlines": {
+        "commencing 2027": "Applies to new commencements in 2027 (official)"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "80% of tuition",
+        "Living costs"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "sydney-international-student-award"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; items marked not verified remain open."
+    },
+    {
+      "id": "sydney-academic-excellence-undergraduate",
+      "universityId": "university-sydney",
+      "name": "Sydney International Undergraduate Academic Excellence Scholarship",
+      "funder": "University of Sydney",
+      "awardType": "merit-based",
+      "classification": "full-tuition",
+      "classificationNote": "Official: 100% tuition fees and SSAF for the published full-time duration of a single undergraduate degree (max 4 years); awarded to students with top marks in their home curriculum. Pakistan eligibility not verified.",
+      "coverage": {
+        "tuition": "100% (official)",
+        "fees": "Student Services and Amenities Fee (official)",
+        "living": "Not covered (official)"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "International applicants who have not commenced a single undergraduate coursework degree (official).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Single undergraduate degree (official).",
+        "citizenshipOrResidency": "Top marks in home curriculum (official).",
+        "nonUsApplicantNote": "Top marks in home curriculum (official).",
+        "academicConditions": "Semester Average Mark of 65 (official).",
+        "renewalConditions": "Maintain SAM 65 and complete within full-time duration (official)."
+      },
+      "requiredDocuments": [
+        "Application through admissions (not verified in detail)"
+      ],
+      "applicationMethod": "Apply through admission (per official excerpt).",
+      "deadlines": {
+        "status": "Open per official excerpt (verify)"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Living costs",
+        "Overseas health cover",
+        "Accommodation"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "sydney-academic-excellence",
+        "sydney-tuition-fees"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; items marked not verified remain open."
     }
   ]
 }

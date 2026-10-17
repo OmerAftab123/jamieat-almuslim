@@ -836,6 +836,149 @@
       "supports": [
         "Search excerpt of the official page: GBP 5,000 per year, pai"
       ]
+    },
+    {
+      "id": "mit-subject-preparation",
+      "title": "MIT Admissions: Academic foundations (subject preparation)",
+      "publisher": "MIT Admissions",
+      "url": "https://mitadmissions.org/apply/prepare/foundations/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: calculus is the expected foundation by end of high school; physics, chemistry and biology recommended; MIT Science Core requires two semesters of calculus-based physics, one of chemistry and one of biology.",
+      "supports": [
+        "Search excerpt of the official page: calculus is the expecte"
+      ]
+    },
+    {
+      "id": "mit-admissions-faq-classes",
+      "title": "MIT Admissions FAQ: Does MIT have required classes or language requirements?",
+      "publisher": "MIT Admissions",
+      "url": "https://mitadmissions.org/help/faq/required-classes-language-requirements/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official FAQ: no required high school classes; ideal preparation includes calculus, physics, chemistry, biology and four years of English.",
+      "supports": [
+        "Search excerpt of the official FAQ: no required high school "
+      ]
+    },
+    {
+      "id": "um-cs-programme-page",
+      "title": "UM: Bachelor of Computer Science (Computer System and Network) programme page",
+      "publisher": "Universiti Malaya",
+      "url": "https://study.um.edu.my/bachelor-of-computer-science-computer-system-and-network",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Page fetched (first chunk): 3.5 years; international tuition RM 89,200 (not inclusive of 6% SST); intakes October and March. Entry rules listed are for Malaysian citizens (SPM, STPM, IB and others); the page does not separately state international subject rules.",
+      "supports": [
+        "Page fetched (first chunk): 3.5 years; international tuition"
+      ]
+    },
+    {
+      "id": "um-international-faq",
+      "title": "UM: FAQ Undergraduate International Admission",
+      "publisher": "Universiti Malaya",
+      "url": "https://aasd.um.edu.my/faq-ug-international-admission",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official FAQ: English requirements (IELTS 5.0; TOEFL iBT 60; MUET band 3; PTE 41) and document list (certified transcripts and English test certificate).",
+      "supports": [
+        "Search excerpt of the official FAQ: English requirements (IE"
+      ]
+    },
+    {
+      "id": "ntu-undergraduate-tuition",
+      "title": "NTU Singapore: Tuition fees for Academic Year 2026/2027",
+      "publisher": "Nanyang Technological University",
+      "url": "https://www.ntu.edu.sg/admissions/undergraduate/fees-and-funding/tuition-fees",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: 'All Other IS' subsidised (with MOE Tuition Grant) S$21,400 for most programmes; non-subsidised S$40,600 (most programmes, lab-based) and S$36,350 (non-lab); Business/Accountancy S$21,800 subsidised and S$45,600 non-subsidised.",
+      "supports": [
+        "Search excerpt of the official page: 'All Other IS' subsidis"
+      ]
+    },
+    {
+      "id": "ntu-undergraduate-scholarships-brochure",
+      "title": "NTU Undergraduate Scholarships Brochure AY2026-27",
+      "publisher": "Nanyang Technological University",
+      "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/scholarships/ntu_undergraduate_scholarships_brochure.pdf",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official brochure: NTU Scholarship (Nanyang) gives full coverage of subsidised tuition, S$6,500 living per year, up to S$2,000 accommodation for hostel residents, computer allowance S$2,000 (one-off), travel grant up to S$8,000. Aggregator sites give a S$1,750 computer allowance; conflict noted.",
+      "supports": [
+        "Search excerpt of the official brochure: NTU Scholarship (Na"
+      ]
+    },
+    {
+      "id": "kaist-international-scholarship",
+      "title": "KAIST Scholarship for international undergraduates (admission FAQ)",
+      "publisher": "KAIST",
+      "url": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: KAIST Scholarship has no separate application (tick it in the financial resources section); GPA above 2.7 out of 4.3 needed after the freshman year. Tuition amount and stipend from secondary sources only.",
+      "supports": [
+        "Search excerpt of the official page: KAIST Scholarship has n"
+      ]
+    },
+    {
+      "id": "kaist-application-guide",
+      "title": "KAIST: International applicants (eligibility and application fee)",
+      "publisher": "KAIST",
+      "url": "https://univapply.kaist.ac.kr/interapply/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official applicant page: foreign citizenship required (Korean citizens with dual citizenship are not eligible); application fee USD 80 or KRW 80,000, non-refundable. Deadlines for 2027 entry are from secondary sources only.",
+      "supports": [
+        "Search excerpt of the official applicant page: foreign citiz"
+      ]
+    },
+    {
+      "id": "sydney-international-student-award",
+      "title": "Sydney International Student Award",
+      "publisher": "University of Sydney",
+      "url": "https://www.sydney.edu.au/study/fees-and-loans/scholarships/sydney-international-student-award.html",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: 20% of tuition for the duration of the course for outstanding students from selected nationalities; applies to new commencements in 2027; no payment to the student.",
+      "supports": [
+        "Search excerpt of the official page: 20% of tuition for the "
+      ]
+    },
+    {
+      "id": "sydney-academic-excellence",
+      "title": "Sydney International Undergraduate Academic Excellence Scholarship",
+      "publisher": "University of Sydney",
+      "url": "https://www.sydney.edu.au/scholarships/e/sydney-international-undergraduate-academic-excellence-scholarship.html",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: 100% tuition and SSAF for the published full-time duration (max 4 years); for applicants who score top marks in their home curriculum; maintain Semester Average Mark of 65.",
+      "supports": [
+        "Search excerpt of the official page: 100% tuition and SSAF f"
+      ]
+    },
+    {
+      "id": "sydney-tuition-fees",
+      "title": "University of Sydney: International student tuition fees (2027 entry guide)",
+      "publisher": "University of Sydney",
+      "url": "https://www.sydney.edu.au/study/fees-and-loans/international-student-tuition-fees.html",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page (AUD, guide for 2027 entry): Engineering and computer science undergraduate A$63,600; Economics A$59,100; Arts and social sciences A$51,700 to A$59,100 per year (full-time 48 credit points).",
+      "supports": [
+        "Search excerpt of the official page (AUD, guide for 2027 ent"
+      ]
     }
   ]
 }

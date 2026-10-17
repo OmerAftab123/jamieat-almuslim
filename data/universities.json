@@ -711,20 +711,26 @@
       "qsProfileUrl": "https://www.topuniversities.com/universities/nanyang-technological-university-singapore-ntu-singapore",
       "country": "Singapore",
       "city": "Singapore",
-      "officialWebsite": null,
+      "officialWebsite": "https://www.ntu.edu.sg/",
       "dataStatus": {
         "qsRank": "verified-official-page",
         "programs": "not-researched",
         "admissions": "not-researched",
-        "scholarships": "not-researched",
-        "costs": "not-researched"
+        "scholarships": "partially-researched",
+        "costs": "partially-researched"
       },
       "lastVerified": "2026-10-17",
       "programs": [],
       "admissions": null,
       "costs": null,
-      "scholarshipIds": [],
-      "notes": []
+      "scholarshipIds": [
+        "ntu-nanyang-scholarship"
+      ],
+      "notes": [
+        "Official tuition for 'All Other IS' with the MOE Tuition Grant is S$21,400 per year for most programmes; without the grant S$40,600 (lab-based) or S$36,350 (non-lab) (official tuition page).",
+        "Scholarship amounts conflict between the official brochure and aggregators (computer allowance S$2,000 vs S$1,750); official figure used.",
+        "Pakistan admission and grant eligibility not verified."
+      ]
     },
     {
       "id": "peking-university",
@@ -1203,20 +1209,27 @@
       "qsProfileUrl": "https://www.topuniversities.com/universities/university-sydney",
       "country": "Australia",
       "city": "Sydney",
-      "officialWebsite": null,
+      "officialWebsite": "https://www.sydney.edu.au/",
       "dataStatus": {
         "qsRank": "verified-official-page",
         "programs": "not-researched",
         "admissions": "not-researched",
-        "scholarships": "not-researched",
-        "costs": "not-researched"
+        "scholarships": "partially-researched",
+        "costs": "partially-researched"
       },
       "lastVerified": "2026-10-17",
       "programs": [],
       "admissions": null,
       "costs": null,
-      "scholarshipIds": [],
-      "notes": []
+      "scholarshipIds": [
+        "sydney-international-student-award",
+        "sydney-academic-excellence-undergraduate"
+      ],
+      "notes": [
+        "Official: international undergraduate tuition guide for 2027 entry is in AUD (e.g. Engineering and computer science A$63,600 per year).",
+        "Official Academic Excellence scholarship (100% tuition) is for top home-curriculum marks; Pakistan eligibility not verified.",
+        "Sydney International Student Award (20% tuition) is for selected nationalities."
+      ]
     },
     {
       "id": "australian-national-university-anu",
@@ -3104,20 +3117,26 @@
       "qsProfileUrl": "https://www.topuniversities.com/universities/kaist",
       "country": "South Korea",
       "city": "Daejeon",
-      "officialWebsite": null,
+      "officialWebsite": "https://www.kaist.ac.kr/",
       "dataStatus": {
         "qsRank": "verified-official-page",
         "programs": "not-researched",
-        "admissions": "not-researched",
-        "scholarships": "not-researched",
+        "admissions": "partially-researched",
+        "scholarships": "partially-researched",
         "costs": "not-researched"
       },
       "lastVerified": "2026-10-17",
       "programs": [],
       "admissions": null,
       "costs": null,
-      "scholarshipIds": [],
-      "notes": []
+      "scholarshipIds": [
+        "kaist-scholarship-undergraduate"
+      ],
+      "notes": [
+        "Official: KAIST Scholarship is awarded to admitted international undergraduates with no separate application; GPA above 2.7 out of 4.3 after freshman year.",
+        "Tuition and stipend amounts come from secondary sources and are not verified against an official KAIST fee page.",
+        "2027 entry deadlines from secondary sources: early 22 Oct 2026; verify on the official site."
+      ]
     },
     {
       "id": "brown-university",
