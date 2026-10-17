@@ -4,7 +4,8 @@ import Link from 'next/link';
 import { useMemo, useState } from 'react';
 import type { Dataset } from '@/lib/data';
 import type { Degree } from '@/lib/schemas';
-import { evaluateMatch, type EnglishTest, type MatchInput, type MatchResult } from '@/lib/matching';
+import { type EnglishTest, type MatchInput, type MatchResult } from '@/lib/matching';
+import { answerFundamentalQuestion, type FundamentalAnswer } from '@/lib/answer';
 import { buildRoadmap } from '@/lib/roadmap';
 import { ScholarshipCard } from '@/components/ScholarshipCard';
 import { StatusBadge } from '@/components/shared';
@@ -32,7 +33,8 @@ function num(v: string): number | null {
 export function MatcherForm({ dataset }: { dataset: Dataset }) {
   const { degrees, universities } = dataset;
   const [form, setForm] = useState(DEFAULT_INPUT);
-  const [result, setResult] = useState<MatchResult | null>(null);
+  const [answer, setAnswer] = useState<FundamentalAnswer | null>(null);
+  const result: MatchResult | null = answer ? answer.match : null;
   const [error, setError] = useState<string | null>(null);
 
   const degreesByFamily = useMemo(() => {
@@ -48,7 +50,7 @@ export function MatcherForm({ dataset }: { dataset: Dataset }) {
 
   function set<K extends keyof typeof form>(k: K, v: (typeof form)[K]) {
     setForm((prev) => ({ ...prev, [k]: v }));
-    setResult(null);
+    setAnswer(null);
   }
 
   function run(e: React.FormEvent) {
@@ -87,7 +89,7 @@ export function MatcherForm({ dataset }: { dataset: Dataset }) {
       annualBudgetUsd: budget,
       avoidInterestFinance: form.avoidInterestFinance,
     };
-    setResult(evaluateMatch(dataset, input));
+    setAnswer(answerFundamentalQuestion(dataset, input));
   }
 
   const roadmap = result ? buildRoadmap(result) : [];
@@ -222,7 +224,7 @@ export function MatcherForm({ dataset }: { dataset: Dataset }) {
             className="secondary"
             onClick={() => {
               setForm(DEFAULT_INPUT);
-              setResult(null);
+              setAnswer(null);
               setError(null);
             }}
           >
@@ -231,6 +233,7 @@ export function MatcherForm({ dataset }: { dataset: Dataset }) {
         </div>
       </form>
 
+      {answer ? <AnswerPanel answer={answer} /> : null}
       {result ? <MatchReport result={result} dataset={dataset} roadmapLength={roadmap.length} /> : null}
       {result ? <StudentLifeChecklist /> : null}
     </div>
@@ -353,6 +356,93 @@ function StudentLifeChecklist() {
           <li key={item.id}>
             <strong>{item.topic}:</strong> {item.question} <span className="muted">Check: {item.whereToCheck}</span>
           </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+const VERDICT_TONE: Record<string, 'ok' | 'warn' | 'bad' | 'info' | 'neutral'> = {
+  'eligible-on-recorded-criteria': 'ok',
+  'full-cover-route-recorded': 'ok',
+  'reasonable-with-a-funding-plan': 'ok',
+  'conditional-full-cover-route': 'warn',
+  'grades-not-checkable': 'warn',
+  'partial-route-only': 'warn',
+  'decide-on-cost-first': 'warn',
+  'programme-not-verified': 'neutral',
+  'not-researched': 'neutral',
+  'not-enough-evidence': 'neutral',
+  'no-route-recorded': 'neutral',
+  'below-recorded-minimum': 'bad',
+  'not-recommended-on-recorded-criteria': 'bad',
+};
+
+function AnswerPanel({ answer: a }: { answer: FundamentalAnswer }) {
+  const cards = [
+    { title: '1. Can you apply and get admitted?', verdict: a.can.verdict, label: a.can.label, items: a.can.reasons },
+    { title: '2. Can you study for free?', verdict: a.free.verdict, label: a.free.label, items: a.free.reasons },
+    { title: '3. Should you pursue it here?', verdict: a.should.verdict, label: a.should.label, items: a.should.forCaution.slice(0, 3) },
+  ];
+  return (
+    <section className="panel answer-panel" aria-labelledby="answer-h" aria-live="polite">
+      <h2 id="answer-h" style={{ marginTop: 0 }}>
+        The answer for {a.degree.name} at {a.university.name}, intake {a.intakeYear}
+      </h2>
+      <p className="small muted">
+        Built only from stored, dated records. “Not researched” means no record yet, not that the route is closed.
+      </p>
+      <div className="answer-grid">
+        {cards.map((c) => (
+          <article key={c.title} className="answer-card">
+            <h3>{c.title}</h3>
+            <p>
+              <StatusBadge tone={VERDICT_TONE[c.verdict] ?? 'neutral'}>{c.verdict.replace(/-/g, ' ')}</StatusBadge>
+            </p>
+            <p>{c.label}</p>
+            {c.items.length > 0 ? (
+              <ul className="bullets small">
+                {c.items.slice(0, 4).map((x) => (
+                  <li key={x}>{x}</li>
+                ))}
+              </ul>
+            ) : null}
+          </article>
+        ))}
+      </div>
+      <h3>How, in order</h3>
+      <ol className="small">
+        {a.how.map((h) => (
+          <li key={h}>{h}</li>
+        ))}
+      </ol>
+      {a.dossierId ? (
+        <p>
+          <a href={`/free-study/${a.university.id}`}>Open the full free-study dossier for this university</a>
+        </p>
+      ) : null}
+      <h3>Why and why not</h3>
+      <div className="why-grid">
+        <div>
+          <strong>Reasons for</strong>
+          <ul className="bullets small">
+            {a.should.forStudy.map((x) => (
+              <li key={x}>{x}</li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <strong>Reasons for caution</strong>
+          <ul className="bullets small">
+            {a.should.forCaution.map((x) => (
+              <li key={x}>{x}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+      <ul className="small muted">
+        {a.disclaimers.map((x) => (
+          <li key={x}>{x}</li>
         ))}
       </ul>
     </section>

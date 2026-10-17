@@ -1949,20 +1949,792 @@
       "qsProfileUrl": "https://www.topuniversities.com/universities/universiti-malaya-um",
       "country": "Malaysia",
       "city": "Kuala Lumpur",
-      "officialWebsite": null,
+      "officialWebsite": "https://study.um.edu.my/",
       "dataStatus": {
         "qsRank": "verified-official-page",
-        "programs": "not-researched",
-        "admissions": "not-researched",
-        "scholarships": "not-researched",
-        "costs": "not-researched"
+        "programs": "partially-researched",
+        "admissions": "partially-researched",
+        "scholarships": "partially-researched",
+        "costs": "partially-researched"
       },
       "lastVerified": "2026-10-17",
-      "programs": [],
-      "admissions": null,
+      "programs": [
+        {
+          "degreeId": "bachelor-computer-science",
+          "status": "verified",
+          "officialTitle": "Bachelor of Computer Science (Computer System and Network / Information Systems / Multimedia Computing / Software Engineering / Artificial Intelligence)",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "UM offers five specialisations under one fee line. The booklet title is a specialisation, so the catalogue's general degree is the closest match. Check the specialisation's curriculum.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 89200,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "3.5 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-artificial-intelligence",
+          "status": "verified",
+          "officialTitle": "Bachelor of Computer Science (Artificial Intelligence)",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Specialisation of UM's Bachelor of Computer Science. Confirm the curriculum before choosing this route.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 89200,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "3.5 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-software-engineering",
+          "status": "verified",
+          "officialTitle": "Bachelor of Computer Science (Software Engineering)",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Specialisation of UM's Bachelor of Computer Science. Confirm the curriculum before choosing this route.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 89200,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "3.5 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-sports-science",
+          "status": "verified",
+          "officialTitle": "Bachelor of Exercise Science",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Closest catalogue match for exercise science. Check the curriculum fit.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 82400,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "3.5 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-architecture",
+          "status": "verified",
+          "officialTitle": "Bachelor of Science in Architecture",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Booklet names it Bachelor of Science in Architecture. The catalogue entry is the closest match. Professional accreditation is not checked here.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 103900,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW / # / +",
+            "duration": "3 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-architecture-urban-planning",
+          "status": "verified",
+          "officialTitle": "Bachelor of Urban and Regional Planning",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Closest catalogue match.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 96100,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-civil-engineering",
+          "status": "verified",
+          "officialTitle": "Bachelor of Civil Engineering",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "exact-title",
+          "matchNote": "Same title in the booklet.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 132100,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-biomedical-engineering",
+          "status": "verified",
+          "officialTitle": "Bachelor of Biomedical Engineering",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "exact-title",
+          "matchNote": "Same title in the booklet.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 132100,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-electrical-engineering",
+          "status": "verified",
+          "officialTitle": "Bachelor of Electrical Engineering",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "exact-title",
+          "matchNote": "Same title in the booklet.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 132100,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-mechanical-engineering",
+          "status": "verified",
+          "officialTitle": "Bachelor of Mechanical Engineering",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "exact-title",
+          "matchNote": "Same title in the booklet.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 132100,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-chemical-engineering",
+          "status": "verified",
+          "officialTitle": "Bachelor of Chemical Engineering",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "exact-title",
+          "matchNote": "Same title in the booklet.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 132100,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-chemistry",
+          "status": "verified",
+          "officialTitle": "Bachelor of Science in Chemistry",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "exact-title",
+          "matchNote": "Same subject; booklet adds \"Science\".",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 78500,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-biology",
+          "status": "verified",
+          "officialTitle": "Bachelor of Science in Ecology and Biodiversity",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Closest catalogue match for ecology and biodiversity.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 70600,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-physics",
+          "status": "verified",
+          "officialTitle": "Bachelor of Science in Physics",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "exact-title",
+          "matchNote": "Same subject; booklet adds \"Science\".",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 70600,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-environmental-sciences",
+          "status": "verified",
+          "officialTitle": "Bachelor of Science in Environmental Management",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Closest catalogue match. Mode shown as IM in the booklet, which is not defined in the extract.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 70600,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "IM",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-geology",
+          "status": "verified",
+          "officialTitle": "Bachelor of Science in Applied Geology",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Closest catalogue match.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 78400,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-molecular-biology",
+          "status": "verified",
+          "officialTitle": "Bachelor of Science in Biochemistry",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Closest catalogue match for biochemistry.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 70600,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-molecular-biology",
+          "status": "verified",
+          "officialTitle": "Bachelor of Science in Microbiology and Molecular Genetics",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Closest catalogue match. A separate UM programme record exists for the same catalogue degree.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 70600,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-mathematics",
+          "status": "verified",
+          "officialTitle": "Bachelor of Science in Mathematics",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "exact-title",
+          "matchNote": "Same subject; booklet adds \"Science\".",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 78400,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-statistics",
+          "status": "verified",
+          "officialTitle": "Bachelor of Science in Statistics",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "exact-title",
+          "matchNote": "Same subject; booklet adds \"Science\".",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 70600,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-actuarial-science",
+          "status": "verified",
+          "officialTitle": "Bachelor of Actuarial Science",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "exact-title",
+          "matchNote": "Same title in the booklet.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 78400,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-medicine-surgery",
+          "status": "verified",
+          "officialTitle": "Bachelor of Medicine & Bachelor of Surgery",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "exact-title",
+          "matchNote": "Same title. The booklet lists a single figure for the five-year degree. Note UM's own intake deadline for this programme is earlier than the general one.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 673200,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW / # / +",
+            "duration": "5 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-nursing",
+          "status": "verified",
+          "officialTitle": "Bachelor of Nursing Science",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Closest catalogue match.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 149200,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-pharmaceutical-science",
+          "status": "verified",
+          "officialTitle": "Bachelor of Pharmacy",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Closest catalogue match. Pharmacy is a professional degree; check registration requirements in Pakistan and the destination country separately.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 280100,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW / # / +",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-economics",
+          "status": "verified",
+          "officialTitle": "Bachelor of Economics",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "exact-title",
+          "matchNote": "Same title in the booklet.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 77100,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "3.5 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-accounting",
+          "status": "verified",
+          "officialTitle": "Bachelor of Accounting",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "exact-title",
+          "matchNote": "Same title in the booklet.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 99100,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-business-administration",
+          "status": "verified",
+          "officialTitle": "Bachelor of Business Administration",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "exact-title",
+          "matchNote": "Same title in the booklet.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 77100,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "3.5 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-finance",
+          "status": "verified",
+          "officialTitle": "Bachelor of Finance",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "exact-title",
+          "matchNote": "Same title in the booklet.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 84100,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "3.5 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-linguistics",
+          "status": "verified",
+          "officialTitle": "Bachelor of English Language and Linguistics",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Closest catalogue match.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 70100,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "3.5 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-english-literature",
+          "status": "verified",
+          "officialTitle": "Bachelor of Arts English",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Closest catalogue match. UM lists it as English, not English literature.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 60900,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "3.5 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-education",
+          "status": "verified",
+          "officialTitle": "Bachelor of Education Teaching English as a Second Language",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Closest catalogue match for a teaching degree. Teacher registration is not checked here.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 75100,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW / #",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-education",
+          "status": "verified",
+          "officialTitle": "Bachelor of Early Childhood Education",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Closest catalogue match for a teaching degree. Teacher registration is not checked here.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 69600,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW / #",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-sociology",
+          "status": "verified",
+          "officialTitle": "Bachelor of Arts Anthropology and Sociology",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Closest catalogue match.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 60900,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "3.5 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-international-relations",
+          "status": "verified",
+          "officialTitle": "Bachelor of Arts International & Strategic Studies",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Closest catalogue match.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 65100,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "3.5 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-social-work",
+          "status": "verified",
+          "officialTitle": "Bachelor of Social Administration",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Closest catalogue match.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 60900,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "3.5 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-communications",
+          "status": "verified",
+          "officialTitle": "Bachelor of Media Studies",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Closest catalogue match. Mode shown as IM in the booklet.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 68100,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "IM",
+            "duration": "3.5 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-psychology",
+          "status": "verified",
+          "officialTitle": "Bachelor of Counselling",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Counselling is related to psychology but is not the same degree. Check the curriculum.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 69600,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW / #",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-islamic-studies",
+          "status": "verified",
+          "officialTitle": "Bachelor of Shariah",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Closest catalogue match for Islamic studies.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 60900,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "3.5 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-islamic-studies",
+          "status": "verified",
+          "officialTitle": "Bachelor of Usuluddin",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Closest catalogue match for Islamic studies.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 60900,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "3.5 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-islamic-studies",
+          "status": "verified",
+          "officialTitle": "Bachelor of Al-Quran and Al-Hadith",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Closest catalogue match for Islamic studies.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 60900,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "3.5 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-islamic-studies",
+          "status": "verified",
+          "officialTitle": "Bachelor of Shariah and Law",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Combined Shariah and law degree. The catalogue entry is Islamic studies; the law element is not separately recorded.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 82500,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "4 years"
+          }
+        },
+        {
+          "degreeId": "bachelor-environmental-sciences",
+          "status": "verified",
+          "officialTitle": "Bachelor of Environmental Studies",
+          "officialUrl": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+          "matchType": "closest-title",
+          "matchNote": "Closest catalogue match.",
+          "sourceId": "um-international-booklet",
+          "lastChecked": "2026-10-17",
+          "printedFee": {
+            "amount": 75900,
+            "currencyLabel": "not stated in the booklet extract (UM figures are expected to be MYR; verify on study.um.edu.my)",
+            "basis": "single figure printed beside the programme in the booklet; the extract does not say whether it is per year or for the whole programme",
+            "mode": "CW",
+            "duration": "3.5 years"
+          }
+        }
+      ],
+      "admissions": {
+        "sourceId": "um-asd-ug-faq",
+        "lastChecked": "2026-10-17",
+        "standardisedTests": "No SAT or ACT requirement is listed in UM's official undergraduate international FAQ. Check programme pages for any extra requirement.",
+        "englishTests": [
+          {
+            "test": "IELTS Academic",
+            "minimum": "5.0",
+            "recommended": null
+          },
+          {
+            "test": "TOEFL iBT",
+            "minimum": "60",
+            "recommended": null
+          },
+          {
+            "test": "TOEFL PBT",
+            "minimum": "500",
+            "recommended": null
+          },
+          {
+            "test": "TOEFL CBT",
+            "minimum": "173",
+            "recommended": null
+          },
+          {
+            "test": "PTE Academic",
+            "minimum": "41",
+            "recommended": null
+          },
+          {
+            "test": "MUET",
+            "minimum": "Band 3",
+            "recommended": null
+          },
+          {
+            "test": "Cambridge English (A-Level, O-Level or FCE)",
+            "minimum": "Grade C",
+            "recommended": null
+          }
+        ],
+        "englishRequirementNote": "These are the general minimums in UM's FAQ. The FAQ also lists programmes that require a higher English score, but it does not publish the higher figure. These are: Shariah and Law; Biomedical Science, Pharmacy and Nursing Science; Biochemistry, Biohealth, Genetics and Microbiology; the Computer Science and IT programmes; Civil, Biomedical, Electrical, Mechanical and Chemical Engineering; Accounting and Business Administration; TESL; Dental Surgery; and English Language and Linguistics. Check the specific figure before applying.",
+        "gradeMinimum": null,
+        "testDeadlines": "Not recorded.",
+        "notes": [
+          "Minimum entry qualification (UM ASD FAQ): 12 years of study and passing STPM, A-Level, IB, High School, Grade 12 or equivalent, or a recognised diploma with CGPA at least 3.00.",
+          "No percentage or grade minimum is published, so the matcher cannot check grades. Some selection programmes may also require an interview (ASD FAQ).",
+          "The ASD FAQ (last updated 2021) says UM does not offer foundation programmes to international students. The booklet lists foundation programmes priced at 35,000 with no stated currency. This conflict is not resolved here, and no foundation route is recorded.",
+          "The ASD FAQ gives the application fee as RM 300. Study@UM states MYR 500 per international application. This build uses the newer Study@UM figure, and it should be confirmed in the portal.",
+          "Intake months: the ASD FAQ (2021) says September (deadline 17 June) and February (deadline 11 November). Study@UM says October and March intakes for 2026/27. This build uses Study@UM. The March 2027 international window is 7 September 2026 to 30 January 2027."
+        ]
+      },
       "costs": null,
-      "scholarshipIds": [],
-      "notes": []
+      "scholarshipIds": [
+        "um-pte-x-um-scholarship-2026"
+      ],
+      "notes": [
+        "Fees are the printed figures in the UM International Booklet (updated 15 Dec 2025). The currency label and fee year are not in the extract, so they are shown as printed, not converted, and not described as verified MYR.",
+        "Entry and fees are not a guarantee of admission or funding. Confirm on study.um.edu.my and in the MAYA application portal.",
+        "Official ASD FAQ says there are no scholarships for undergraduate international students. The only international-eligible award on UM's official list is external (PTE)."
+      ]
     },
     {
       "id": "university-bristol",

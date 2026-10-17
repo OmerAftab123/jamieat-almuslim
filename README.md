@@ -75,6 +75,8 @@ docs/           Mission, roadmap, architecture, methodology, coverage, launch gu
 - [Research methodology](docs/RESEARCH_METHODOLOGY.md)
 - [Scoring methodology](docs/SCORING_METHODOLOGY.md)
 - [Data coverage](docs/DATA_COVERAGE.md)
+- [How the answer is built (can, free, should)](docs/ANSWER_LOGIC.md)
+- [Universiti Malaya research record](docs/UM_RESEARCH.md)
 - [Beginner launch guide (Windows / PowerShell first)](docs/BEGINNER_LAUNCH_GUIDE.md)
 
 ## Contributing and corrections

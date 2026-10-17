@@ -18,8 +18,19 @@ export default function HomePage() {
 
   return (
     <>
-      <section>
-        <h1>Choose a degree, a career and a university with evidence you can check</h1>
+      <section className="hero" aria-labelledby="hero-h">
+        <h1 id="hero-h">Choose a degree, a career and a university with evidence you can check</h1>
+        <div className="hero-actions">
+          <Link href="/matcher" className="button">
+            Answer my free-study question
+          </Link>
+          <Link href="/free-study/massachusetts-institute-technology-mit" className="button secondary">
+            See an example dossier (MIT)
+          </Link>
+          <Link href="/careers" className="button secondary">
+            Compare career families
+          </Link>
+        </div>
         <p className="lead">
           A research platform for Muslim students applying from any country as international undergraduates, with
           Pakistan as the default starting choice. It helps you compare degree families on seven transparent criteria, look up

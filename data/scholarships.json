@@ -64,6 +64,50 @@
       "verificationNote": "The MIT affordability page was fetched directly. The international aid page, FAQ and admitted-student page were read via search excerpts, not full fetches.",
       "loansIncluded": false,
       "loansNote": "MIT's official aid description states aid is grants and student work expectations and never includes loans (catalog.mit.edu excerpt)."
+    },
+    {
+      "id": "um-pte-x-um-scholarship-2026",
+      "universityId": "universiti-malaya-um",
+      "name": "PTE x Universiti Malaya Scholarship 2026",
+      "funder": "Pearson PTE (external sponsor, listed by UM ASD)",
+      "awardType": "external",
+      "classification": "partial",
+      "classificationNote": "UM's official page says GBP 3,000 towards tuition fees. That is a contribution, not a full tuition or full-ride award.",
+      "coverage": {
+        "tuition": "GBP 3,000 towards tuition fees (as stated by UM's official page)",
+        "living": "Not covered as far as the official summary states",
+        "travel": "Not covered as far as the official summary states"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "UM's official page describes it as for international students.",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "The UM summary does not say which programmes qualify. Check the sponsor's terms.",
+        "citizenshipOrResidency": "Not stated beyond 'international students'. Check the sponsor's terms.",
+        "nonUsApplicantNote": "Eligibility for Pakistani applicants follows from 'international students' on UM's page; confirm in the sponsor's terms.",
+        "academicConditions": "Not verified. The sponsor's page was not fetched in this build.",
+        "renewalConditions": "Not verified."
+      },
+      "requiredDocuments": [
+        "Not verified. Check the sponsor's terms."
+      ],
+      "applicationMethod": "Apply through the sponsor's page linked from UM's ASD financial aid page (not fetched in this build).",
+      "deadlines": {
+        "application": "31 December 2026 (per UM ASD page updated 14 Oct 2026)"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Everything beyond the GBP 3,000 contribution, including living costs, travel and visa costs (not verified)."
+      ],
+      "loansIncluded": false,
+      "loansNote": "UM's official summary does not describe it as a loan.",
+      "sources": [
+        "um-asd-financial-aid"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "The award and its amount and deadline are from UM's official page. Eligibility details and the application process are not verified until the sponsor's terms are read."
     }
   ]
 }

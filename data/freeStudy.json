@@ -12,12 +12,21 @@
         "can": {
           "verdict": "Yes, you can apply.",
           "detail": "MIT's official aid pages say international applicants are considered through the same admissions and aid process as domestic applicants. Admission itself is highly competitive: the official Class of 2029 figures show 136 admits from 6,926 international applicants, about 2%.",
-          "sourceIds": ["mit-admissions-stats", "mit-sfs-international"]
+          "sourceIds": [
+            "mit-admissions-stats",
+            "mit-sfs-international"
+          ]
         },
         "free": {
           "verdict": "Possibly, but not guaranteed and not automatic.",
           "detail": "The only free-money route is the need-based MIT Scholarship. MIT says it aims to meet 100% of demonstrated need, and that for families with typical incomes under $200,000 tuition is fully covered. Need is calculated from the CSS Profile and parental income documents, so the award depends on your family's finances. The official total cost of attendance for 2026–27 is $92,760. Travel, visa and health insurance are not verified as covered. MIT aid is grants and work, never loans. There is no merit, athletic or talent award.",
-          "sourceIds": ["mit-affordability", "mit-cost-of-attendance", "mit-catalog-financial-aid", "mit-scholarship-faq", "mit-athletics-letter"]
+          "sourceIds": [
+            "mit-affordability",
+            "mit-cost-of-attendance",
+            "mit-catalog-financial-aid",
+            "mit-scholarship-faq",
+            "mit-athletics-letter"
+          ]
         },
         "should": {
           "verdict": "Depends on your family's finances, your degree choice, and whether you accept a long-shot application.",
@@ -37,31 +46,41 @@
           "item": "Standardised test",
           "detail": "SAT or ACT required for first-year applicants.",
           "status": "verified-official",
-          "sourceIds": ["mit-first-year-tests"]
+          "sourceIds": [
+            "mit-first-year-tests"
+          ]
         },
         {
           "item": "English-language test",
           "detail": "Required when English is not your main language of instruction, or when you have used English for fewer than five years. Minimums (on a TOEFL iBT scale from 21 Jan 2026): TOEFL 5 (recommended 5.5), IELTS 7 (7.5), PTE 65 (70), Cambridge C1/C2 185 (190), Duolingo 120 (125). The official page says English tests are strongly recommended when English has been used for fewer than five years.",
           "status": "verified-official",
-          "sourceIds": ["mit-first-year-tests"]
+          "sourceIds": [
+            "mit-first-year-tests"
+          ]
         },
         {
           "item": "Grade or percentage minimum",
           "detail": "MIT publishes no grade minimum. Your school results are assessed holistically, so the matcher cannot check grades here.",
           "status": "verified-official-absence",
-          "sourceIds": ["mit-admissions-stats"]
+          "sourceIds": [
+            "mit-admissions-stats"
+          ]
         },
         {
           "item": "Financial aid application",
           "detail": "CSS Profile and parental income documents (translated into English where applicable).",
           "status": "verified-official",
-          "sourceIds": ["mit-sfs-international"]
+          "sourceIds": [
+            "mit-sfs-international"
+          ]
         },
         {
           "item": "Subject-specific requirements",
           "detail": "Not recorded per degree. Check the programme's prerequisites on MIT's course catalogue for the degree you choose.",
           "status": "not-verified",
-          "sourceIds": ["mit-degree-charts"]
+          "sourceIds": [
+            "mit-degree-charts"
+          ]
         },
         {
           "item": "Qualification equivalence (FSc, A-levels, O/A-levels)",
@@ -81,13 +100,19 @@
           "route": "Merit-based",
           "status": "none",
           "detail": "MIT offers no merit, academic, athletic or artistic scholarships. The official FAQ says aid is based only on financial need.",
-          "sourceIds": ["mit-scholarship-faq"]
+          "sourceIds": [
+            "mit-scholarship-faq"
+          ]
         },
         {
           "route": "Need-based (institutional)",
           "status": "available-conditional",
           "detail": "MIT Scholarship, need-based grant aimed at meeting 100% of demonstrated need for all four undergraduate years. Open to international applicants on the same process. Amount depends on your family's finances. Deadlines quoted: financial aid 30 November (Early Action) and 15 February (Regular Action). Re-check each cycle.",
-          "sourceIds": ["mit-affordability", "mit-sfs-international", "mit-admitted-affordability"]
+          "sourceIds": [
+            "mit-affordability",
+            "mit-sfs-international",
+            "mit-admitted-affordability"
+          ]
         },
         {
           "route": "National (Pakistan government or HEC)",
@@ -105,7 +130,9 @@
           "route": "Sports",
           "status": "none",
           "detail": "MIT competes in NCAA Division III, which does not offer athletic scholarships. MIT's athletics letter says the same. Coaches can answer questions about your sport, but no athletic aid is available.",
-          "sourceIds": ["mit-athletics-letter"]
+          "sourceIds": [
+            "mit-athletics-letter"
+          ]
         },
         {
           "route": "External (outside MIT)",
@@ -167,7 +194,9 @@
       },
       "degreeRanking": {
         "note": "Mapped MIT degrees ranked by the mean of the seven analyst-draft family scores (equal weights, unrounded for ordering). Scores are opinions with stated confidence. A high score does not mean the degree is recommended for any individual, and no degree is religiously required or prohibited.",
-        "sourceIds": ["mit-degree-charts"]
+        "sourceIds": [
+          "mit-degree-charts"
+        ]
       },
       "roadmap": [
         {
@@ -206,6 +235,320 @@
           "steps": [
             "Check the renewal and progress conditions of your aid each year, since they are not verified in this build.",
             "Use MIT's international student services for visa renewals and work-permit rules."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "um-free-study",
+      "universityId": "universiti-malaya-um",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry). The same record applies to any non-Malaysian applicant, with the country's own qualification rules checked separately.",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Yes, you can apply, but the grade cut-off is not published.",
+          "detail": "UM's official FAQ lists a 12-year school qualification (STPM, A-Level, IB, High School, Grade 12 or equivalent, or a recognised diploma with CGPA 3.00) and an English minimum (IELTS 5.0, TOEFL iBT 60, PTE 41, MUET band 3, or Cambridge Grade C). Some programmes need a higher English score, and the FAQ does not publish the number. No grade or percentage minimum is published, so the matcher cannot judge your grades. The March 2027 international window is open 7 Sept 2026 to 30 Jan 2027 on Study@UM.",
+          "sourceIds": [
+            "um-asd-ug-faq",
+            "um-study-how-to-apply"
+          ]
+        },
+        "free": {
+          "verdict": "No full-cover route is recorded. Only a small external award is listed.",
+          "detail": "UM's official FAQ says it does not offer scholarships to undergraduate international students. UM's official financial aid page lists the PTE x UM Scholarship 2026 for international students: GBP 3,000 towards tuition, deadline 31 Dec 2026. That is a partial contribution, not a full ride. The other awards UM lists are for Malaysian or Sabah students, are loans (PTPTN), or are Islamic financing (RHB), which is repayable and is not free. The EcoWorld and MMC awards are listed, but their eligibility for international students is not stated, so they are not counted here. Tuition alone is not a full ride. The printed programme figures are in the booklet and do not include living costs.",
+          "sourceIds": [
+            "um-asd-ug-faq",
+            "um-asd-financial-aid",
+            "um-international-booklet"
+          ]
+        },
+        "should": {
+          "verdict": "Decide on cost first. Tuition is the main cost, and it is not covered by a recorded full-cover route.",
+          "detail": "Printed UG tuition figures range from 59,400 to 673,200 across programmes, with the five-year medical degree the highest (see requirements). Currency and fee year are not confirmed in the booklet extract. Any choice depends on whether your family can meet the full cost, living costs included, for the full programme. UM may suit students who can self-fund and want a lower-cost Malaysian degree with an international intake. It is not a free option on the evidence in this record.",
+          "sourceIds": [
+            "um-international-booklet",
+            "um-asd-financial-aid"
+          ]
+        },
+        "how": [
+          "Pick a mapped bachelor's programme (see requirements) and check its English score on the UM programme page, because some programmes require more than the general minimum.",
+          "Check the intake calendar on study.um.edu.my. The March 2027 international window closes 30 Jan 2027.",
+          "Prepare certified transcripts, passport copy and English test. The FAQ says documents must be certified by the school principal, a government officer or commissioner of oath, or the embassy, and translated if not in English or Malay.",
+          "Apply online through the MAYA portal. Confirm the application fee (the official Study@UM figure is MYR 500; the older FAQ says RM 300).",
+          "If you want the PTE x UM award, apply through the sponsor's page before 31 Dec 2026 and check its terms first.",
+          "Before accepting, budget the full tuition for the chosen programme and your living costs, and confirm the currency and per-year or total basis of the printed fee."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Minimum qualification",
+          "detail": "12 years of study and passing STPM, A-Level, IB, High School, Grade 12 or equivalent, or a recognised diploma with CGPA at least 3.00.",
+          "status": "verified-official",
+          "sourceIds": [
+            "um-asd-ug-faq"
+          ]
+        },
+        {
+          "item": "English-language test",
+          "detail": "IELTS Academic 5.0; TOEFL iBT 60 (PBT 500, CBT 173); PTE Academic 41; MUET band 3; or Cambridge A-Level, O-Level or FCE grade C. Some programmes require a higher score, not published (see note).",
+          "status": "verified-official",
+          "sourceIds": [
+            "um-asd-ug-faq"
+          ]
+        },
+        {
+          "item": "Higher English score for listed programmes",
+          "detail": "Shariah and Law; Biomedical Science, Pharmacy, Nursing Science; Biochemistry, Biohealth, Genetics, Microbiology; Computer Science and IT programmes; Civil, Biomedical, Electrical, Mechanical, Chemical Engineering; Accounting, Business Administration; TESL; Dental Surgery; English Language and Linguistics. The required figure is not published.",
+          "status": "verified-official-absence-of-figure",
+          "sourceIds": [
+            "um-asd-ug-faq"
+          ]
+        },
+        {
+          "item": "Grade or percentage minimum",
+          "detail": "None published. The matcher cannot check your grades.",
+          "status": "verified-official-absence",
+          "sourceIds": [
+            "um-asd-ug-faq"
+          ]
+        },
+        {
+          "item": "Standardised test (SAT or ACT)",
+          "detail": "Not listed in UM's official undergraduate international FAQ.",
+          "status": "verified-official-absence",
+          "sourceIds": [
+            "um-asd-ug-faq"
+          ]
+        },
+        {
+          "item": "Interview",
+          "detail": "Some selection programmes may require an interview before acceptance.",
+          "status": "verified-official",
+          "sourceIds": [
+            "um-asd-ug-faq"
+          ]
+        },
+        {
+          "item": "Documents",
+          "detail": "Passport-size photos with blue background; certified passport copy (first page); certified academic certificates and transcripts; English test certificate if you have one; sponsor letter of guarantee if sponsored; application fee.",
+          "status": "verified-official",
+          "sourceIds": [
+            "um-asd-ug-faq"
+          ]
+        },
+        {
+          "item": "Application fee",
+          "detail": "Study@UM gives MYR 500 per international application (up to three programmes may be applied for). The ASD FAQ (2021) gives RM 300. Confirm in the portal.",
+          "status": "conflict-recorded",
+          "sourceIds": [
+            "um-study-faqs",
+            "um-study-how-to-apply",
+            "um-asd-ug-faq"
+          ]
+        },
+        {
+          "item": "Intakes and deadlines",
+          "detail": "Study@UM (2026/27): October intake window 9 Feb to 30 Aug 2026 (closed); March 2027 window 7 Sept 2026 to 30 Jan 2027 (open). The ASD FAQ (2021) says September (17 June) and February (11 November). Use Study@UM.",
+          "status": "conflict-recorded",
+          "sourceIds": [
+            "um-study-how-to-apply",
+            "um-asd-ug-faq"
+          ]
+        },
+        {
+          "item": "Entry requirements by programme",
+          "detail": "Requirements vary by programme and faculty. Check each programme page and the portal before you apply.",
+          "status": "verified-official",
+          "sourceIds": [
+            "um-study-faqs"
+          ]
+        },
+        {
+          "item": "Malay language course",
+          "detail": "International students must take a Malay language course during their study (ASD FAQ).",
+          "status": "verified-official",
+          "sourceIds": [
+            "um-asd-ug-faq"
+          ]
+        },
+        {
+          "item": "Foundation route",
+          "detail": "The ASD FAQ says UM does not offer foundation programmes to international students. The booklet lists foundation programmes. This conflict is not resolved, and no foundation route is recorded here.",
+          "status": "conflict-recorded",
+          "sourceIds": [
+            "um-asd-ug-faq",
+            "um-international-booklet"
+          ]
+        },
+        {
+          "item": "Subject-specific requirements",
+          "detail": "Not recorded per programme beyond the English notes above. Check each programme's prerequisites on UM's portal.",
+          "status": "not-verified",
+          "sourceIds": []
+        },
+        {
+          "item": "Qualification equivalence (FSc, Pakistani boards)",
+          "detail": "Not verified for UM. The FAQ mentions Grade 12 or equivalent, and UM may assess qualifications by cross-matching. Check with UM's admissions office with your transcript.",
+          "status": "not-verified",
+          "sourceIds": [
+            "um-study-faqs"
+          ]
+        },
+        {
+          "item": "Student visa (Malaysia) and travel",
+          "detail": "Not verified in this build. Check the Malaysian immigration and UM's international office before you plan travel.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit-based (UM institutional)",
+          "status": "none",
+          "detail": "UM's official FAQ says it does not offer scholarships to undergraduate international students. The FAQ is dated 2021 and should be checked on UM's current site.",
+          "sourceIds": [
+            "um-asd-ug-faq"
+          ]
+        },
+        {
+          "route": "Need-based (UM institutional)",
+          "status": "none",
+          "detail": "None recorded in UM's official undergraduate international FAQ. UM's official financial aid page lists no need-based award for international undergraduates.",
+          "sourceIds": [
+            "um-asd-ug-faq",
+            "um-asd-financial-aid"
+          ]
+        },
+        {
+          "route": "External (partial)",
+          "status": "available-conditional",
+          "detail": "PTE x UM Scholarship 2026: GBP 3,000 towards tuition for international students, deadline 31 Dec 2026. Eligibility details and application route are on the sponsor's page, which was not fetched in this build.",
+          "sourceIds": [
+            "um-asd-financial-aid"
+          ]
+        },
+        {
+          "route": "National (Pakistan government or HEC)",
+          "status": "not-verified",
+          "detail": "No Pakistani national scholarship for UM undergraduate study was checked in this build. Check HEC and the Pakistani embassy in Malaysia before assuming one exists.",
+          "sourceIds": []
+        },
+        {
+          "route": "National (Malaysia government)",
+          "status": "not-applicable",
+          "detail": "Malaysia International Scholarship (MIS) is for full-time postgraduate study (Master's or PhD). It is not an undergraduate route.",
+          "sourceIds": [
+            "mohe-mis-guidelines-2026"
+          ]
+        },
+        {
+          "route": "Sports",
+          "status": "not-verified",
+          "detail": "No sports award for UM undergraduate internationals was recorded.",
+          "sourceIds": []
+        },
+        {
+          "route": "Regional",
+          "status": "not-verified",
+          "detail": "No regional award (state or provincial) was recorded.",
+          "sourceIds": []
+        },
+        {
+          "route": "Other award listings on UM's page",
+          "status": "not-applicable-or-loan",
+          "detail": "PTPTN (Malaysian local higher education loan), BAeK PTPTN (Malaysian eKasih households), PTPS (Sabah students), AIA Penyala Harapan (UPU or Saluran Perdana admits), RHB CMTF-i (Islamic financing, repayable), PMG Pharmacy (eligibility not stated), EcoWorld (eligibility for international students not stated), MMC Group (eligibility for international students not stated).",
+          "sourceIds": [
+            "um-asd-financial-aid"
+          ]
+        }
+      ],
+      "trends": [
+        {
+          "label": "UG tuition figures printed in the booklet (lowest and highest bachelor's rows)",
+          "value": "59,400 (East Asian Studies) to 673,200 (Medicine & Surgery, 5 years). Currency and fee basis not confirmed in the extract.",
+          "sourceId": "um-international-booklet",
+          "kind": "official"
+        },
+        {
+          "label": "Printed engineering figure (4 years)",
+          "value": "132,100 for Civil, Biomedical, Electrical, Mechanical and Chemical Engineering.",
+          "sourceId": "um-international-booklet",
+          "kind": "official"
+        },
+        {
+          "label": "Printed computer science figure (3.5 years)",
+          "value": "89,200 for the five Computer Science specialisations.",
+          "sourceId": "um-international-booklet",
+          "kind": "official"
+        },
+        {
+          "label": "Application window, March 2027 intake",
+          "value": "7 Sept 2026 to 30 Jan 2027 (international, undergraduate).",
+          "sourceId": "um-study-how-to-apply",
+          "kind": "official"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "not-recorded",
+        "detail": "No verified student-reported or consultant trend data is recorded for UM. Third-party sites quote higher English and grade figures and scholarship amounts. These are not official and are not used here."
+      },
+      "reasoning": {
+        "forStudy": [
+          "UM's official FAQ sets a general English minimum (IELTS 5.0) and a general entry qualification (12 years plus Grade 12 or equivalent), which is a lower bar than many international destinations.",
+          "This build maps 42 UM programme records to catalogue degrees across sciences, engineering, business, Islamic studies and languages.",
+          "Printed tuition figures are well below the MIT cost of attendance in this dataset, though they are still substantial for a Pakistani family and are not a full ride.",
+          "Its Islamic studies programmes (Shariah, Usuluddin, Al-Quran and Al-Hadith, Shariah and Law) are directly relevant to a Muslim student who wants to study Islamic subjects at a QS-ranked university."
+        ],
+        "againstOrCaution": [
+          "No full-cover route is recorded. The only international award is a GBP 3,000 contribution to tuition, and it does not cover living costs or travel.",
+          "Some official pages conflict (intake months, application fee, foundation availability). Confirm with UM before you rely on any one figure.",
+          "The printed fees may not be in MYR and may not be per year. A wrong reading could be a large error for a family budget.",
+          "Grade thresholds are not published, so you cannot judge your chances from official data.",
+          "Malay language study is required for all international students, so plan for extra time."
+        ],
+        "decisionTest": [
+          "Can your family pay the full tuition for the programme and living costs for the whole course, without relying on a scholarship?",
+          "Does the specific UM programme's curriculum and English requirement match your background?",
+          "Would you still choose this degree and university if the PTE award or other partial aid did not come through?",
+          "Have you checked the currency, per-year or total basis and the current fee on study.um.edu.my?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Mapped UM degrees ranked by the mean of the seven analyst-draft family scores (equal weights, unrounded for ordering). Scores are opinions with stated confidence. A high score does not mean the degree is recommended for any individual, and no degree is religiously required or prohibited.",
+        "sourceIds": [
+          "um-international-booklet"
+        ]
+      },
+      "roadmap": [
+        {
+          "window": "Now (October 2026)",
+          "steps": [
+            "Shortlist two or three mapped UM programmes and read each programme page for the English requirement.",
+            "Check the current application fee and intake on study.um.edu.my and confirm it matches the record here.",
+            "Book your English test. The minimum is IELTS 5.0 (or equivalent), but some programmes require more."
+          ]
+        },
+        {
+          "window": "Before 31 December 2026",
+          "steps": [
+            "If you want the PTE x UM Scholarship, read the sponsor's terms and apply before 31 Dec 2026.",
+            "Ask your school or board for certified transcripts and translations if needed."
+          ]
+        },
+        {
+          "window": "Before 30 January 2027 (March 2027 intake close)",
+          "steps": [
+            "Apply through the MAYA portal and pay the application fee.",
+            "Upload certified documents and wait for faculty review (the FAQ says 4 to 8 weeks)."
+          ]
+        },
+        {
+          "window": "After an offer",
+          "steps": [
+            "Confirm the full tuition and living budget for the whole programme. Do not assume tuition alone is covered.",
+            "Check visa and travel requirements with the Malaysian immigration service.",
+            "Keep copies of every document and confirmation, and record the currency and basis of every fee."
           ]
         }
       ]

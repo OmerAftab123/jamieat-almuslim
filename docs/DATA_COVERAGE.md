@@ -9,8 +9,8 @@ This page states what the dataset contains and what it does not. Figures are as 
 | Bachelor's degrees | `data/degrees.json` | **102** | Canonical list with aliases. Each maps to one career family. |
 | Career families | `data/families.json` | **41** | All seven criteria scored for every family. Scores are judgements. |
 | Universities (QS 2027) | `data/universities.json` | **150** | Ranks 1 to =150 from the official QS page. Ties kept as published. |
-| Scholarships | `data/scholarships.json` | **1** | MIT need-based undergraduate aid. |
-| Sources | `data/sources.json` | **16** | Each with a URL, type and last-checked date. |
+| Scholarships | `data/scholarships.json` | **2** | MIT need-based undergraduate aid; UM PTE x UM Scholarship 2026 (external, partial). |
+| Sources | `data/sources.json` | **22** | Each with a URL, type and last-checked date. |
 | Exchange rates | `data/fx.json` | **2** | USD to PKR 276.9545 (SBP M2M, 14 Oct 2026); USD to EUR from ECB reference rate (16 Oct 2026). Other currencies: user-entered, unverified. |
 
 Validation status at this commit: `npm run validate:data` passes on these counts.
@@ -37,11 +37,11 @@ If the intended meaning was 100+ families, the dataset needs more families or a 
 | Field | Status |
 |---|---|
 | QS rank and score | Verified (official page) for all 150 |
-| Undergraduate programme list | Verified for MIT only: 22 MIT degree charts mapped to catalogue degrees (12 exact titles, 10 closest titles). Not researched for the other 149. |
-| Admission requirements | MIT only: SAT/ACT requirement, English-test minimums and recommended scores, test deadlines. No grade minimum is published, so the matcher cannot check grades for MIT. Not researched for the other 149. |
-| Tuition and fees | Not researched, except the MIT total cost figure |
-| Scholarships | Only MIT has a record (need-based aid) |
-| Free-study dossiers | `data/freeStudy.json` | **1** | MIT only: can/free/should answers, official requirements, scholarship routes by type (merit, need, national, regional, institutional, sports, external), admission trends, reasoning, ranked mapped degrees, roadmap. All other universities: no dossier. |
+| Undergraduate programme list | Verified for MIT (22 degree charts) and Universiti Malaya (42 programmes from the UM International Booklet). Both are mapped to catalogue degrees by exact or closest title. Not researched for the other 148. |
+| Admission requirements | MIT: SAT/ACT, English-test minimums and recommended scores, test deadlines. UM: general English minimums, 12-year qualification rule, higher-English programme list (figures not published), no grade minimum. Neither publishes a grade minimum, so grades cannot be checked for either. Not researched for the other 148. |
+| Tuition and fees | MIT total cost figure (USD). UM printed programme figures, shown as printed: currency and per-year or total basis not confirmed. Not researched for the other 148. |
+| Scholarships | MIT (need-based) and UM (one external partial award). UM's official FAQ says it offers no undergraduate scholarship to international students. |
+| Free-study dossiers | `data/freeStudy.json` | **2** | MIT and Universiti Malaya: can/free/should answers, official requirements, scholarship routes by type, official trends, reasoning, ranked mapped degrees, roadmap. All other universities: no dossier. |
 | Official website | Not recorded for any university |
 
 The matcher therefore reports `program-not-verified` for pairs without a verified programme. This is the correct behaviour and not a bug.

@@ -32,13 +32,27 @@ Status key: **Done** = in the repository and checked. **In progress** = partly b
 ## Phase 2c: Free-study dossier (MIT pilot, done)
 
 - `data/freeStudy.json` answers, for one university, whether a Pakistani international undergraduate can apply, study for free, and should. Each answer is linked to sources. The page is at `/free-study/<university-id>`.
-- MIT is the only dossier. Its official sources: Class of 2029 admissions statistics (6,926 international applicants, 136 admitted), need-only aid with no merit, athletic or talent awards, and CSS Profile requirements.
+- MIT and Universiti Malaya are the two dossiers (see below).
+- MIT is the first dossier. Its official sources: Class of 2029 admissions statistics (6,926 international applicants, 136 admitted), need-only aid with no merit, athletic or talent awards, and CSS Profile requirements.
 - Not done: dossiers for the other 149 universities; national (HEC, embassy), regional and external scholarships for MIT; unofficial trend data; visa and credential-equivalence checks.
 - Degree rankings use the analyst-draft family scores (`lib/ranking.ts`, tested). They are not evidence of outcomes.
 
-## Phase 2 next step: Universiti Malaya (started, not recorded)
+## Phase 2 pilot 2: Universiti Malaya (done, partially researched)
 
-Universiti Malaya is the next pilot because Malaysia is a common destination for Muslim students from many countries. Official sources located so far: Study@UM FAQs (`study.um.edu.my/faqs-amp-info`), the International Booklet, and the ASD admissions FAQ (`aasd.um.edu.my/faq-admission`). Third-party sites give conflicting figures (IELTS 5.0 in the official FAQ and 6.5 on aggregator sites; a 65% grade threshold on aggregators that the official pages do not state). No UM record is written until the official programme list and entry-requirement pages are read and recorded.
+- Official sources read: the UM International Booklet (updated 15 Dec 2025; chunks 0–3 of 5), the ASD undergraduate international FAQ and financial aid page (both fetched in full), and Study@UM intake and fee pages (search excerpts). Full record: `docs/UM_RESEARCH.md`.
+- 42 bachelor's programme records mapped to catalogue degrees (exact or closest title). Printed fees are shown as printed; currency and per-year or total basis are unconfirmed.
+- Admissions: general English minimums (IELTS 5.0, TOEFL iBT 60, PTE 41, MUET 3, Cambridge grade C), 12-year qualification rule, higher-English programme list (figures not published), no grade minimum (grades not checkable).
+- Funding: no UM institutional scholarship for undergraduate internationals (official FAQ, dated 2021). One partial external award, the PTE x UM Scholarship (GBP 3,000 towards tuition, deadline 31 Dec 2026). Loans and Islamic financing are listed but not counted as free.
+- Four official conflicts are recorded, not resolved: intake months, application fee (RM 300 vs MYR 500), foundation availability and English minimum (aggregator figures). See `docs/UM_RESEARCH.md`.
+- Not done: the PTE sponsor terms, UM costs in USD, living costs, visa, and a re-check of the live portal.
+
+## Phase 2 answer engine and matcher (done in this build)
+
+- `lib/answer.ts` answers the fundamental question (can / free / should / how) from stored evidence. Logic is documented in `docs/ANSWER_LOGIC.md`.
+- Low-relevance routes (for example need-based aid when the student has said they do not need aid) are not counted as full or partial routes. Unit tests cover this.
+- The matcher shows an answer panel above the detailed match report.
+- Home page hero and calls to action; a sticky header and a responsive design layer in `app/globals.css`.
+- Test coverage now includes answer logic for MIT (need unknown and need not required), an unverified programme, and UM (partial route only).
 
 ## Phase 2: Fill the evidence gaps (started)
 
@@ -48,6 +62,7 @@ Universiti Malaya is the next pilot because Malaysia is a common destination for
 - Matcher fix: a record without a grade minimum no longer counts as "requirements met".
 - Profile page: programme and admissions tables replace the raw JSON display.
 - Not yet done in this pilot: MIT scholarship re-verification, per-programme costs, and browser E2E re-run in this environment (no browser available here).
+- Universiti Malaya is the second dossier. See the UM pilot section above.
 
 The next steps below remain open.
 

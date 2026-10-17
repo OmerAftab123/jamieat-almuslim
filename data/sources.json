@@ -298,6 +298,96 @@
         "no athletic scholarships",
         "athletes admitted on the same academic standards"
       ]
+    },
+    {
+      "id": "um-international-booklet",
+      "title": "Universiti Malaya International Booklet (updated 15 Dec 2025)",
+      "publisher": "Universiti Malaya (Study@UM)",
+      "url": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+      "type": "primary-official",
+      "publishedOrRevised": "2025-12-15 (as printed in file name)",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Read chunks 0-3 of 5 of the PDF text via fetch. Undergraduate tables (Faculty, programme name, printed figure, mode code, duration) were transcribed. The extract does not state the currency label or fee year, so printed figures are not presented as verified MYR amounts. Chunk 4 (remaining postgraduate tables) was not read; it does not affect bachelor's records.",
+      "supports": [
+        "UM bachelor's programme names and printed figures",
+        "programme durations",
+        "faculty structure"
+      ]
+    },
+    {
+      "id": "um-study-how-to-apply",
+      "title": "Study@UM - How to Apply",
+      "publisher": "Universiti Malaya",
+      "url": "https://study.um.edu.my/how-to-apply",
+      "type": "primary-official",
+      "publishedOrRevised": "Not stated on page; snapshot seen in search results dated 26 Aug 2026",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Read via search-result excerpt only; the full page was not fetched. Gives 2026/27 undergraduate international intake windows and the MYR 500 international application fee.",
+      "supports": [
+        "UG international Semester I (October) window closed 30 Aug 2026",
+        "UG international Semester II (March 2027) window 7 Sep 2026 to 30 Jan 2027",
+        "international application fee MYR 500 per application"
+      ]
+    },
+    {
+      "id": "um-study-faqs",
+      "title": "Study@UM - FAQs & Info",
+      "publisher": "Universiti Malaya",
+      "url": "https://study.um.edu.my/faqs-amp-info",
+      "type": "primary-official",
+      "publishedOrRevised": "Not stated on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Read in an earlier build (chunk 0 of 9), and again through a search excerpt in this build. Used for the statement that entry requirements vary by programme and faculty.",
+      "supports": [
+        "entry requirements vary by programme and faculty",
+        "documents must be certified and translated"
+      ]
+    },
+    {
+      "id": "um-asd-ug-faq",
+      "title": "Academic Services Department - FAQ Undergraduate International Admission",
+      "publisher": "Universiti Malaya ASD",
+      "url": "https://aasd.um.edu.my/faq-ug-international-admission",
+      "type": "primary-official",
+      "publishedOrRevised": "Page says 'Last Update: 02/12/2021'",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched both chunks in full. Several answers look out of date against Study@UM (intake months, application fee, foundation wording). Each conflict is recorded in the university notes rather than resolved silently.",
+      "supports": [
+        "minimum entry qualification (12 years plus STPM/A-Level/IB/High School/Grade 12, or diploma CGPA 3.00)",
+        "English minimums (IELTS 5.0, TOEFL iBT 60, PTE 41, MUET band 3)",
+        "programmes with higher English score requirements (no numbers published)",
+        "no scholarship for UG international students (per FAQ)",
+        "documents list",
+        "programme durations"
+      ]
+    },
+    {
+      "id": "um-asd-financial-aid",
+      "title": "Academic Services Department - Financial Aid for Undergraduate",
+      "publisher": "Universiti Malaya ASD",
+      "url": "https://aasd.um.edu.my/financial-aid-for-undergraduate",
+      "type": "primary-official",
+      "publishedOrRevised": "Page says 'Last Update: 14/10/2026'",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched in full. Lists external awards and loans UM publishes. Eligibility is stated only where the page says so; most entries are for Malaysian students, and others are not stated.",
+      "supports": [
+        "PTE x UM Scholarship 2026 (GBP 3,000 towards tuition, deadline 31 Dec 2026, international students)",
+        "other listed awards and their stated eligibility",
+        "PTPTN and RHB financing are loans or financing, not scholarships"
+      ]
+    },
+    {
+      "id": "mohe-mis-guidelines-2026",
+      "title": "Malaysia International Scholarship (MIS) 2026 Guidelines",
+      "publisher": "Ministry of Higher Education Malaysia (MOHE)",
+      "url": "https://biasiswa.mohe.gov.my/INTER/doc/MIS/Guidelines%20MIS%202026.pdf",
+      "type": "primary-official",
+      "publishedOrRevised": "Not stated in excerpt",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Read via search-result excerpt only. Stated that MIS is for full-time postgraduate study (Master's or PhD) for citizens of recipient countries, and that UM is a listed public university.",
+      "supports": [
+        "MIS is postgraduate only (not an undergraduate route)"
+      ]
     }
   ]
 }

@@ -598,3 +598,172 @@ ul.bullets {
     animation: none !important;
   }
 }
+
+/* ---------- Design layer (Phase 2): clearer hierarchy, calmer surfaces, easier scanning ---------- */
+
+:root {
+  --shadow-sm: 0 1px 2px rgba(20, 40, 33, 0.06);
+  --shadow-md: 0 6px 18px rgba(20, 40, 33, 0.08);
+  --brand-soft: #e8f1ee;
+  --accent-soft: #f7efe2;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  box-shadow: 0 2px 10px rgba(20, 40, 33, 0.18);
+}
+
+.brand {
+  letter-spacing: 0.01em;
+}
+
+.nav-list a {
+  display: inline-block;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+}
+
+.nav-list a:hover {
+  background: rgba(255, 255, 255, 0.14);
+  text-decoration: none;
+}
+
+.nav-list a:focus-visible,
+.brand:focus-visible,
+.card-link:focus-visible,
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.main {
+  padding-top: 1.6rem;
+  padding-bottom: 3rem;
+}
+
+.lead {
+  font-size: 1.08rem;
+  color: var(--muted);
+  max-width: 68ch;
+}
+
+/* Hero block for the home page. */
+.hero {
+  background: linear-gradient(135deg, var(--brand-soft) 0%, #ffffff 55%, var(--accent-soft) 100%);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: clamp(1.2rem, 3vw, 2.2rem);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 1.4rem;
+}
+
+.hero h1 {
+  margin-top: 0.2em;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+/* Cards and panels: a little depth, same palette. */
+.card,
+.panel {
+  box-shadow: var(--shadow-sm);
+}
+
+.card-link:hover .card,
+.card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.panel {
+  padding: 1.1rem 1.2rem;
+}
+
+/* The three-part answer. */
+.answer-panel {
+  border-top: 4px solid var(--brand);
+  background: linear-gradient(180deg, #ffffff 0%, var(--brand-soft) 220%);
+}
+
+.answer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 0.9rem;
+  margin: 0.8rem 0 1rem;
+}
+
+.answer-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.answer-card h3 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+/* Tables: easier to scan across rows. */
+.table-wrap {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.table-wrap table tbody tr:nth-child(even) {
+  background: #fbfcfa;
+}
+
+.table-wrap table tbody tr:hover {
+  background: var(--brand-soft);
+}
+
+/* Badges read as status, not decoration. */
+.badge {
+  letter-spacing: 0.01em;
+}
+
+/* Keep long URLs and words from breaking layouts on small screens. */
+p,
+li,
+td,
+dd {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 640px) {
+  .main {
+    padding-top: 1rem;
+  }
+  .hero {
+    padding: 1rem;
+  }
+  .answer-grid,
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+  .nav-list {
+    gap: 0.2rem;
+  }
+}
