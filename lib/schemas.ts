@@ -141,6 +141,8 @@ export const scholarshipSchema = z.object({
   name: z.string().min(1),
   funder: z.string(),
   awardType: z.enum(['need-based', 'merit-based', 'mixed', 'nomination', 'external', 'unknown']),
+  /** Which of the six award types apply. Optional for older records; the report falls back to awardType. */
+  scholarshipTypes: z.array(z.enum(['merit', 'need', 'national', 'regional', 'institutional', 'sports'])).optional(),
   classification: z.enum(['full-tuition', 'full-ride', 'full-cost-of-attendance', 'partial', 'unconfirmed']),
   classificationNote: z.string(),
   coverage: z.record(z.string(), z.string()),

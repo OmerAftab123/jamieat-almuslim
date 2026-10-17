@@ -78,3 +78,32 @@ All other universities show "not researched" for the free-study answer. This is 
 - Printed fees are shown as printed. Currency and per-year or total basis are only confirmed where the source says so.
 - Visas, language-test equivalence, national scholarships for each country and living-cost data are mostly not verified yet.
 - The matcher runs in the browser. Nothing is sent to a server.
+
+## Pair report: any bachelor category at any QS university (added 17 Oct 2026)
+
+Page: `/explore` (component `components/PairExplorer.tsx`; logic `lib/pairReport.ts`; tests `tests/pairReport.test.ts`).
+
+For one category and one university, for a Pakistani international undergraduate, the report contains:
+
+1. **Can, should and how**: the fundamental answer from `answerFundamentalQuestion`, with a default profile (no grades or aid need entered).
+2. **Programme**: verified only when the university's official course list has a verified record for that category. Otherwise "not verified".
+3. **Official requirements**: general admission, and subject-specific rows from the free-study dossier (or the admissions record when no dossier exists).
+4. **Unofficial and trend-based**: from the dossier's `unofficialTrends` and `trends`, always labelled with their kind and source. Nothing is presented as official.
+5. **Scholarships by type**: merit, need, national, regional, institutional and sports. Records use `scholarshipTypes` (or a fallback from `awardType`). Dossier routes are mapped by keyword (`routeTypes`). A type with no record shows "not researched". A record whose `degreeFamilyScope` excludes the category, or whose citizenship rule excludes Pakistan, is shown as "not for this category".
+6. **Reasoning**: university reasons for and against (from the dossier), and degree reasons for and against (from the analyst-draft family scores: scores 3 to 4 as reasons for, 0 to 1 as cautions). Degree scores are family-level, not university-specific.
+7. **Structured roadmap**: five stages (confirm the category, meet admission requirements, plan the funding route, apply, study and keep the award). Dates come only from dossier roadmaps.
+
+**Completeness** is the number of five evidence checks passed: programme verified; official admission requirements recorded; subject requirements verified; scholarship records by type; trend data recorded. A pair is complete only when all five pass. Most pairs pass fewer.
+
+### What is coded versus what is complete (17 Oct 2026)
+
+- Coded: the report, the explorer page, the six-type scholarship grouping, the completeness checks and the tests. Every one of the 15,300 pairs (102 categories x 150 universities) produces a report without error.
+- Not complete: the ranking. Programme-level verification exists for 2 universities only (MIT, UM), so degree ordering is available only for those 2. Family scores are analyst drafts (`families.json`, status "analyst-draft") and are not yet cross-checked against the labour-market datasets in `data/sources.json`.
+- Not complete: dossiers exist for 20 universities. Requirements, scholarships and trends for the other 130 are "not researched".
+- Not tested in a browser: the explorer's interactive behaviour (no browser in this sandbox). The build and unit tests pass.
+
+### Data corrections made with this change
+
+- Edinburgh's Mathematics award was tagged to every category; it now applies only to the mathematics-statistics family.
+- Imperial's Inspires award used subject names instead of family IDs, so it never matched; it now lists the matching families.
+- Each scholarship record has a `scholarshipTypes` list (merit, need, national, regional, institutional, sports).

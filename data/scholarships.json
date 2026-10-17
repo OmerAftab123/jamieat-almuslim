@@ -63,7 +63,10 @@
       "verificationStatus": "official-sources-partially-verified",
       "verificationNote": "The MIT affordability page was fetched directly. The international aid page, FAQ and admitted-student page were read via search excerpts, not full fetches.",
       "loansIncluded": false,
-      "loansNote": "MIT's official aid description states aid is grants and student work expectations and never includes loans (catalog.mit.edu excerpt)."
+      "loansNote": "MIT's official aid description states aid is grants and student work expectations and never includes loans (catalog.mit.edu excerpt).",
+      "scholarshipTypes": [
+        "need"
+      ]
     },
     {
       "id": "um-pte-x-um-scholarship-2026",
@@ -112,7 +115,10 @@
       ],
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-verified",
-      "verificationNote": "Eligibility, entry steps, judging, deadline and prize are verified from the sponsor's terms. Whether a March 2027 application counts is not stated and should be confirmed with UM or Pearson."
+      "verificationNote": "Eligibility, entry steps, judging, deadline and prize are verified from the sponsor's terms. Whether a March 2027 application counts is not stated and should be confirmed with UM or Pearson.",
+      "scholarshipTypes": [
+        "merit"
+      ]
     },
     {
       "id": "harvard-financial-aid",
@@ -157,7 +163,11 @@
       ],
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-partially-verified",
-      "verificationNote": "Policy and cost are from Harvard's official pages. Individual award amounts, the financial aid deadline for international applicants, and documents for Pakistan are not verified."
+      "verificationNote": "Policy and cost are from Harvard's official pages. Individual award amounts, the financial aid deadline for international applicants, and documents for Pakistan are not verified.",
+      "scholarshipTypes": [
+        "need",
+        "institutional"
+      ]
     },
     {
       "id": "stanford-undergrad-aid",
@@ -201,7 +211,11 @@
       ],
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-partially-verified",
-      "verificationNote": "Need-based policy and statistics are verified. Full-need policy, deadlines and international documents are not verified."
+      "verificationNote": "Need-based policy and statistics are verified. Full-need policy, deadlines and international documents are not verified.",
+      "scholarshipTypes": [
+        "need",
+        "institutional"
+      ]
     },
     {
       "id": "imperial-inspires-2027",
@@ -220,12 +234,27 @@
         "applicantScopeNote": "Must be an international student paying the Overseas rate of tuition (official).",
         "requiresFinancialNeed": false,
         "degreeFamilyScope": [
-          "Engineering",
-          "Natural Sciences",
-          "Medicine",
-          "Business (Imperial Business School)"
+          "electrical-electronics-computer",
+          "mechanical-manufacturing-industrial",
+          "civil-construction-built-environment",
+          "chemical-materials",
+          "energy-mining-petroleum",
+          "aerospace-aviation",
+          "marine-naval-ocean",
+          "biomedical-bioengineering",
+          "biology-life-sciences",
+          "physical-sciences",
+          "earth-sciences",
+          "mathematics-statistics",
+          "medicine-clinical",
+          "business-management",
+          "accounting",
+          "finance-economics-actuarial",
+          "software-computing",
+          "ai-data-science",
+          "cybersecurity"
         ],
-        "programmeScopeNote": "Full-time, on-campus undergraduate courses in Engineering, Natural Sciences, Medicine and Imperial Business School. Other faculties are not in scope.",
+        "programmeScopeNote": "Official subject areas: Engineering, Natural Sciences, Medicine, Business. Mapped to the matching platform families (analyst mapping; confirm with Imperial).",
         "citizenshipOrResidency": "Any nationality paying Overseas fees (Pakistani citizens are not excluded; fee status is decided by residency and nationality rules).",
         "nonUsApplicantNote": "Fee status is assessed by Imperial; check your status before applying.",
         "academicConditions": "Assessed on academic merit and potential through the UCAS application, admissions test and interview; optional 250-word statement.",
@@ -254,7 +283,11 @@
       ],
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-verified",
-      "verificationNote": "Amount, eligibility, scope and deadlines are verified from Imperial's official page. Overseas tuition for each course is not verified here."
+      "verificationNote": "Amount, eligibility, scope and deadlines are verified from Imperial's official page. Overseas tuition for each course is not verified here.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
     },
     {
       "id": "cambridge-trust-undergraduate",
@@ -297,7 +330,10 @@
       ],
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-partially-verified",
-      "verificationNote": "Existence, eligibility route and means-testing are from the official excerpt. Pakistan eligibility, amounts and deadlines are not verified."
+      "verificationNote": "Existence, eligibility route and means-testing are from the official excerpt. Pakistan eligibility, amounts and deadlines are not verified.",
+      "scholarshipTypes": [
+        "need"
+      ]
     },
     {
       "id": "eth-international-scholarship",
@@ -341,7 +377,11 @@
       ],
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-partially-verified",
-      "verificationNote": "Route is after first year (official). Pakistan-specific terms not verified."
+      "verificationNote": "Route is after first year (official). Pakistan-specific terms not verified.",
+      "scholarshipTypes": [
+        "need",
+        "institutional"
+      ]
     },
     {
       "id": "ucl-global-undergraduate-scholarship",
@@ -387,7 +427,11 @@
       ],
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-verified",
-      "verificationNote": "Award types and deadline for 2026/27 are verified from UCL's official page. The 2027/28 cycle is not published."
+      "verificationNote": "Award types and deadline for 2026/27 are verified from UCL's official page. The 2027/28 cycle is not published.",
+      "scholarshipTypes": [
+        "need",
+        "institutional"
+      ]
     },
     {
       "id": "nus-international-undergraduate-scholarship",
@@ -434,7 +478,11 @@
       ],
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-partially-verified",
-      "verificationNote": "Merit basis and amounts are from NUS's official page. Tuition coverage is not confirmed."
+      "verificationNote": "Merit basis and amounts are from NUS's official page. Tuition coverage is not confirmed.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
     },
     {
       "id": "hku-belt-and-road-scholarship",
@@ -479,7 +527,11 @@
       ],
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-partially-verified",
-      "verificationNote": "Full tuition is the official maximum. Pakistani eligibility and the 2027 deadline are not verified."
+      "verificationNote": "Full tuition is the official maximum. Pakistani eligibility and the 2027 deadline are not verified.",
+      "scholarshipTypes": [
+        "merit",
+        "regional"
+      ]
     },
     {
       "id": "caltech-need-based-aid",
@@ -528,7 +580,11 @@
       ],
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-verified",
-      "verificationNote": "Policy and deadlines from Caltech's official aid statement. Individual amounts depend on assessment."
+      "verificationNote": "Policy and deadlines from Caltech's official aid statement. Individual amounts depend on assessment.",
+      "scholarshipTypes": [
+        "need",
+        "institutional"
+      ]
     },
     {
       "id": "tum-international-scholarship",
@@ -574,7 +630,12 @@
       ],
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-partially-verified",
-      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open."
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open.",
+      "scholarshipTypes": [
+        "merit",
+        "need",
+        "institutional"
+      ]
     },
     {
       "id": "u-toronto-international-scholar-award",
@@ -617,7 +678,11 @@
       ],
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-partially-verified",
-      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open."
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
     },
     {
       "id": "u-toronto-pearson-scholarship",
@@ -661,7 +726,11 @@
       ],
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-partially-verified",
-      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open."
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
     },
     {
       "id": "melbourne-international-undergraduate-scholarship",
@@ -705,7 +774,11 @@
       ],
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-partially-verified",
-      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open."
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
     },
     {
       "id": "melbourne-international-excellence-undergraduate",
@@ -749,7 +822,11 @@
       ],
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-partially-verified",
-      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open."
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
     },
     {
       "id": "mext-japanese-government-scholarship",
@@ -794,7 +871,10 @@
       ],
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-partially-verified",
-      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open."
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open.",
+      "scholarshipTypes": [
+        "national"
+      ]
     },
     {
       "id": "u-tokyo-peak-scholarship",
@@ -837,7 +917,11 @@
       ],
       "lastVerified": "2026-10-17",
       "verificationStatus": "unverified",
-      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open."
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
     },
     {
       "id": "edinburgh-global-mathematics-scholarship",
@@ -855,8 +939,10 @@
         "applicantScope": "international-only",
         "applicantScopeNote": "International fee status (official).",
         "requiresFinancialNeed": false,
-        "degreeFamilyScope": "any",
-        "programmeScopeNote": "School of Mathematics undergraduate degrees only (official).",
+        "degreeFamilyScope": [
+          "mathematics-statistics"
+        ],
+        "programmeScopeNote": "Only undergraduate degrees hosted in the School of Mathematics (official). Mapped to the mathematics-statistics family.",
         "citizenshipOrResidency": "Non-UK and non-Irish nationals with international fee status (official).",
         "nonUsApplicantNote": "Non-UK and non-Irish nationals with international fee status (official).",
         "academicConditions": "Outstanding academic performance (official).",
@@ -882,7 +968,11 @@
       ],
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-partially-verified",
-      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open."
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
     },
     {
       "id": "ntu-nanyang-scholarship",
@@ -929,7 +1019,11 @@
       ],
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-partially-verified",
-      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; items marked not verified remain open."
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; items marked not verified remain open.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
     },
     {
       "id": "kaist-scholarship-undergraduate",
@@ -974,7 +1068,11 @@
       ],
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-partially-verified",
-      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; items marked not verified remain open."
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; items marked not verified remain open.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
     },
     {
       "id": "sydney-international-student-award",
@@ -1018,7 +1116,11 @@
       ],
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-partially-verified",
-      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; items marked not verified remain open."
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; items marked not verified remain open.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
     },
     {
       "id": "sydney-academic-excellence-undergraduate",
@@ -1065,7 +1167,11 @@
       ],
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-partially-verified",
-      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; items marked not verified remain open."
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; items marked not verified remain open.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
     }
   ]
 }

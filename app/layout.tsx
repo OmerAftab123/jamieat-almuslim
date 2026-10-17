@@ -25,6 +25,7 @@ export const viewport: Viewport = {
 const navItems = [
   { href: '/careers', label: 'Career explorer' },
   { href: '/universities', label: 'Universities' },
+  { href: '/explore', label: 'Explore a degree' },
   { href: '/matcher', label: 'Free-study matcher' },
   { href: '/compare', label: 'Compare' },
   { href: '/roadmap', label: 'Roadmap' },
