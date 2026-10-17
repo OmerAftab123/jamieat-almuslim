@@ -3764,6 +3764,712 @@
           ]
         }
       ]
+    },
+    {
+      "id": "yale-university-free-study",
+      "universityId": "yale-university",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry, 2027-28).",
+      "status": "verified-official-page",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Possibly. Yale considers all applicants without regard to ability to pay. Admission is highly selective; the admit rate (about 4.7% for fall 2025) is secondary only.",
+          "detail": "Official: Yale welcomes applicants from every country and uses the same whole-person review. Yale requires its own aid forms for aid applicants. Entry requirements for Pakistani qualifications are not verified on the pages checked.",
+          "sourceIds": [
+            "yale-international"
+          ]
+        },
+        "free": {
+          "verdict": "Possibly, not automatic. Yale meets 100% of demonstrated need for admitted applicants who apply for aid, regardless of citizenship. Awards are scholarships, not loans. Any cost not covered by the family's need is not covered.",
+          "detail": "Official policy on international students: same need-based aid as domestic students, including housing, meals and travel allowances. The amount depends on the family's financial information, so it cannot be promised.",
+          "sourceIds": [
+            "yale-international",
+            "yale-affordability"
+          ]
+        },
+        "should": {
+          "verdict": "Depends on whether your family's finances meet the aid review and on the programme you want. Yale does not publish a fixed award for each family.",
+          "detail": "Check the living costs your family must cover beyond the award, and whether you accept the aid application process (CSS Profile, documents in English).",
+          "sourceIds": [
+            "yale-finaid-prospective",
+            "yale-affordability"
+          ]
+        },
+        "how": [
+          "Choose \"interest in financial aid\" on the admissions application; the Yale aid forms are required.",
+          "Submit the early-action aid documents by 1 Dec 2026 (international citizens) or the regular-decision date of 15 Feb 2027.",
+          "Upload English translations of tax or income documents and your bank statements through Yale's document service.",
+          "Check the Yale Admissions Status Portal for new document requests."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Admission policy",
+          "detail": "Need-blind for all applicants (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "yale-international"
+          ]
+        },
+        {
+          "item": "Financial aid forms",
+          "detail": "Yale forms required; ISFAA not accepted in place of Yale forms (official). The CSS Profile requirement is stated differently on two official pages.",
+          "status": "partially-verified",
+          "sourceIds": [
+            "yale-finaid-prospective",
+            "yale-finaid-faq"
+          ]
+        },
+        {
+          "item": "Deadlines (international, early action)",
+          "detail": "1 Dec 2026 for aid documents (official). Regular decision: 15 Feb 2027.",
+          "status": "verified-official",
+          "sourceIds": [
+            "yale-finaid-prospective"
+          ]
+        },
+        {
+          "item": "Academic requirements for Pakistani qualifications",
+          "detail": "Not verified on the official pages checked.",
+          "status": "not-verified",
+          "sourceIds": []
+        },
+        {
+          "item": "English",
+          "detail": "Not verified on the pages checked.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Need-based (Yale financial aid)",
+          "status": "available-conditional",
+          "detail": "Meets 100% of demonstrated need for admitted applicants who apply; scholarships not loans; amounts per family.",
+          "sourceIds": [
+            "yale-affordability",
+            "yale-international"
+          ]
+        },
+        {
+          "route": "Merit",
+          "status": "not-available",
+          "detail": "Yale awards undergraduate aid on the basis of need only (official affordability page).",
+          "sourceIds": [
+            "yale-affordability"
+          ]
+        },
+        {
+          "route": "National",
+          "status": "not-recorded",
+          "detail": "Not applicable for international students per official pages checked.",
+          "sourceIds": []
+        },
+        {
+          "route": "Regional",
+          "status": "not-recorded",
+          "detail": "Not researched.",
+          "sourceIds": []
+        },
+        {
+          "route": "Institutional",
+          "status": "available-conditional",
+          "detail": "Need-based institutional aid is the route (see need-based).",
+          "sourceIds": [
+            "yale-affordability"
+          ]
+        },
+        {
+          "route": "Sports",
+          "status": "not-recorded",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [
+        {
+          "label": "Admit rate (fall 2025, secondary)",
+          "value": "4.7%",
+          "sourceId": "studyu-ivy-secondary",
+          "kind": "secondary"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "partially-researched",
+        "detail": "Admit rate is from a secondary source only and is not an official Yale figure."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Need-blind admission and need-based aid for international applicants (official).",
+          "Meets 100% of demonstrated need for admitted aid applicants (official)."
+        ],
+        "againstOrCaution": [
+          "Very selective admission.",
+          "Aid amount depends on family finances and cannot be predicted.",
+          "Living costs may still have to be covered."
+        ],
+        "decisionTest": [
+          "Can your family provide the financial documents in English?",
+          "Can you accept the award as the amount you will receive?",
+          "Are you prepared for a very selective admission?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Degree ranking for Yale is not verified in this batch.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now to 1 Dec 2026",
+          "steps": [
+            "Prepare academic records, test scores and English translations of income documents.",
+            "Indicate aid interest on the application."
+          ]
+        },
+        {
+          "window": "1 Dec 2026 to 15 Feb 2027",
+          "steps": [
+            "Submit Yale aid forms and documents by the early-action or regular-decision date.",
+            "Watch the Admissions Status Portal for new document requests."
+          ]
+        },
+        {
+          "window": "After decision",
+          "steps": [
+            "Review the aid offer and confirm enrolment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cornell-university-free-study",
+      "universityId": "cornell-university",
+      "applicant": "Pakistani citizen applying as an international undergraduate (Fall 2027 entry).",
+      "status": "verified-official-page",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Possibly. Admission for international applicants is need-aware and competitive. English proficiency is required.",
+          "detail": "Official: Cornell welcomes students from more than 125 countries; international applicants must show English proficiency through an exam or other criteria. Pakistani qualification requirements are not verified on the pages checked.",
+          "sourceIds": [
+            "cornell-first-year-applicants"
+          ]
+        },
+        "free": {
+          "verdict": "Not automatic. Cornell meets 100% of demonstrated need for admitted international students who applied for aid, but the package can include loans depending on family income.",
+          "detail": "Cornell does not give partial awards; packages either meet need or do not exist for that student. Aid requested later is not possible.",
+          "sourceIds": [
+            "cornell-finaid-international",
+            "cornell-finaid-faq"
+          ]
+        },
+        "should": {
+          "verdict": "Depends on whether you can apply for aid at admission, whether you can accept any loan part of the package, and on the programme you want.",
+          "detail": "The aid request must be made at the same time as admission, so it cannot be left for later.",
+          "sourceIds": [
+            "cornell-finaid-faq"
+          ]
+        },
+        "how": [
+          "Apply through the Common Application or Coalition Application by 1 Nov 2026 (Early Decision) or 2 Jan 2027 (Regular Decision), for Fall 2027.",
+          "Request aid on the application and submit the CSS Profile by the same deadline.",
+          "Show English proficiency by the required exam or criteria.",
+          "Check the loan part of the offer before accepting."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Admission policy",
+          "detail": "Need-aware for international applicants (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "cornell-first-year-applicants",
+            "cornell-finaid-faq"
+          ]
+        },
+        {
+          "item": "Financial aid forms",
+          "detail": "CSS Profile required at admission (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "cornell-finaid-international"
+          ]
+        },
+        {
+          "item": "Deadlines (Fall 2027)",
+          "detail": "Early Decision 1 Nov 2026; Regular Decision 2 Jan 2027 (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "cornell-finaid-international"
+          ]
+        },
+        {
+          "item": "English proficiency",
+          "detail": "Required; exam or other criteria (official). Test minimums not verified.",
+          "status": "partially-verified",
+          "sourceIds": [
+            "cornell-first-year-applicants"
+          ]
+        },
+        {
+          "item": "Pakistani qualifications",
+          "detail": "Not verified.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Need-based (Cornell aid)",
+          "status": "available-conditional",
+          "detail": "Meets 100% of demonstrated need for admitted international students who apply; may include loans depending on income.",
+          "sourceIds": [
+            "cornell-finaid-international",
+            "cornell-finaid-faq"
+          ]
+        },
+        {
+          "route": "Merit",
+          "status": "not-recorded",
+          "detail": "Not verified on Cornell pages checked.",
+          "sourceIds": []
+        },
+        {
+          "route": "National",
+          "status": "not-available",
+          "detail": "International students are not eligible for federal aid (general US rule; not Cornell-specific).",
+          "sourceIds": []
+        },
+        {
+          "route": "Regional",
+          "status": "not-recorded",
+          "detail": "Not researched.",
+          "sourceIds": []
+        },
+        {
+          "route": "Institutional",
+          "status": "available-conditional",
+          "detail": "Cornell grants through need-based aid.",
+          "sourceIds": [
+            "cornell-finaid-international"
+          ]
+        },
+        {
+          "route": "Sports",
+          "status": "not-recorded",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [],
+      "unofficialTrends": {
+        "status": "not-researched",
+        "detail": "No trend data recorded. Admit rate and average international award are not verified."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Meets 100% of demonstrated need for admitted international aid applicants (official).",
+          "Clear official deadlines for Fall 2027."
+        ],
+        "againstOrCaution": [
+          "Need-aware admission means the aid request affects the decision.",
+          "Aid may include loans.",
+          "Aid cannot be requested after admission."
+        ],
+        "decisionTest": [
+          "Are you ready to apply for aid at admission?",
+          "Can you accept loans if they are part of the package?",
+          "Do you meet the English requirement?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Degree ranking for Cornell is not verified in this batch.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now to 1 Nov 2026",
+          "steps": [
+            "Decide on Early Decision or Regular Decision.",
+            "Prepare the CSS Profile and income documents."
+          ]
+        },
+        {
+          "window": "1 Nov 2026 or 2 Jan 2027",
+          "steps": [
+            "Submit the application and the CSS Profile with the aid request."
+          ]
+        },
+        {
+          "window": "After decision",
+          "steps": [
+            "Review the aid offer, including any loan component, before accepting."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "upenn-free-study",
+      "universityId": "university-pennsylvania",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry).",
+      "status": "verified-official-page",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Possibly. Admission for international applicants is need-aware and very selective. Official pages do not give an admit rate; a secondary source gives about 2.5% for international applicants (Common Data Set 2025-26).",
+          "detail": "Official: non-citizens and non-permanent residents of the US, Canada and Mexico are need-aware. Pakistani qualification rules are not verified on the pages checked.",
+          "sourceIds": [
+            "penn-admissions-intl-aid",
+            "penn-cds-secondary"
+          ]
+        },
+        "free": {
+          "verdict": "Possibly. Penn meets 100% of demonstrated need for admitted international students who apply for aid, with grants and work-study and no loans. Penn does not offer merit scholarships.",
+          "detail": "The package is grant-based and covers four years if need remains (official). Cost of attendance is not verified on Penn's own page; secondary sources give $99,082 for 2026-27.",
+          "sourceIds": [
+            "penn-srfs-international",
+            "penn-admissions-financial-aid",
+            "penn-cds-secondary"
+          ]
+        },
+        "should": {
+          "verdict": "Depends on whether your family needs aid, whether you can apply for aid with admission, and on your programme.",
+          "detail": "Penn is need-aware for international applicants; a family that can pay is encouraged not to apply for aid (official supporter page).",
+          "sourceIds": [
+            "penn-admissions-intl-aid"
+          ]
+        },
+        "how": [
+          "Apply for admission and the CSS Profile at the same time (official).",
+          "Submit tax or income documents from your home country.",
+          "Check the aid deadline on Penn's financial aid checklist for international applicants (not captured here).",
+          "Plan for the tuition, living costs and any non-covered costs."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Admission policy",
+          "detail": "Need-aware for international applicants (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "penn-admissions-intl-aid"
+          ]
+        },
+        {
+          "item": "Financial aid forms",
+          "detail": "CSS Profile and income documents (official, Penn How It Works page).",
+          "status": "partially-verified",
+          "sourceIds": [
+            "penn-admissions-financial-aid"
+          ]
+        },
+        {
+          "item": "Deadlines",
+          "detail": "Aid must be requested at the same time as admission (official). Exact 2027 dates from a secondary source: 1 Nov 2026 (ED) and 5 Jan 2027 (RD).",
+          "status": "partially-verified",
+          "sourceIds": [
+            "penn-cds-secondary"
+          ]
+        },
+        {
+          "item": "Test scores",
+          "detail": "Secondary source says SAT or ACT is required for first-year applicants; not verified on Penn's official page.",
+          "status": "not-verified",
+          "sourceIds": []
+        },
+        {
+          "item": "Pakistani qualifications",
+          "detail": "Not verified.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Need-based (Penn grant aid)",
+          "status": "available-conditional",
+          "detail": "Grants and work-study for 100% of demonstrated need for admitted international aid applicants; no loans.",
+          "sourceIds": [
+            "penn-srfs-international",
+            "penn-admissions-financial-aid"
+          ]
+        },
+        {
+          "route": "Merit",
+          "status": "not-available",
+          "detail": "Penn does not offer merit scholarships for undergraduates (official).",
+          "sourceIds": [
+            "penn-admissions-financial-aid"
+          ]
+        },
+        {
+          "route": "National",
+          "status": "not-available",
+          "detail": "International students are generally not eligible for federal funding (official).",
+          "sourceIds": [
+            "penn-srfs-international"
+          ]
+        },
+        {
+          "route": "Regional",
+          "status": "not-recorded",
+          "detail": "Not researched.",
+          "sourceIds": []
+        },
+        {
+          "route": "Institutional",
+          "status": "available-conditional",
+          "detail": "Institutional Penn Grant is the source of international aid (official).",
+          "sourceIds": [
+            "penn-srfs-international"
+          ]
+        },
+        {
+          "route": "Sports",
+          "status": "not-recorded",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [
+        {
+          "label": "International admission rate (2025-26 Common Data Set, secondary)",
+          "value": "2.5% (441 of 17,882)",
+          "sourceId": "penn-cds-secondary",
+          "kind": "secondary"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "partially-researched",
+        "detail": "Admit figure is from a secondary source citing the Common Data Set; not on Penn's official page."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Meets 100% of demonstrated need for admitted international aid applicants without loans (official).",
+          "Institutional grants only; four years of support if need remains (official)."
+        ],
+        "againstOrCaution": [
+          "Need-aware admission for internationals.",
+          "Very low admission rate for international applicants (secondary).",
+          "Aid must be requested at admission."
+        ],
+        "decisionTest": [
+          "Do you need aid? (If not, Penn advises not to apply for aid.)",
+          "Can you apply for aid at the same time as admission?",
+          "Can you accept a very selective admission?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Degree ranking for Penn is not verified in this batch.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now to 1 Nov 2026 (ED) or 5 Jan 2027 (RD, secondary)",
+          "steps": [
+            "Decide whether you need aid and prepare CSS Profile and tax documents.",
+            "Verify the exact dates on Penn's checklist."
+          ]
+        },
+        {
+          "window": "Application window",
+          "steps": [
+            "Submit admission and aid application together."
+          ]
+        },
+        {
+          "window": "After decision",
+          "steps": [
+            "Review the aid package for grants and work-study amounts."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "johns-hopkins-free-study",
+      "universityId": "johns-hopkins-university",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry, 2027 cycle).",
+      "status": "verified-official-page",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Possibly. International applicants must submit a Certification of Finances form; admission is competitive. Pakistani qualification rules are not verified.",
+          "detail": "Official: no separate international application; COF and academic records (9th to 11th grade equivalents, plus secondary exams such as O-level, A-level or IB) are required.",
+          "sourceIds": [
+            "jhu-international-applicants"
+          ]
+        },
+        "free": {
+          "verdict": "Possibly, not automatic. Johns Hopkins is need-aware for international students and meets 100% of demonstrated need for admitted students who apply for aid, without loans. About 10% of international students receive aid (secondary).",
+          "detail": "International students must request aid as first-year applicants. Aid renews automatically for later years if circumstances stay the same.",
+          "sourceIds": [
+            "jhu-international-applicants",
+            "jhu-common-aid-questions",
+            "jhu-sfs-faq",
+            "studyu-jhu-secondary"
+          ]
+        },
+        "should": {
+          "verdict": "Depends on whether the aid application succeeds and on your ability to cover any unmet cost.",
+          "detail": "Aid cannot be requested after admission; a family that does not need aid can apply without it. International transfer students are not offered aid.",
+          "sourceIds": [
+            "jhu-common-aid-questions"
+          ]
+        },
+        "how": [
+          "Indicate aid interest on the admissions application.",
+          "Submit the CSS Profile by the financial aid deadline (15 Nov 2026 for the first round; 15 Jan 2027 for later rounds).",
+          "Submit the Certification of Finances form in the applicant portal.",
+          "If you cannot complete the CSS Profile, submit the Johns Hopkins International Student Financial Aid Application."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Admission application",
+          "detail": "No separate international application (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "jhu-international-applicants"
+          ]
+        },
+        {
+          "item": "Certification of Finances (COF)",
+          "detail": "Required for all international applicants (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "jhu-deadlines",
+            "jhu-common-aid-questions"
+          ]
+        },
+        {
+          "item": "Financial aid forms",
+          "detail": "CSS Profile required for aid; the alternative form is accepted if the CSS cannot be completed (official). No fee waivers for international CSS Profile (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "jhu-common-aid-questions"
+          ]
+        },
+        {
+          "item": "Deadlines",
+          "detail": "Financial aid 15 Nov 2026 (first round), 15 Jan 2027 (later rounds) (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "jhu-deadlines"
+          ]
+        },
+        {
+          "item": "Academic records",
+          "detail": "Equivalent 9th to 11th grade records; O-level, A-level or IB results (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "jhu-international-applicants"
+          ]
+        },
+        {
+          "item": "Pakistani qualifications",
+          "detail": "Not verified.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Need-based (Johns Hopkins aid)",
+          "status": "available-conditional",
+          "detail": "Meets 100% of demonstrated need for admitted international students who apply; loan-free packages.",
+          "sourceIds": [
+            "jhu-common-aid-questions",
+            "jhu-international-applicants"
+          ]
+        },
+        {
+          "route": "Merit",
+          "status": "not-recorded",
+          "detail": "Undergraduate merit scholarships not verified; program-specific merit awards exist at some schools (not verified for undergraduate general admission).",
+          "sourceIds": []
+        },
+        {
+          "route": "National",
+          "status": "not-available",
+          "detail": "International students are not eligible for federal aid.",
+          "sourceIds": [
+            "jhu-sfs-faq"
+          ]
+        },
+        {
+          "route": "Regional",
+          "status": "not-recorded",
+          "detail": "Not researched.",
+          "sourceIds": []
+        },
+        {
+          "route": "Institutional",
+          "status": "available-conditional",
+          "detail": "Institutional need-based aid is the route.",
+          "sourceIds": [
+            "jhu-common-aid-questions"
+          ]
+        },
+        {
+          "route": "Sports",
+          "status": "not-recorded",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [
+        {
+          "label": "Share of international students receiving aid (secondary)",
+          "value": "About 10%",
+          "sourceId": "studyu-jhu-secondary",
+          "kind": "secondary"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "partially-researched",
+        "detail": "The 10% figure is from a secondary source citing the university."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Need-based aid meeting 100% of demonstrated need for admitted international aid applicants (official).",
+          "Loan-free packages and automatic renewal for international students (official)."
+        ],
+        "againstOrCaution": [
+          "Aid must be requested at first-year application.",
+          "No international transfer aid (official).",
+          "CSS Profile and COF are required; no fee waiver for international CSS."
+        ],
+        "decisionTest": [
+          "Can you complete the CSS Profile and COF before the deadline?",
+          "Do you need aid at any point in four years?",
+          "Can you cover costs if the aid offer is smaller than need?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Degree ranking for Johns Hopkins is not verified in this batch.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now to 15 Nov 2026",
+          "steps": [
+            "Prepare academic records and COF; decide on aid interest.",
+            "Prepare the CSS Profile or the alternative international form."
+          ]
+        },
+        {
+          "window": "15 Nov 2026 to 15 Jan 2027",
+          "steps": [
+            "Submit admission application, aid request, CSS Profile and COF by the deadline for your admissions round."
+          ]
+        },
+        {
+          "window": "After decision",
+          "steps": [
+            "Review the aid offer; international students do not reapply each year."
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1240,6 +1240,260 @@
       "supports": [
         "Applications for 2027 entry open 2 Oct 2026"
       ]
+    },
+    {
+      "id": "yale-international",
+      "title": "International Students (Yale Undergraduate Admissions)",
+      "publisher": "Yale University",
+      "url": "https://admissions.yale.edu/international",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: all applicants considered without regard to ability to pay; international students eligible for the same need-based aid; aid includes housing, meals and travel allowances.",
+      "supports": [
+        "Need-blind admission for all applicants",
+        "Same need-based aid for international students"
+      ]
+    },
+    {
+      "id": "yale-affordability",
+      "title": "Affordable. For Everyone. (Yale admissions)",
+      "publisher": "Yale University",
+      "url": "https://admissions.yale.edu/affordability",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: aid offers meet 100% of demonstrated need regardless of citizenship; no loans; CSS Profile required (code 3987); FAFSA code 001426 for US applicants.",
+      "supports": [
+        "100% of demonstrated need regardless of citizenship",
+        "CSS Profile code 3987",
+        "Aid is scholarship, not loans"
+      ]
+    },
+    {
+      "id": "yale-finaid-prospective",
+      "title": "Prospective Students (Yale Financial Aid)",
+      "publisher": "Yale University Office of Financial Aid",
+      "url": "https://finaid.yale.edu/apply/prospective",
+      "type": "primary-official",
+      "publishedOrRevised": "2027-28 cycle",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: 2027-28 deadlines; early action for international citizens 1 Dec 2026; regular decision 15 Feb 2027; ISFAA not accepted in place of Yale forms.",
+      "supports": [
+        "Early action (international) 1 Dec 2026",
+        "Regular decision 15 Feb 2027",
+        "Yale forms required; ISFAA not accepted"
+      ]
+    },
+    {
+      "id": "yale-finaid-faq",
+      "title": "Financial Aid FAQ (Yale)",
+      "publisher": "Yale University Office of Financial Aid",
+      "url": "https://finaid.yale.edu/faq",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official FAQ: admissions are need-blind; aid is available regardless of citizenship; CSS Profile for international applicants is not required for evaluation unless requested.",
+      "supports": [
+        "Need-blind admissions",
+        "CSS Profile requirement for international applicants depends on request"
+      ]
+    },
+    {
+      "id": "cornell-first-year-applicants",
+      "title": "First-Year Applicants (Cornell Admissions)",
+      "publisher": "Cornell University",
+      "url": "https://admissions.cornell.edu/how-to-apply/first-year-applicants",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: international admission is need-aware; English proficiency required; 100% of demonstrated need met for admitted students; apply for aid with admission.",
+      "supports": [
+        "Need-aware for international applicants",
+        "Meets 100% of demonstrated need for admitted students"
+      ]
+    },
+    {
+      "id": "cornell-finaid-international",
+      "title": "First-Year and Transfer Students: International (Cornell Financial Aid)",
+      "publisher": "Cornell University Office of Financial Aid",
+      "url": "https://finaid.cornell.edu/first-year-and-transfer-students-international",
+      "type": "primary-official",
+      "publishedOrRevised": "Fall 2027 entry",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: CSS Profile required at admission; annual aid offer includes grants, work-study and reasonable loans; Early Decision 1 Nov 2026; Regular Decision 2 Jan 2027.",
+      "supports": [
+        "CSS Profile at admission",
+        "Aid includes grants, work-study and loans",
+        "Deadlines for Fall 2027 entry"
+      ]
+    },
+    {
+      "id": "cornell-finaid-faq",
+      "title": "Frequently Asked Questions About International Financial Aid (Cornell)",
+      "publisher": "Cornell University Office of Financial Aid",
+      "url": "https://finaid.cornell.edu/frequently-asked-questions-about-international-financial-aid",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official FAQ: admission for international applicants is need-aware; admitted applicants who applied for aid receive packages meeting 100% of need; no aid request later if not made at admission.",
+      "supports": [
+        "Need-aware admission for internationals",
+        "No late aid request for internationals"
+      ]
+    },
+    {
+      "id": "penn-srfs-international",
+      "title": "International Student Financial Aid (Penn Student Financial Services)",
+      "publisher": "University of Pennsylvania",
+      "url": "https://srfs.upenn.edu/financial-aid/international",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: admission is need-aware for international applicants; aid requested at admission; 100% of demonstrated need with grants and work-study for admitted students; no later aid requests.",
+      "supports": [
+        "Need-aware admissions for internationals",
+        "Meets 100% of demonstrated need with grants and work-study"
+      ]
+    },
+    {
+      "id": "penn-admissions-intl-aid",
+      "title": "International Aid (Penn Admissions)",
+      "publisher": "University of Pennsylvania",
+      "url": "https://admissions.upenn.edu/affording-penn/international-aid",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: need-aware policy for non-citizens who are not US/Canada/Mexico permanent residents; apply for aid at the same time as admission; aid covers four years.",
+      "supports": [
+        "Need-aware for international applicants",
+        "Aid applied for at admission"
+      ]
+    },
+    {
+      "id": "penn-admissions-financial-aid",
+      "title": "Financial Aid (Penn Admissions)",
+      "publisher": "University of Pennsylvania",
+      "url": "https://admissions.upenn.edu/affording-penn/financial-aid",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: all undergraduate aid is need-based (no merit scholarships); packages have no loans; 100% of demonstrated need.",
+      "supports": [
+        "No merit scholarships for undergraduates",
+        "Packages without loans"
+      ]
+    },
+    {
+      "id": "penn-cds-secondary",
+      "title": "University of Pennsylvania: Admission and Costs 2027 (StudyU)",
+      "publisher": "StudyU (secondary; cites Penn Common Data Set 2025-26)",
+      "url": "https://www.studyu.org/en/university-upenn",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Secondary source. Gives 2026-27 cost of attendance, admission figures for international applicants (441 admitted of 17,882) and deadlines (1 Nov 2026 binding ED; 5 Jan 2027 RD). Not verified on Penn's own page.",
+      "supports": [
+        "Cost of attendance 2026-27 (secondary)",
+        "International admission rate (secondary)"
+      ]
+    },
+    {
+      "id": "jhu-international-applicants",
+      "title": "International Applicants (Johns Hopkins Undergraduate Admissions)",
+      "publisher": "Johns Hopkins University",
+      "url": "https://apply.jhu.edu/international-applicants/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: no separate application; Certification of Finances (COF) required; CSS Profile for aid; need-aware for international students; aid must be requested as a first-year applicant.",
+      "supports": [
+        "Certification of Finances (COF) required",
+        "Need-aware for international students",
+        "Aid only at first-year entry"
+      ]
+    },
+    {
+      "id": "jhu-common-aid-questions",
+      "title": "Common Financial Aid Questions (Johns Hopkins)",
+      "publisher": "Johns Hopkins University Office of Student Financial Services",
+      "url": "https://apply.jhu.edu/tuition-aid/common-financial-aid-questions/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official FAQ: international applicants must submit CSS Profile and COF; no fee waivers for international CSS; aid renews automatically for international students; need-based aid, meets 100% of demonstrated need.",
+      "supports": [
+        "International applicants: CSS Profile and COF",
+        "No fee waivers for international CSS Profile",
+        "Aid renews for international students"
+      ]
+    },
+    {
+      "id": "jhu-deadlines",
+      "title": "Application Deadlines & Requirements (Johns Hopkins)",
+      "publisher": "Johns Hopkins University",
+      "url": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+      "type": "primary-official",
+      "publishedOrRevised": "2027 entry cycle",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: financial aid deadline 15 Nov 2026 (first round) and 15 Jan 2027 (later rounds); COF required for international applicants.",
+      "supports": [
+        "Financial aid deadline 15 Nov 2026",
+        "Financial aid deadline 15 Jan 2027"
+      ]
+    },
+    {
+      "id": "jhu-sfs-faq",
+      "title": "Frequently Asked Questions (Johns Hopkins Student Financial Services)",
+      "publisher": "Johns Hopkins University",
+      "url": "https://sfs.jhu.edu/frequently-asked-questions/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official FAQ: international students must indicate interest in aid as first-year applicants; need-based aid only; international students do not reapply each year.",
+      "supports": [
+        "Need-based only for international students",
+        "No annual reapplication"
+      ]
+    },
+    {
+      "id": "studyu-cornell-secondary",
+      "title": "Cornell University: Admission and Costs 2027 (StudyU)",
+      "publisher": "StudyU (secondary)",
+      "url": "https://www.studyu.org/en/university-cornell",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Secondary source. Summarises Cornell international aid policy and deadlines (CSS Profile by 1 Nov and 2 Jan). Consistent with Cornell's official pages.",
+      "supports": [
+        "International aid summary (secondary)"
+      ]
+    },
+    {
+      "id": "studyu-ivy-secondary",
+      "title": "Ivy League Admissions for International Students (StudyU)",
+      "publisher": "StudyU (secondary)",
+      "url": "https://www.studyu.org/en/blog-ivy-league-admissions",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Secondary source. Table lists Yale admit rate 4.7% (fall 2025) and aid policy as need-blind for international applicants. Not verified on Yale's own page.",
+      "supports": [
+        "Yale admit rate 4.7% (fall 2025, secondary)"
+      ]
+    },
+    {
+      "id": "studyu-jhu-secondary",
+      "title": "Johns Hopkins University: Admission and Costs 2027 (StudyU)",
+      "publisher": "StudyU (secondary)",
+      "url": "https://www.studyu.org/en/university-johns-hopkins",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Secondary source. States about 10% of international students receive aid (citing the university FAQ); Hopkins accepts its own free international aid form if the CSS Profile cannot be completed.",
+      "supports": [
+        "About 10% of international students receive aid (secondary, citing university)"
+      ]
     }
   ]
 }

@@ -1592,6 +1592,225 @@
       "lastVerified": "2026-10-17",
       "verificationStatus": "unverified",
       "verificationNote": "Only the region list is verified. Amount and selection are not. This route is for UNSW College entry, not direct UNSW degree entry."
+    },
+    {
+      "id": "yale-need-based-aid-international",
+      "universityId": "yale-university",
+      "name": "Yale need-based financial aid (international applicants)",
+      "funder": "Yale University (institutional)",
+      "awardType": "need-based",
+      "scholarshipTypes": [
+        "need"
+      ],
+      "classification": "full-cost-of-attendance",
+      "classificationNote": "Yale states its aid meets 100% of demonstrated need, and international students get the same need-based aid as domestic applicants (official). Amounts are set per family.",
+      "coverage": {
+        "tuition": "Covered to the extent of need (official).",
+        "livingStipend": "Not stated; allowances for housing, meals and travel are included (official page).",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Housing and meals allowances included (official page).",
+        "travelAndVisa": "Travel to and from campus twice a year included (official page); visa not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "all-applicants",
+        "applicantScopeNote": "All admitted applicants are eligible regardless of citizenship; international students are considered need-blind (official).",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to all undergraduate programmes at the university (official aid policy).",
+        "citizenshipOrResidency": "International (non-US, non-permanent-resident) applicants are considered need-aware at admission (official page).",
+        "nonUsApplicantNote": "All admitted applicants are eligible regardless of citizenship; international students are considered need-blind (official).",
+        "academicConditions": "Admission is need-blind; an award depends on the aid application.",
+        "renewalConditions": "Aid renews for the normative length of the degree while need is unchanged (official page excerpts)."
+      },
+      "requiredDocuments": [
+        "CSS Profile (official page)",
+        "Parents' income documents (official page)"
+      ],
+      "applicationMethod": "Apply through the admissions application by indicating interest in aid; complete Yale's aid forms (CSS Profile code 3987) and submit income documents (official pages).",
+      "deadlines": {
+        "earlyActionInternational": "1 Dec 2026 (official finaid page)",
+        "regularDecision": "15 Feb 2027 (official finaid page)"
+      },
+      "selectionStatistics": "Not published for this award; university states it meets 100% of demonstrated need for admitted students who apply for aid.",
+      "uncoveredCosts": [
+        "Costs beyond the family's need are not covered by the award."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Scholarships, not loans (official page).",
+      "sources": [
+        "yale-international",
+        "yale-affordability",
+        "yale-finaid-prospective",
+        "yale-finaid-faq"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-verified",
+      "verificationNote": "Policy and deadlines from official pages. Yale's own FAQ and affordability page give different CSS Profile requirements for international applicants; the record follows the stated requirement on the prospective-student page."
+    },
+    {
+      "id": "cornell-international-need-aid",
+      "universityId": "cornell-university",
+      "name": "Cornell need-aware financial aid (international applicants)",
+      "funder": "Cornell University (institutional)",
+      "awardType": "need-based",
+      "scholarshipTypes": [
+        "need"
+      ],
+      "classification": "partial",
+      "classificationNote": "Cornell states it meets 100% of demonstrated need for admitted international undergraduates with grants, a work-study award and reasonable loans depending on family income (official).",
+      "coverage": {
+        "tuition": "Covered to the extent of need (official).",
+        "livingStipend": "Not stated.",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Included in cost of attendance used for need (official page excerpt; not confirmed as covered in award).",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "International applicants: admission is need-aware. Aid must be requested at the time of admission; no later request is possible (official).",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to all undergraduate programmes at the university (official aid policy).",
+        "citizenshipOrResidency": "International (non-US, non-permanent-resident) applicants are considered need-aware at admission (official page).",
+        "nonUsApplicantNote": "International applicants: admission is need-aware. Aid must be requested at the time of admission; no later request is possible (official).",
+        "academicConditions": "Admission is need-aware; the aid request must be made at application.",
+        "renewalConditions": "Aid renews for the normative length of the degree while need is unchanged (official page excerpts)."
+      },
+      "requiredDocuments": [
+        "CSS Profile (official page)",
+        "Parents' income documents (official page)"
+      ],
+      "applicationMethod": "Request aid on the admissions application and complete the CSS Profile at admission (official page).",
+      "deadlines": {
+        "earlyDecision": "1 Nov 2026 (official finaid page)",
+        "regularDecision": "2 Jan 2027 (official finaid page)"
+      },
+      "selectionStatistics": "Not published for this award; university states it meets 100% of demonstrated need for admitted students who apply for aid.",
+      "uncoveredCosts": [
+        "Loans may be included depending on income (official)."
+      ],
+      "loansIncluded": true,
+      "loansNote": "Reasonable loans may be included depending on total family income (official page).",
+      "sources": [
+        "cornell-first-year-applicants",
+        "cornell-finaid-international",
+        "cornell-finaid-faq",
+        "studyu-cornell-secondary"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-verified",
+      "verificationNote": "Policy and deadlines verified from official pages. Average award figures are not verified."
+    },
+    {
+      "id": "upenn-international-need-aid",
+      "universityId": "university-pennsylvania",
+      "name": "Penn need-based grant aid (international applicants)",
+      "funder": "University of Pennsylvania (institutional)",
+      "awardType": "need-based",
+      "scholarshipTypes": [
+        "need"
+      ],
+      "classification": "full-cost-of-attendance",
+      "classificationNote": "Penn meets 100% of demonstrated need for admitted international students with grants and work-study, with no loans (official). Grants are institutional because international students are not eligible for federal funds.",
+      "coverage": {
+        "tuition": "Covered to the extent of need (official).",
+        "livingStipend": "Not stated.",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Included in cost of attendance for need calculation (official).",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "International applicants (non-citizens and non-permanent residents of the US, Canada and Mexico) are need-aware; aid must be requested at admission (official).",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to all undergraduate programmes at the university (official aid policy).",
+        "citizenshipOrResidency": "International (non-US, non-permanent-resident) applicants are considered need-aware at admission (official page).",
+        "nonUsApplicantNote": "International applicants (non-citizens and non-permanent residents of the US, Canada and Mexico) are need-aware; aid must be requested at admission (official).",
+        "academicConditions": "Admission is need-aware; aid must be requested when applying.",
+        "renewalConditions": "Aid renews for the normative length of the degree while need is unchanged (official page excerpts)."
+      },
+      "requiredDocuments": [
+        "CSS Profile (official page)",
+        "Parents' income documents (official page)"
+      ],
+      "applicationMethod": "Submit the CSS Profile and tax or income documents with the admission application (official page).",
+      "deadlines": {
+        "applyForAid": "Same time as admission (official page); exact deadline on the aid checklist, not captured here."
+      },
+      "selectionStatistics": "Not published for this award; university states it meets 100% of demonstrated need for admitted students who apply for aid.",
+      "uncoveredCosts": [
+        "Any need not covered by the grant package."
+      ],
+      "loansIncluded": false,
+      "loansNote": "No loans in the package (official).",
+      "sources": [
+        "penn-srfs-international",
+        "penn-admissions-intl-aid",
+        "penn-admissions-financial-aid",
+        "penn-cds-secondary"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-verified",
+      "verificationNote": "Policy verified from official pages. Admission rate and average package are from secondary sources only."
+    },
+    {
+      "id": "jhu-international-need-aid",
+      "universityId": "johns-hopkins-university",
+      "name": "Johns Hopkins need-based aid (international applicants)",
+      "funder": "Johns Hopkins University (institutional)",
+      "awardType": "need-based",
+      "scholarshipTypes": [
+        "need"
+      ],
+      "classification": "full-cost-of-attendance",
+      "classificationNote": "Johns Hopkins states it meets 100% of demonstrated need for admitted students, including international students, without loans (official). About 10% of international students receive aid (secondary, citing the university).",
+      "coverage": {
+        "tuition": "Covered to the extent of need (official).",
+        "livingStipend": "Not stated.",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Included in cost of attendance for need (official).",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "International students are need-aware at admission; aid must be requested at first-year application (official).",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to all undergraduate programmes at the university (official aid policy).",
+        "citizenshipOrResidency": "International (non-US, non-permanent-resident) applicants are considered need-aware at admission (official page).",
+        "nonUsApplicantNote": "International students are need-aware at admission; aid must be requested at first-year application (official).",
+        "academicConditions": "Admission is need-aware; aid must be requested at first-year application.",
+        "renewalConditions": "Aid renews for the normative length of the degree while need is unchanged (official page excerpts)."
+      },
+      "requiredDocuments": [
+        "CSS Profile (official page)",
+        "Parents' income documents (official page)"
+      ],
+      "applicationMethod": "Indicate aid on the admissions application, submit the CSS Profile (or Johns Hopkins International Student Financial Aid Application if the CSS cannot be completed), and submit the Certification of Finances (official).",
+      "deadlines": {
+        "financialAid": "15 Nov 2026 (first round) and 15 Jan 2027 (later rounds) (official deadlines page)"
+      },
+      "selectionStatistics": "Not published for this award; university states it meets 100% of demonstrated need for admitted students who apply for aid.",
+      "uncoveredCosts": [
+        "Need not covered by the package."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Loan-free packages (official).",
+      "sources": [
+        "jhu-international-applicants",
+        "jhu-common-aid-questions",
+        "jhu-deadlines",
+        "jhu-sfs-faq",
+        "studyu-jhu-secondary"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-verified",
+      "verificationNote": "Policy and deadlines from official pages. The \"10%\" figure is from secondary sources."
     }
   ]
 }
