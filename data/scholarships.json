@@ -1,0 +1,69 @@
+{
+  "datasetVersion": "2026.10.17-mvp1",
+  "classificationDefinitions": {
+    "full-tuition": "Covers the specified tuition charges only, subject to award terms. Never labelled a full ride.",
+    "full-ride": "Covers tuition AND the living or associated educational costs explicitly listed in the award.",
+    "full-cost-of-attendance": "Covers the institution's defined total cost of attendance, under documented award conditions.",
+    "partial": "Covers only part of the relevant costs.",
+    "unconfirmed": "Research has not established the exact coverage or eligibility."
+  },
+  "scholarships": [
+    {
+      "id": "mit-need-based-scholarship",
+      "universityId": "massachusetts-institute-technology-mit",
+      "name": "MIT Scholarship (need-based grant)",
+      "funder": "Massachusetts Institute of Technology (institutional aid)",
+      "awardType": "need-based",
+      "classification": "full-cost-of-attendance",
+      "classificationNote": "Institutional need-based aid that aims to meet 100% of demonstrated need. The amount is set per family, is not a fixed sum, and is not guaranteed to every applicant.",
+      "coverage": {
+        "tuition": "Covered to the extent of demonstrated need (official aid policy).",
+        "mandatoryFees": "Unverified for this build.",
+        "accommodationAndMeals": "Part of MIT's cost of attendance used to calculate need (SFS FAQ excerpt); award-level treatment unverified.",
+        "healthInsurance": "Unverified for this build.",
+        "booksAndPersonal": "Part of MIT's cost of attendance used to calculate need (SFS FAQ excerpt); award-level treatment unverified.",
+        "travelAndVisa": "Not verified as covered.",
+        "livingStipend": "Not stated; no separate stipend identified."
+      },
+      "eligibility": {
+        "citizenshipOrResidency": "Open to international applicants on the same aid process as domestic applicants (official SFS international page excerpt).",
+        "pakistanNote": "Pakistani applicants follow the international process. Parental income verification from abroad is required, which may need translation of tax documents (official SFS excerpt).",
+        "degreeAndProgramEligibility": "Undergraduate admitted students. Eligible programmes are not verified per degree family in this build.",
+        "academicConditions": "Not stated as a merit requirement; aid is need-based, not merit-based (official affordability page).",
+        "renewalConditions": "Not verified in detail. Official pages state aid covers the four undergraduate years; GPA and progress rules must be checked.",
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Applies to applicants whose country of citizenship differs from the university's country. Domestic applicants use a different process.",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Undergraduate admitted students; per-degree eligibility not verified."
+      },
+      "requiredDocuments": [
+        "CSS Profile",
+        "Parental tax returns or income documentation (translated into English where applicable)"
+      ],
+      "applicationMethod": "Separately applied for through MIT Student Financial Services, alongside admission.",
+      "deadlines": {
+        "earlyAction": "Financial aid application deadline quoted as 30 November (Early Action). Re-check each cycle.",
+        "regularAction": "Financial aid application deadline quoted as 15 February (Regular Action). Re-check each cycle."
+      },
+      "selectionStatistics": "Not verified. Need-based awards are not competitive in the merit sense, but no selection statistics are recorded.",
+      "uncoveredCosts": [
+        "Travel and visa costs (not verified as covered)",
+        "Health insurance (not verified)",
+        "Any part of the cost not met by the demonstrated-need calculation"
+      ],
+      "sources": [
+        "mit-affordability",
+        "mit-sfs-international",
+        "mit-sfs-faq",
+        "mit-admitted-affordability",
+        "mit-catalog-financial-aid"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "The MIT affordability page was fetched directly. The international aid page, FAQ and admitted-student page were read via search excerpts, not full fetches.",
+      "loansIncluded": false,
+      "loansNote": "MIT's official aid description states aid is grants and student work expectations and never includes loans (catalog.mit.edu excerpt)."
+    }
+  ]
+}

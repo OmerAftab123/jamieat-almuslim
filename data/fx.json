@@ -1,0 +1,11 @@
+{
+  "base": "USD",
+  "quote": "PKR",
+  "rate": 276.9545,
+  "rateType": "State Bank of Pakistan M2M revaluation rate",
+  "rateDate": "2026-10-14",
+  "sourceId": "sbp-fx",
+  "sourceUrl": "https://www.sbp.org.pk/ecodata/rates/m2m/m2m-current.asp",
+  "retrievedVia": "Search excerpt of the official SBP page (not a full fetch). Re-check before publication.",
+  "note": "Exchange-rate conversions are indicative only. Actual remittance and tuition-payment rates will differ."
+}

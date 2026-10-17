@@ -1,0 +1,220 @@
+{
+  "datasetVersion": "2026.10.17-mvp1",
+  "sources": [
+    {
+      "id": "qs-2027",
+      "title": "QS World University Rankings 2027 (TopUniversities.com ranking page)",
+      "publisher": "QS Quacquarelli Symonds",
+      "url": "https://www.topuniversities.com/world-university-rankings?items_per_page=150",
+      "type": "primary-official",
+      "publishedOrRevised": "2026-06-18",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched the official page and transcribed rank, tie notation, institution name, city and country for ranks 1-45. Ranks 46-150 NOT yet transcribed.",
+      "supports": [
+        "university overall rank",
+        "tie notation",
+        "city and country",
+        "QS profile link"
+      ]
+    },
+    {
+      "id": "mit-affordability",
+      "title": "Making MIT affordable (MIT Admissions)",
+      "publisher": "Massachusetts Institute of Technology",
+      "url": "https://mitadmissions.org/afford/",
+      "type": "primary-official",
+      "publishedOrRevised": "undated page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched directly. States aid meets 100% of demonstrated financial need and describes family-income thresholds for tuition-free attendance.",
+      "supports": [
+        "need-based aid meets 100% of demonstrated need",
+        "income thresholds"
+      ]
+    },
+    {
+      "id": "mit-cost-of-attendance",
+      "title": "How much it costs (MIT Admissions, Cost and affordability)",
+      "publisher": "Massachusetts Institute of Technology",
+      "url": "https://mitadmissions.org/afford/cost-aid-basics/access-affordability/",
+      "type": "primary-official",
+      "publishedOrRevised": "2026 academic-year figures as quoted by the page excerpt",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Read via search excerpt of the official page, NOT fetched in full. Re-verify the 2026-27 figure on the page before publication.",
+      "supports": [
+        "total cost of attendance 2026-27 quoted as USD 92,760"
+      ]
+    },
+    {
+      "id": "mit-sfs-international",
+      "title": "International students: apply for aid (MIT Student Financial Services)",
+      "publisher": "Massachusetts Institute of Technology, Student Financial Services",
+      "url": "https://sfs.mit.edu/undergraduate-students/apply-for-aid/international/",
+      "type": "primary-official",
+      "publishedOrRevised": "undated page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Read via search excerpt, NOT fetched in full. States international students are considered using the same process, that MIT commits to meeting 100% of demonstrated need, and that the CSS Profile and parental income documents are required.",
+      "supports": [
+        "international applicants considered for need-based aid",
+        "CSS Profile and parental income documents required"
+      ]
+    },
+    {
+      "id": "mit-sfs-faq",
+      "title": "How do I apply for aid? (MIT SFS FAQ)",
+      "publisher": "Massachusetts Institute of Technology, Student Financial Services",
+      "url": "https://sfs.mit.edu/help/faq/how-do-i-apply-for-aid/",
+      "type": "primary-official",
+      "publishedOrRevised": "undated page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Read via search excerpt, NOT fetched in full. States the aid meets full demonstrated need including tuition, housing, books and personal expenses.",
+      "supports": [
+        "aid covers tuition, housing, books and personal expenses as part of demonstrated need"
+      ]
+    },
+    {
+      "id": "mit-admitted-affordability",
+      "title": "Affordability (MIT Admissions for admitted students)",
+      "publisher": "Massachusetts Institute of Technology",
+      "url": "https://admitted.mit.edu/affordability",
+      "type": "primary-official",
+      "publishedOrRevised": "undated page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Read via search excerpt, NOT fetched in full. Quotes Early Action and Regular Action financial-aid timelines; these must be re-checked for each admissions cycle.",
+      "supports": [
+        "need-based aid is not merit or athletics based",
+        "aid timelines (cycle-specific)"
+      ]
+    },
+    {
+      "id": "mit-catalog-financial-aid",
+      "title": "Financial Aid (MIT Undergraduate Catalog)",
+      "publisher": "Massachusetts Institute of Technology",
+      "url": "https://catalog.mit.edu/mit/undergraduate-education/financial-aid/",
+      "type": "primary-official",
+      "publishedOrRevised": "catalog page (undated in search metadata)",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Read via search excerpt, NOT fetched in full. States need-based grants meet full demonstrated need for undergraduates regardless of citizenship and that aid never includes loans.",
+      "supports": [
+        "aid is grants and work, never loans",
+        "full demonstrated need for all undergraduates"
+      ]
+    },
+    {
+      "id": "sbp-fx",
+      "title": "USD/PKR Rates: M2M Revaluation Rate (State Bank of Pakistan)",
+      "publisher": "State Bank of Pakistan",
+      "url": "https://www.sbp.org.pk/ecodata/rates/m2m/m2m-current.asp",
+      "type": "primary-official",
+      "publishedOrRevised": "as on 14 Oct 2026",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Read via search excerpt of the official SBP page showing the M2M revaluation rate 276.9545 as on 14-Oct-2026. Re-verify before publication.",
+      "supports": [
+        "USD to PKR conversion rate"
+      ]
+    },
+    {
+      "id": "bls-ooh",
+      "title": "Occupational Outlook Handbook",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/ooh/",
+      "type": "primary-official",
+      "publishedOrRevised": "rolling update",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Listed as a reference for occupational outlook and pay categories. Individual occupation figures have NOT been extracted into this dataset.",
+      "supports": [
+        "general occupational outlook (not yet extracted)"
+      ]
+    },
+    {
+      "id": "onet",
+      "title": "O*NET OnLine",
+      "publisher": "U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetonline.org/",
+      "type": "primary-official",
+      "publishedOrRevised": "rolling update",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Listed as a reference for task and skill descriptions. Not yet used to derive task-level exposure scores.",
+      "supports": [
+        "occupational task and skill descriptions (not yet extracted)"
+      ]
+    },
+    {
+      "id": "ilostat",
+      "title": "ILOSTAT database",
+      "publisher": "International Labour Organization",
+      "url": "https://ilostat.ilo.org/",
+      "type": "primary-official",
+      "publishedOrRevised": "rolling update",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Listed as a reference for international labour statistics. Not yet extracted.",
+      "supports": [
+        "international employment and unemployment statistics (not yet extracted)"
+      ]
+    },
+    {
+      "id": "frey-osborne-2017",
+      "title": "The future of employment: How susceptible are jobs to computerisation?",
+      "publisher": "Technological Forecasting and Social Change (Frey and Osborne)",
+      "url": "https://doi.org/10.1016/j.techfore.2016.08.019",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "2017",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Cited as a published automation-exposure study. Its method is known to be contested and it predates generative AI; it is used only as one input, never as a definitive measure.",
+      "supports": [
+        "early automation-exposure framework"
+      ]
+    },
+    {
+      "id": "eloundou-2023",
+      "title": "GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models",
+      "publisher": "arXiv (Eloundou, Manning, Mishkin, Rock)",
+      "url": "https://arxiv.org/abs/2303.10130",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "2023",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Cited as a task-level exposure study of large language models. Preprint; exposure is not the same as displacement.",
+      "supports": [
+        "task-level exposure of occupations to language models"
+      ]
+    },
+    {
+      "id": "quran-7-56",
+      "title": "Qur'an 7:56 (Al-A'raf), translation and commentary access",
+      "publisher": "Quran.com",
+      "url": "https://quran.com/7/56",
+      "type": "islamic-primary",
+      "publishedOrRevised": "n/a",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Referenced as a primary text on not causing corruption on earth after its reform. Interpretive application to environmental careers is an analytic framing, not a ruling.",
+      "supports": [
+        "stewardship and avoidance of corruption on earth (conceptual framing)"
+      ]
+    },
+    {
+      "id": "quran-2-275",
+      "title": "Qur'an 2:275 (Al-Baqarah), riba prohibition",
+      "publisher": "Quran.com",
+      "url": "https://quran.com/2/275",
+      "type": "islamic-primary",
+      "publishedOrRevised": "n/a",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Referenced as a primary text on riba. Its application to particular contracts, banks and products is a matter for qualified scholars and is not decided here.",
+      "supports": [
+        "prohibition of riba (text); application is scholarly"
+      ]
+    },
+    {
+      "id": "quran-5-2",
+      "title": "Qur'an 5:2 (Al-Ma'idah), cooperation in righteousness and piety",
+      "publisher": "Quran.com",
+      "url": "https://quran.com/5/2",
+      "type": "islamic-primary",
+      "publishedOrRevised": "n/a",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Referenced as a primary text on cooperating in righteousness and avoiding cooperation in sin and transgression. Applied as a general principle only.",
+      "supports": [
+        "general principle of cooperating in righteousness, avoiding sin and transgression"
+      ]
+    }
+  ]
+}
