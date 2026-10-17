@@ -10,7 +10,7 @@ This page states what the dataset contains and what it does not. Figures are as 
 | Career families | `data/families.json` | **41** | All seven criteria scored for every family. Scores are judgements. |
 | Universities (QS 2027) | `data/universities.json` | **150** | Ranks 1 to =150 from the official QS page. Ties kept as published. |
 | Scholarships | `data/scholarships.json` | **2** | MIT need-based undergraduate aid; UM PTE x UM Scholarship 2026 (external, partial). |
-| Sources | `data/sources.json` | **22** | Each with a URL, type and last-checked date. |
+| Sources | `data/sources.json` | **28** | Each with a URL, type and last-checked date. |
 | Exchange rates | `data/fx.json` | **2** | USD to PKR 276.9545 (SBP M2M, 14 Oct 2026); USD to EUR from ECB reference rate (16 Oct 2026). Other currencies: user-entered, unverified. |
 
 Validation status at this commit: `npm run validate:data` passes on these counts.
