@@ -3074,6 +3074,696 @@
           ]
         }
       ]
+    },
+    {
+      "id": "peking-university-free-study",
+      "universityId": "peking-university",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry). 2027 rules are not yet published on the official page checked.",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Possibly. Foreign passport holders aged 18 to 25 with a high school diploma are eligible (2026 official rule). Admission is competitive and language requirements depend on the programme.",
+          "detail": "Official 2026 rule: non-Chinese citizen with a valid foreign passport; age 18 to 25 for the cohort (born 1 Sep 2001 to 1 Sep 2008); high school graduate. Chinese-taught undergraduate programmes require a high Chinese test score (HSK 6 at 210 or more) according to a secondary source; not verified on the official page.",
+          "sourceIds": [
+            "pku-isd-undergrad-2026",
+            "pku-isd-2026-no-exam"
+          ]
+        },
+        "free": {
+          "verdict": "Possibly, not guaranteed. The PKU Scholarship (merit-based) can cover full or partial tuition, living stipend and medical insurance. Awards are chosen by the university after admission.",
+          "detail": "Undergraduate applicants do not apply separately; PKU assesses admitted students. Selection rate, amounts and the share of awards given to international students are not verified.",
+          "sourceIds": [
+            "pku-isd-undergrad-2026",
+            "pku-scholarship-international"
+          ]
+        },
+        "should": {
+          "verdict": "Depends on whether you win an award or can pay tuition and living costs, and on whether you want a Chinese-language or English-language programme.",
+          "detail": "Consider the RMB 800 application fee per programme, and the scholarship outcome. Do not assume an award.",
+          "sourceIds": [
+            "pku-isd-undergrad-2026"
+          ]
+        },
+        "how": [
+          "Check the 2027 undergraduate schedule on the official International Students Division site; the 2026 cycle ran 1 Jan to 28 Feb (secondary source; verify 2027 dates).",
+          "Submit the admission application through the PKU online system and pay the application fee per programme.",
+          "Check for scholarship notices by email; undergraduate applicants are assessed without a separate scholarship form.",
+          "Check the medical insurance rule for your intake before registration.",
+          "If you want the Chinese Government Scholarship Type A, check the dispatch route and CSCA requirement early."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Nationality",
+          "detail": "Non-Chinese citizen with a valid foreign passport (official 2026 rule).",
+          "status": "verified-official",
+          "sourceIds": [
+            "pku-isd-undergrad-2026"
+          ]
+        },
+        {
+          "item": "Age",
+          "detail": "Between 18 and 25 for the 2026 cohort (born 1 Sep 2001 to 1 Sep 2008). Check the 2027 rule.",
+          "status": "verified-official",
+          "sourceIds": [
+            "pku-isd-2026-no-exam"
+          ]
+        },
+        {
+          "item": "School leaving certificate",
+          "detail": "High school graduate or above (official 2026 rule).",
+          "status": "verified-official",
+          "sourceIds": [
+            "pku-isd-2026-no-exam"
+          ]
+        },
+        {
+          "item": "Language (Chinese-taught programmes)",
+          "detail": "Not verified on the official page. A secondary source says HSK 6 at 210 or more.",
+          "status": "not-verified",
+          "sourceIds": []
+        },
+        {
+          "item": "Language (English-taught programmes)",
+          "detail": "Not researched for this batch.",
+          "status": "not-researched",
+          "sourceIds": []
+        },
+        {
+          "item": "Application fee",
+          "detail": "RMB 800 per programme (secondary source; check the official site).",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit (PKU Scholarship for International Students)",
+          "status": "available-conditional",
+          "detail": "Full or partial tuition, living stipend and medical insurance. Awarded after admission; not guaranteed.",
+          "sourceIds": [
+            "pku-scholarship-international",
+            "pku-isd-undergrad-2026"
+          ]
+        },
+        {
+          "route": "National (Chinese Government Scholarship, Type A and B)",
+          "status": "available-conditional",
+          "detail": "Type A through home country dispatch; Type B through CSC registration. Pakistan on the Type A list not verified.",
+          "sourceIds": [
+            "pku-isd-2026-no-exam"
+          ]
+        },
+        {
+          "route": "Regional (Beijing Government Scholarship)",
+          "status": "unverified",
+          "detail": "Type A/B/C coverage shown on the graduate page; undergraduate coverage not confirmed.",
+          "sourceIds": [
+            "pku-beijing-government-scholarship"
+          ]
+        },
+        {
+          "route": "Need-based",
+          "status": "not-recorded",
+          "detail": "No need-based route found on the pages checked.",
+          "sourceIds": []
+        },
+        {
+          "route": "Sports",
+          "status": "not-recorded",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [],
+      "unofficialTrends": {
+        "status": "not-researched",
+        "detail": "No trend data recorded. Competitiveness and admitted-student profiles are not verified for this university."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Public top-ranked university with several award routes that may cover tuition and living costs.",
+          "Award is automatic for undergraduate admitted students (official page)."
+        ],
+        "againstOrCaution": [
+          "Awards are not guaranteed and amounts are not published.",
+          "Chinese-language demands may be high for Chinese-taught programmes (not verified on official pages).",
+          "Medical insurance and application fees are extra costs."
+        ],
+        "decisionTest": [
+          "Do you accept that the award is uncertain?",
+          "Can you study in the language of your chosen programme?",
+          "Can you fund living costs if no award is given?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Degree ranking for Peking University is not verified in this batch. See the bachelor ranking note in docs/ANSWER_LOGIC.md.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now to the 2027 application window",
+          "steps": [
+            "Check the official International Students Division page for 2027 dates and rules.",
+            "Confirm your age and foreign passport rule."
+          ]
+        },
+        {
+          "window": "Application window (2027 dates to confirm)",
+          "steps": [
+            "Apply online for admission and pay the fee per programme.",
+            "Keep your email monitored for scholarship and admission notices."
+          ]
+        },
+        {
+          "window": "After offer",
+          "steps": [
+            "Check the medical insurance rule before registration.",
+            "If applying for Type A or B, complete the CSC steps before the CSC deadline."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tsinghua-university-free-study",
+      "universityId": "tsinghua-university",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry, 2027 intake).",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Possibly. Foreign nationals with a valid foreign passport and a full-time high school diploma can apply. Admission is by competitive comprehensive evaluation.",
+          "detail": "Official eligibility: foreign nationals; good health; high school diploma from full-time in-person study; outstanding academic performance; at least 18 by 1 Sep 2027. Olympiad awards are listed as optional evidence.",
+          "sourceIds": [
+            "tsinghua-eligibility"
+          ]
+        },
+        "free": {
+          "verdict": "Not established. No scholarship route for this university has been verified on official pages in this batch.",
+          "detail": "Tsinghua scholarship pages were not researched in this batch. Do not assume a route exists.",
+          "sourceIds": []
+        },
+        "should": {
+          "verdict": "Depends on your tuition funding, your language route, and whether you accept the competitive comprehensive evaluation.",
+          "detail": "Application fee is RMB 800 (official page). Plan for living costs and tuition, which are not verified in this batch.",
+          "sourceIds": [
+            "tsinghua-application-procedures"
+          ]
+        },
+        "how": [
+          "Create an account in the Tsinghua online application system during the open round.",
+          "Upload transcripts (Chinese or English), the national exam certificate if any, and English test results for English programmes.",
+          "Pay the RMB 800 application fee on submission.",
+          "Check the round dates: the first round for 2027 entry runs 30 Sep 2026 to 20 Nov 2026 and is for arts and design programmes only (official schedule).",
+          "Check the language requirement for your chosen programme before applying."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Nationality",
+          "detail": "Foreign nationals with a valid foreign passport; Chinese-national parents need extra documents (official FAQ excerpt).",
+          "status": "verified-official",
+          "sourceIds": [
+            "tsinghua-eligibility"
+          ]
+        },
+        {
+          "item": "School leaving certificate",
+          "detail": "Full-time in-person high school diploma. GED and equivalents are not accepted (official FAQ excerpt).",
+          "status": "verified-official",
+          "sourceIds": [
+            "tsinghua-eligibility"
+          ]
+        },
+        {
+          "item": "Age",
+          "detail": "At least 18 years old by 1 Sep 2027 (official page).",
+          "status": "verified-official",
+          "sourceIds": [
+            "tsinghua-eligibility"
+          ]
+        },
+        {
+          "item": "Academic evidence",
+          "detail": "Transcripts; national matriculation certificate; international tests (CSCA, SAT, ACT, A-Level, AP, IB) are examples, not all required (official page).",
+          "status": "verified-official",
+          "sourceIds": [
+            "tsinghua-eligibility"
+          ]
+        },
+        {
+          "item": "English (English-taught programmes)",
+          "detail": "TOEFL, IELTS or equivalent required for non-native English speakers. Minimum scores are not on the excerpt.",
+          "status": "partially-verified",
+          "sourceIds": [
+            "tsinghua-eligibility"
+          ]
+        },
+        {
+          "item": "Chinese (Chinese-taught programmes)",
+          "detail": "Requirement not verified on the official pages checked.",
+          "status": "not-verified",
+          "sourceIds": []
+        },
+        {
+          "item": "Application fee",
+          "detail": "RMB 800, non-refundable (official page).",
+          "status": "verified-official",
+          "sourceIds": [
+            "tsinghua-application-procedures"
+          ]
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit",
+          "status": "not-researched",
+          "detail": "No Tsinghua undergraduate scholarship record verified in this batch.",
+          "sourceIds": []
+        },
+        {
+          "route": "Need-based",
+          "status": "not-recorded",
+          "detail": "Not researched; no need-based route recorded.",
+          "sourceIds": []
+        },
+        {
+          "route": "National (Chinese Government Scholarship)",
+          "status": "not-researched",
+          "detail": "Not researched for Tsinghua specifically.",
+          "sourceIds": []
+        },
+        {
+          "route": "Regional (Beijing Government Scholarship)",
+          "status": "not-researched",
+          "detail": "Not researched for Tsinghua specifically.",
+          "sourceIds": []
+        },
+        {
+          "route": "Institutional",
+          "status": "not-researched",
+          "detail": "Not researched.",
+          "sourceIds": []
+        },
+        {
+          "route": "Sports",
+          "status": "not-recorded",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [],
+      "unofficialTrends": {
+        "status": "not-researched",
+        "detail": "No trend data recorded. Competitiveness and admitted-student profiles are not verified."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Top-ranked university with a formal international application route (official pages).",
+          "Full English-taught options exist (official eligibility page mentions English-taught programmes)."
+        ],
+        "againstOrCaution": [
+          "Scholarship routes are not verified; tuition and living costs are not verified.",
+          "Competitive comprehensive evaluation; no admission rate recorded.",
+          "Chinese-taught programmes may need Chinese proficiency (not verified)."
+        ],
+        "decisionTest": [
+          "Can you fund tuition and living costs without an award?",
+          "Do you have English test scores for English programmes?",
+          "Are you comfortable with a comprehensive evaluation rather than a fixed-score entry?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Degree ranking for Tsinghua is not verified in this batch.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now to 20 Nov 2026",
+          "steps": [
+            "If your programme is in the first round (arts and design only), apply in this window.",
+            "Prepare English test scores and transcripts."
+          ]
+        },
+        {
+          "window": "Other rounds (dates to confirm)",
+          "steps": [
+            "Check the official schedule for the other rounds (not verified in this batch).",
+            "Upload documents and pay the RMB 800 fee."
+          ]
+        },
+        {
+          "window": "January 2027",
+          "steps": [
+            "First-round results are expected in January 2027 (official schedule)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unsw-sydney-free-study",
+      "universityId": "university-new-south-wales-unsw-sydney",
+      "applicant": "Pakistani citizen applying as an international undergraduate (Term 1 2027 or later entry).",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Possibly. Pakistan is listed in UNSW's 2027 international entry table. The International Admissions Diversity Pathway needs an international ATAR of 75 for eligible markets.",
+          "detail": "Official 2027 entry table lists Pakistan with code B4 (meaning not verified). The Diversity Pathway is assessed automatically for applicants with a passport from eligible markets; Pakistan's status on that list is not verified.",
+          "sourceIds": [
+            "unsw-2027-entry-table",
+            "unsw-admissions-info"
+          ]
+        },
+        "free": {
+          "verdict": "Not for free on the recorded routes. The International Student Award gives 20% of tuition for each year if Pakistan is on the eligible list (not verified). The Term 1 2027 award is a minimum of AUD 5,000 for one year.",
+          "detail": "UNSW fees were not researched in this batch. The International Scientia Coursework Scholarship (full tuition or AUD 20,000 a year) is reported only by secondary sources and is not included as verified.",
+          "sourceIds": [
+            "unsw-international-student-award",
+            "unsw-scholarships-term1-2027"
+          ]
+        },
+        "should": {
+          "verdict": "Depends on whether you can meet the ATAR or entry score, and whether you can fund fees and living costs in Sydney. Fees are not verified in this batch.",
+          "detail": "The International Student Award and Term 1 2027 award are small compared with full tuition. Check the course fee and living cost before deciding.",
+          "sourceIds": [
+            "unsw-international-student-award",
+            "unsw-scholarships-term1-2027"
+          ]
+        },
+        "how": [
+          "Check your course's international entry requirement on the 2027 table; for Pakistan, check the code B4 meaning on UNSW's site.",
+          "If you are on the Diversity Pathway list, check whether you meet an international ATAR of 75.",
+          "Apply for the Term 1 2027 UNSW Scholarship before 30 Oct 2026, with an offer by that date.",
+          "Check whether Pakistan is on the International Student Award eligible-country list."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Entry table (Pakistan)",
+          "detail": "Pakistan is listed with code B4; the meaning of B4 is not in the excerpt.",
+          "status": "partially-verified",
+          "sourceIds": [
+            "unsw-2027-entry-table"
+          ]
+        },
+        {
+          "item": "Diversity Pathway",
+          "detail": "Minimum international ATAR of 75; automatic for eligible markets (official page).",
+          "status": "verified-official",
+          "sourceIds": [
+            "unsw-admissions-info"
+          ]
+        },
+        {
+          "item": "English",
+          "detail": "Official English requirement not verified in this batch. A secondary source says IELTS 6.5 overall; do not rely on it.",
+          "status": "not-verified",
+          "sourceIds": []
+        },
+        {
+          "item": "Course-specific requirements",
+          "detail": "Check the degree page; not researched in this batch.",
+          "status": "not-researched",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit (International Scientia)",
+          "status": "not-verified",
+          "detail": "Reported by secondary sources only. Not on the official pages checked.",
+          "sourceIds": []
+        },
+        {
+          "route": "Institutional (International Student Award)",
+          "status": "available-conditional",
+          "detail": "20% of tuition each year for citizens of eligible countries; Pakistan status not verified.",
+          "sourceIds": [
+            "unsw-international-student-award"
+          ]
+        },
+        {
+          "route": "Institutional (Term 1 2027 award)",
+          "status": "available-conditional",
+          "detail": "Minimum AUD 5,000 for one year. Closes 30 Oct 2026.",
+          "sourceIds": [
+            "unsw-scholarships-term1-2027"
+          ]
+        },
+        {
+          "route": "Regional (UNSW College Regional Merit)",
+          "status": "unverified",
+          "detail": "Pakistan is in the South Asia list; this route is for UNSW College only. Value not recorded.",
+          "sourceIds": [
+            "unsw-college-scholarships"
+          ]
+        },
+        {
+          "route": "Need-based",
+          "status": "not-recorded",
+          "detail": "No need-based route recorded.",
+          "sourceIds": []
+        },
+        {
+          "route": "Sports",
+          "status": "not-recorded",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [],
+      "unofficialTrends": {
+        "status": "not-researched",
+        "detail": "No trend data recorded for this university."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Entry route for Pakistan is listed on the official 2027 table.",
+          "Diversity Pathway may assess eligible applicants automatically."
+        ],
+        "againstOrCaution": [
+          "Pakistan's status on the award lists is not verified.",
+          "Most verified awards cover a fraction of tuition.",
+          "Fees and living costs were not researched in this batch."
+        ],
+        "decisionTest": [
+          "Do you have an international ATAR of 75 or more, or an equivalent entry score?",
+          "Can you pay the full tuition if you get only the 20% or AUD 5,000 award?",
+          "Can you apply for the Term 1 2027 award before 30 Oct 2026?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Degree ranking for UNSW is not verified in this batch.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now to 30 Oct 2026",
+          "steps": [
+            "Apply for the Term 1 2027 UNSW Scholarship if you have or expect an offer by 30 Oct 2026.",
+            "Check your course entry requirement and the B4 code meaning."
+          ]
+        },
+        {
+          "window": "Application and offer",
+          "steps": [
+            "Apply for the course and check the Diversity Pathway assessment.",
+            "Check whether Pakistan is on the International Student Award list."
+          ]
+        },
+        {
+          "window": "After offer",
+          "steps": [
+            "Accept the offer within the acceptance period and complete enrolment steps."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cuhk-free-study",
+      "universityId": "chinese-university-hong-kong-cuhk",
+      "applicant": "Pakistani citizen applying as an international (non-local) undergraduate, 2027 entry.",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Possibly. Non-local applicants apply through the International Students Admissions Scheme. Entry needs qualifications such as three A-level passes or IB, with programme-specific subject requirements.",
+          "detail": "Official general requirements: GCE AL / International AL: 3 AL passes or 2 AL plus 2 AS passes; IB Diploma with programme-specific subject preferences; European Baccalaureate average of 80%. Pakistan-specific qualifications are not verified in this batch.",
+          "sourceIds": [
+            "cuhk-intl-requirements"
+          ]
+        },
+        "free": {
+          "verdict": "Not for free on the recorded routes. Non-local tuition for 2027-28 is HK$230,000 a year. The HKSAR Government Scholarship gives HK$80,000 a year, and admission scholarships range from HK$5,000 to full tuition.",
+          "detail": "Financial aid is not available to international students (official FAQ). Admission scholarships are automatic on a full-time offer. Free study depends on being awarded full tuition.",
+          "sourceIds": [
+            "cuhk-fees-2027",
+            "cuhk-admission-scholarships",
+            "cuhk-faq"
+          ]
+        },
+        "should": {
+          "verdict": "Depends on the admission outcome, whether you can fund HK$230,000 per year minus any award, and the programme you want.",
+          "detail": "The HKSAR Government Scholarship covers about one third of tuition on its own. Plan living costs in Hong Kong, which are not verified in this batch.",
+          "sourceIds": [
+            "cuhk-fees-2027",
+            "cuhk-admission-scholarships"
+          ]
+        },
+        "how": [
+          "Apply through the official International Students Admissions Scheme (2027 entry) between 2 Oct 2026 and the regular round deadline of 7 Jan 2027.",
+          "Pay the non-refundable HK$500 application fee when you submit.",
+          "Admission scholarships are assessed automatically; no separate application.",
+          "Check the advance offer round, which is separate from the regular round.",
+          "Plan funding for HK$230,000 per year minus any award, plus the HK$450 caution fee on enrolment."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Non-local status",
+          "detail": "Need a student visa or entry permit to study in Hong Kong; or IANG; or dependant visa (official page).",
+          "status": "verified-official",
+          "sourceIds": [
+            "cuhk-intl-requirements",
+            "cuhk-fees-2027"
+          ]
+        },
+        {
+          "item": "Qualifications (general)",
+          "detail": "GCE AL / International AL: 3 AL passes or 2 AL + 2 AS passes; IB Diploma; European Baccalaureate average of 80% (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "cuhk-intl-requirements"
+          ]
+        },
+        {
+          "item": "Subject requirements",
+          "detail": "Programme-specific; check the IB subject preferences on the official site.",
+          "status": "partially-verified",
+          "sourceIds": [
+            "cuhk-intl-requirements"
+          ]
+        },
+        {
+          "item": "Pakistani qualifications",
+          "detail": "Not verified in this batch.",
+          "status": "not-verified",
+          "sourceIds": []
+        },
+        {
+          "item": "Application fee",
+          "detail": "HK$500, non-refundable (official page).",
+          "status": "verified-official",
+          "sourceIds": [
+            "cuhk-application-guides"
+          ]
+        },
+        {
+          "item": "Deadline",
+          "detail": "Regular round deadline 7 Jan 2027. Applications open 2 Oct 2026 (official pages).",
+          "status": "verified-official",
+          "sourceIds": [
+            "cuhk-application-guides",
+            "cuhk-home-2027-open"
+          ]
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit (Admission Scholarships)",
+          "status": "available-conditional",
+          "detail": "HK$5,000 to full tuition; automatic on full-time offer; some awards give up to HK$66,000 a year extra.",
+          "sourceIds": [
+            "cuhk-admission-scholarships",
+            "cuhk-faq"
+          ]
+        },
+        {
+          "route": "National (HKSAR Government Scholarship)",
+          "status": "available-conditional",
+          "detail": "HK$80,000 a year for non-local students, nominated by CUHK.",
+          "sourceIds": [
+            "cuhk-admission-scholarships"
+          ]
+        },
+        {
+          "route": "Need-based",
+          "status": "not-available",
+          "detail": "Financial aid is not available to international students (official FAQ).",
+          "sourceIds": [
+            "cuhk-faq"
+          ]
+        },
+        {
+          "route": "Regional",
+          "status": "not-recorded",
+          "detail": "No regional route recorded for Pakistan.",
+          "sourceIds": []
+        },
+        {
+          "route": "Institutional",
+          "status": "available-conditional",
+          "detail": "Covered by the admission scholarships above.",
+          "sourceIds": [
+            "cuhk-admission-scholarships"
+          ]
+        },
+        {
+          "route": "Sports",
+          "status": "not-recorded",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [],
+      "unofficialTrends": {
+        "status": "not-researched",
+        "detail": "No trend data recorded. Admission rate and competitiveness are not verified."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Official fee and scholarship pages give clear figures and automatic admission scholarships.",
+          "Several awards can reduce the HK$230,000 tuition."
+        ],
+        "againstOrCaution": [
+          "Tuition is high at HK$230,000 a year for non-local students.",
+          "No need-based aid for international students.",
+          "Pakistani qualifications are not verified."
+        ],
+        "decisionTest": [
+          "Can you pay the tuition left after the largest award you could get?",
+          "Do your qualifications match the GCE, IB or European Baccalaureate route?",
+          "Are you ready to study in Hong Kong for the full programme?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Degree ranking for CUHK is not verified in this batch.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "From 2 Oct 2026",
+          "steps": [
+            "Check the International Students Admissions Scheme requirements and subject preferences.",
+            "Prepare transcripts and qualification certificates."
+          ]
+        },
+        {
+          "window": "Up to 7 Jan 2027 (regular round)",
+          "steps": [
+            "Submit the online application and pay HK$500.",
+            "Check the advance offer round if you are eligible."
+          ]
+        },
+        {
+          "window": "After offer",
+          "steps": [
+            "Accept the offer, check automatic scholarship offers, and plan the HK$230,000 tuition and caution fee."
+          ]
+        }
+      ]
     }
   ]
 }

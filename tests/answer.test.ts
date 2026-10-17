@@ -46,7 +46,7 @@ describe('answerFundamentalQuestion', () => {
   });
 
   it('unverified programme is never answered as eligible', () => {
-    const a = answerFundamentalQuestion(d, { ...base, universityId: 'tsinghua-university' });
+    const a = answerFundamentalQuestion(d, { ...base, universityId: 'johns-hopkins-university' });
     expect(a.can.verdict).toBe('programme-not-verified');
     expect(a.should.verdict).toBe('not-enough-evidence');
     expect(a.free.verdict).toBe('not-researched');
@@ -60,7 +60,7 @@ describe('answerFundamentalQuestion', () => {
   });
 
   it('a university without a dossier gets generic how-steps', () => {
-    const a = answerFundamentalQuestion(d, { ...base, universityId: 'tsinghua-university' });
+    const a = answerFundamentalQuestion(d, { ...base, universityId: 'johns-hopkins-university' });
     expect(a.dossierId).toBeNull();
     expect(a.how[0]).toMatch(/course list|Confirm/);
   });

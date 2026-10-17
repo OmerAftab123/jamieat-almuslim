@@ -979,6 +979,267 @@
       "supports": [
         "Search excerpt of the official page (AUD, guide for 2027 ent"
       ]
+    },
+    {
+      "id": "pku-isd-undergrad-2026",
+      "title": "Peking University 2026 Undergraduate Program Entrance Examination (International Students Division)",
+      "publisher": "Peking University International Students Division",
+      "url": "https://isd.pku.edu.cn/en/detail.php?id=818",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page. Shows 2026 rules: non-Chinese passport holders; age 18-25; scholarships listed; no separate scholarship application needed.",
+      "supports": [
+        "Eligibility (2026 cycle)",
+        "Scholarship route list",
+        "No separate scholarship application for undergraduate applicants"
+      ]
+    },
+    {
+      "id": "pku-isd-2026-no-exam",
+      "title": "2026 Undergraduate Program Without Written Examination (PKU ISD)",
+      "publisher": "Peking University International Students Division",
+      "url": "https://isd.pku.edu.cn/en/detail.php?id=813",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page. Describes eligibility and the Chinese Government Scholarship (CSCA required for Type A).",
+      "supports": [
+        "Eligibility",
+        "Chinese Government Scholarship requires CSCA for Type A"
+      ]
+    },
+    {
+      "id": "pku-scholarship-international",
+      "title": "Peking University Scholarship for International Students",
+      "publisher": "Peking University International Students Division",
+      "url": "https://isd.pku.edu.cn/en/detail.php?id=525",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: full or partial tuition, living stipend and medical insurance; eligibility rules.",
+      "supports": [
+        "Scope: tuition, living stipend and insurance",
+        "Eligibility: no other scholarship"
+      ]
+    },
+    {
+      "id": "pku-beijing-government-scholarship",
+      "title": "Beijing Government Scholarship (Types A, B, C)",
+      "publisher": "Peking University International Students Division",
+      "url": "https://isd.pku.edu.cn/en/detail.php?id=765",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page. The excerpt describes graduate-level prospective students; undergraduate coverage is not confirmed on this page.",
+      "supports": [
+        "Type A, B, C coverage levels"
+      ]
+    },
+    {
+      "id": "tsinghua-eligibility",
+      "title": "Eligibility: Tsinghua Undergraduate Admissions (International)",
+      "publisher": "Tsinghua University",
+      "url": "https://international.join-tsinghua.edu.cn/Admission1/Eligibility.htm",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official eligibility page: foreign nationals; high school diploma; transcripts; English tests for English programmes; age at 1 Sep 2027.",
+      "supports": [
+        "Eligibility",
+        "English test for English programmes",
+        "Age at 1 Sep 2027"
+      ]
+    },
+    {
+      "id": "tsinghua-schedule",
+      "title": "Schedule: Tsinghua Undergraduate Admissions (International)",
+      "publisher": "Tsinghua University",
+      "url": "https://international.join-tsinghua.edu.cn/Admission1/Schedule.htm",
+      "type": "primary-official",
+      "publishedOrRevised": "Schedule for 2027 entry",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official schedule: first round 30 Sep 2026 to 20 Nov 2026 (Beijing time); design and fine arts only in this round; result January 2027.",
+      "supports": [
+        "First-round dates for 2027 entry"
+      ]
+    },
+    {
+      "id": "tsinghua-application-procedures",
+      "title": "Application Procedures: Tsinghua Undergraduate Admissions (International)",
+      "publisher": "Tsinghua University",
+      "url": "https://international.join-tsinghua.edu.cn/Admission1/Application_Procedures.htm",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: online application; non-refundable application fee of 800 RMB; comprehensive evaluation.",
+      "supports": [
+        "Application fee 800 RMB",
+        "Comprehensive evaluation"
+      ]
+    },
+    {
+      "id": "unsw-2027-entry-table",
+      "title": "Undergraduate entry requirements for 2027 (international table, CRICOS 00098G)",
+      "publisher": "UNSW Sydney",
+      "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official PDF table. Shows a row for Pakistan with code \"B4\". The code key is not in the excerpt.",
+      "supports": [
+        "Pakistan row in the 2027 entry table (code B4, meaning not verified)"
+      ]
+    },
+    {
+      "id": "unsw-admissions-info",
+      "title": "International student admissions (UNSW Sydney)",
+      "publisher": "UNSW Sydney",
+      "url": "https://www.unsw.edu.au/study/international-students/admissions-info",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: offers are merit-based; International Admissions Diversity Pathway needs an international ATAR of 75; no separate application for eligible markets.",
+      "supports": [
+        "Diversity Pathway: international ATAR 75 minimum",
+        "Automatic assessment for eligible markets"
+      ]
+    },
+    {
+      "id": "unsw-scholarships-term1-2027",
+      "title": "UNSW Scholarships for International Students commencing Term 1, 2027 (PUCA1029)",
+      "publisher": "UNSW Scholarships",
+      "url": "https://www.scholarships.unsw.edu.au/scholarships/id/1988",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official scholarship page: minimum value AUD 5,000 for 1 year; opens 15 Jul 2026, closes 30 Oct 2026; needs an offer by that date.",
+      "supports": [
+        "Value AUD 5,000 minimum for 1 year",
+        "Closing date 30 Oct 2026"
+      ]
+    },
+    {
+      "id": "unsw-international-student-award",
+      "title": "International Student Award (UNSW Scholarships)",
+      "publisher": "UNSW Scholarships",
+      "url": "https://www.scholarships.unsw.edu.au/international-student-award",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: 20% toward tuition each year for citizens of eligible countries starting in 2026 or 2027. The eligible-country list is not in the excerpt.",
+      "supports": [
+        "20% tuition toward each year for eligible countries",
+        "Eligibility: citizens of eligible countries"
+      ]
+    },
+    {
+      "id": "unsw-international-scholarships",
+      "title": "Scholarships for international students (UNSW Sydney)",
+      "publisher": "UNSW Sydney",
+      "url": "https://www.unsw.edu.au/study/your-future/international-scholarships",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: Term 1 2027 applications close 30 Oct 2026.",
+      "supports": [
+        "Term 1 2027 scholarship closing date"
+      ]
+    },
+    {
+      "id": "unsw-college-scholarships",
+      "title": "Regional Merit Scholarship (UNSW College)",
+      "publisher": "UNSW College",
+      "url": "https://www.unswcollege.edu.au/regional-merit-scholarship",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: South Asia region includes Pakistan. Value and terms not in the excerpt.",
+      "supports": [
+        "Eligible region includes Pakistan (UNSW College only)"
+      ]
+    },
+    {
+      "id": "cuhk-fees-2027",
+      "title": "Fees: CUHK Undergraduate Admissions",
+      "publisher": "The Chinese University of Hong Kong",
+      "url": "https://admission.cuhk.edu.hk/fees-financing-your-studies/fees/",
+      "type": "primary-official",
+      "publishedOrRevised": "2027-28 fees",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official fees page: HK$230,000 per year for non-local students in 2027-28; caution fee HK$450; yearly adjustment capped at 3%.",
+      "supports": [
+        "Non-local tuition HK$230,000 (2027-28)",
+        "Caution fee HK$450"
+      ]
+    },
+    {
+      "id": "cuhk-admission-scholarships",
+      "title": "Admission Scholarships (for undergraduates only): CUHK",
+      "publisher": "The Chinese University of Hong Kong",
+      "url": "https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/admission-scholarships-for-undergraduates-only/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: no application needed; value from HK$5,000 to full tuition; HKSAR Government Scholarship HK$40,000 (local) and HK$80,000 (non-local) per year.",
+      "supports": [
+        "Admission scholarships: automatic, HK$5,000 to full tuition",
+        "HKSAR Government Scholarship HK$80,000 per year for non-local students"
+      ]
+    },
+    {
+      "id": "cuhk-intl-requirements",
+      "title": "Requirements: CUHK International Students Admissions Scheme",
+      "publisher": "The Chinese University of Hong Kong",
+      "url": "https://admission.cuhk.edu.hk/application/overseas-other-qualifications-non-local-international-team/requirements/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official requirements page: GCE AL / International AL: 3 AL passes or 2 AL + 2 AS passes; IB Diploma with programme-specific subject requirements; European Baccalaureate average 80%.",
+      "supports": [
+        "GCE AL/IB/European Baccalaureate general requirements"
+      ]
+    },
+    {
+      "id": "cuhk-application-guides",
+      "title": "Application Guides: CUHK International Students Admissions",
+      "publisher": "The Chinese University of Hong Kong",
+      "url": "https://admission.cuhk.edu.hk/application/overseas-other-qualifications-non-local-international-team/application-guides/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official guide: regular round deadline 7 Jan 2027; non-refundable application fee HK$500; advance offer round exists.",
+      "supports": [
+        "Regular round deadline 7 Jan 2027",
+        "Application fee HK$500"
+      ]
+    },
+    {
+      "id": "cuhk-faq",
+      "title": "FAQ: CUHK International Students Admissions",
+      "publisher": "The Chinese University of Hong Kong",
+      "url": "https://admission.cuhk.edu.hk/application/overseas-other-qualifications-non-local-international-team/faq/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official FAQ: admission scholarships are automatic for full-time undergraduate offers; financial aid is not available to international students.",
+      "supports": [
+        "Financial aid not available to international students",
+        "Admission scholarships automatic"
+      ]
+    },
+    {
+      "id": "cuhk-home-2027-open",
+      "title": "CUHK Undergraduate Admissions homepage",
+      "publisher": "The Chinese University of Hong Kong",
+      "url": "https://admission.cuhk.edu.hk/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official homepage: 2027 entry applications open on 2 Oct 2026.",
+      "supports": [
+        "Applications for 2027 entry open 2 Oct 2026"
+      ]
     }
   ]
 }

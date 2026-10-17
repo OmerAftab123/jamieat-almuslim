@@ -1172,6 +1172,426 @@
         "merit",
         "institutional"
       ]
+    },
+    {
+      "id": "pku-international-scholarship",
+      "universityId": "peking-university",
+      "name": "Peking University Scholarship for International Students",
+      "funder": "Peking University (institutional)",
+      "awardType": "merit-based",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ],
+      "classification": "unconfirmed",
+      "classificationNote": "Official page: full or partial tuition exemption, living stipend and medical insurance. Amount for each award is not stated.",
+      "coverage": {
+        "tuition": "Full or partial exemption (official page).",
+        "livingStipend": "Monthly living expenses (official page).",
+        "healthInsurance": "Medical insurance (official page).",
+        "accommodationAndMeals": "Not stated.",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Open to non-Chinese citizens holding a valid foreign passport; undergraduate applicants are assessed automatically after admission.",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "Non-Chinese citizen with a valid foreign passport (official page).",
+        "nonUsApplicantNote": "Pakistan is not excluded in the official excerpt; no Pakistan-specific rule found.",
+        "academicConditions": "Must meet the international admission requirements; must not hold other scholarship funding (official page).",
+        "renewalConditions": "Not stated for undergraduates in the excerpt."
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "No separate application for undergraduate applicants: the university awards merit-based scholarships to admitted students (official page).",
+      "deadlines": {
+        "undergraduate": "Not stated for 2027 entry; the scholarship is decided after admission."
+      },
+      "selectionStatistics": "Not verified.",
+      "uncoveredCosts": [
+        "Accommodation, meals and travel not stated."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not stated in the source.",
+      "sources": [
+        "pku-isd-undergrad-2026",
+        "pku-scholarship-international"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Scope and value are from official excerpts. Selection rate and per-student amounts not verified."
+    },
+    {
+      "id": "beijing-government-scholarship-international",
+      "universityId": "peking-university",
+      "name": "Beijing Government Scholarship for International Students (Types A, B, C)",
+      "funder": "Beijing Municipal Government",
+      "awardType": "external",
+      "scholarshipTypes": [
+        "national"
+      ],
+      "classification": "unconfirmed",
+      "classificationNote": "Official page describes Type A (tuition, housing, stipend, insurance), Type B (tuition, housing, insurance) and Type C (tuition, insurance). Bachelor coverage is not confirmed on the excerpt.",
+      "coverage": {
+        "tuition": "Full or partial waiver by type (official page for graduate level).",
+        "livingStipend": "Type A only (official page).",
+        "healthInsurance": "Types A, B, C (official page).",
+        "accommodationAndMeals": "Types A and B (official page).",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Applies to international students admitted to Peking University; applicants are considered together with the PKU scholarship.",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "Non-Chinese citizen with a valid foreign passport (official page).",
+        "nonUsApplicantNote": "Pakistan is not excluded in the excerpt; not verified for undergraduates.",
+        "academicConditions": "Must meet the admission requirements; must not hold other government or university scholarships (official page; one-time merit awards excepted).",
+        "renewalConditions": "Not stated for undergraduate students."
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "Automatic from the PKU application system; no separate application is needed for undergraduate applicants (official page excerpt).",
+      "deadlines": {
+        "undergraduate": "Not verified for 2027 entry."
+      },
+      "selectionStatistics": "Not verified.",
+      "uncoveredCosts": [
+        "Type C does not cover living costs; amounts per type are not stated for undergraduates."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not stated in the source.",
+      "sources": [
+        "pku-beijing-government-scholarship",
+        "pku-isd-undergrad-2026"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "unverified",
+      "verificationNote": "Undergraduate coverage not confirmed on an official undergraduate page. The \"no separate application\" claim is from secondary sources only."
+    },
+    {
+      "id": "chinese-government-scholarship-peku",
+      "universityId": "peking-university",
+      "name": "Chinese Government Scholarship (CSC) via Peking University",
+      "funder": "China Scholarship Council (Ministry of Education)",
+      "awardType": "external",
+      "scholarshipTypes": [
+        "national"
+      ],
+      "classification": "unconfirmed",
+      "classificationNote": "Type A is processed through the home country dispatch route (Chinese embassy or consulate). Type B is applied for through the CSC system. Amounts are not stated in the excerpts.",
+      "coverage": {
+        "tuition": "Not stated in the excerpt.",
+        "livingStipend": "Not stated in the excerpt.",
+        "healthInsurance": "Not stated in the excerpt.",
+        "accommodationAndMeals": "Not stated in the excerpt.",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Open to non-Chinese citizens; Type A runs through the home country dispatch route.",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "Non-Chinese citizen with a valid foreign passport (official page).",
+        "nonUsApplicantNote": "Type A country list not verified for Pakistan.",
+        "academicConditions": "Type A for bachelor applicants requires a CSCA score (official page excerpt); Type B has its own CSC steps.",
+        "renewalConditions": "Not stated."
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "Type A: apply through the dispatch route, then complete the CSC registration. Type B: separate CSC registration after the PKU application (official page excerpt).",
+      "deadlines": {
+        "typeA": "Through the home country route; dates vary.",
+        "typeB": "Separate CSC application after the PKU application."
+      },
+      "selectionStatistics": "Not verified.",
+      "uncoveredCosts": [
+        "Not stated in the excerpt."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not stated in the source.",
+      "sources": [
+        "pku-isd-2026-no-exam"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Type A country eligibility for Pakistan not verified. CSCA requirements from the official excerpt."
+    },
+    {
+      "id": "cuhk-admission-scholarships-non-local",
+      "universityId": "chinese-university-hong-kong-cuhk",
+      "name": "CUHK Admission Scholarships (undergraduate, non-local)",
+      "funder": "The Chinese University of Hong Kong",
+      "awardType": "merit-based",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ],
+      "classification": "partial",
+      "classificationNote": "Official page: HK$5,000 to full tuition coverage per award; some awards add an allowance of up to HK$66,000 per year. Each award is set by CUHK.",
+      "coverage": {
+        "tuition": "HK$5,000 to full tuition (official page).",
+        "livingStipend": "Allowance up to HK$66,000 per year on some awards (official page).",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Not stated.",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Non-local applicants who need a student visa or entry permit to study in Hong Kong (official FAQ).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "Non-local status: needs a student visa or entry permit (official FAQ).",
+        "nonUsApplicantNote": "Non-local status applies; Pakistan has no separate rule in the excerpts.",
+        "academicConditions": "Admitted to a full-time undergraduate programme; the excerpt does not list a GPA rule for the first award.",
+        "renewalConditions": "Many awards renew for the normative period subject to satisfactory academic progress (official page)."
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "No application: CUHK selects recipients and sends offers with the admission offer (official FAQ).",
+      "deadlines": {
+        "applicationRound": "Application opened 2 Oct 2026 (official homepage). Regular round deadline 7 Jan 2027."
+      },
+      "selectionStatistics": "Not verified.",
+      "uncoveredCosts": [
+        "Accommodation, travel and visa not stated."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not stated in the source.",
+      "sources": [
+        "cuhk-admission-scholarships",
+        "cuhk-faq",
+        "cuhk-home-2027-open"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Value range and automatic selection are from the official page. Per-student amounts and criteria are not published."
+    },
+    {
+      "id": "hksar-government-scholarship-cuhk",
+      "universityId": "chinese-university-hong-kong-cuhk",
+      "name": "HKSAR Government Scholarship (non-local undergraduates)",
+      "funder": "Government of the Hong Kong Special Administrative Region (via CUHK nomination)",
+      "awardType": "external",
+      "scholarshipTypes": [
+        "national"
+      ],
+      "classification": "partial",
+      "classificationNote": "Official CUHK page: HK$80,000 per year for non-local students; HK$40,000 per year for local students. The excerpt does not state how the money is paid.",
+      "coverage": {
+        "tuition": "Not stated whether paid to the university or the student.",
+        "livingStipend": "Not stated.",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Not stated.",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "For non-local students nominated by CUHK to the Education Bureau.",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "Non-local student status (official page).",
+        "nonUsApplicantNote": "Pakistan has no separate rule in the excerpt.",
+        "academicConditions": "Nominated by CUHK; no separate application needed (official page and secondary sources).",
+        "renewalConditions": "Not stated."
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "No separate application: CUHK nominates suitable students (official page excerpt; secondary sources agree).",
+      "deadlines": {
+        "nomination": "Decided by CUHK when offers are issued."
+      },
+      "selectionStatistics": "Not verified.",
+      "uncoveredCosts": [
+        "Full coverage not implied: HK$80,000 is about one third of the HK$230,000 non-local tuition for 2027-28."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not stated in the source.",
+      "sources": [
+        "cuhk-admission-scholarships",
+        "cuhk-fees-2027"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Amount is from the official CUHK page. Payment method and whether it can be combined with other awards are not verified in the excerpt."
+    },
+    {
+      "id": "unsw-international-student-award",
+      "universityId": "university-new-south-wales-unsw-sydney",
+      "name": "International Student Award (UNSW Sydney)",
+      "funder": "UNSW Sydney",
+      "awardType": "mixed",
+      "scholarshipTypes": [
+        "institutional"
+      ],
+      "classification": "partial",
+      "classificationNote": "Official page: 20% toward tuition for every year of the programme for citizens of eligible countries starting 2026 or 2027.",
+      "coverage": {
+        "tuition": "20% of tuition each year (official page).",
+        "livingStipend": "Not included.",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Not included.",
+        "travelAndVisa": "Not included.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "nationalities",
+        "applicantScopeNote": "Citizens of eligible countries commencing full-time on-campus study in an eligible UNSW program (official page).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "Citizen of an eligible country (official page); the list was not fetched in full.",
+        "nonUsApplicantNote": "Pakistan appears in the 2027 entry table, but this does not prove it is on the award list.",
+        "academicConditions": "Must not be a current UNSW student; must be a new full-time on-campus student (official page).",
+        "renewalConditions": "Continues for each year of the programme (official page).",
+        "nationalities": [
+          "Eligible-country list (Pakistan status not verified from the UNSW list)"
+        ]
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "Automatic if eligible; no separate application stated on the excerpt.",
+      "deadlines": {
+        "start2027": "Starting in 2027 (official page)."
+      },
+      "selectionStatistics": "Not verified.",
+      "uncoveredCosts": [
+        "Living costs, fees and insurance not covered."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not stated in the source.",
+      "sources": [
+        "unsw-international-student-award",
+        "unsw-international-scholarships"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "The 20% value is from the official page. Pakistan eligibility must be checked on the full eligible-country list."
+    },
+    {
+      "id": "unsw-international-scholarship-term1-2027",
+      "universityId": "university-new-south-wales-unsw-sydney",
+      "name": "UNSW Scholarships for International Students commencing Term 1, 2027 (PUCA1029)",
+      "funder": "UNSW Scholarships",
+      "awardType": "merit-based",
+      "scholarshipTypes": [
+        "institutional"
+      ],
+      "classification": "partial",
+      "classificationNote": "Official page: minimum AUD 5,000 for one year. Larger values are not stated on this page.",
+      "coverage": {
+        "tuition": "Minimum AUD 5,000 toward the course (official page).",
+        "livingStipend": "Not stated.",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Not stated.",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "International student commencing full-time on-campus study in an eligible UNSW undergraduate coursework program in Term 1, 2027.",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "International student status (official page).",
+        "nonUsApplicantNote": "Pakistan has no separate rule in the excerpt.",
+        "academicConditions": "Must have an unconditional or eligible conditional offer by 30 Oct 2026 (official page).",
+        "renewalConditions": "Not stated."
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "Application through the UNSW Scholarships system before the closing date (official page excerpt).",
+      "deadlines": {
+        "closes": "30 Oct 2026 (official page). Opened 15 Jul 2026."
+      },
+      "selectionStatistics": "Not verified.",
+      "uncoveredCosts": [
+        "Most costs are not covered by the minimum award."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not stated in the source.",
+      "sources": [
+        "unsw-scholarships-term1-2027",
+        "unsw-international-scholarships"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Closing date 30 Oct 2026 is from the official page. The application steps are from the excerpt only."
+    },
+    {
+      "id": "unsw-college-regional-merit",
+      "universityId": "university-new-south-wales-unsw-sydney",
+      "name": "UNSW College Regional Merit Scholarship (South Asia)",
+      "funder": "UNSW College (for UNSW College courses)",
+      "awardType": "merit-based",
+      "scholarshipTypes": [
+        "regional"
+      ],
+      "classification": "unconfirmed",
+      "classificationNote": "Official page lists the eligible region and nationalities. Value and terms are not in the excerpt.",
+      "coverage": {
+        "tuition": "Not stated.",
+        "livingStipend": "Not stated.",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Not stated.",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "nationalities",
+        "applicantScopeNote": "Applies to UNSW College students from the listed South Asian regions (official page).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "South Asia region including Pakistan (official page).",
+        "nonUsApplicantNote": "Listed in the official excerpt for UNSW College.",
+        "academicConditions": "Not stated.",
+        "renewalConditions": "Not stated.",
+        "nationalities": [
+          "Bangladesh",
+          "India",
+          "Nepal",
+          "Pakistan",
+          "Sri Lanka"
+        ]
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "Not stated in the excerpt.",
+      "deadlines": {
+        "notStated": "Not stated in the excerpt."
+      },
+      "selectionStatistics": "Not verified.",
+      "uncoveredCosts": [
+        "Value and terms not stated."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not stated in the source.",
+      "sources": [
+        "unsw-college-scholarships"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "unverified",
+      "verificationNote": "Only the region list is verified. Amount and selection are not. This route is for UNSW College entry, not direct UNSW degree entry."
     }
   ]
 }

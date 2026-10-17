@@ -74,3 +74,15 @@ The matcher therefore reports `program-not-verified` for pairs without a verifie
 3. Add the value to the relevant record with the source ID and a date.
 4. Set the relevant `dataStatus` field to a verified value only when every value in the section is checked.
 5. Run `npm run check` and open a pull request.
+
+## Batch 5 (17 Oct 2026): Peking, Tsinghua, UNSW Sydney, CUHK
+
+- Added four dossiers, eight scholarship records and 19 official-page sources (total 24 dossiers, 31 scholarship records, 90 sources).
+- Each record is labelled with what was verified. Missing items are "not researched" or "not verified".
+- Key findings from official excerpts (not all fully fetched):
+  - Peking: foreign passport holders aged 18 to 25 (2026 rule). PKU Scholarship (merit) covers full or partial tuition, stipend and insurance; amounts not published.
+  - Tsinghua: eligibility and 2027 first-round dates (30 Sep to 20 Nov 2026, arts and design only) are official. Scholarships not researched.
+  - UNSW Sydney: Pakistan is in the 2027 entry table (code B4, meaning not verified). International Student Award gives 20% of tuition for eligible countries; Pakistan's status not verified. Term 1 2027 award closes 30 Oct 2026.
+  - CUHK: non-local tuition HK$230,000 for 2027-28. HKSAR Government Scholarship HK$80,000 a year for non-local students. Admission scholarships are automatic. Regular round deadline 7 Jan 2027.
+- Not free on any verified route: UNSW, CUHK. Possibly free (not guaranteed): Peking. Not established: Tsinghua.
+- Scholarship ID for UNSW's Scientia award is not recorded: only secondary sources mention it.
