@@ -215,6 +215,35 @@
       "supports": [
         "general principle of cooperating in righteousness, avoiding sin and transgression"
       ]
+    },
+    {
+      "id": "mit-degree-charts",
+      "title": "MIT Course Catalog: Undergraduate Degree Charts",
+      "publisher": "Massachusetts Institute of Technology",
+      "url": "https://catalog.mit.edu/degree-charts/",
+      "type": "primary-official",
+      "publishedOrRevised": "undated catalogue page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched the index page on 2026-10-17 and copied the undergraduate degree-chart titles and links as shown. Only charts that map to a catalogue degree are recorded.",
+      "supports": [
+        "undergraduate programme titles at MIT",
+        "official programme links"
+      ]
+    },
+    {
+      "id": "mit-first-year-tests",
+      "title": "First-year applicants: Tests & scores",
+      "publisher": "MIT Admissions",
+      "url": "https://mitadmissions.org/apply/firstyear/tests-scores/",
+      "type": "primary-official",
+      "publishedOrRevised": "undated page (reflects TOEFL scale change effective 21 Jan 2026)",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched directly on 2026-10-17. Recorded the SAT/ACT requirement, English-test minimums and recommended scores, and test deadlines.",
+      "supports": [
+        "SAT or ACT requirement",
+        "English test minimums and recommended scores",
+        "test deadlines"
+      ]
     }
   ]
 }

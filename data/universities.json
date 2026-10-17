@@ -27,14 +27,278 @@
       "officialWebsite": null,
       "dataStatus": {
         "qsRank": "verified-official-page",
-        "programs": "not-researched",
-        "admissions": "not-researched",
+        "programs": "partially-researched",
+        "admissions": "partially-researched",
         "scholarships": "partially-researched",
         "costs": "partially-researched"
       },
       "lastVerified": "2026-10-17",
-      "programs": [],
-      "admissions": null,
+      "programs": [
+        {
+          "degreeId": "bachelor-computer-science",
+          "status": "verified",
+          "officialTitle": "Computer Science and Engineering (Course 6-3)",
+          "officialUrl": "https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/",
+          "matchType": "closest-title",
+          "matchNote": "MIT names this major \"Computer Science and Engineering\"; the catalogue degree is a general computer science degree. Check the curriculum fit.",
+          "sourceId": "mit-degree-charts",
+          "lastChecked": "2026-10-17"
+        },
+        {
+          "degreeId": "bachelor-mechanical-engineering",
+          "status": "verified",
+          "officialTitle": "Mechanical Engineering (Course 2)",
+          "officialUrl": "https://catalog.mit.edu/degree-charts/mechanical-engineering-course-2/",
+          "matchType": "exact-title",
+          "matchNote": "Title matches the catalogue degree.",
+          "sourceId": "mit-degree-charts",
+          "lastChecked": "2026-10-17"
+        },
+        {
+          "degreeId": "bachelor-chemical-engineering",
+          "status": "verified",
+          "officialTitle": "Chemical Engineering (Course 10)",
+          "officialUrl": "https://catalog.mit.edu/degree-charts/chemical-engineering-course-10/",
+          "matchType": "exact-title",
+          "matchNote": "Title matches the catalogue degree.",
+          "sourceId": "mit-degree-charts",
+          "lastChecked": "2026-10-17"
+        },
+        {
+          "degreeId": "bachelor-aerospace-engineering",
+          "status": "verified",
+          "officialTitle": "Aerospace Engineering (Course 16)",
+          "officialUrl": "https://catalog.mit.edu/degree-charts/aerospace-engineering-course-16/",
+          "matchType": "exact-title",
+          "matchNote": "Title matches the catalogue degree.",
+          "sourceId": "mit-degree-charts",
+          "lastChecked": "2026-10-17"
+        },
+        {
+          "degreeId": "bachelor-bioengineering",
+          "status": "verified",
+          "officialTitle": "Biological Engineering (Course 20)",
+          "officialUrl": "https://catalog.mit.edu/degree-charts/biological-engineering-course-20/",
+          "matchType": "closest-title",
+          "matchNote": "Closest official title; MIT calls this Biological Engineering.",
+          "sourceId": "mit-degree-charts",
+          "lastChecked": "2026-10-17"
+        },
+        {
+          "degreeId": "bachelor-materials-engineering",
+          "status": "verified",
+          "officialTitle": "Materials Science and Engineering (Course 3)",
+          "officialUrl": "https://catalog.mit.edu/degree-charts/materials-science-engineering-course-3/",
+          "matchType": "closest-title",
+          "matchNote": "Closest official title; MIT calls this Materials Science and Engineering.",
+          "sourceId": "mit-degree-charts",
+          "lastChecked": "2026-10-17"
+        },
+        {
+          "degreeId": "bachelor-nuclear-engineering",
+          "status": "verified",
+          "officialTitle": "Nuclear Science and Engineering (Course 22)",
+          "officialUrl": "https://catalog.mit.edu/degree-charts/nuclear-science-engineering-course-22/",
+          "matchType": "closest-title",
+          "matchNote": "Closest official title; MIT calls this Nuclear Science and Engineering.",
+          "sourceId": "mit-degree-charts",
+          "lastChecked": "2026-10-17"
+        },
+        {
+          "degreeId": "bachelor-electrical-engineering",
+          "status": "verified",
+          "officialTitle": "Electrical Engineering with Computing (Course 6-5)",
+          "officialUrl": "https://catalog.mit.edu/degree-charts/electrical-engineering-computing-course-6-5/",
+          "matchType": "closest-title",
+          "matchNote": "MIT's electrical engineering major with a computing emphasis. Check the curriculum fit.",
+          "sourceId": "mit-degree-charts",
+          "lastChecked": "2026-10-17"
+        },
+        {
+          "degreeId": "bachelor-architecture",
+          "status": "verified",
+          "officialTitle": "Architecture (Course 4)",
+          "officialUrl": "https://catalog.mit.edu/degree-charts/architecture-course-4/",
+          "matchType": "exact-title",
+          "matchNote": "Title matches the catalogue degree.",
+          "sourceId": "mit-degree-charts",
+          "lastChecked": "2026-10-17"
+        },
+        {
+          "degreeId": "bachelor-architecture-urban-planning",
+          "status": "verified",
+          "officialTitle": "Planning (Course 11)",
+          "officialUrl": "https://catalog.mit.edu/degree-charts/planning-course-11/",
+          "matchType": "closest-title",
+          "matchNote": "MIT's planning major. The catalogue degree is titled Urban Planning.",
+          "sourceId": "mit-degree-charts",
+          "lastChecked": "2026-10-17"
+        },
+        {
+          "degreeId": "bachelor-economics",
+          "status": "verified",
+          "officialTitle": "Economics (Course 14-1)",
+          "officialUrl": "https://catalog.mit.edu/degree-charts/economics-course-14/",
+          "matchType": "exact-title",
+          "matchNote": "Title matches the catalogue degree.",
+          "sourceId": "mit-degree-charts",
+          "lastChecked": "2026-10-17"
+        },
+        {
+          "degreeId": "bachelor-political-science",
+          "status": "verified",
+          "officialTitle": "Political Science (Course 17)",
+          "officialUrl": "https://catalog.mit.edu/degree-charts/political-science-course-17/",
+          "matchType": "exact-title",
+          "matchNote": "Title matches the catalogue degree.",
+          "sourceId": "mit-degree-charts",
+          "lastChecked": "2026-10-17"
+        },
+        {
+          "degreeId": "bachelor-linguistics",
+          "status": "verified",
+          "officialTitle": "Linguistics and Philosophy (Course 24-2)",
+          "officialUrl": "https://catalog.mit.edu/degree-charts/linguistics-philosophy-course-24-2/",
+          "matchType": "closest-title",
+          "matchNote": "Combined linguistics and philosophy major. Check the curriculum fit.",
+          "sourceId": "mit-degree-charts",
+          "lastChecked": "2026-10-17"
+        },
+        {
+          "degreeId": "bachelor-english-literature",
+          "status": "verified",
+          "officialTitle": "Literature (Course 21L)",
+          "officialUrl": "https://catalog.mit.edu/degree-charts/literature-course-21l/",
+          "matchType": "closest-title",
+          "matchNote": "MIT's literature major. The catalogue degree is titled English Literature.",
+          "sourceId": "mit-degree-charts",
+          "lastChecked": "2026-10-17"
+        },
+        {
+          "degreeId": "bachelor-management",
+          "status": "verified",
+          "officialTitle": "Management (Course 15-1)",
+          "officialUrl": "https://catalog.mit.edu/degree-charts/management-course-15-1/",
+          "matchType": "exact-title",
+          "matchNote": "Title matches the catalogue degree.",
+          "sourceId": "mit-degree-charts",
+          "lastChecked": "2026-10-17"
+        },
+        {
+          "degreeId": "bachelor-finance",
+          "status": "verified",
+          "officialTitle": "Finance (Course 15-3)",
+          "officialUrl": "https://catalog.mit.edu/degree-charts/finance-course-15-3/",
+          "matchType": "exact-title",
+          "matchNote": "Title matches the catalogue degree.",
+          "sourceId": "mit-degree-charts",
+          "lastChecked": "2026-10-17"
+        },
+        {
+          "degreeId": "bachelor-biology",
+          "status": "verified",
+          "officialTitle": "Biology (Course 7)",
+          "officialUrl": "https://catalog.mit.edu/degree-charts/biology-course-7/",
+          "matchType": "exact-title",
+          "matchNote": "Title matches the catalogue degree.",
+          "sourceId": "mit-degree-charts",
+          "lastChecked": "2026-10-17"
+        },
+        {
+          "degreeId": "bachelor-chemistry",
+          "status": "verified",
+          "officialTitle": "Chemistry (Course 5)",
+          "officialUrl": "https://catalog.mit.edu/degree-charts/chemistry-course-5/",
+          "matchType": "exact-title",
+          "matchNote": "Title matches the catalogue degree.",
+          "sourceId": "mit-degree-charts",
+          "lastChecked": "2026-10-17"
+        },
+        {
+          "degreeId": "bachelor-mathematics",
+          "status": "verified",
+          "officialTitle": "Mathematics (Course 18)",
+          "officialUrl": "https://catalog.mit.edu/degree-charts/mathematics-course-18/",
+          "matchType": "exact-title",
+          "matchNote": "Title matches the catalogue degree.",
+          "sourceId": "mit-degree-charts",
+          "lastChecked": "2026-10-17"
+        },
+        {
+          "degreeId": "bachelor-physics",
+          "status": "verified",
+          "officialTitle": "Physics (Course 8)",
+          "officialUrl": "https://catalog.mit.edu/degree-charts/physics-course-8/",
+          "matchType": "exact-title",
+          "matchNote": "Title matches the catalogue degree.",
+          "sourceId": "mit-degree-charts",
+          "lastChecked": "2026-10-17"
+        },
+        {
+          "degreeId": "bachelor-artificial-intelligence",
+          "status": "verified",
+          "officialTitle": "Artificial Intelligence and Decision Making (Course 6-4)",
+          "officialUrl": "https://catalog.mit.edu/degree-charts/artifical-intelligence-decision-making-course-6-4/",
+          "matchType": "closest-title",
+          "matchNote": "Closest official title; MIT calls this Artificial Intelligence and Decision Making.",
+          "sourceId": "mit-degree-charts",
+          "lastChecked": "2026-10-17"
+        },
+        {
+          "degreeId": "bachelor-data-science",
+          "status": "verified",
+          "officialTitle": "Computer Science, Economics, and Data Science (Course 6-14)",
+          "officialUrl": "https://catalog.mit.edu/degree-charts/computer-science-economics-data-science-course-6-14/",
+          "matchType": "closest-title",
+          "matchNote": "Data-science-related major that also covers economics and computer science. Check the curriculum fit.",
+          "sourceId": "mit-degree-charts",
+          "lastChecked": "2026-10-17"
+        }
+      ],
+      "admissions": {
+        "sourceId": "mit-first-year-tests",
+        "lastChecked": "2026-10-17",
+        "standardisedTests": "SAT or ACT required for first-year and transfer applicants. The ACT writing and science sections and the SAT optional essay are not required.",
+        "englishTests": [
+          {
+            "test": "TOEFL iBT (taken on or after 21 Jan 2026, 1-6 scale)",
+            "minimum": "5",
+            "recommended": "5.5"
+          },
+          {
+            "test": "TOEFL iBT (taken before 21 Jan 2026)",
+            "minimum": "90",
+            "recommended": "100"
+          },
+          {
+            "test": "IELTS",
+            "minimum": "7",
+            "recommended": "7.5"
+          },
+          {
+            "test": "PTE Academic",
+            "minimum": "65",
+            "recommended": "70"
+          },
+          {
+            "test": "Cambridge English C1 Advanced or C2 Proficiency",
+            "minimum": "185",
+            "recommended": "190"
+          },
+          {
+            "test": "Duolingo English Test",
+            "minimum": "120",
+            "recommended": "125"
+          }
+        ],
+        "englishRequirementNote": "MIT strongly recommends an English test for applicants who have used English for fewer than five years or do not speak English at home or in school. The minimums above apply to the scores submitted.",
+        "testDeadlines": "English tests must be taken before 30 November (Early Action) or 31 December (Regular Action).",
+        "gradeMinimum": null,
+        "notes": [
+          "MIT does not publish a grade-percentage minimum for undergraduates, so the matcher cannot check grades for this university.",
+          "Scores are self-reported at application and verified on enrollment."
+        ]
+      },
       "costs": {
         "totalCostOfAttendance2026_27USD": 92760,
         "sourceId": "mit-cost-of-attendance",
@@ -44,7 +308,8 @@
         "mit-need-based-scholarship"
       ],
       "notes": [
-        "Aid is need-based and need-blind for admissions; only the need-based award is recorded. Undergraduate programme list not yet verified."
+        "Aid is need-based and need-blind for admissions; only the need-based award is recorded.",
+        "Programme list covers the MIT undergraduate degree charts that map to a degree in this catalogue. Other MIT majors (for example Anthropology and History) are not mapped because no catalogue degree matches them."
       ]
     },
     {

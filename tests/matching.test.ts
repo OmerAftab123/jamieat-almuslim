@@ -26,17 +26,36 @@ function fakeScholarship(overrides: Partial<Scholarship>): Scholarship {
 
 describe('programme status', () => {
   it('never reports a programme as verified when no record exists', () => {
-    const r = evaluateMatch(d, baseInput);
+    // Nursing is not on MIT's undergraduate degree charts, so no record exists for it.
+    const r = evaluateMatch(d, { ...baseInput, degreeId: 'bachelor-nursing' });
     expect(r.program.status).toBe('program-not-verified');
     expect(r.classification.label).toBe('insufficient evidence');
   });
 });
 
+describe('verified MIT programme', () => {
+  it('shows a mapped degree as verified, but never a possible candidate without a recorded grade minimum', () => {
+    const r = evaluateMatch(d, { ...baseInput, degreeId: 'bachelor-mathematics', overallPercentage: 99 });
+    expect(r.program.status).toBe('program-verified');
+    expect(r.eligibility.status).toBe('insufficient-evidence');
+    expect(r.classification.label).not.toBe('possible candidate');
+  });
+});
+
 describe('eligibility', () => {
   it('reports insufficient evidence when admissions requirements are not recorded', () => {
-    const r = evaluateMatch(d, { ...baseInput, overallPercentage: 95 });
+    // Imperial has no admissions record in the dataset (MIT now has one).
+    const r = evaluateMatch(d, { ...baseInput, universityId: 'imperial-college-london', overallPercentage: 95 });
     expect(r.eligibility.status).toBe('insufficient-evidence');
     expect(r.eligibility.notes.join(' ')).toMatch(/not been researched/);
+  });
+
+  it('does not report requirements as met when the record has no grade minimum', () => {
+    const withAdmissions = { ...mit, admissions: { sourceId: 'x', englishTests: [] } };
+    const fake = { ...d, universities: d.universities.map((u) => (u.id === mit.id ? withAdmissions : u)) };
+    const r = evaluateMatch(fake, { ...baseInput, overallPercentage: 95 });
+    expect(r.eligibility.status).toBe('insufficient-evidence');
+    expect(r.eligibility.label).toMatch(/no grade minimum/);
   });
 
   it('marks missing fields rather than assuming them', () => {

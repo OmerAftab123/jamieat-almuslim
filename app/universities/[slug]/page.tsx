@@ -30,6 +30,90 @@ const STATUS_TEXT: Record<string, string> = {
   'not-researched': 'Not researched',
 };
 
+type ProgramRecord = {
+  degreeId: string;
+  officialTitle: string;
+  officialUrl: string;
+  matchType: 'exact-title' | 'closest-title';
+  matchNote: string;
+  sourceId: string;
+  lastChecked: string;
+};
+
+type AdmissionsRecord = {
+  sourceId: string;
+  lastChecked: string;
+  standardisedTests: string;
+  englishTests: { test: string; minimum: string; recommended: string }[];
+  englishRequirementNote: string;
+  testDeadlines?: string;
+  gradeMinimum?: string | null;
+  notes: string[];
+};
+
+function AdmissionsView({ a, sources }: { a: AdmissionsRecord; sources: Parameters<typeof SourceList>[0]["sources"] }) {
+  return (
+    <>
+      <p className="small muted">Checked {a.lastChecked}.</p>
+      <dl>
+        <dt>Standardised tests</dt>
+        <dd>{a.standardisedTests}</dd>
+        <dt>Grade minimum</dt>
+        <dd>{a.gradeMinimum ?? 'None published. The matcher cannot check grades for this university.'}</dd>
+        {a.testDeadlines ? (
+          <>
+            <dt>Test deadlines</dt>
+            <dd>{a.testDeadlines}</dd>
+          </>
+        ) : null}
+      </dl>
+      {a.englishTests.length > 0 ? (
+        <div className="table-wrap">
+          <table>
+            <caption className="small muted" style={{ textAlign: 'left' }}>
+              English-language tests (minimum and recommended scores)
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Test</th>
+                <th scope="col" className="num">
+                  Minimum
+                </th>
+                <th scope="col" className="num">
+                  Recommended
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {a.englishTests.map((t) => (
+                <tr key={t.test}>
+                  <td>{t.test}</td>
+                  <td className="num">{t.minimum}</td>
+                  <td className="num">{t.recommended}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      ) : null}
+      <p className="small">{a.englishRequirementNote}</p>
+      <ul>
+        {a.notes.map((n) => (
+          <li key={n} className="small">
+            {n}
+          </li>
+        ))}
+      </ul>
+      <SourceList ids={[a.sourceId]} sources={sources} />
+    </>
+  );
+}
+
+function degreeName(id: string): string {
+  return getDataset().degrees.find((x) => x.id === id)?.name ?? id;
+}
+
+
 export default async function UniversityProfile({ params }: { params: Promise<Params> }) {
   const { slug } = await params;
   const d = getDataset();
@@ -88,7 +172,44 @@ export default async function UniversityProfile({ params }: { params: Promise<Pa
             official course list. Programme verification is in progress.
           </p>
         ) : (
-          <p>{u.programs.length} programme record(s) stored.</p>
+          <>
+            <p className="small">
+              Each row is a programme listed on the university&rsquo;s official page. &ldquo;Exact title&rdquo; means the
+              official title matches the degree here. &ldquo;Closest title&rdquo; means the university uses a different name:
+              check the curriculum before relying on it.
+            </p>
+            <div className="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th scope="col">Degree in this catalogue</th>
+                    <th scope="col">Official programme title</th>
+                    <th scope="col">Match</th>
+                    <th scope="col">Official page</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {(u.programs as ProgramRecord[]).map((p) => (
+                    <tr key={p.degreeId + p.officialTitle}>
+                      <td>{degreeName(p.degreeId)}</td>
+                      <td>{p.officialTitle}</td>
+                      <td>
+                        {p.matchType === 'exact-title' ? 'Exact title' : 'Closest title'}
+                        <div className="small muted">{p.matchNote}</div>
+                      </td>
+                      <td>
+                        <a href={p.officialUrl} target="_blank" rel="noopener noreferrer">
+                          Official page
+                        </a>
+                        <div className="small muted">Checked {p.lastChecked}</div>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <SourceList ids={[...new Set((u.programs as ProgramRecord[]).map((p) => p.sourceId))]} sources={d.sources} />
+          </>
         )}
       </section>
 
@@ -100,7 +221,7 @@ export default async function UniversityProfile({ params }: { params: Promise<Pa
             page; the matcher cannot check your eligibility here.
           </p>
         ) : (
-          <pre className="small">{JSON.stringify(u.admissions, null, 2)}</pre>
+          <AdmissionsView a={u.admissions as AdmissionsRecord} sources={d.sources} />
         )}
       </section>
 

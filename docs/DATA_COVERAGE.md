@@ -37,10 +37,10 @@ If the intended meaning was 100+ families, the dataset needs more families or a 
 | Field | Status |
 |---|---|
 | QS rank and score | Verified (official page) for all 150 |
-| Undergraduate programme list | Not researched for all 150 (empty) |
-| Admission requirements | Not researched for all 150 |
+| Undergraduate programme list | Verified for MIT only: 22 MIT degree charts mapped to catalogue degrees (12 exact titles, 10 closest titles). Not researched for the other 149. |
+| Admission requirements | MIT only: SAT/ACT requirement, English-test minimums and recommended scores, test deadlines. No grade minimum is published, so the matcher cannot check grades for MIT. Not researched for the other 149. |
 | Tuition and fees | Not researched, except the MIT total cost figure |
-| Scholarships | Only MIT has a record |
+| Scholarships | Only MIT has a record (need-based aid) |
 | Official website | Not recorded for any university |
 
 The matcher therefore reports `program-not-verified` for pairs without a verified programme. This is the correct behaviour and not a bug.
@@ -59,7 +59,7 @@ The matcher therefore reports `program-not-verified` for pairs without a verifie
 
 ## Known gaps
 
-1. Programme lists and admission requirements for almost all universities.
+1. Programme lists and admission requirements for 149 of 150 universities (MIT is partly done).
 2. Tuition and living-cost records for almost all universities.
 3. Scholarship records for almost all universities.
 4. Second-source cross-check of QS ranks.

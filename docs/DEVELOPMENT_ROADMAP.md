@@ -22,7 +22,16 @@ Status key: **Done** = in the repository and checked. **In progress** = partly b
 | GitHub Pages workflow | Written, not yet live | Live only after the repository owner enables Pages with *GitHub Actions* as the source |
 | Vercel deployment | Not done | Import the repository in Vercel |
 
-## Phase 2: Fill the evidence gaps (next)
+## Phase 2: Fill the evidence gaps (started)
+
+**Started.** One institution is fully worked through as a pilot: MIT.
+- Programmes: 22 official MIT undergraduate degree charts mapped to catalogue degrees, each with an official link and a match type (exact or closest title). Unmapped MIT majors are listed as unmapped.
+- Admissions: SAT/ACT requirement, English-test minimums and recommended scores, and deadlines, from MIT's official test page. No grade minimum is published, so the matcher reports insufficient evidence for grades.
+- Matcher fix: a record without a grade minimum no longer counts as "requirements met".
+- Profile page: programme and admissions tables replace the raw JSON display.
+- Not yet done in this pilot: MIT scholarship re-verification, per-programme costs, and browser E2E re-run in this environment (no browser available here).
+
+The next steps below remain open.
 
 Priority order:
 

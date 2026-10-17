@@ -243,6 +243,12 @@ export function evaluateMatch(d: Dataset, input: MatchInput): MatchResult {
     } else if (admissions.minimumPercentage !== undefined && input.overallPercentage === null) {
       eligibilityStatus = 'insufficient-evidence';
       eligibilityLabel = 'Insufficient evidence: enter your grades to check the recorded minimum.';
+    } else if (admissions.minimumPercentage === undefined) {
+      // A record without a grade minimum must not be read as "requirements met".
+      eligibilityStatus = 'insufficient-evidence';
+      eligibilityLabel =
+        'Insufficient evidence: no grade minimum is recorded for this university, so your grades cannot be checked against it.';
+      notes.push('Other recorded requirements (for example English and standardised tests) are shown on the university profile. The matcher does not check them.');
     } else {
       eligibilityStatus = 'profile-meets-recorded-requirements';
       eligibilityLabel = 'Profile meets the recorded requirements checked here (competitive selection is not assessed).';
