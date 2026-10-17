@@ -256,10 +256,11 @@
         },
         "free": {
           "verdict": "No full-cover route is recorded. Only a small external award is listed.",
-          "detail": "UM's official FAQ says it does not offer scholarships to undergraduate international students. UM's official financial aid page lists the PTE x UM Scholarship 2026 for international students: GBP 3,000 towards tuition, deadline 31 Dec 2026. That is a partial contribution, not a full ride. The other awards UM lists are for Malaysian or Sabah students, are loans (PTPTN), or are Islamic financing (RHB), which is repayable and is not free. The EcoWorld and MMC awards are listed, but their eligibility for international students is not stated, so they are not counted here. Tuition alone is not a full ride. The printed programme figures are in the booklet and do not include living costs.",
+          "detail": "UM's official FAQ says it does not offer scholarships to undergraduate international students. The only international-eligible award on UM's official list is the PTE x UM Scholarship 2026. It is a contest with one winner: GBP 3,000 towards tuition, for entrants who write two short answers and apply to a UM programme. Entry closes 31 Dec 2026. It is not guaranteed and not a full ride. The other awards UM lists are for Malaysian or Sabah students, are loans (PTPTN), or are repayable Islamic financing (RHB). EcoWorld, MMC and PMG are listed, but their eligibility for international students is not stated, so they are not counted here. Tuition alone is not a full ride, and living costs are not covered by any recorded route.",
           "sourceIds": [
             "um-asd-ug-faq",
             "um-asd-financial-aid",
+            "pearson-pte-um-terms",
             "um-international-booklet"
           ]
         },
@@ -421,10 +422,12 @@
           ]
         },
         {
-          "route": "External (partial)",
+          "route": "External (contest prize, partial)",
           "status": "available-conditional",
-          "detail": "PTE x UM Scholarship 2026: GBP 3,000 towards tuition for international students, deadline 31 Dec 2026. Eligibility details and application route are on the sponsor's page, which was not fetched in this build.",
+          "detail": "PTE x UM Scholarship 2026: one winner receives GBP 3,000 towards tuition. Entry is open to international students aged 18+ worldwide. Entrants write two short answers, apply to a UM programme, and provide a PTE score report code if shortlisted. Entries close 31 Dec 2026. Not guaranteed; the number of entrants is not published.",
           "sourceIds": [
+            "pearson-pte-um-terms",
+            "pearson-pte-um-page",
             "um-asd-financial-aid"
           ]
         },
@@ -532,7 +535,9 @@
         {
           "window": "Before 31 December 2026",
           "steps": [
-            "If you want the PTE x UM Scholarship, read the sponsor's terms and apply before 31 Dec 2026.",
+            "Take the PTE test if you have not already. The contest asks for a PTE score report code if you are shortlisted.",
+            "Write your two answers (why UM, and your PTE tip) and submit the Pearson entry form.",
+            "Apply to at least one UM programme via apply.um.edu.my. Confirm with UM whether a March 2027 application counts for the contest, because the terms list only the October 2026 and March 2026 intakes.",
             "Ask your school or board for certified transcripts and translations if needed."
           ]
         },

@@ -68,46 +68,51 @@
     {
       "id": "um-pte-x-um-scholarship-2026",
       "universityId": "universiti-malaya-um",
-      "name": "PTE x Universiti Malaya Scholarship 2026",
+      "name": "PTE x Universiti Malaya Scholarship 2026 (contest prize, one winner)",
       "funder": "Pearson PTE (external sponsor, listed by UM ASD)",
       "awardType": "external",
       "classification": "partial",
-      "classificationNote": "UM's official page says GBP 3,000 towards tuition fees. That is a contribution, not a full tuition or full-ride award.",
+      "classificationNote": "A GBP 3,000 prize for one winner of a contest, paid towards UM tuition. It is not guaranteed and not a full ride. Entrants must write two short answers and apply to a UM programme.",
       "coverage": {
-        "tuition": "GBP 3,000 towards tuition fees (as stated by UM's official page)",
-        "living": "Not covered as far as the official summary states",
-        "travel": "Not covered as far as the official summary states"
+        "tuition": "GBP 3,000 towards UM tuition fees for the winner (no cash alternative)",
+        "living": "Not covered",
+        "travel": "Not covered"
       },
       "eligibility": {
         "applicantScope": "international-only",
-        "applicantScopeNote": "UM's official page describes it as for international students.",
+        "applicantScopeNote": "Terms open entry to international students aged 18 or over, located in Malaysia or anywhere in the world (terms section C).",
         "requiresFinancialNeed": false,
         "degreeFamilyScope": "any",
-        "programmeScopeNote": "The UM summary does not say which programmes qualify. Check the sponsor's terms.",
-        "citizenshipOrResidency": "Not stated beyond 'international students'. Check the sponsor's terms.",
-        "nonUsApplicantNote": "Eligibility for Pakistani applicants follows from 'international students' on UM's page; confirm in the sponsor's terms.",
-        "academicConditions": "Not verified. The sponsor's page was not fetched in this build.",
-        "renewalConditions": "Not verified."
+        "programmeScopeNote": "Entrant must apply to at least one UM programme (bachelor's, master's or doctoral) for an eligible intake (terms section D). The terms list Oct 2026 and Mar 2026 intakes only, so confirm whether a March 2027 application counts.",
+        "citizenshipOrResidency": "Entry open worldwide to international students aged 18+ (terms section C). Pakistani citizens are not excluded.",
+        "nonUsApplicantNote": "Nationality is not a criterion in the terms. Entry is judged on the two written answers and the PTE report.",
+        "academicConditions": "No grade minimum in the terms. Shortlisted entrants must provide a PTE score report code (terms section D).",
+        "renewalConditions": "Not applicable. A one-off prize."
       },
       "requiredDocuments": [
-        "Not verified. Check the sponsor's terms."
+        "Online entry form with two written answers in English: why study at UM, and your top PTE preparation tip (terms sections D and E)",
+        "An application to at least one UM programme via apply.um.edu.my",
+        "PTE score report code, if shortlisted"
       ],
-      "applicationMethod": "Apply through the sponsor's page linked from UM's ASD financial aid page (not fetched in this build).",
+      "applicationMethod": "Complete the online entry form linked from Pearson's page, and apply to a UM programme. A panel of two UM and two Pearson members judges entries. One winner is announced within about 20 working days of closing (terms sections D, E, F).",
       "deadlines": {
-        "application": "31 December 2026 (per UM ASD page updated 14 Oct 2026)"
+        "entry": "31 December 2026, 11:59 PM MYT (terms section B). Decision within two weeks of closing."
       },
-      "selectionStatistics": "Not recorded.",
+      "selectionStatistics": "One winner is selected. The number of entrants is not published.",
       "uncoveredCosts": [
-        "Everything beyond the GBP 3,000 contribution, including living costs, travel and visa costs (not verified)."
+        "Everything beyond the GBP 3,000 prize, including living costs, travel and visa costs.",
+        "Prize is non-transferable and not paid in cash. Tax consequences are the winner's responsibility (terms section G6)."
       ],
       "loansIncluded": false,
       "loansNote": "UM's official summary does not describe it as a loan.",
       "sources": [
+        "pearson-pte-um-terms",
+        "pearson-pte-um-page",
         "um-asd-financial-aid"
       ],
       "lastVerified": "2026-10-17",
-      "verificationStatus": "official-sources-partially-verified",
-      "verificationNote": "The award and its amount and deadline are from UM's official page. Eligibility details and the application process are not verified until the sponsor's terms are read."
+      "verificationStatus": "official-sources-verified",
+      "verificationNote": "Eligibility, entry steps, judging, deadline and prize are verified from the sponsor's terms. Whether a March 2027 application counts is not stated and should be confirmed with UM or Pearson."
     }
   ]
 }

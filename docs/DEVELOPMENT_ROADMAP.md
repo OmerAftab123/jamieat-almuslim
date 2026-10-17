@@ -42,9 +42,9 @@ Status key: **Done** = in the repository and checked. **In progress** = partly b
 - Official sources read: the UM International Booklet (updated 15 Dec 2025; chunks 0–3 of 5), the ASD undergraduate international FAQ and financial aid page (both fetched in full), and Study@UM intake and fee pages (search excerpts). Full record: `docs/UM_RESEARCH.md`.
 - 42 bachelor's programme records mapped to catalogue degrees (exact or closest title). Printed fees are shown as printed; currency and per-year or total basis are unconfirmed.
 - Admissions: general English minimums (IELTS 5.0, TOEFL iBT 60, PTE 41, MUET 3, Cambridge grade C), 12-year qualification rule, higher-English programme list (figures not published), no grade minimum (grades not checkable).
-- Funding: no UM institutional scholarship for undergraduate internationals (official FAQ, dated 2021). One partial external award, the PTE x UM Scholarship (GBP 3,000 towards tuition, deadline 31 Dec 2026). Loans and Islamic financing are listed but not counted as free.
+- Funding: no UM institutional scholarship for undergraduate internationals (official FAQ, dated 2021). One partial external prize, the PTE x UM Scholarship: a contest with one winner (GBP 3,000 towards tuition, entries close 31 Dec 2026). Terms verified from the sponsor's page. Loans and Islamic financing are listed but not counted as free.
 - Four official conflicts are recorded, not resolved: intake months, application fee (RM 300 vs MYR 500), foundation availability and English minimum (aggregator figures). See `docs/UM_RESEARCH.md`.
-- Not done: the PTE sponsor terms, UM costs in USD, living costs, visa, and a re-check of the live portal.
+- Not done: confirmation whether a March 2027 application counts for the PTE contest, UM costs in USD, living costs, visa, and a re-check of the live portal.
 
 ## Phase 2 answer engine and matcher (done in this build)
 

@@ -47,7 +47,7 @@ Study@UM (2026/27, search excerpt): the October intake window for international 
 ### Funding (`partially-researched`)
 
 - **UM institutional scholarships for undergraduate international students: none.** Source: ASD FAQ (dated 2021). Check the current site.
-- **PTE x UM Scholarship 2026:** GBP 3,000 towards tuition for international students, deadline 31 Dec 2026, per UM's ASD page (updated 14 Oct 2026). This is the only international-eligible external award on UM's official list. It is classified as **partial**. The sponsor's terms were not fetched, so eligibility details and the application route are not verified.
+- **PTE x UM Scholarship 2026 (verified from the sponsor's terms, fetched 17 Oct 2026):** a contest with **one winner** who receives GBP 3,000 towards tuition. Open to international students aged 18+ anywhere in the world. Entry is two short written answers (why UM; your PTE tip), an application to at least one UM programme, and a PTE score report code if shortlisted. Judged by a panel. Entries close 31 Dec 2026 (11:59 PM MYT). No need or grade criterion. It is **partial** and not guaranteed. The terms list only the October 2026 and March 2026 intakes, so whether a March 2027 application counts must be confirmed.
 - **Not counted as free routes:**
   - PTPTN: Malaysian local higher-education loan.
   - BAeK PTPTN: for Malaysian eKasih households.
@@ -81,7 +81,7 @@ No costs record is stored for UM in USD (`costs: null`). The schema expects USD,
 ## Next steps for this record
 
 1. Read chunk 4 of the booklet only if postgraduate records are needed.
-2. Fetch the PTE x UM sponsor page and record eligibility, nationalities and terms.
+2. Ask UM or Pearson whether a March 2027 application counts for the PTE contest.
 3. Confirm the application fee and intake calendar on the live portal (MAYA) and update the record.
 4. Ask UM's international office to confirm the fee currency and per-year or total basis.
 5. Check EcoWorld, MMC Group and PMG eligibility on their sponsor pages.

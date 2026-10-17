@@ -388,6 +388,36 @@
       "supports": [
         "MIS is postgraduate only (not an undergraduate route)"
       ]
+    },
+    {
+      "id": "pearson-pte-um-terms",
+      "title": "PTE x Universiti Malaya Scholarship 2026 - Terms and Conditions",
+      "publisher": "Pearson Malaysia Sdn. Bhd. and Universiti Malaya",
+      "url": "https://www.pearsonpte.com/pte-universiti-malaya-scholarship-2026/terms-and-conditions/",
+      "type": "primary-official",
+      "publishedOrRevised": "Competition runs 1 June 2026 to 31 Dec 2026 (as printed)",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched chunk 0 of 2 in full for sections A to G (eligibility, entry, judging, prize). Chunk 1 (remaining general terms) not read; it does not change eligibility or the prize.",
+      "supports": [
+        "entry open to international students aged 18+ in Malaysia or anywhere in the world",
+        "entry requires an application to at least one UM programme and a PTE score report code if shortlisted",
+        "one winner, GBP 3,000 towards UM studies, judged by a panel; no cash alternative",
+        "no financial-need or grade criterion"
+      ]
+    },
+    {
+      "id": "pearson-pte-um-page",
+      "title": "PTE x Universiti Malaya Scholarship 2026 (Pearson PTE page)",
+      "publisher": "Pearson PTE",
+      "url": "https://www.pearsonpte.com/pte-universiti-malaya-scholarship-2026/",
+      "type": "primary-official",
+      "publishedOrRevised": "Not stated on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched in full. Describes the contest: two written questions, GBP 3,000 towards tuition.",
+      "supports": [
+        "contest format: two written questions (why UM; best PTE tip)",
+        "GBP 3,000 towards tuition"
+      ]
     }
   ]
 }
