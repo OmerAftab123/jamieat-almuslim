@@ -1,23 +1,16 @@
 /** @type {import('next').NextConfig} */
+// Static export for GitHub Pages (and any static host).
+// BASE_PATH is set by the Pages workflow to "/<repo-name>" for project sites,
+// and left empty for local development and for user/org root sites.
+const basePath = process.env.BASE_PATH || '';
+
 const nextConfig = {
+  output: 'export',
+  trailingSlash: true,
+  basePath,
   reactStrictMode: true,
   poweredByHeader: false,
-  async headers() {
-    return [
-      {
-        source: '/:path*',
-        headers: [
-          { key: 'X-Content-Type-Options', value: 'nosniff' },
-          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
-          { key: 'X-Frame-Options', value: 'DENY' },
-          {
-            key: 'Permissions-Policy',
-            value: 'camera=(), microphone=(), geolocation=()',
-          },
-        ],
-      },
-    ];
-  },
+  images: { unoptimized: true },
 };
 
 export default nextConfig;

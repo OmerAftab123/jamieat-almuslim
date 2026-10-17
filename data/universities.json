@@ -1,11 +1,11 @@
 {
-  "datasetVersion": "2026.10.17-mvp1",
+  "datasetVersion": "2026.10.17-mvp2",
   "coverage": {
     "source": "qs-2027",
     "edition": "QS World University Rankings 2027 (published 18 June 2026)",
-    "rankRangeTranscribed": "1-45 (45 institution records, including 7 tied pairs or groups)",
-    "rankRangePending": "46-150",
-    "crossCheckStatus": "Not yet cross-checked against a second official QS representation or dataset.",
+    "rankRangeTranscribed": "1-150",
+    "rankRangePending": "Ranks 151 and below are outside this dataset",
+    "crossCheckStatus": "Transcribed from the official QS 2027 ranking page on topuniversities.com (page footer: 1-150 of 1504 ranked institutions). Not yet cross-checked against a second official QS representation or dataset. Some displayed ties do not follow strict competition ranking (for example =98 after =97); they are recorded exactly as published.",
     "verificationDate": "2026-10-17"
   },
   "universities": [
@@ -1366,8 +1366,3158 @@
       "costs": null,
       "scholarshipIds": [],
       "notes": [
-        "Shown as tied at =45. The tie partner (if any) lies in ranks 46-150, which are not yet transcribed, so the tie cannot be fully checked."
+        "Shown as tied at =45 with University of British Columbia (83.9) on the official QS 2027 page."
       ]
+    },
+    {
+      "id": "university-british-columbia",
+      "name": "University of British Columbia",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=45",
+        "position": 45,
+        "tied": true
+      },
+      "qsOverallScore": 83.9,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-british-columbia",
+      "country": "Canada",
+      "city": "Vancouver",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "zhejiang-university",
+      "name": "Zhejiang University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "47",
+        "position": 47,
+        "tied": false
+      },
+      "qsOverallScore": 83.5,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/zhejiang-university",
+      "country": "China (Mainland)",
+      "city": "Hangzhou",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "delft-university-technology",
+      "name": "Delft University of Technology",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "48",
+        "position": 48,
+        "tied": false
+      },
+      "qsOverallScore": 83.1,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/delft-university-technology",
+      "country": "Netherlands",
+      "city": "Delft",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-california-los-angeles-ucla",
+      "name": "University of California, Los Angeles (UCLA)",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "49",
+        "position": 49,
+        "tied": false
+      },
+      "qsOverallScore": 82.7,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-california-los-angeles-ucla",
+      "country": "United States",
+      "city": "Los Angeles",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "hong-kong-polytechnic-university",
+      "name": "The Hong Kong Polytechnic University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "50",
+        "position": 50,
+        "tied": false
+      },
+      "qsOverallScore": 82.3,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/hong-kong-polytechnic-university",
+      "country": "Hong Kong SAR",
+      "city": "Hong Kong",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-michigan-ann-arbor",
+      "name": "University of Michigan-Ann Arbor",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "51",
+        "position": 51,
+        "tied": false
+      },
+      "qsOverallScore": 82.2,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-michigan-ann-arbor",
+      "country": "United States",
+      "city": "Ann Arbor",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "city-university-hong-kong-cityuhk",
+      "name": "City University of Hong Kong (CityUHK)",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=52",
+        "position": 52,
+        "tied": true
+      },
+      "qsOverallScore": 81.9,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/city-university-hong-kong-cityuhk",
+      "country": "Hong Kong SAR",
+      "city": "Kowloon",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "korea-university",
+      "name": "Korea University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=52",
+        "position": 52,
+        "tied": true
+      },
+      "qsOverallScore": 81.9,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/korea-university",
+      "country": "South Korea",
+      "city": "Seoul",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "national-taiwan-university-ntu",
+      "name": "National Taiwan University (NTU)",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "54",
+        "position": 54,
+        "tied": false
+      },
+      "qsOverallScore": 81.7,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/national-taiwan-university-ntu",
+      "country": "Taiwan",
+      "city": "Taipei",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "carnegie-mellon-university",
+      "name": "Carnegie Mellon University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "55",
+        "position": 55,
+        "tied": false
+      },
+      "qsOverallScore": 81.4,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/carnegie-mellon-university",
+      "country": "United States",
+      "city": "Pittsburgh",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "universiti-malaya-um",
+      "name": "Universiti Malaya (UM)",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "56",
+        "position": 56,
+        "tied": false
+      },
+      "qsOverallScore": 81.2,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/universiti-malaya-um",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-bristol",
+      "name": "University of Bristol",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "57",
+        "position": 57,
+        "tied": false
+      },
+      "qsOverallScore": 80.9,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-bristol",
+      "country": "United Kingdom",
+      "city": "Bristol",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "new-york-university-nyu",
+      "name": "New York University (NYU)",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "58",
+        "position": 58,
+        "tied": false
+      },
+      "qsOverallScore": 80.8,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/new-york-university-nyu",
+      "country": "United States",
+      "city": "New York City",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "ku-leuven",
+      "name": "KU Leuven",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "59",
+        "position": 59,
+        "tied": false
+      },
+      "qsOverallScore": 80.5,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/ku-leuven",
+      "country": "Belgium",
+      "city": "Leuven",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-amsterdam",
+      "name": "University of Amsterdam",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "60",
+        "position": 60,
+        "tied": false
+      },
+      "qsOverallScore": 80.2,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-amsterdam",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "ludwig-maximilians-universitat-munchen",
+      "name": "Ludwig-Maximilians-Universität München",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "61",
+        "position": 61,
+        "tied": false
+      },
+      "qsOverallScore": 79.6,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/ludwig-maximilians-universitat-munchen",
+      "country": "Germany",
+      "city": "Munich",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "london-school-economics-political-science-lse",
+      "name": "The London School of Economics and Political Science (LSE)",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "62",
+        "position": 62,
+        "tied": false
+      },
+      "qsOverallScore": 78.8,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/london-school-economics-political-science-lse",
+      "country": "United Kingdom",
+      "city": "London",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "kfupm",
+      "name": "KFUPM",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "63",
+        "position": 63,
+        "tied": false
+      },
+      "qsOverallScore": 78.3,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/kfupm",
+      "country": "Saudi Arabia",
+      "city": "Dhahran",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "kyoto-university",
+      "name": "Kyoto University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "64",
+        "position": 64,
+        "tied": false
+      },
+      "qsOverallScore": 78.2,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/kyoto-university",
+      "country": "Japan",
+      "city": "Kyoto",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "kaist",
+      "name": "KAIST",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "65",
+        "position": 65,
+        "tied": false
+      },
+      "qsOverallScore": 77.7,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/kaist",
+      "country": "South Korea",
+      "city": "Daejeon",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "brown-university",
+      "name": "Brown University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "66",
+        "position": 66,
+        "tied": false
+      },
+      "qsOverallScore": 77.4,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/brown-university",
+      "country": "United States",
+      "city": "Providence",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-auckland",
+      "name": "The University of Auckland",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "67",
+        "position": 67,
+        "tied": false
+      },
+      "qsOverallScore": 77.0,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-auckland",
+      "country": "New Zealand",
+      "city": "Auckland",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-warwick",
+      "name": "University of Warwick",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=68",
+        "position": 68,
+        "tied": true
+      },
+      "qsOverallScore": 75.9,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-warwick",
+      "country": "United Kingdom",
+      "city": "England",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-birmingham",
+      "name": "University of Birmingham",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=68",
+        "position": 68,
+        "tied": true
+      },
+      "qsOverallScore": 75.9,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-birmingham",
+      "country": "United Kingdom",
+      "city": "Birmingham",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "duke-university",
+      "name": "Duke University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "70",
+        "position": 70,
+        "tied": false
+      },
+      "qsOverallScore": 75.8,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/duke-university",
+      "country": "United States",
+      "city": "Durham",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "lund-university",
+      "name": "Lund University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "71",
+        "position": 71,
+        "tied": false
+      },
+      "qsOverallScore": 75.7,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/lund-university",
+      "country": "Sweden",
+      "city": "Lund",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-texas-austin",
+      "name": "University of Texas at Austin",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "72",
+        "position": 72,
+        "tied": false
+      },
+      "qsOverallScore": 75.3,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-texas-austin",
+      "country": "United States",
+      "city": "Austin",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "sorbonne-university",
+      "name": "Sorbonne University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "73",
+        "position": 73,
+        "tied": false
+      },
+      "qsOverallScore": 74.8,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/sorbonne-university",
+      "country": "France",
+      "city": "Paris",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-illinois-urbana-champaign",
+      "name": "University of Illinois Urbana-Champaign",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "74",
+        "position": 74,
+        "tied": false
+      },
+      "qsOverallScore": 74.7,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-illinois-urbana-champaign",
+      "country": "United States",
+      "city": "Champaign",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "trinity-college-dublin-university-dublin",
+      "name": "Trinity College Dublin, The University of Dublin",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "75",
+        "position": 75,
+        "tied": false
+      },
+      "qsOverallScore": 74.4,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/trinity-college-dublin-university-dublin",
+      "country": "Ireland",
+      "city": "Dublin",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "universite-paris-saclay",
+      "name": "Université Paris-Saclay",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "76",
+        "position": 76,
+        "tied": false
+      },
+      "qsOverallScore": 73.8,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/universite-paris-saclay",
+      "country": "France",
+      "city": "Paris",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-western-australia",
+      "name": "The University of Western Australia",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=77",
+        "position": 77,
+        "tied": true
+      },
+      "qsOverallScore": 73.7,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-western-australia",
+      "country": "Australia",
+      "city": "Perth",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-leeds",
+      "name": "University of Leeds",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=77",
+        "position": 77,
+        "tied": true
+      },
+      "qsOverallScore": 73.7,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-leeds",
+      "country": "United Kingdom",
+      "city": "Leeds",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "adelaide-university",
+      "name": "Adelaide University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "79",
+        "position": 79,
+        "tied": false
+      },
+      "qsOverallScore": 73.6,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/adelaide-university",
+      "country": "Australia",
+      "city": "Adelaide",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-glasgow",
+      "name": "University of Glasgow",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "80",
+        "position": 80,
+        "tied": false
+      },
+      "qsOverallScore": 73.4,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-glasgow",
+      "country": "United Kingdom",
+      "city": "Glasgow",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-california-san-diego-ucsd",
+      "name": "University of California, San Diego (UCSD)",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "81",
+        "position": 81,
+        "tied": false
+      },
+      "qsOverallScore": 73.3,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-california-san-diego-ucsd",
+      "country": "United States",
+      "city": "San Diego",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "kth-royal-institute-technology",
+      "name": "KTH Royal Institute of Technology",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=82",
+        "position": 82,
+        "tied": true
+      },
+      "qsOverallScore": 72.7,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/kth-royal-institute-technology",
+      "country": "Sweden",
+      "city": "Stockholm",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-sheffield",
+      "name": "The University of Sheffield",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=82",
+        "position": 82,
+        "tied": true
+      },
+      "qsOverallScore": 72.7,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-sheffield",
+      "country": "United Kingdom",
+      "city": "Sheffield",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "universidad-de-buenos-aires-uba",
+      "name": "Universidad de Buenos Aires (UBA)",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "84",
+        "position": 84,
+        "tied": false
+      },
+      "qsOverallScore": 72.3,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/universidad-de-buenos-aires-uba",
+      "country": "Argentina",
+      "city": "Ciudad Autónoma de Buenos Aires",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "durham-university",
+      "name": "Durham University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "85",
+        "position": 85,
+        "tied": false
+      },
+      "qsOverallScore": 71.7,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/durham-university",
+      "country": "United Kingdom",
+      "city": "Durham",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "universitat-heidelberg",
+      "name": "Universität Heidelberg",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "86",
+        "position": 86,
+        "tied": false
+      },
+      "qsOverallScore": 70.6,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/universitat-heidelberg",
+      "country": "Germany",
+      "city": "Heidelberg",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "politecnico-di-milano",
+      "name": "Politecnico di Milano",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=87",
+        "position": 87,
+        "tied": true
+      },
+      "qsOverallScore": 70.5,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/politecnico-di-milano",
+      "country": "Italy",
+      "city": "Milan",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-technology-sydney-uts",
+      "name": "The University of Technology Sydney (UTS)",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=87",
+        "position": 87,
+        "tied": true
+      },
+      "qsOverallScore": 70.5,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-technology-sydney-uts",
+      "country": "Australia",
+      "city": "Sydney",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "uppsala-university",
+      "name": "Uppsala University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=87",
+        "position": 87,
+        "tied": true
+      },
+      "qsOverallScore": 70.5,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/uppsala-university",
+      "country": "Sweden",
+      "city": "Uppsala",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "nanjing-university",
+      "name": "Nanjing University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=90",
+        "position": 90,
+        "tied": true
+      },
+      "qsOverallScore": 70.4,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/nanjing-university",
+      "country": "China (Mainland)",
+      "city": "Nanjing",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-copenhagen",
+      "name": "University of Copenhagen",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=90",
+        "position": 90,
+        "tied": true
+      },
+      "qsOverallScore": 70.4,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-copenhagen",
+      "country": "Denmark",
+      "city": "Copenhagen",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "pennsylvania-state-university",
+      "name": "Pennsylvania State University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=92",
+        "position": 92,
+        "tied": true
+      },
+      "qsOverallScore": 70.2,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/pennsylvania-state-university",
+      "country": "United States",
+      "city": "University Park",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-washington",
+      "name": "University of Washington",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=92",
+        "position": 92,
+        "tied": true
+      },
+      "qsOverallScore": 70.2,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-washington",
+      "country": "United States",
+      "city": "Seattle",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "boston-university",
+      "name": "Boston University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "94",
+        "position": 94,
+        "tied": false
+      },
+      "qsOverallScore": 70.0,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/boston-university",
+      "country": "United States",
+      "city": "Boston",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-osaka",
+      "name": "The University of Osaka",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "95",
+        "position": 95,
+        "tied": false
+      },
+      "qsOverallScore": 69.5,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-osaka",
+      "country": "Japan",
+      "city": "Osaka City",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-alberta",
+      "name": "University of Alberta",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "96",
+        "position": 96,
+        "tied": false
+      },
+      "qsOverallScore": 69.3,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-alberta",
+      "country": "Canada",
+      "city": "Edmonton",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "institute-science-tokyo",
+      "name": "Institute of Science Tokyo",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=97",
+        "position": 97,
+        "tied": true
+      },
+      "qsOverallScore": 69.2,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/institute-science-tokyo",
+      "country": "Japan",
+      "city": "Tokyo",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-nottingham",
+      "name": "University of Nottingham",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=97",
+        "position": 97,
+        "tied": true
+      },
+      "qsOverallScore": 69.2,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-nottingham",
+      "country": "United Kingdom",
+      "city": "Nottingham",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "freie-universitaet-berlin",
+      "name": "Freie Universitaet Berlin",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=98",
+        "position": 98,
+        "tied": true
+      },
+      "qsOverallScore": 69.0,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/freie-universitaet-berlin",
+      "country": "Germany",
+      "city": "Berlin",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-zurich",
+      "name": "University of Zurich",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=98",
+        "position": 98,
+        "tied": true
+      },
+      "qsOverallScore": 69.0,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-zurich",
+      "country": "Switzerland",
+      "city": "Zürich",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "purdue-university",
+      "name": "Purdue University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=100",
+        "position": 100,
+        "tied": true
+      },
+      "qsOverallScore": 68.7,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/purdue-university",
+      "country": "United States",
+      "city": "West Lafayette",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-college-dublin",
+      "name": "University College Dublin",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=100",
+        "position": 100,
+        "tied": true
+      },
+      "qsOverallScore": 68.7,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-college-dublin",
+      "country": "Ireland",
+      "city": "Dublin",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "tohoku-university",
+      "name": "Tohoku University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "102",
+        "position": 102,
+        "tied": false
+      },
+      "qsOverallScore": 68.4,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/tohoku-university",
+      "country": "Japan",
+      "city": "Sendai City",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "queen-mary-university-london",
+      "name": "Queen Mary University of London",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "103",
+        "position": 103,
+        "tied": false
+      },
+      "qsOverallScore": 68.3,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/queen-mary-university-london",
+      "country": "United Kingdom",
+      "city": "London",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "rwth-aachen-university",
+      "name": "RWTH Aachen University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "104",
+        "position": 104,
+        "tied": false
+      },
+      "qsOverallScore": 68.0,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/rwth-aachen-university",
+      "country": "Germany",
+      "city": "Aachen",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "technical-university-denmark",
+      "name": "Technical University of Denmark",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "105",
+        "position": 105,
+        "tied": false
+      },
+      "qsOverallScore": 67.8,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/technical-university-denmark",
+      "country": "Denmark",
+      "city": "Kongens Lyngby",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "pohang-university-science-technology-postech",
+      "name": "Pohang University of Science And Technology (POSTECH)",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "106",
+        "position": 106,
+        "tied": false
+      },
+      "qsOverallScore": 67.7,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/pohang-university-science-technology-postech",
+      "country": "South Korea",
+      "city": "Pohang",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "king-saud-university",
+      "name": "King Saud University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "107",
+        "position": 107,
+        "tied": false
+      },
+      "qsOverallScore": 67.4,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/king-saud-university",
+      "country": "Saudi Arabia",
+      "city": "Riyadh",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "sungkyunkwan-university-skku",
+      "name": "Sungkyunkwan University (SKKU)",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "108",
+        "position": 108,
+        "tied": false
+      },
+      "qsOverallScore": 67.3,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/sungkyunkwan-university-skku",
+      "country": "South Korea",
+      "city": "Seoul",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "qatar-university",
+      "name": "Qatar University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "109",
+        "position": 109,
+        "tied": false
+      },
+      "qsOverallScore": 67.2,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/qatar-university",
+      "country": "Qatar",
+      "city": "Doha",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "kit-karlsruhe-institute-technology",
+      "name": "KIT, Karlsruhe Institute of Technology",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "110",
+        "position": 110,
+        "tied": false
+      },
+      "qsOverallScore": 67.0,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/kit-karlsruhe-institute-technology",
+      "country": "Germany",
+      "city": "Karlsruhe",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "sapienza-university-rome",
+      "name": "Sapienza University of Rome",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=111",
+        "position": 111,
+        "tied": true
+      },
+      "qsOverallScore": 66.7,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/sapienza-university-rome",
+      "country": "Italy",
+      "city": "Rome",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-southampton",
+      "name": "University of Southampton",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=111",
+        "position": 111,
+        "tied": true
+      },
+      "qsOverallScore": 66.7,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-southampton",
+      "country": "United Kingdom",
+      "city": "Southampton",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-waterloo",
+      "name": "University of Waterloo",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=113",
+        "position": 113,
+        "tied": true
+      },
+      "qsOverallScore": 66.6,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-waterloo",
+      "country": "Canada",
+      "city": "Waterloo",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "utrecht-university",
+      "name": "Utrecht University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=113",
+        "position": 113,
+        "tied": true
+      },
+      "qsOverallScore": 66.6,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/utrecht-university",
+      "country": "Netherlands",
+      "city": "Utrecht",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "lomonosov-moscow-state-university",
+      "name": "Lomonosov Moscow State University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=115",
+        "position": 115,
+        "tied": true
+      },
+      "qsOverallScore": 65.9,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/lomonosov-moscow-state-university",
+      "country": "Russia",
+      "city": "Moscow",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-st-andrews",
+      "name": "University of St Andrews",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=115",
+        "position": 115,
+        "tied": true
+      },
+      "qsOverallScore": 65.9,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-st-andrews",
+      "country": "United Kingdom",
+      "city": "St. Andrews",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "indian-institute-technology-delhi-iitd",
+      "name": "Indian Institute of Technology Delhi (IITD)",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "118",
+        "position": 118,
+        "tied": false
+      },
+      "qsOverallScore": 65.7,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/indian-institute-technology-delhi-iitd",
+      "country": "India",
+      "city": "New Delhi",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "leiden-university",
+      "name": "Leiden University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=119",
+        "position": 119,
+        "tied": true
+      },
+      "qsOverallScore": 65.6,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/leiden-university",
+      "country": "Netherlands",
+      "city": "Leiden",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "pontificia-universidad-catolica-de-chile-uc",
+      "name": "Pontificia Universidad Católica de Chile (UC)",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=119",
+        "position": 119,
+        "tied": true
+      },
+      "qsOverallScore": 65.6,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/pontificia-universidad-catolica-de-chile-uc",
+      "country": "Chile",
+      "city": "Santiago",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "rmit-university",
+      "name": "RMIT University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=119",
+        "position": 119,
+        "tied": true
+      },
+      "qsOverallScore": 65.6,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/rmit-university",
+      "country": "Australia",
+      "city": "Melbourne",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "rice-university",
+      "name": "Rice University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "122",
+        "position": 122,
+        "tied": false
+      },
+      "qsOverallScore": 65.5,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/rice-university",
+      "country": "United States",
+      "city": "Houston",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "alma-mater-studiorum-universita-di-bologna",
+      "name": "Alma Mater Studiorum - Università di Bologna",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=123",
+        "position": 123,
+        "tied": true
+      },
+      "qsOverallScore": 65.3,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/alma-mater-studiorum-universita-di-bologna",
+      "country": "Italy",
+      "city": "Bologna",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-helsinki",
+      "name": "University of Helsinki",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=123",
+        "position": 123,
+        "tied": true
+      },
+      "qsOverallScore": 65.3,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-helsinki",
+      "country": "Finland",
+      "city": "Helsinki",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-bath",
+      "name": "University of Bath",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "125",
+        "position": 125,
+        "tied": false
+      },
+      "qsOverallScore": 65.1,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-bath",
+      "country": "United Kingdom",
+      "city": "Bath",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "aalto-university",
+      "name": "Aalto University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=126",
+        "position": 126,
+        "tied": true
+      },
+      "qsOverallScore": 65.0,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/aalto-university",
+      "country": "Finland",
+      "city": "Espoo",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "macquarie-university-sydney-australia",
+      "name": "Macquarie University (Sydney, Australia)",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=126",
+        "position": 126,
+        "tied": true
+      },
+      "qsOverallScore": 65.0,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/macquarie-university-sydney-australia",
+      "country": "Australia",
+      "city": "Sydney",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "aarhus-university",
+      "name": "Aarhus University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=128",
+        "position": 128,
+        "tied": true
+      },
+      "qsOverallScore": 64.9,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/aarhus-university",
+      "country": "Denmark",
+      "city": "Aarhus",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "universiti-sains-malaysia-usm",
+      "name": "Universiti Sains Malaysia (USM)",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=128",
+        "position": 128,
+        "tied": true
+      },
+      "qsOverallScore": 64.9,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/universiti-sains-malaysia-usm",
+      "country": "Malaysia",
+      "city": "Gelugor",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "universiti-kebangsaan-malaysia-ukm",
+      "name": "Universiti Kebangsaan Malaysia (UKM)",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "130",
+        "position": 130,
+        "tied": false
+      },
+      "qsOverallScore": 64.6,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/universiti-kebangsaan-malaysia-ukm",
+      "country": "Malaysia",
+      "city": "Bangi",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-oslo",
+      "name": "University of Oslo",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=131",
+        "position": 131,
+        "tied": true
+      },
+      "qsOverallScore": 64.3,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-oslo",
+      "country": "Norway",
+      "city": "Oslo",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-wisconsin-madison",
+      "name": "University of Wisconsin-Madison",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=131",
+        "position": 131,
+        "tied": true
+      },
+      "qsOverallScore": 64.3,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-wisconsin-madison",
+      "country": "United States",
+      "city": "Madison",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "universidade-de-sao-paulo",
+      "name": "Universidade de São Paulo",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "133",
+        "position": 133,
+        "tied": false
+      },
+      "qsOverallScore": 64.1,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/universidade-de-sao-paulo",
+      "country": "Brazil",
+      "city": "São Paulo",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "indian-institute-technology-bombay-iitb",
+      "name": "Indian Institute of Technology Bombay (IITB)",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=134",
+        "position": 134,
+        "tied": true
+      },
+      "qsOverallScore": 63.9,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/indian-institute-technology-bombay-iitb",
+      "country": "India",
+      "city": "Mumbai",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-science-technology-china",
+      "name": "University of Science and Technology of China",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=134",
+        "position": 134,
+        "tied": true
+      },
+      "qsOverallScore": 63.9,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-science-technology-china",
+      "country": "China",
+      "city": "Hefei",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-exeter",
+      "name": "University of Exeter",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "136",
+        "position": 136,
+        "tied": false
+      },
+      "qsOverallScore": 63.5,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-exeter",
+      "country": "United Kingdom",
+      "city": "Exeter",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-california-davis",
+      "name": "University of California, Davis",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "137",
+        "position": 137,
+        "tied": false
+      },
+      "qsOverallScore": 63.0,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-california-davis",
+      "country": "United States",
+      "city": "Davis",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "universiti-putra-malaysia-upm",
+      "name": "Universiti Putra Malaysia (UPM)",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "138",
+        "position": 138,
+        "tied": false
+      },
+      "qsOverallScore": 62.9,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/universiti-putra-malaysia-upm",
+      "country": "Malaysia",
+      "city": "Serdang",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-liverpool",
+      "name": "University of Liverpool",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "139",
+        "position": 139,
+        "tied": false
+      },
+      "qsOverallScore": 62.8,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-liverpool",
+      "country": "United Kingdom",
+      "city": "Liverpool",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "humboldt-universitat-zu-berlin",
+      "name": "Humboldt-Universität zu Berlin",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=140",
+        "position": 140,
+        "tied": true
+      },
+      "qsOverallScore": 62.6,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/humboldt-universitat-zu-berlin",
+      "country": "Germany",
+      "city": "Berlin",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "university-vienna",
+      "name": "University of Vienna",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=140",
+        "position": 140,
+        "tied": true
+      },
+      "qsOverallScore": 62.6,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/university-vienna",
+      "country": "Austria",
+      "city": "Vienna",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "georgia-institute-technology",
+      "name": "Georgia Institute of Technology",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=142",
+        "position": 142,
+        "tied": true
+      },
+      "qsOverallScore": 62.5,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/georgia-institute-technology",
+      "country": "United States",
+      "city": "Atlanta",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "national-tsing-hua-university-nthu",
+      "name": "National Tsing Hua University - NTHU",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=142",
+        "position": 142,
+        "tied": true
+      },
+      "qsOverallScore": 62.5,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/national-tsing-hua-university-nthu",
+      "country": "Taiwan",
+      "city": "Hsinchu City",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "western-university",
+      "name": "Western University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=142",
+        "position": 142,
+        "tied": true
+      },
+      "qsOverallScore": 62.5,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/western-university",
+      "country": "Canada",
+      "city": "London",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "universidad-nacional-autonoma-de-mexico-unam",
+      "name": "Universidad Nacional Autónoma de México (UNAM)",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "145",
+        "position": 145,
+        "tied": false
+      },
+      "qsOverallScore": 62.3,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/universidad-nacional-autonoma-de-mexico-unam",
+      "country": "Mexico",
+      "city": "Mexico City",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "tongji-university",
+      "name": "Tongji University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "146",
+        "position": 146,
+        "tied": false
+      },
+      "qsOverallScore": 62.2,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/tongji-university",
+      "country": "China",
+      "city": "Shanghai",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "khalifa-university",
+      "name": "Khalifa University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "147",
+        "position": 147,
+        "tied": false
+      },
+      "qsOverallScore": 62.0,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/khalifa-university",
+      "country": "United Arab Emirates",
+      "city": "Abu Dhabi",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "erasmus-university-rotterdam",
+      "name": "Erasmus University Rotterdam",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "148",
+        "position": 148,
+        "tied": false
+      },
+      "qsOverallScore": 61.9,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/erasmus-university-rotterdam",
+      "country": "Netherlands",
+      "city": "Rotterdam",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "newcastle-university",
+      "name": "Newcastle University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "149",
+        "position": 149,
+        "tied": false
+      },
+      "qsOverallScore": 61.6,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/newcastle-university",
+      "country": "United Kingdom",
+      "city": "Newcastle upon Tyne",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
+    },
+    {
+      "id": "ghent-university",
+      "name": "Ghent University",
+      "alternateNames": [],
+      "qsRank": {
+        "display": "=150",
+        "position": 150,
+        "tied": true
+      },
+      "qsOverallScore": 61.5,
+      "qsEdition": "QS World University Rankings 2027",
+      "qsSourceId": "qs-2027",
+      "qsProfileUrl": "https://www.topuniversities.com/universities/ghent-university",
+      "country": "Belgium",
+      "city": "Ghent",
+      "officialWebsite": null,
+      "dataStatus": {
+        "qsRank": "verified-official-page",
+        "programs": "not-researched",
+        "admissions": "not-researched",
+        "scholarships": "not-researched",
+        "costs": "not-researched"
+      },
+      "lastVerified": "2026-10-17",
+      "programs": [],
+      "admissions": null,
+      "costs": null,
+      "scholarshipIds": [],
+      "notes": []
     }
   ]
 }

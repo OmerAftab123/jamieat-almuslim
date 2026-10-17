@@ -37,3 +37,9 @@ data/exports/
 test-results/
 playwright-report/
 playwright/.cache/
+
+# Static export and test output (generated; never commit)
+/out
+/playwright-report
+/test-results
+/blob-report

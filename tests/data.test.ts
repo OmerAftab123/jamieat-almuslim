@@ -19,9 +19,10 @@ describe('dataset integrity', () => {
     }
   });
 
-  it('marks the QS coverage as partial (ranks 1 to =45 only)', () => {
-    expect(d.meta.universitiesCoverage.rankRangeTranscribed).toMatch(/45/);
-    expect(d.meta.universitiesCoverage.rankRangePending).toMatch(/46/);
+  it('states the QS coverage as ranks 1-150 with 151 and below outside the dataset', () => {
+    expect(d.meta.universitiesCoverage.rankRangeTranscribed).toMatch(/1-150/);
+    expect(d.meta.universitiesCoverage.rankRangePending).toMatch(/151/);
+    expect(d.universities).toHaveLength(150);
   });
 
   it('only cites source ids that exist', () => {

@@ -18,7 +18,7 @@ export default function AboutPage() {
       <p>
         Many students decide on a degree from rumours, family pressure or a single league table. This project tries to make the
         evidence visible: what a degree leads to, what a university officially says, what funding is documented, and what is still
-        unknown. The full mission and vision are in <code>docs/MISSION_AND_VISION.md</code>.
+        unknown. The full mission and vision are in <a href="https://github.com/OmerAftab123/jamieat-almuslim/blob/main/docs/MISSION_AND_VISION.md"><code>docs/MISSION_AND_VISION.md</code></a>.
       </p>
 
       <h2>Principles</h2>
@@ -41,7 +41,7 @@ export default function AboutPage() {
       <h2>Contributing</h2>
       <p>
         Corrections, sources and research help are welcome through GitHub issues. See the README and{' '}
-        <code>docs/DEVELOPMENT_ROADMAP.md</code> for priorities.
+        <a href="https://github.com/OmerAftab123/jamieat-almuslim/blob/main/docs/DEVELOPMENT_ROADMAP.md"><code>docs/DEVELOPMENT_ROADMAP.md</code></a> for priorities.
       </p>
     </>
   );

@@ -9,7 +9,7 @@
       "type": "primary-official",
       "publishedOrRevised": "2026-06-18",
       "lastChecked": "2026-10-17",
-      "verificationMethod": "Fetched the official page and transcribed rank, tie notation, institution name, city and country for ranks 1-45. Ranks 46-150 NOT yet transcribed.",
+      "verificationMethod": "Fetched the official page (items_per_page=150, 55 chunks) and transcribed rank, tie notation, institution name, city and country and overall score for ranks 1-150. Page footer confirms 1-150 of 1504 ranked institutions.",
       "supports": [
         "university overall rank",
         "tie notation",

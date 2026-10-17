@@ -17,8 +17,9 @@ export default defineConfig({
   },
   projects: [{ name: 'chromium', use: { ...devices['Desktop Chrome'] } }],
   webServer: {
-    // Requires a production build first: npm run build
-    command: `npx next start -H 127.0.0.1 -p ${PORT}`,
+    // Serves the static export in ./out. Run `npm run build` first.
+    command: `node scripts/serve-static.mjs`,
+    env: { PORT: String(PORT), HOST: '127.0.0.1' },
     url: `http://127.0.0.1:${PORT}`,
     reuseExistingServer: true,
     timeout: 120_000,

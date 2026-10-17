@@ -66,8 +66,8 @@ export function UniversityDirectory({ universities, coverage }: { universities: 
         <div className="table-wrap">
           <table>
             <caption className="small muted" style={{ textAlign: 'left', padding: '0.5rem 0.6rem' }}>
-              QS World University Rankings 2027, ranks {coverage.rankRangeTranscribed} transcribed; {coverage.rankRangePending}{' '}
-              pending. Rank checked {coverage.verificationDate}.
+              QS World University Rankings 2027, ranks {coverage.rankRangeTranscribed} transcribed. {coverage.rankRangePending}.
+              Rank checked {coverage.verificationDate}.
             </caption>
             <thead>
               <tr>

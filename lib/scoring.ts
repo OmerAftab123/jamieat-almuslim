@@ -41,11 +41,11 @@ export const CRITERION_META: Record<CriterionKey, { label: string; short: string
 };
 
 export const SCORE_LABELS: Record<0 | 1 | 2 | 3 | 4, string> = {
-  0: 'MUST NOT',
-  1: 'SHOULD NOT',
-  2: 'CAN / MAY',
-  3: 'SHOULD',
-  4: 'MUST',
+  0: 'Very weak',
+  1: 'Weak',
+  2: 'Mixed',
+  3: 'Strong',
+  4: 'Very strong',
 };
 
 export type Weights = Record<CriterionKey, number>;

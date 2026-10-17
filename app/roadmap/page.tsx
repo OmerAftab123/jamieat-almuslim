@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { ROADMAP_TEMPLATE } from '@/lib/roadmap';
 import { RoadmapChecklist } from '@/components/RoadmapChecklist';
 
@@ -18,7 +19,7 @@ export default function RoadmapPage() {
       </p>
       <p className="small">
         Ticks are saved in this browser only (local storage). They are not sent to the server. Use the{' '}
-        <a href="/matcher">matcher</a> to check a specific degree and university.
+        <Link href="/matcher">matcher</Link> to check a specific degree and university.
       </p>
       <RoadmapChecklist steps={ROADMAP_TEMPLATE} />
     </>

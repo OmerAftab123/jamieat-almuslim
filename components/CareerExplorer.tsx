@@ -199,7 +199,7 @@ export function CareerExplorer({ families, degrees, sources }: Props) {
         <div className="table-wrap">
           <table>
             <caption className="small muted" style={{ textAlign: 'left', padding: '0.5rem 0.6rem' }}>
-              Scores run 0&ndash;4 (0 = MUST NOT, 1 = SHOULD NOT, 2 = CAN/MAY, 3 = SHOULD, 4 = MUST). Ranking uses the
+              Scores run 0&ndash;4 (0 = very weak, 1 = weak, 2 = mixed, 3 = strong, 4 = very strong). These are editorial judgements, not religious rulings. Ranking uses the
               exact weighted score; the display is rounded to one decimal place. Missing research is never shown as 0.
             </caption>
             <thead>

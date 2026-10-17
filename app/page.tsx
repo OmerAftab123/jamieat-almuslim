@@ -93,7 +93,7 @@ export default function HomePage() {
         </div>
         <div className="stat">
           <strong>{verifiedUnis}</strong>
-          <span>QS 2027 universities transcribed (ranks 1&ndash;45)</span>
+          <span>QS 2027 universities transcribed (ranks 1&ndash;150)</span>
         </div>
         <div className="stat">
           <strong>{withFunding}</strong>
@@ -106,7 +106,7 @@ export default function HomePage() {
       </div>
       <p className="small muted">
         Coverage detail, unresolved gaps and the next research priorities are in{' '}
-        <Link href="/methodology">the methodology page</Link> and the repository&rsquo;s <code>docs/DATA_COVERAGE.md</code>.
+        <Link href="/methodology">the methodology page</Link> and the repository&rsquo;s <a href="https://github.com/OmerAftab123/jamieat-almuslim/blob/main/docs/DATA_COVERAGE.md"><code>docs/DATA_COVERAGE.md</code></a>.
       </p>
 
       <h2>Who this is for, and what it is not</h2>

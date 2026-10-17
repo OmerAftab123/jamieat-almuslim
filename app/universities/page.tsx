@@ -14,8 +14,7 @@ export default function UniversitiesPage() {
       <h1>University directory</h1>
       <p className="lead">
         Universities from the official QS World University Rankings 2027 (published 18 June 2026). Ties are shown as
-        <code> =N</code>. The table covers ranks 1 to =45 at present; ranks 46&ndash;150 are <strong>not yet
-        transcribed</strong>, so this directory is not the full Top 150.
+        <code> =N</code>. The directory covers the full QS Top 150 as published on the official page (ranks 1&ndash;150).
       </p>
       <p className="notice warn">
         Only the rank is verified for most records. Programme lists, admissions requirements and costs are shown as

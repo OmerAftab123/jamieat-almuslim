@@ -41,7 +41,7 @@ export default function MethodologyPage() {
         Each degree family receives an integer score from 0 to 4 on seven criteria: Islamic alignment, benefit to people and
         society, financial lucrativeness, future resilience, AI resilience, employment stability and flexibility. The score is
         an analyst judgement, written with a rationale, assumptions, change factors and a confidence level. Full rules are in{' '}
-        <code>docs/SCORING_METHODOLOGY.md</code>.
+        <a href="https://github.com/OmerAftab123/jamieat-almuslim/blob/main/docs/SCORING_METHODOLOGY.md"><code>docs/SCORING_METHODOLOGY.md</code></a>.
       </p>
       <ul className="bullets">
         <li>The overall score is the weighted mean of the seven scores, on the 0&ndash;4 scale. The default weights are equal (1/7 each).</li>
@@ -55,8 +55,8 @@ export default function MethodologyPage() {
       <h2>University rankings</h2>
       <p>
         Ranks are taken from the official QS World University Rankings page on topuniversities.com, with the edition and date
-        recorded per record. Tied ranks are kept as published. The directory currently covers only ranks 1 to =45. Ranks 46&ndash;150
-        are not transcribed, so the site does not claim to show the full Top 150.
+        recorded per record. Tied ranks are kept as published. The directory covers ranks 1&ndash;150 of the QS 2027 edition.
+        Ranks 151 and below are outside this dataset.
       </p>
 
       <h2>Funding and costs</h2>

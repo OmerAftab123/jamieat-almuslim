@@ -26,7 +26,7 @@ test('career explorer: default equal weights, search and restore', async ({ page
 
 test('universities: ties visible, profile loads, MIT shows official cost only', async ({ page }) => {
   await page.goto('/universities');
-  await expect(page.getByText('ranks 1 to =45', { exact: false }).first()).toBeVisible();
+  await expect(page.getByText('ranks 1-150', { exact: false }).first()).toBeVisible();
   await expect(page.getByRole('link', { name: 'Massachusetts Institute of Technology (MIT)' })).toBeVisible();
   await page.goto('/universities/massachusetts-institute-technology-mit');
   await expect(page.getByRole('heading', { level: 1 })).toContainText('Massachusetts');
