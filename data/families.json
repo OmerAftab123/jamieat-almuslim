@@ -1,0 +1,834 @@
+{
+  "datasetVersion": "2026.10.17-mvp1",
+  "researchStatus": "analyst-draft",
+  "researchStatusNote": "Scores are EDITORIAL DRAFT ASSESSMENTS written for the MVP. They are not yet cross-checked against the labour-market, salary and automation datasets listed in data/sources.json. Treat every score as an opinion with the stated confidence until a family's status is upgraded after source review. A score of 0 is a real low rating, never missing data.",
+  "scale": {
+    "0": { "label": "MUST NOT", "meaning": "Very poor alignment or a strong reason to avoid under this criterion" },
+    "1": { "label": "SHOULD NOT", "meaning": "Weak alignment or substantial disadvantages" },
+    "2": { "label": "CAN / MAY", "meaning": "Mixed, conditional or moderately suitable" },
+    "3": { "label": "SHOULD", "meaning": "Strong alignment; generally recommended" },
+    "4": { "label": "MUST", "meaning": "Very strong alignment; one of the strongest recommendations under this criterion" }
+  },
+  "families": [
+    {
+      "id": "software-computing",
+      "name": "Software and Computing",
+      "description": "Programming, software engineering and core computer science.",
+      "pathways": ["Software developer", "Systems and back-end engineer", "Mobile or web developer", "Product engineer"],
+      "scores": {
+        "islamic": { "score": 2, "rationale": "Software is neutral, but employers vary: gambling, interest-lending and surveillance products raise concerns that depend on the specific job." },
+        "benefit": { "score": 3, "rationale": "Software underpins health, education, finance and communication systems, though much commercial software has modest social value." },
+        "financial": { "score": 3, "rationale": "Entry pay is often good and senior pay strong in many markets; varies widely by country and employer." },
+        "futureResilience": { "score": 4, "rationale": "Demand for software capability is expected to remain central to most industries." },
+        "aiResilience": { "score": 2, "rationale": "AI coding assistants automate routine coding; system design, debugging at scale and accountability remain human-heavy." },
+        "employmentStability": { "score": 3, "rationale": "Demand has been cyclical, with notable layoffs in some downturns." },
+        "flexibility": { "score": 4, "rationale": "Skills transfer across industries, countries and remote work." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "eloundou-2023", "quran-5-2"],
+      "assumptions": ["Pay and demand figures are general patterns, not country-specific data.", "Islamic alignment depends on the employer and product, not the degree."],
+      "changeFactors": ["Rapid changes in AI coding tools could lower the AI-resilience score.", "A local job market that lacks software roles would lower the financial score."],
+      "additionalQualifications": null
+    },
+    {
+      "id": "ai-data-science",
+      "name": "AI, Machine Learning and Data Science",
+      "description": "Artificial intelligence, machine learning, data science and analytics.",
+      "pathways": ["Data scientist", "Machine learning engineer", "Analytics engineer", "Research scientist (usually postgraduate)"],
+      "scores": {
+        "islamic": { "score": 2, "rationale": "Techniques are neutral; applications in advertising, surveillance or interest-based lending need individual judgement." },
+        "benefit": { "score": 3, "rationale": "Useful in medicine, climate, logistics and public services, with a real risk of misuse in surveillance and manipulation." },
+        "financial": { "score": 4, "rationale": "Data and AI roles are commonly paid above general technology roles, though many entry roles are modest." },
+        "futureResilience": { "score": 4, "rationale": "Data-driven decision-making and AI adoption are widely expected to keep growing." },
+        "aiResilience": { "score": 2, "rationale": "Standard modelling and reporting tasks are increasingly automated; problem framing, data quality and validation remain human-led." },
+        "employmentStability": { "score": 3, "rationale": "Strong long-run demand, but hiring can fall sharply in some cycles." },
+        "flexibility": { "score": 3, "rationale": "Quantitative skills transfer well, but many roles favour postgraduate study or strong portfolios." }
+      },
+      "confidence": "low",
+      "sources": ["eloundou-2023", "frey-osborne-2017", "bls-ooh"],
+      "assumptions": ["Degree-level AI and data science programmes are new and their graduates' outcomes are not yet well documented."],
+      "changeFactors": ["Evidence on graduate outcomes from new AI degrees would change the confidence level.", "Restrictions on AI deployment could affect demand."],
+      "additionalQualifications": null
+    },
+    {
+      "id": "it-information-systems",
+      "name": "IT and Information Systems",
+      "description": "IT support, information systems, IT management, and information management.",
+      "pathways": ["IT support and systems administrator", "Business systems analyst", "IT project coordinator", "Database administrator"],
+      "scores": {
+        "islamic": { "score": 2, "rationale": "Generally neutral; organisational context determines the concerns, such as gambling or interest-based finance systems." },
+        "benefit": { "score": 3, "rationale": "Keeps organisations, hospitals and schools operating; the social value is real but largely indirect." },
+        "financial": { "score": 2, "rationale": "Entry pay is often moderate; higher earnings usually need further certification or specialisation." },
+        "futureResilience": { "score": 3, "rationale": "Organisations will keep needing information systems, but routine support is changing quickly." },
+        "aiResilience": { "score": 2, "rationale": "Help-desk, reporting and routine administration tasks are highly exposed to automation." },
+        "employmentStability": { "score": 3, "rationale": "Broadly stable, with demand concentrated in larger employers and in government." },
+        "flexibility": { "score": 3, "rationale": "Good transfer to business roles, though some specialist skills are narrower." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "onet", "eloundou-2023"],
+      "assumptions": ["Routine IT support is the most exposed part of this family; analysis and governance roles are less exposed."],
+      "changeFactors": ["Automation of routine IT administration would lower the AI-resilience score.", "Strong local demand for systems roles would raise the financial score."],
+      "additionalQualifications": null
+    },
+    {
+      "id": "cybersecurity",
+      "name": "Cybersecurity and Information Assurance",
+      "description": "Information security, assurance, and security operations.",
+      "pathways": ["Security analyst", "Security engineer", "Compliance and risk analyst", "Incident responder"],
+      "scores": {
+        "islamic": { "score": 3, "rationale": "Protecting data, privacy and trust fits the principle of preventing harm; offensive work needs ethical scrutiny." },
+        "benefit": { "score": 4, "rationale": "Protects individuals, hospitals, utilities and public institutions from harm." },
+        "financial": { "score": 3, "rationale": "Good demand and pay in many markets; entry-level roles can be competitive." },
+        "futureResilience": { "score": 4, "rationale": "Threats and regulation are both growing, which keeps demand durable." },
+        "aiResilience": { "score": 3, "rationale": "Monitoring and triage are partly automated, but investigation, response and governance remain human-led." },
+        "employmentStability": { "score": 3, "rationale": "Strong demand; hiring can slow in cost-cutting periods." },
+        "flexibility": { "score": 3, "rationale": "Certifications transfer across sectors and countries; security clearances can limit some moves." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "onet", "quran-5-2"],
+      "assumptions": ["Certifications are often needed for progression; the degree alone may not be sufficient."],
+      "changeFactors": ["Clearance or defence-only work may limit portability.", "Changes in threat levels or regulation could shift demand."],
+      "additionalQualifications": "Industry certifications are commonly expected for progression (not verified for each employer)."
+    },
+    {
+      "id": "electrical-electronics-computer",
+      "name": "Electrical, Electronics and Computer Engineering",
+      "description": "Power, electronics, embedded systems, communications and computer hardware.",
+      "pathways": ["Electrical engineer", "Embedded systems engineer", "Power systems engineer", "Telecommunications engineer"],
+      "scores": {
+        "islamic": { "score": 3, "rationale": "Power, water, health and communications systems serve the public; defence-related product lines need individual judgement." },
+        "benefit": { "score": 4, "rationale": "Energy, communications and health devices are among the most direct contributions to welfare." },
+        "financial": { "score": 3, "rationale": "Solid pay for professional engineers; licensing and experience raise progression." },
+        "futureResilience": { "score": 3, "rationale": "Electrification, grids and electronics will remain important, though hardware cycles vary." },
+        "aiResilience": { "score": 3, "rationale": "Design and hands-on work are relatively resistant; documentation and simulation tasks are increasingly automated." },
+        "employmentStability": { "score": 3, "rationale": "Stable in infrastructure and utilities; more cyclical in consumer electronics." },
+        "flexibility": { "score": 3, "rationale": "Professional registration can help abroad, but requirements differ by country." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "onet", "eloundou-2023"],
+      "assumptions": ["Professional licensing requirements differ by country and are not documented here."],
+      "changeFactors": ["Grid and energy investment levels change demand.", "Defence-sector work may raise ethical questions for some students."],
+      "additionalQualifications": "Professional engineering registration may be required for senior work (country-specific)."
+    },
+    {
+      "id": "mechanical-manufacturing-industrial",
+      "name": "Mechanical, Manufacturing and Industrial Engineering",
+      "description": "Machines, production systems, process improvement and operations engineering.",
+      "pathways": ["Mechanical design engineer", "Production engineer", "Industrial or process improvement engineer", "Quality engineer"],
+      "scores": {
+        "islamic": { "score": 3, "rationale": "Makes goods and improves production; concerns depend on what is produced, such as alcohol, tobacco or weapons." },
+        "benefit": { "score": 3, "rationale": "Produces goods and improves efficiency; benefit depends on product and sector." },
+        "financial": { "score": 3, "rationale": "Good pay in manufacturing hubs; varies by region and sector." },
+        "futureResilience": { "score": 3, "rationale": "Advanced manufacturing and automation keep demand, though relocation of production is a risk." },
+        "aiResilience": { "score": 3, "rationale": "Physical production and on-site problem-solving are less exposed than desk-based analysis." },
+        "employmentStability": { "score": 3, "rationale": "Moderately cyclical; demand follows investment and trade cycles." },
+        "flexibility": { "score": 3, "rationale": "Engineering skills transfer to automotive, energy, healthcare devices and consulting." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "onet", "quran-5-2"],
+      "assumptions": ["Manufacturing jobs differ greatly in sector; the Islamic-alignment score depends on the product line."],
+      "changeFactors": ["Employer-level choices about products matter more than the degree title.", "Automation trends could shift the roles available."],
+      "additionalQualifications": null
+    },
+    {
+      "id": "civil-construction-built-environment",
+      "name": "Civil Engineering and Construction Management",
+      "description": "Infrastructure, structures, water, transport and construction management.",
+      "pathways": ["Structural engineer", "Site or project engineer", "Construction manager", "Water and transport engineer"],
+      "scores": {
+        "islamic": { "score": 3, "rationale": "Builds housing, water and transport infrastructure; project finance may involve interest-based loans that need case-by-case review." },
+        "benefit": { "score": 4, "rationale": "Infrastructure like clean water, roads and shelter directly benefits communities." },
+        "financial": { "score": 3, "rationale": "Solid professional pay; construction cycles and public spending affect demand." },
+        "futureResilience": { "score": 3, "rationale": "Infrastructure renewal and climate adaptation support demand, though it is cyclical." },
+        "aiResilience": { "score": 3, "rationale": "Site work and judgement are resilient; design drafting and cost estimation are increasingly automated." },
+        "employmentStability": { "score": 3, "rationale": "Stable in public infrastructure; more cyclical in private construction." },
+        "flexibility": { "score": 2, "rationale": "Licensing is largely national; cross-border work requires re-registration." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "onet"],
+      "assumptions": ["Licensing and registration rules vary by country and are not documented here."],
+      "changeFactors": ["Public investment in infrastructure changes demand.", "Climate policy could increase demand for adaptation projects."],
+      "additionalQualifications": "Professional registration is required for independent practice in many countries."
+    },
+    {
+      "id": "architecture",
+      "name": "Architecture and Urban Planning",
+      "description": "Architectural design, building regulation and urban planning.",
+      "pathways": ["Architect (after licensure)", "Urban planner", "Interior architect", "Heritage conservation specialist"],
+      "scores": {
+        "islamic": { "score": 3, "rationale": "Designing homes, mosques, schools and public space is widely valued; some commissions and ornamentation questions need judgement." },
+        "benefit": { "score": 3, "rationale": "Shapes housing, public health and urban life, though many projects are commercial." },
+        "financial": { "score": 3, "rationale": "Pay rises with licensure and seniority; early-career pay is often modest." },
+        "futureResilience": { "score": 3, "rationale": "Urbanisation and climate adaptation sustain demand for planning expertise." },
+        "aiResilience": { "score": 3, "rationale": "Generative design tools are changing drafting; licensed responsibility and client judgement remain human." },
+        "employmentStability": { "score": 2, "rationale": "Architecture is cyclical and sensitive to construction slowdowns." },
+        "flexibility": { "score": 2, "rationale": "Architectural licensing is national, which limits mobility without re-qualification." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "onet"],
+      "assumptions": ["Architectural licensure is typically required for the title 'architect'; requirements differ by country."],
+      "changeFactors": ["Licensing reforms in the target country would change flexibility.", "Downturns in construction would lower the stability score."],
+      "additionalQualifications": "Licensure and examinations are required for practice (country-specific)."
+    },
+    {
+      "id": "chemical-materials",
+      "name": "Chemical and Materials Engineering",
+      "description": "Process engineering, chemical plants, materials science and metallurgy.",
+      "pathways": ["Process engineer", "Materials engineer", "Quality and laboratory engineer", "Pharmaceutical or food process engineer"],
+      "scores": {
+        "islamic": { "score": 2, "rationale": "Many plants serve petrochemical, alcohol, tobacco or industrial food chains; the sector needs careful selection, while pharmaceutical and food roles can be suitable." },
+        "benefit": { "score": 3, "rationale": "Materials and process know-how support medicine, energy and infrastructure." },
+        "financial": { "score": 3, "rationale": "Solid process-industry pay; some sectors are cyclical." },
+        "futureResilience": { "score": 3, "rationale": "Clean energy, batteries and advanced materials create demand, while fossil-based processes decline." },
+        "aiResilience": { "score": 3, "rationale": "Plant operations and experimental judgement are fairly resilient; simulation and data tasks are exposed." },
+        "employmentStability": { "score": 2, "rationale": "Commodity-linked demand makes process-industry employment cyclical." },
+        "flexibility": { "score": 3, "rationale": "Process and materials skills transfer across sectors." }
+      },
+      "confidence": "low",
+      "sources": ["bls-ooh", "quran-5-2"],
+      "assumptions": ["Sector mix within chemical engineering is highly varied; scores are a broad average."],
+      "changeFactors": ["Energy transition policy changes the sector mix.", "Employer choices (alcohol, tobacco, petrochemicals) change the Islamic-alignment score."],
+      "additionalQualifications": null
+    },
+    {
+      "id": "energy-mining-petroleum",
+      "name": "Energy, Petroleum, Mining and Nuclear Engineering",
+      "description": "Oil and gas, mining, geological engineering and nuclear energy.",
+      "pathways": ["Petroleum or reservoir engineer", "Mining engineer", "Geological engineer", "Nuclear power engineer"],
+      "scores": {
+        "islamic": { "score": 1, "rationale": "Much work is in fossil-fuel extraction or nuclear facilities; scholars differ on whether such work is permissible, so individual judgement and scholarly consultation are needed." },
+        "benefit": { "score": 3, "rationale": "Energy supply is essential to welfare; environmental and safety costs are substantial and debated." },
+        "financial": { "score": 4, "rationale": "Petroleum and mining roles have often paid well, though pay is cyclical with commodity prices." },
+        "futureResilience": { "score": 2, "rationale": "Fossil-fuel demand is expected to decline in many scenarios, though transition and decommissioning skills stay relevant." },
+        "aiResilience": { "score": 3, "rationale": "Field and safety-critical work is relatively resilient; modelling tasks are exposed." },
+        "employmentStability": { "score": 2, "rationale": "Commodity booms and busts make employment highly cyclical." },
+        "flexibility": { "score": 2, "rationale": "Specialised skills transfer to some sectors, but jobs are often location-specific." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "quran-7-56"],
+      "assumptions": ["Scholarly positions on fossil-fuel and nuclear employment differ; this score describes the sector, not a ruling."],
+      "changeFactors": ["Choice of employer or sub-sector (e.g. renewable or decommissioning work) changes the score.", "Commodity prices strongly affect pay and stability."],
+      "additionalQualifications": "Professional registration and sector-specific safety certifications are commonly required."
+    },
+    {
+      "id": "aerospace-aviation",
+      "name": "Aerospace, Aviation and Aeronautics",
+      "description": "Aircraft and space engineering, aviation operations, maintenance and air traffic management.",
+      "pathways": ["Aerospace engineer", "Aircraft maintenance engineer", "Air traffic controller", "Aviation operations specialist"],
+      "scores": {
+        "islamic": { "score": 2, "rationale": "Civil aviation is broadly neutral, but defence work and airline service of alcohol or gambling-linked activities need individual judgement." },
+        "benefit": { "score": 3, "rationale": "Air transport connects people and supports trade, medicine and disaster response." },
+        "financial": { "score": 3, "rationale": "Strong pay in some roles (e.g. air traffic control, licensed maintenance); airline pay varies." },
+        "futureResilience": { "score": 3, "rationale": "Air travel demand is expected to grow in many regions, with sustainability pressure." },
+        "aiResilience": { "score": 3, "rationale": "Safety-critical, licensed, physical roles are relatively resilient; some planning tasks are exposed." },
+        "employmentStability": { "score": 2, "rationale": "Airline employment is cyclical and sensitive to shocks such as pandemics and fuel prices." },
+        "flexibility": { "score": 3, "rationale": "Licensed aviation skills can transfer internationally, subject to licensing." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "onet"],
+      "assumptions": ["Licensing for maintenance and air traffic roles is country-specific and a major barrier."],
+      "changeFactors": ["Licensing pathway requirements.", "Airline cycles and sustainability regulation."],
+      "additionalQualifications": "Aviation licences or certifications (e.g. maintenance or air-traffic licences) are required for licensed roles."
+    },
+    {
+      "id": "marine-naval-ocean",
+      "name": "Marine, Naval and Ocean Sciences",
+      "description": "Marine engineering, naval architecture and oceanography.",
+      "pathways": ["Marine engineer (after certification)", "Naval architect", "Oceanographer", "Port and shipping specialist"],
+      "scores": {
+        "islamic": { "score": 2, "rationale": "Shipping can carry prohibited goods and naval work can be defence-related; ocean science is broadly neutral." },
+        "benefit": { "score": 3, "rationale": "Shipping carries most world trade; ocean science informs climate and fisheries." },
+        "financial": { "score": 3, "rationale": "Certified seafarers and engineers can earn well; many entry roles involve time at sea." },
+        "futureResilience": { "score": 3, "rationale": "Trade and ocean monitoring remain important; decarbonising shipping creates new skills." },
+        "aiResilience": { "score": 3, "rationale": "Hands-on engineering and seamanship are resilient; design and monitoring tasks are exposed." },
+        "employmentStability": { "score": 2, "rationale": "Shipping is cyclical; sea-going work may affect family life and stability." },
+        "flexibility": { "score": 3, "rationale": "Internationally recognised certificates aid mobility, though licensing is required." }
+      },
+      "confidence": "low",
+      "sources": ["bls-ooh"],
+      "assumptions": ["Sea-going certification (e.g. STCW-type) requirements are not verified in this build."],
+      "changeFactors": ["Trade volumes and decarbonisation rules.", "Specific cargo and employer choices."],
+      "additionalQualifications": "Maritime certification is required for sea-going roles (not verified)."
+    },
+    {
+      "id": "biomedical-bioengineering",
+      "name": "Biomedical Engineering and Bioengineering",
+      "description": "Medical devices, imaging, biomaterials and health technology.",
+      "pathways": ["Medical device engineer", "Clinical engineer", "Biomedical research engineer", "Regulatory affairs specialist"],
+      "scores": {
+        "islamic": { "score": 3, "rationale": "Medical devices and diagnostics serve healing; animal testing and some research uses need ethical review." },
+        "benefit": { "score": 4, "rationale": "Directly supports diagnosis and treatment of patients." },
+        "financial": { "score": 3, "rationale": "Good pay in device companies and hospitals; research pay is often lower early on." },
+        "futureResilience": { "score": 4, "rationale": "Ageing populations and health technology sustain demand." },
+        "aiResilience": { "score": 3, "rationale": "Regulated, clinical and hands-on work is resilient; design simulation is exposed." },
+        "employmentStability": { "score": 3, "rationale": "Healthcare-linked demand is comparatively steady." },
+        "flexibility": { "score": 3, "rationale": "Skills transfer between devices, hospitals and research; regulatory knowledge varies by country." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "onet"],
+      "assumptions": ["Bioengineering and biomedical engineering titles overlap substantially in practice."],
+      "changeFactors": ["Regulatory approvals for medical devices.", "Research funding levels."],
+      "additionalQualifications": null
+    },
+    {
+      "id": "business-management",
+      "name": "Business Administration and General Management",
+      "description": "Business administration, general management, leadership and entrepreneurship.",
+      "pathways": ["Management trainee", "Operations or business analyst", "Entrepreneur or founder", "Business development officer"],
+      "scores": {
+        "islamic": { "score": 2, "rationale": "Business ethics are central, but many business roles involve interest-based finance, gambling-linked or alcohol-linked clients; choose the sector carefully." },
+        "benefit": { "score": 2, "rationale": "Generalist degrees have indirect social value; the benefit depends strongly on what the business does." },
+        "financial": { "score": 2, "rationale": "Wide variation; generalist entry pay is often moderate and senior pay depends on specialisation." },
+        "futureResilience": { "score": 2, "rationale": "General management skills persist, but generalist degrees are less distinctive in an automated market." },
+        "aiResilience": { "score": 2, "rationale": "Routine reporting and administration are exposed; judgement, negotiation and leadership are less so." },
+        "employmentStability": { "score": 2, "rationale": "Generalist roles are easier to cut in downturns." },
+        "flexibility": { "score": 4, "rationale": "Generalist skills move across sectors and can support self-employment." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "eloundou-2023", "quran-5-2"],
+      "assumptions": ["Generalist business degrees vary widely in quality between institutions; the specialisation matters more."],
+      "changeFactors": ["Choice of specialisation (e.g. analytics, operations) would raise several scores.", "Entrepreneurship ability and access to capital."],
+      "additionalQualifications": null
+    },
+    {
+      "id": "project-operations-management",
+      "name": "Project, Operations and Engineering Management",
+      "description": "Project management, facility management, operations and engineering management.",
+      "pathways": ["Project coordinator or manager", "Operations manager", "Facility manager", "Engineering manager (after experience)"],
+      "scores": {
+        "islamic": { "score": 3, "rationale": "Coordinating public, health and infrastructure projects can be highly beneficial; the sector served determines the score." },
+        "benefit": { "score": 3, "rationale": "Delivers projects and services that others depend on." },
+        "financial": { "score": 3, "rationale": "Good pay in project-heavy sectors, especially with certification." },
+        "futureResilience": { "score": 3, "rationale": "Project-based work continues across industries; methods are changing." },
+        "aiResilience": { "score": 3, "rationale": "Planning software automates scheduling; stakeholder management and risk judgement remain human." },
+        "employmentStability": { "score": 3, "rationale": "Demand is broad but tied to project pipelines." },
+        "flexibility": { "score": 4, "rationale": "Project and operations skills transfer across sectors and countries." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "onet"],
+      "assumptions": ["Certifications such as PMP-type credentials are common but cost money and require experience."],
+      "changeFactors": ["Experience requirements in the target market.", "Industry choice."],
+      "additionalQualifications": "Professional project-management certification is commonly sought after work experience (not verified per employer)."
+    },
+    {
+      "id": "marketing-sales",
+      "name": "Marketing, Advertising and Sales",
+      "description": "Marketing, advertising, sales management and brand strategy.",
+      "pathways": ["Marketing executive", "Digital marketing specialist", "Sales manager", "Brand or account manager"],
+      "scores": {
+        "islamic": { "score": 1, "rationale": "Promotion of alcohol, gambling, interest-based products or manipulative sales raises concerns; halal and ethical brands exist but are a narrower market." },
+        "benefit": { "score": 2, "rationale": "Helps businesses find customers; social value is mixed and depends on the product being sold." },
+        "financial": { "score": 3, "rationale": "Pay varies; senior commercial roles can be well paid." },
+        "futureResilience": { "score": 2, "rationale": "Digital channels and AI content tools are changing the field quickly." },
+        "aiResilience": { "score": 1, "rationale": "Content creation, copywriting, reporting and campaign optimisation are highly exposed to AI tools." },
+        "employmentStability": { "score": 2, "rationale": "Marketing budgets are cut early in downturns." },
+        "flexibility": { "score": 3, "rationale": "Commercial and communication skills transfer across sectors." }
+      },
+      "confidence": "medium",
+      "sources": ["eloundou-2023", "quran-5-2"],
+      "assumptions": ["Advertising and sales roles differ in ethical exposure from employer to employer."],
+      "changeFactors": ["Choice of industry (e.g. halal food, education, health) would change the Islamic-alignment score.", "AI tool adoption."],
+      "additionalQualifications": null
+    },
+    {
+      "id": "communications-media",
+      "name": "Communications, Journalism and Public Relations",
+      "description": "Communications, journalism, public relations and media studies.",
+      "pathways": ["Journalist or reporter", "Public relations officer", "Content strategist", "Corporate communications specialist"],
+      "scores": {
+        "islamic": { "score": 2, "rationale": "Truthful reporting and public information are valued; media employers vary, and some content conflicts with Islamic values." },
+        "benefit": { "score": 3, "rationale": "Accurate public information supports accountability and informed citizens." },
+        "financial": { "score": 2, "rationale": "Many media and journalism roles pay modestly and have shrinking traditional employment." },
+        "futureResilience": { "score": 2, "rationale": "Traditional print and broadcast contract; digital and communications roles are growing but competitive." },
+        "aiResilience": { "score": 1, "rationale": "Routine writing, summarising and content production are highly exposed to generative AI." },
+        "employmentStability": { "score": 2, "rationale": "Media employment has been unstable and cyclical." },
+        "flexibility": { "score": 3, "rationale": "Writing, research and communication skills transfer to many sectors." }
+      },
+      "confidence": "medium",
+      "sources": ["eloundou-2023", "bls-ooh", "quran-5-2"],
+      "assumptions": ["Public relations is generally more stable than newsroom journalism, but the evidence is not verified here."],
+      "changeFactors": ["Employer choice (public service or nonprofit media vs entertainment).", "Changes in media business models."],
+      "additionalQualifications": null
+    },
+    {
+      "id": "design-arts",
+      "name": "Design, Studio Art and Photography",
+      "description": "Studio art, graphic design and photography.",
+      "pathways": ["Graphic designer", "Photographer", "Visual artist", "Brand designer"],
+      "scores": {
+        "islamic": { "score": 2, "rationale": "Creative work is valued, but depictions of living beings and some commercial content are matters of scholarly disagreement and personal judgement." },
+        "benefit": { "score": 2, "rationale": "Creative work has cultural and communicative value; direct welfare benefit varies." },
+        "financial": { "score": 2, "rationale": "Most creative careers are freelance and income is irregular." },
+        "futureResilience": { "score": 2, "rationale": "Image and design tools are changing; demand for original creative judgement persists." },
+        "aiResilience": { "score": 1, "rationale": "Generative image tools substitute for many routine design and stock tasks." },
+        "employmentStability": { "score": 1, "rationale": "Freelance and project-based income makes stability low." },
+        "flexibility": { "score": 3, "rationale": "Portfolio work travels well and supports self-employment." }
+      },
+      "confidence": "medium",
+      "sources": ["eloundou-2023", "quran-5-2"],
+      "assumptions": ["Scholarly positions on depicting living beings differ; this score does not rule on them."],
+      "changeFactors": ["Specialism within design (e.g. product, architecture visualisation, Islamic-compliant design).", "Client base and income sources."],
+      "additionalQualifications": null
+    },
+    {
+      "id": "biology-life-sciences",
+      "name": "Biological Sciences, Molecular Biology and Biotechnology",
+      "description": "Biology, zoology, molecular biology and biotechnology.",
+      "pathways": ["Laboratory scientist", "Biotechnologist", "Clinical or research technician", "Science educator"],
+      "scores": {
+        "islamic": { "score": 3, "rationale": "Studying life and nature supports reflection on creation; some research (animal testing, genetic modification) needs ethical review." },
+        "benefit": { "score": 3, "rationale": "Supports medicine, agriculture and environmental work; many entry roles are lab-based." },
+        "financial": { "score": 2, "rationale": "Bachelor-level pay is modest; higher pay usually follows postgraduate study." },
+        "futureResilience": { "score": 4, "rationale": "Biotechnology and life-science research are expected to keep expanding." },
+        "aiResilience": { "score": 2, "rationale": "Data analysis is exposed; wet-lab skill and experimental judgement are less so." },
+        "employmentStability": { "score": 2, "rationale": "Research funding cycles make some roles insecure." },
+        "flexibility": { "score": 3, "rationale": "Lab and analytical skills transfer across health, food and environment sectors." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "quran-2-275"],
+      "assumptions": ["Postgraduate study is typically needed for research careers."],
+      "changeFactors": ["Research funding levels.", "Specialisation toward medicine or agriculture."],
+      "additionalQualifications": "Postgraduate study is commonly needed for research and higher pay."
+    },
+    {
+      "id": "physical-sciences",
+      "name": "Physics and Chemistry",
+      "description": "Physics and chemistry, including applied and theoretical streams.",
+      "pathways": ["Research or laboratory scientist", "Data or instrumentation analyst", "Science teacher", "Quality and analytical chemist"],
+      "scores": {
+        "islamic": { "score": 3, "rationale": "Study of the natural world is widely valued; some applications (weapons, chemical agents) need ethical judgement." },
+        "benefit": { "score": 3, "rationale": "Underpins technology, energy and medicine, although bachelor-level impact is indirect." },
+        "financial": { "score": 2, "rationale": "Bachelor-level pay is modest; higher pay usually needs postgraduate study or industry experience." },
+        "futureResilience": { "score": 3, "rationale": "Core science remains important; specific applications change." },
+        "aiResilience": { "score": 2, "rationale": "Computational and analytical tasks are exposed; experimental and theoretical judgement is less so." },
+        "employmentStability": { "score": 2, "rationale": "Research and teaching jobs can be limited and funding-dependent." },
+        "flexibility": { "score": 4, "rationale": "Quantitative and analytical skills transfer very widely." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh"],
+      "assumptions": ["Pay and demand are general patterns and depend on postgraduate study."],
+      "changeFactors": ["Postgraduate pathway choices.", "Research funding."],
+      "additionalQualifications": "Postgraduate study is commonly needed for research careers."
+    },
+    {
+      "id": "earth-sciences",
+      "name": "Geology, Geoscience and Meteorology",
+      "description": "Earth sciences, geology, geoscience and atmospheric science.",
+      "pathways": ["Geologist (mineral, groundwater or environmental)", "Meteorologist or climate analyst", "Hydrogeologist", "Environmental consultant"],
+      "scores": {
+        "islamic": { "score": 2, "rationale": "Geology often serves extractive industries; groundwater, climate and hazard work is widely beneficial." },
+        "benefit": { "score": 3, "rationale": "Water, hazard and climate work is valuable; extraction work has mixed impact." },
+        "financial": { "score": 3, "rationale": "Good pay in resource sectors; environmental and water roles are steadier but lower-paid." },
+        "futureResilience": { "score": 3, "rationale": "Climate and water issues sustain demand; resource-sector demand is cyclical." },
+        "aiResilience": { "score": 3, "rationale": "Field observation is resilient; forecasting and data modelling are exposed." },
+        "employmentStability": { "score": 2, "rationale": "Resource-linked employment is cyclical; government and consulting roles are steadier." },
+        "flexibility": { "score": 3, "rationale": "Fieldwork skills and GIS transfer, though some roles are location-bound." }
+      },
+      "confidence": "low",
+      "sources": ["bls-ooh", "quran-7-56"],
+      "assumptions": ["Degree-level geology jobs are often field or resource-sector roles; professional registration may be required in some countries."],
+      "changeFactors": ["Specialism (hydrogeology, climate) versus resource extraction.", "Commodity cycles."],
+      "additionalQualifications": "Professional registration may be required (country-specific)."
+    },
+    {
+      "id": "mathematics-statistics",
+      "name": "Mathematics and Statistics",
+      "description": "Pure and applied mathematics, statistics and quantitative reasoning.",
+      "pathways": ["Statistician", "Data analyst", "Actuary (with exams)", "Operations research analyst", "Teacher of mathematics"],
+      "scores": {
+        "islamic": { "score": 3, "rationale": "Mathematics is valued across traditions; the applications determine any concerns." },
+        "benefit": { "score": 3, "rationale": "Supports medicine, public health, economics and engineering through quantitative methods." },
+        "financial": { "score": 3, "rationale": "Strong pay in quantitative roles, particularly with further training." },
+        "futureResilience": { "score": 4, "rationale": "Quantitative reasoning underpins most data-driven fields." },
+        "aiResilience": { "score": 2, "rationale": "Routine calculation and modelling are exposed; proof, problem framing and rigorous inference are less so." },
+        "employmentStability": { "score": 3, "rationale": "Broad demand across sectors; statistical roles in government are steady." },
+        "flexibility": { "score": 4, "rationale": "Highly transferable across industries and countries." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "eloundou-2023"],
+      "assumptions": ["Actuarial professional exams are separate from the degree."],
+      "changeFactors": ["Employer demand for quantitative graduates.", "Postgraduate study choices."],
+      "additionalQualifications": "Actuarial or statistical professional exams may be needed for specialist roles."
+    },
+    {
+      "id": "accounting",
+      "name": "Accounting and Auditing",
+      "description": "Financial accounting, auditing, taxation and management accounting.",
+      "pathways": ["Accountant", "Auditor", "Tax adviser", "Management accountant", "Financial controller (after experience)"],
+      "scores": {
+        "islamic": { "score": 2, "rationale": "Accounting is broadly neutral, but clients may be interest-based or prohibited-sector businesses; Islamic finance and zakat-related accounting are valid specialisms." },
+        "benefit": { "score": 3, "rationale": "Accurate records and audits support honest markets and public trust." },
+        "financial": { "score": 3, "rationale": "Professional accounting qualifications are commonly well paid and progressive." },
+        "futureResilience": { "score": 3, "rationale": "Demand persists for assurance and regulatory compliance; routine bookkeeping is shrinking." },
+        "aiResilience": { "score": 2, "rationale": "Bookkeeping and data entry are highly exposed; judgement, assurance and tax advice remain human-led." },
+        "employmentStability": { "score": 3, "rationale": "Accounting work is comparatively steady across economic cycles." },
+        "flexibility": { "score": 4, "rationale": "Professional qualifications transfer across sectors and, in some systems, internationally." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "eloundou-2023", "quran-2-275"],
+      "assumptions": ["Professional accounting exams are a major investment beyond the degree."],
+      "changeFactors": ["Professional body membership and exam costs.", "Growing automation of bookkeeping."],
+      "additionalQualifications": "Professional accounting qualification (e.g. ACCA, CA, CPA-type) is usually needed for senior roles."
+    },
+    {
+      "id": "finance-economics-actuarial",
+      "name": "Finance, Economics and Actuarial Science",
+      "description": "Corporate finance, banking, economics, investment and actuarial science.",
+      "pathways": ["Financial analyst", "Economist", "Actuary (with exams)", "Investment or risk analyst"],
+      "scores": {
+        "islamic": { "score": 1, "rationale": "Conventional banking, lending, insurance and investment rely heavily on interest and uncertainty; Islamic finance is a real alternative, but most finance roles need careful selection." },
+        "benefit": { "score": 2, "rationale": "Benefit depends on the institution; well-run finance supports growth, while speculative finance can harm." },
+        "financial": { "score": 4, "rationale": "Finance roles are often among the higher-paid bachelor-level paths, especially in investment and actuarial work." },
+        "futureResilience": { "score": 2, "rationale": "Routine analysis and some trading roles are being automated; advisory and risk roles are more durable." },
+        "aiResilience": { "score": 2, "rationale": "Modelling and reporting are exposed; client relationships and regulated judgement are less so." },
+        "employmentStability": { "score": 3, "rationale": "Stable in regulated institutions; cyclical in investment markets." },
+        "flexibility": { "score": 3, "rationale": "Quantitative and finance skills transfer, though some roles need further qualifications." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "quran-2-275", "eloundou-2023"],
+      "assumptions": ["Riba concerns apply to the interest-based products and contracts that a role involves; scholarly views differ on specific roles."],
+      "changeFactors": ["Choosing Islamic finance, ethical investment or non-interest-based roles would change the Islamic score.", "Actuarial exam progression."],
+      "additionalQualifications": "Actuarial and investment professional exams are needed for specialist roles."
+    },
+    {
+      "id": "human-resources",
+      "name": "Human Resources and Personnel Management",
+      "description": "Recruitment, employee relations, training and workforce planning.",
+      "pathways": ["HR generalist", "Recruiter or talent acquisition specialist", "Training and development officer", "HR business partner"],
+      "scores": {
+        "islamic": { "score": 3, "rationale": "Fair treatment, consultation and care for workers fit well with Islamic principles of justice in employment." },
+        "benefit": { "score": 3, "rationale": "Improves organisations' treatment of staff and the quality of work." },
+        "financial": { "score": 2, "rationale": "Entry pay is modest; senior HR leadership pays well but is competitive." },
+        "futureResilience": { "score": 3, "rationale": "People management stays necessary, though some administration is automated." },
+        "aiResilience": { "score": 2, "rationale": "Screening, scheduling and records are increasingly automated; employee relations and judgement remain human." },
+        "employmentStability": { "score": 3, "rationale": "Broad demand across organisations." },
+        "flexibility": { "score": 3, "rationale": "Transfers across sectors; specialist certifications help." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "onet", "quran-5-2"],
+      "assumptions": ["Pay and demand vary greatly by country."],
+      "changeFactors": ["Professional certification.", "Employer sector (e.g. recruitment for prohibited industries)."],
+      "additionalQualifications": "Professional HR certification is commonly sought."
+    },
+    {
+      "id": "agriculture-food",
+      "name": "Agriculture and Food Science",
+      "description": "Crop and animal production, agronomy, food science, and food safety.",
+      "pathways": ["Agronomist or extension officer", "Food safety and quality specialist", "Farm or agribusiness manager", "Food product developer"],
+      "scores": {
+        "islamic": { "score": 3, "rationale": "Growing food and supporting farmers is widely valued; animal husbandry and halal food processing require attention to standards." },
+        "benefit": { "score": 4, "rationale": "Food security and farmer livelihoods are central to welfare." },
+        "financial": { "score": 2, "rationale": "Pay is modest in many agricultural roles, with higher pay in agribusiness and food-tech." },
+        "futureResilience": { "score": 3, "rationale": "Food demand and climate adaptation sustain need; technology is changing practice." },
+        "aiResilience": { "score": 3, "rationale": "Field and animal work is resilient; precision-agriculture analytics are exposed." },
+        "employmentStability": { "score": 3, "rationale": "Food systems are relatively steady; agricultural income is weather-dependent." },
+        "flexibility": { "score": 2, "rationale": "Local knowledge and agro-ecological conditions limit portability." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "ilostat"],
+      "assumptions": ["Pakistan-specific agricultural labour market data are not yet extracted."],
+      "changeFactors": ["Local agricultural market and climate.", "Halal certification requirements."],
+      "additionalQualifications": null
+    },
+    {
+      "id": "environment-sustainability",
+      "name": "Environmental Science, Engineering and Sustainability",
+      "description": "Environmental science, environmental engineering, sustainability and environmental health and safety.",
+      "pathways": ["Environmental consultant", "Environmental engineer", "Sustainability analyst", "Health and safety officer"],
+      "scores": {
+        "islamic": { "score": 4, "rationale": "Protecting the environment and preventing harm connects with stewardship principles; interpretation is conceptual rather than a ruling." },
+        "benefit": { "score": 4, "rationale": "Directly protects air, water and health." },
+        "financial": { "score": 2, "rationale": "Pay ranges from modest to good; public-sector and NGO work is often lower paid." },
+        "futureResilience": { "score": 4, "rationale": "Environmental regulation and climate adaptation are expanding areas." },
+        "aiResilience": { "score": 3, "rationale": "Field inspection, regulation and on-site engineering are resilient; reporting and modelling are exposed." },
+        "employmentStability": { "score": 3, "rationale": "Regulation-driven demand is relatively steady." },
+        "flexibility": { "score": 3, "rationale": "Transferable across sectors; professional registration varies by country." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "quran-7-56"],
+      "assumptions": ["Environmental careers may involve regulation of extractive industries; this is a sector-level note."],
+      "changeFactors": ["Regulatory strength in the target country.", "Public funding for environmental programmes."],
+      "additionalQualifications": "Professional registration may be needed for engineering roles."
+    },
+    {
+      "id": "health-administration-public-health",
+      "name": "Health Administration and Public Health",
+      "description": "Health services management, hospital administration, health management and public health administration.",
+      "pathways": ["Hospital administrator", "Health services manager", "Public health programme officer", "Health policy analyst"],
+      "scores": {
+        "islamic": { "score": 3, "rationale": "Organising care and preventing disease is widely regarded as beneficial." },
+        "benefit": { "score": 4, "rationale": "Directly improves access to care and population health." },
+        "financial": { "score": 3, "rationale": "Good pay for senior health managers; entry roles are moderate." },
+        "futureResilience": { "score": 4, "rationale": "Ageing, chronic disease and health-system demand keep this field important." },
+        "aiResilience": { "score": 3, "rationale": "Management and policy judgement remain human; administrative and reporting work is exposed." },
+        "employmentStability": { "score": 3, "rationale": "Healthcare-linked demand is steady." },
+        "flexibility": { "score": 3, "rationale": "Skills transfer across health systems, though systems differ by country." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "onet"],
+      "assumptions": ["Degree titles vary; some health administration programmes are postgraduate in certain countries."],
+      "changeFactors": ["Health system funding.", "Whether a programme is accredited locally."],
+      "additionalQualifications": null
+    },
+    {
+      "id": "nursing-clinical",
+      "name": "Nursing",
+      "description": "Registered nursing and clinical nursing care.",
+      "pathways": ["Registered nurse", "Clinical nurse specialist (after experience)", "Community or public-health nurse", "Nurse educator"],
+      "scores": {
+        "islamic": { "score": 3, "rationale": "Caring for the sick is widely valued; privacy and modesty considerations can be managed in many settings." },
+        "benefit": { "score": 4, "rationale": "Direct patient care with high social value." },
+        "financial": { "score": 3, "rationale": "Pay varies greatly by country; experienced nurses in high-income markets earn well." },
+        "futureResilience": { "score": 4, "rationale": "Ageing populations keep demand for nursing high." },
+        "aiResilience": { "score": 3, "rationale": "Hands-on bedside care is resilient; documentation and triage support are exposed." },
+        "employmentStability": { "score": 4, "rationale": "Demand is usually steady, though working conditions can be demanding." },
+        "flexibility": { "score": 3, "rationale": "Licensing is national; some nurses migrate after separate registration exams." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "ilostat"],
+      "assumptions": ["Licensure and exams are country-specific; the Pakistan Nursing Council requirements are not verified in this build."],
+      "changeFactors": ["Migration and licensing rules.", "Working conditions and staffing levels."],
+      "additionalQualifications": "National nursing registration is required to practise (country-specific)."
+    },
+    {
+      "id": "pharmacy-pharmaceutical-sciences",
+      "name": "Pharmacy and Pharmaceutical Sciences",
+      "description": "Clinical and community pharmacy, drug development and pharmaceutical manufacturing.",
+      "pathways": ["Community or hospital pharmacist (after licensure)", "Pharmaceutical quality specialist", "Clinical research associate", "Drug regulatory officer"],
+      "scores": {
+        "islamic": { "score": 3, "rationale": "Clinical pharmacy serves healing; some products may contain alcohol or animal-derived ingredients, so halal sourcing and dispensing need checking." },
+        "benefit": { "score": 4, "rationale": "Medicines and medicine safety are directly beneficial." },
+        "financial": { "score": 3, "rationale": "Solid pay for licensed pharmacists; research and industry roles vary." },
+        "futureResilience": { "score": 3, "rationale": "Demand for medicines grows, though pharmacy roles are changing." },
+        "aiResilience": { "score": 3, "rationale": "Dispensing automation is growing; clinical counselling remains human." },
+        "employmentStability": { "score": 3, "rationale": "Steady demand; some community pharmacy chains have restructured." },
+        "flexibility": { "score": 3, "rationale": "Licensing limits mobility; industry and regulatory roles are more portable." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "quran-5-2"],
+      "assumptions": ["Pharmacist licensure is needed for dispensing; the Pakistan Pharmacy Council requirements are not verified here."],
+      "changeFactors": ["Choosing clinical versus industry roles.", "Licensing rules."],
+      "additionalQualifications": "Pharmacist licensure is needed for dispensing roles (country-specific)."
+    },
+    {
+      "id": "medicine-clinical",
+      "name": "Medicine (MBBS and equivalent)",
+      "description": "Medical training leading to clinical practice. In some systems (e.g. the United States) this is postgraduate; in Pakistan and several other systems it is an undergraduate degree.",
+      "pathways": ["Medical officer or doctor", "Specialist (after postgraduate training)", "Public-health physician", "Medical researcher"],
+      "scores": {
+        "islamic": { "score": 3, "rationale": "Healing the sick is widely regarded as beneficial; some procedures and research raise ethical questions that require case-by-case scholarly guidance." },
+        "benefit": { "score": 4, "rationale": "Direct improvement of health and survival." },
+        "financial": { "score": 4, "rationale": "Physicians are often among the best-paid professionals, though pay and training costs vary by country." },
+        "futureResilience": { "score": 4, "rationale": "Health needs are growing and cannot easily be automated end to end." },
+        "aiResilience": { "score": 3, "rationale": "Clinical judgement and procedures are resilient; diagnostic imaging and documentation are exposed." },
+        "employmentStability": { "score": 4, "rationale": "Strong and steady demand; postgraduate training can be long and competitive." },
+        "flexibility": { "score": 3, "rationale": "Licensing is national; medical registration exams differ, though international mobility exists." }
+      },
+      "confidence": "low",
+      "sources": ["bls-ooh", "ilostat"],
+      "assumptions": ["Total training length, cost and licensing are not verified for any country in this build."],
+      "changeFactors": ["Postgraduate training pathway and competition.", "Licensing exam requirements in the target country."],
+      "additionalQualifications": "Medical registration and postgraduate training are required for practice (country-specific)."
+    },
+    {
+      "id": "education-teaching",
+      "name": "Education and Teaching",
+      "description": "Teacher training, primary and secondary education, and educational administration.",
+      "pathways": ["Primary or secondary teacher", "Curriculum or instructional designer", "Educational administrator", "Academic (after postgraduate study)"],
+      "scores": {
+        "islamic": { "score": 3, "rationale": "Teaching and knowledge-sharing are highly valued; content and institutional values vary." },
+        "benefit": { "score": 4, "rationale": "Shapes learning and opportunity for children and young people." },
+        "financial": { "score": 2, "rationale": "Teacher pay is often modest relative to qualifications, varying by country." },
+        "futureResilience": { "score": 3, "rationale": "Education remains essential; teaching methods are changing." },
+        "aiResilience": { "score": 3, "rationale": "Classroom relationships and supervision are resilient; lesson planning and marking support are exposed." },
+        "employmentStability": { "score": 4, "rationale": "Teaching demand is usually steady, with public-sector stability in many countries." },
+        "flexibility": { "score": 2, "rationale": "Teacher registration is often national and language-specific." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "ilostat"],
+      "assumptions": ["Teacher registration requirements are country-specific."],
+      "changeFactors": ["Public-sector hiring policies.", "Subject specialisation (e.g. STEM teaching demand)."],
+      "additionalQualifications": "Teaching certification or registration is usually required."
+    },
+    {
+      "id": "public-admin-nonprofit",
+      "name": "Public Administration and Nonprofit Management",
+      "description": "Public administration, nonprofit management, fundraising and community development.",
+      "pathways": ["Civil service officer", "Nonprofit programme manager", "Fundraising or grants officer", "Policy and community development officer"],
+      "scores": {
+        "islamic": { "score": 3, "rationale": "Public service and charitable work are strongly aligned with Islamic values of service and care; fundraising must be transparent." },
+        "benefit": { "score": 4, "rationale": "Directly designed to serve communities." },
+        "financial": { "score": 2, "rationale": "Pay is often modest, particularly in nonprofits; civil service pay varies." },
+        "futureResilience": { "score": 3, "rationale": "Public and social needs continue; funding models are changing." },
+        "aiResilience": { "score": 3, "rationale": "Community trust and relationship work are resilient; reporting and grant-writing support are exposed." },
+        "employmentStability": { "score": 3, "rationale": "Civil service is stable; nonprofit funding can be short-term." },
+        "flexibility": { "score": 3, "rationale": "Transferable across public, nonprofit and development sectors." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "quran-5-2"],
+      "assumptions": ["Donor and funding rules for nonprofits differ by country."],
+      "changeFactors": ["Government hiring and aid funding.", "Sector choice."],
+      "additionalQualifications": null
+    },
+    {
+      "id": "law-legal-studies",
+      "name": "Law and Legal Studies",
+      "description": "Law degrees (LLB) and legal studies, leading to advocacy, legal practice and policy work.",
+      "pathways": ["Lawyer (after bar or professional training)", "Legal researcher", "Compliance officer", "Policy adviser"],
+      "scores": {
+        "islamic": { "score": 2, "rationale": "Justice and the rule of law are valued, but legal practice can involve interest-based contracts, prohibited-sector clients and adversarial work; ethical choice matters." },
+        "benefit": { "score": 4, "rationale": "Access to justice and protection of rights are strong public goods." },
+        "financial": { "score": 3, "rationale": "Strong pay in commercial law; public-interest and junior roles pay less." },
+        "futureResilience": { "score": 3, "rationale": "Demand for legal services persists; legal technology is changing routine work." },
+        "aiResilience": { "score": 2, "rationale": "Legal research and document drafting are highly exposed; advocacy, negotiation and court work are less so." },
+        "employmentStability": { "score": 3, "rationale": "Steady demand across legal sectors; junior-level hiring can be competitive." },
+        "flexibility": { "score": 2, "rationale": "Legal practice is jurisdiction-specific; the LLB alone may not qualify a graduate to practise." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "eloundou-2023"],
+      "assumptions": ["Qualification to practise requires further professional training in most jurisdictions."],
+      "changeFactors": ["Practice area (e.g. human rights, family, commercial).", "Professional licensing in the target country."],
+      "additionalQualifications": "Bar or professional training is required to practise in most jurisdictions."
+    },
+    {
+      "id": "psychology-counselling",
+      "name": "Psychology and Counselling",
+      "description": "Psychology, counselling and mental-health related work.",
+      "pathways": ["Counsellor (after further training)", "Psychology research assistant", "Human-services worker", "HR or training specialist"],
+      "scores": {
+        "islamic": { "score": 3, "rationale": "Supporting mental wellbeing is valued; some therapy approaches may conflict with specific religious views and need careful choice." },
+        "benefit": { "score": 4, "rationale": "Direct wellbeing benefit for individuals and families." },
+        "financial": { "score": 2, "rationale": "Bachelor-level pay is modest; clinical practice usually needs postgraduate training." },
+        "futureResilience": { "score": 3, "rationale": "Demand for mental-health services is growing, though funding is uneven." },
+        "aiResilience": { "score": 3, "rationale": "Therapeutic relationships are resilient; some screening and information tasks are exposed." },
+        "employmentStability": { "score": 2, "rationale": "Entry roles are often short-term or low-paid." },
+        "flexibility": { "score": 3, "rationale": "Human-services and HR skills transfer." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh"],
+      "assumptions": ["Clinical psychology and counselling usually require postgraduate training and registration."],
+      "changeFactors": ["Postgraduate pathway.", "Mental-health service funding."],
+      "additionalQualifications": "Postgraduate training and registration are usually required for clinical practice."
+    },
+    {
+      "id": "social-sciences-policy",
+      "name": "Political Science, International Relations, Sociology and Social Work",
+      "description": "Political science, international relations, sociology and social work.",
+      "pathways": ["Policy analyst", "Diplomat or international organisation staff", "Social worker (after registration)", "Researcher"],
+      "scores": {
+        "islamic": { "score": 3, "rationale": "Social justice, welfare and civic service are strongly aligned; politics and foreign policy involve contested values." },
+        "benefit": { "score": 3, "rationale": "Informs policy and supports vulnerable people; impact depends on the role." },
+        "financial": { "score": 2, "rationale": "Bachelor-level pay is modest; diplomatic and policy careers often need postgraduate study." },
+        "futureResilience": { "score": 3, "rationale": "Governance and social needs persist." },
+        "aiResilience": { "score": 3, "rationale": "Human relationships and judgement remain central; research synthesis is exposed." },
+        "employmentStability": { "score": 2, "rationale": "Government and nonprofit funding can change quickly." },
+        "flexibility": { "score": 4, "rationale": "Writing, analysis and cross-cultural skills transfer broadly." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "quran-5-2"],
+      "assumptions": ["Careers in diplomacy are competitive and often require postgraduate study."],
+      "changeFactors": ["Specialisation (e.g. social work with registration) and funding environments."],
+      "additionalQualifications": "Social work registration and postgraduate degrees are often required for specialist roles."
+    },
+    {
+      "id": "islamic-studies-humanities",
+      "name": "Islamic Studies and Religious Sciences",
+      "description": "Islamic studies, Qur'anic studies, hadith, fiqh and related religious and humanities studies.",
+      "pathways": ["Religious education teacher", "Researcher or lecturer (postgraduate)", "Community or Islamic organisation staff", "Writer or translator"],
+      "scores": {
+        "islamic": { "score": 4, "rationale": "Directly engages the religious sciences. Study does not by itself confer authority to issue rulings; that requires qualified scholarly training." },
+        "benefit": { "score": 3, "rationale": "Supports education, community service and inter-faith understanding." },
+        "financial": { "score": 1, "rationale": "Career market is narrow and pay is often modest unless combined with other qualifications." },
+        "futureResilience": { "score": 2, "rationale": "Demand is concentrated in education and religious institutions with limited growth." },
+        "aiResilience": { "score": 3, "rationale": "Teaching and community leadership are resilient; text retrieval and translation are exposed." },
+        "employmentStability": { "score": 2, "rationale": "Employment depends on institutions and funding." },
+        "flexibility": { "score": 2, "rationale": "Strong in Muslim-majority and academic contexts; transfer to other sectors needs added skills." }
+      },
+      "confidence": "low",
+      "sources": ["quran-5-2"],
+      "assumptions": ["This family is scored for career fit only; it does not evaluate religious content or scholarly rulings."],
+      "changeFactors": ["Combination with economics, law, IT or teaching qualifications.", "Postgraduate pathway choices."],
+      "additionalQualifications": "Postgraduate study or specialised scholarly training is usually needed for research and religious-authority roles."
+    },
+    {
+      "id": "hospitality-tourism",
+      "name": "Hospitality and Tourism Management",
+      "description": "Hotel, restaurant, travel and tourism management.",
+      "pathways": ["Hotel operations manager", "Tour operator or travel planner", "Event manager", "Halal tourism specialist"],
+      "scores": {
+        "islamic": { "score": 1, "rationale": "Hospitality often includes alcohol, gambling-linked entertainment and environments hostile to modest conduct; halal and family-focused tourism are alternatives." },
+        "benefit": { "score": 2, "rationale": "Provides jobs and cultural exchange; welfare benefit is more modest." },
+        "financial": { "score": 2, "rationale": "Pay is often modest with irregular hours; senior roles are better paid." },
+        "futureResilience": { "score": 2, "rationale": "Tourism is sensitive to shocks and is changing with digital booking." },
+        "aiResilience": { "score": 2, "rationale": "Booking and routine service are exposed; guest relations and event delivery remain human-led." },
+        "employmentStability": { "score": 1, "rationale": "Highly seasonal and sensitive to shocks such as pandemics." },
+        "flexibility": { "score": 3, "rationale": "Hospitality skills transfer across countries and sectors." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh"],
+      "assumptions": ["Halal tourism is a growing niche whose size is not verified here."],
+      "changeFactors": ["Choosing halal or family-oriented tourism.", "Shock resilience of tourism markets."],
+      "additionalQualifications": null
+    },
+    {
+      "id": "sports-recreation",
+      "name": "Sports Science and Recreation",
+      "description": "Exercise and sports science, coaching, physical education and recreation management.",
+      "pathways": ["Fitness or strength coach (with certification)", "Physical education teacher", "Sports development officer", "Rehabilitation assistant"],
+      "scores": {
+        "islamic": { "score": 2, "rationale": "Physical health and sport are valued; gambling-linked sports betting, revealing dress and some entertainment settings need individual judgement." },
+        "benefit": { "score": 3, "rationale": "Supports physical health and community activity." },
+        "financial": { "score": 2, "rationale": "Pay is modest for most entry roles; elite sport is highly competitive." },
+        "futureResilience": { "score": 2, "rationale": "Demand for fitness and health promotion persists; elite sport is volatile." },
+        "aiResilience": { "score": 3, "rationale": "Coaching and physical instruction are resilient; analytics and programme administration are exposed." },
+        "employmentStability": { "score": 2, "rationale": "Many roles are part-time or contract-based." },
+        "flexibility": { "score": 3, "rationale": "Coaching and health skills transfer; certification is often needed." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh"],
+      "assumptions": ["Sports scholarships are a separate funding route and are not assessed here."],
+      "changeFactors": ["Certification and specialisation.", "Public health investment in physical activity."],
+      "additionalQualifications": "Coaching or fitness certifications are commonly needed."
+    },
+    {
+      "id": "languages-humanities",
+      "name": "Languages, Literature and Linguistics",
+      "description": "English and other language studies, literature, linguistics and translation.",
+      "pathways": ["Language teacher", "Translator or interpreter (with certification)", "Editor or content writer", "Linguistics or localisation specialist"],
+      "scores": {
+        "islamic": { "score": 3, "rationale": "Language and literature support communication, learning and cross-cultural understanding; content choices matter." },
+        "benefit": { "score": 3, "rationale": "Supports education, translation and cross-cultural access to knowledge." },
+        "financial": { "score": 2, "rationale": "Pay is modest for many roles; specialist translation and localisation can pay better." },
+        "futureResilience": { "score": 2, "rationale": "Machine translation and generative AI are changing translation and writing work quickly." },
+        "aiResilience": { "score": 1, "rationale": "Routine translation, copywriting and editing are highly exposed to AI tools." },
+        "employmentStability": { "score": 2, "rationale": "Freelance and contract work is common." },
+        "flexibility": { "score": 4, "rationale": "Language skills are portable and useful across many sectors." }
+      },
+      "confidence": "medium",
+      "sources": ["eloundou-2023", "bls-ooh"],
+      "assumptions": ["Language skills can be combined with another discipline to improve prospects."],
+      "changeFactors": ["Specialism such as legal or medical translation.", "AI translation quality."],
+      "additionalQualifications": "Translation certification is commonly needed for professional interpreting roles."
+    },
+    {
+      "id": "logistics-supply-chain",
+      "name": "Logistics and Supply Chain Management",
+      "description": "Supply chain, logistics, procurement and transport operations.",
+      "pathways": ["Supply chain analyst", "Logistics coordinator or manager", "Procurement officer", "Operations planner"],
+      "scores": {
+        "islamic": { "score": 2, "rationale": "Moving goods is neutral, but supply chains can carry alcohol, weapons or other prohibited goods; choose sectors carefully." },
+        "benefit": { "score": 3, "rationale": "Moves food, medicine and goods; efficiency supports affordability." },
+        "financial": { "score": 3, "rationale": "Solid pay in procurement and planning, particularly with certification." },
+        "futureResilience": { "score": 3, "rationale": "Global trade and e-commerce keep demand; automation of warehousing is growing." },
+        "aiResilience": { "score": 2, "rationale": "Planning software automates forecasting; relationships, exception handling and negotiation remain human." },
+        "employmentStability": { "score": 3, "rationale": "Stable core demand, though trade shocks create volatility." },
+        "flexibility": { "score": 4, "rationale": "Skills transfer across industries and countries." }
+      },
+      "confidence": "medium",
+      "sources": ["bls-ooh", "onet"],
+      "assumptions": ["Professional certifications (e.g. CIPS-type) are valuable but not essential."],
+      "changeFactors": ["Trade policy.", "Sector selection (food, medicine, goods)."],
+      "additionalQualifications": "Professional supply-chain certification is commonly sought."
+    }
+  ]
+}

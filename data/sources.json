@@ -1,0 +1,1786 @@
+{
+  "datasetVersion": "2026.10.17-mvp1",
+  "sources": [
+    {
+      "id": "qs-2027",
+      "title": "QS World University Rankings 2027 (TopUniversities.com ranking page)",
+      "publisher": "QS Quacquarelli Symonds",
+      "url": "https://www.topuniversities.com/world-university-rankings?items_per_page=150",
+      "type": "primary-official",
+      "publishedOrRevised": "2026-06-18",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched the official page (items_per_page=150, 55 chunks) and transcribed rank, tie notation, institution name, city and country and overall score for ranks 1-150. Page footer confirms 1-150 of 1504 ranked institutions.",
+      "supports": [
+        "university overall rank",
+        "tie notation",
+        "city and country",
+        "QS profile link"
+      ]
+    },
+    {
+      "id": "mit-affordability",
+      "title": "Making MIT affordable (MIT Admissions)",
+      "publisher": "Massachusetts Institute of Technology",
+      "url": "https://mitadmissions.org/afford/",
+      "type": "primary-official",
+      "publishedOrRevised": "undated page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched directly. States aid meets 100% of demonstrated financial need and describes family-income thresholds for tuition-free attendance.",
+      "supports": [
+        "need-based aid meets 100% of demonstrated need",
+        "income thresholds"
+      ]
+    },
+    {
+      "id": "mit-cost-of-attendance",
+      "title": "How much it costs (MIT Admissions, Cost and affordability)",
+      "publisher": "Massachusetts Institute of Technology",
+      "url": "https://mitadmissions.org/afford/cost-aid-basics/access-affordability/",
+      "type": "primary-official",
+      "publishedOrRevised": "2026 academic-year figures as quoted by the page excerpt",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Read via search excerpt of the official page, NOT fetched in full. Re-verify the 2026-27 figure on the page before publication.",
+      "supports": [
+        "total cost of attendance 2026-27 quoted as USD 92,760"
+      ]
+    },
+    {
+      "id": "mit-sfs-international",
+      "title": "International students: apply for aid (MIT Student Financial Services)",
+      "publisher": "Massachusetts Institute of Technology, Student Financial Services",
+      "url": "https://sfs.mit.edu/undergraduate-students/apply-for-aid/international/",
+      "type": "primary-official",
+      "publishedOrRevised": "undated page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Read via search excerpt, NOT fetched in full. States international students are considered using the same process, that MIT commits to meeting 100% of demonstrated need, and that the CSS Profile and parental income documents are required.",
+      "supports": [
+        "international applicants considered for need-based aid",
+        "CSS Profile and parental income documents required"
+      ]
+    },
+    {
+      "id": "mit-sfs-faq",
+      "title": "How do I apply for aid? (MIT SFS FAQ)",
+      "publisher": "Massachusetts Institute of Technology, Student Financial Services",
+      "url": "https://sfs.mit.edu/help/faq/how-do-i-apply-for-aid/",
+      "type": "primary-official",
+      "publishedOrRevised": "undated page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Read via search excerpt, NOT fetched in full. States the aid meets full demonstrated need including tuition, housing, books and personal expenses.",
+      "supports": [
+        "aid covers tuition, housing, books and personal expenses as part of demonstrated need"
+      ]
+    },
+    {
+      "id": "mit-admitted-affordability",
+      "title": "Affordability (MIT Admissions for admitted students)",
+      "publisher": "Massachusetts Institute of Technology",
+      "url": "https://admitted.mit.edu/affordability",
+      "type": "primary-official",
+      "publishedOrRevised": "undated page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Read via search excerpt, NOT fetched in full. Quotes Early Action and Regular Action financial-aid timelines; these must be re-checked for each admissions cycle.",
+      "supports": [
+        "need-based aid is not merit or athletics based",
+        "aid timelines (cycle-specific)"
+      ]
+    },
+    {
+      "id": "mit-catalog-financial-aid",
+      "title": "Financial Aid (MIT Undergraduate Catalog)",
+      "publisher": "Massachusetts Institute of Technology",
+      "url": "https://catalog.mit.edu/mit/undergraduate-education/financial-aid/",
+      "type": "primary-official",
+      "publishedOrRevised": "catalog page (undated in search metadata)",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Read via search excerpt, NOT fetched in full. States need-based grants meet full demonstrated need for undergraduates regardless of citizenship and that aid never includes loans.",
+      "supports": [
+        "aid is grants and work, never loans",
+        "full demonstrated need for all undergraduates"
+      ]
+    },
+    {
+      "id": "sbp-fx",
+      "title": "USD/PKR Rates: M2M Revaluation Rate (State Bank of Pakistan)",
+      "publisher": "State Bank of Pakistan",
+      "url": "https://www.sbp.org.pk/ecodata/rates/m2m/m2m-current.asp",
+      "type": "primary-official",
+      "publishedOrRevised": "as on 14 Oct 2026",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Read via search excerpt of the official SBP page showing the M2M revaluation rate 276.9545 as on 14-Oct-2026. Re-verify before publication.",
+      "supports": [
+        "USD to PKR conversion rate"
+      ]
+    },
+    {
+      "id": "bls-ooh",
+      "title": "Occupational Outlook Handbook",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/ooh/",
+      "type": "primary-official",
+      "publishedOrRevised": "rolling update",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Listed as a reference for occupational outlook and pay categories. Individual occupation figures have NOT been extracted into this dataset.",
+      "supports": [
+        "general occupational outlook (not yet extracted)"
+      ]
+    },
+    {
+      "id": "onet",
+      "title": "O*NET OnLine",
+      "publisher": "U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetonline.org/",
+      "type": "primary-official",
+      "publishedOrRevised": "rolling update",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Listed as a reference for task and skill descriptions. Not yet used to derive task-level exposure scores.",
+      "supports": [
+        "occupational task and skill descriptions (not yet extracted)"
+      ]
+    },
+    {
+      "id": "ilostat",
+      "title": "ILOSTAT database",
+      "publisher": "International Labour Organization",
+      "url": "https://ilostat.ilo.org/",
+      "type": "primary-official",
+      "publishedOrRevised": "rolling update",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Listed as a reference for international labour statistics. Not yet extracted.",
+      "supports": [
+        "international employment and unemployment statistics (not yet extracted)"
+      ]
+    },
+    {
+      "id": "frey-osborne-2017",
+      "title": "The future of employment: How susceptible are jobs to computerisation?",
+      "publisher": "Technological Forecasting and Social Change (Frey and Osborne)",
+      "url": "https://doi.org/10.1016/j.techfore.2016.08.019",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "2017",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Cited as a published automation-exposure study. Its method is known to be contested and it predates generative AI; it is used only as one input, never as a definitive measure.",
+      "supports": [
+        "early automation-exposure framework"
+      ]
+    },
+    {
+      "id": "eloundou-2023",
+      "title": "GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models",
+      "publisher": "arXiv (Eloundou, Manning, Mishkin, Rock)",
+      "url": "https://arxiv.org/abs/2303.10130",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "2023",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Cited as a task-level exposure study of large language models. Preprint; exposure is not the same as displacement.",
+      "supports": [
+        "task-level exposure of occupations to language models"
+      ]
+    },
+    {
+      "id": "quran-7-56",
+      "title": "Qur'an 7:56 (Al-A'raf), translation and commentary access",
+      "publisher": "Quran.com",
+      "url": "https://quran.com/7/56",
+      "type": "islamic-primary",
+      "publishedOrRevised": "n/a",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Referenced as a primary text on not causing corruption on earth after its reform. Interpretive application to environmental careers is an analytic framing, not a ruling.",
+      "supports": [
+        "stewardship and avoidance of corruption on earth (conceptual framing)"
+      ]
+    },
+    {
+      "id": "quran-2-275",
+      "title": "Qur'an 2:275 (Al-Baqarah), riba prohibition",
+      "publisher": "Quran.com",
+      "url": "https://quran.com/2/275",
+      "type": "islamic-primary",
+      "publishedOrRevised": "n/a",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Referenced as a primary text on riba. Its application to particular contracts, banks and products is a matter for qualified scholars and is not decided here.",
+      "supports": [
+        "prohibition of riba (text); application is scholarly"
+      ]
+    },
+    {
+      "id": "quran-5-2",
+      "title": "Qur'an 5:2 (Al-Ma'idah), cooperation in righteousness and piety",
+      "publisher": "Quran.com",
+      "url": "https://quran.com/5/2",
+      "type": "islamic-primary",
+      "publishedOrRevised": "n/a",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Referenced as a primary text on cooperating in righteousness and avoiding cooperation in sin and transgression. Applied as a general principle only.",
+      "supports": [
+        "general principle of cooperating in righteousness, avoiding sin and transgression"
+      ]
+    },
+    {
+      "id": "mit-degree-charts",
+      "title": "MIT Course Catalog: Undergraduate Degree Charts",
+      "publisher": "Massachusetts Institute of Technology",
+      "url": "https://catalog.mit.edu/degree-charts/",
+      "type": "primary-official",
+      "publishedOrRevised": "undated catalogue page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched the index page on 2026-10-17 and copied the undergraduate degree-chart titles and links as shown. Only charts that map to a catalogue degree are recorded.",
+      "supports": [
+        "undergraduate programme titles at MIT",
+        "official programme links"
+      ]
+    },
+    {
+      "id": "mit-first-year-tests",
+      "title": "First-year applicants: Tests & scores",
+      "publisher": "MIT Admissions",
+      "url": "https://mitadmissions.org/apply/firstyear/tests-scores/",
+      "type": "primary-official",
+      "publishedOrRevised": "undated page (reflects TOEFL scale change effective 21 Jan 2026)",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched directly on 2026-10-17. Recorded the SAT/ACT requirement, English-test minimums and recommended scores, and test deadlines.",
+      "supports": [
+        "SAT or ACT requirement",
+        "English test minimums and recommended scores",
+        "test deadlines"
+      ]
+    },
+    {
+      "id": "ecb-fx",
+      "title": "ECB euro foreign exchange reference rates: US dollar (USD)",
+      "publisher": "European Central Bank",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
+      "type": "primary-official",
+      "publishedOrRevised": "16 October 2026 reference rate (USD 1.1253 per EUR)",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched the ECB page on 2026-10-17. The 16 October 2026 reference rate is 1.1253 USD per EUR. The stored value is inverted to EUR per USD.",
+      "supports": [
+        "USD to EUR conversion rate"
+      ]
+    },
+    {
+      "id": "mit-admissions-stats",
+      "title": "Admissions statistics (Class of 2029)",
+      "publisher": "MIT Admissions",
+      "url": "https://mitadmissions.org/apply/process/stats/",
+      "type": "primary-official",
+      "publishedOrRevised": "Class of 2029 (first-year applications for entry in 2025)",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched directly on 2026-10-17. Recorded first-year applied/admitted totals and the international and U.S. citizen/permanent-resident splits.",
+      "supports": [
+        "international applicant and admit counts",
+        "overall admit rate"
+      ]
+    },
+    {
+      "id": "mit-scholarship-faq",
+      "title": "Does MIT provide any academic or athletic scholarships?",
+      "publisher": "MIT Admissions",
+      "url": "https://mitadmissions.org/help/faq/scholarships/",
+      "type": "primary-official",
+      "publishedOrRevised": "undated FAQ page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official FAQ (not a full fetch): MIT provides financial aid on the basis of financial need only, with no merit awards of any kind. Re-check the full page before publication.",
+      "supports": [
+        "no merit, athletic or talent awards"
+      ]
+    },
+    {
+      "id": "mit-athletics-letter",
+      "title": "To: Prospective MIT Student Athletes (recruiting letter)",
+      "publisher": "MIT Athletics",
+      "url": "https://web.mit.edu/athletics/www/acs/Athletics_Admissions_Recruiting_Letter.pdf",
+      "type": "primary-official",
+      "publishedOrRevised": "undated letter",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official MIT Athletics PDF: MIT does not offer athletic scholarships or merit scholarships of any kind; all aid is need-based. Re-check the full letter before publication.",
+      "supports": [
+        "no athletic scholarships",
+        "athletes admitted on the same academic standards"
+      ]
+    },
+    {
+      "id": "um-international-booklet",
+      "title": "Universiti Malaya International Booklet (updated 15 Dec 2025)",
+      "publisher": "Universiti Malaya (Study@UM)",
+      "url": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+      "type": "primary-official",
+      "publishedOrRevised": "2025-12-15 (as printed in file name)",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Read chunks 0-3 of 5 of the PDF text via fetch. Undergraduate tables (Faculty, programme name, printed figure, mode code, duration) were transcribed. The extract does not state the currency label or fee year, so printed figures are not presented as verified MYR amounts. Chunk 4 (remaining postgraduate tables) was not read; it does not affect bachelor's records.",
+      "supports": [
+        "UM bachelor's programme names and printed figures",
+        "programme durations",
+        "faculty structure"
+      ]
+    },
+    {
+      "id": "um-study-how-to-apply",
+      "title": "Study@UM - How to Apply",
+      "publisher": "Universiti Malaya",
+      "url": "https://study.um.edu.my/how-to-apply",
+      "type": "primary-official",
+      "publishedOrRevised": "Not stated on page; snapshot seen in search results dated 26 Aug 2026",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Read via search-result excerpt only; the full page was not fetched. Gives 2026/27 undergraduate international intake windows and the MYR 500 international application fee.",
+      "supports": [
+        "UG international Semester I (October) window closed 30 Aug 2026",
+        "UG international Semester II (March 2027) window 7 Sep 2026 to 30 Jan 2027",
+        "international application fee MYR 500 per application"
+      ]
+    },
+    {
+      "id": "um-study-faqs",
+      "title": "Study@UM - FAQs & Info",
+      "publisher": "Universiti Malaya",
+      "url": "https://study.um.edu.my/faqs-amp-info",
+      "type": "primary-official",
+      "publishedOrRevised": "Not stated on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Read in an earlier build (chunk 0 of 9), and again through a search excerpt in this build. Used for the statement that entry requirements vary by programme and faculty.",
+      "supports": [
+        "entry requirements vary by programme and faculty",
+        "documents must be certified and translated"
+      ]
+    },
+    {
+      "id": "um-asd-ug-faq",
+      "title": "Academic Services Department - FAQ Undergraduate International Admission",
+      "publisher": "Universiti Malaya ASD",
+      "url": "https://aasd.um.edu.my/faq-ug-international-admission",
+      "type": "primary-official",
+      "publishedOrRevised": "Page says 'Last Update: 02/12/2021'",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched both chunks in full. Several answers look out of date against Study@UM (intake months, application fee, foundation wording). Each conflict is recorded in the university notes rather than resolved silently.",
+      "supports": [
+        "minimum entry qualification (12 years plus STPM/A-Level/IB/High School/Grade 12, or diploma CGPA 3.00)",
+        "English minimums (IELTS 5.0, TOEFL iBT 60, PTE 41, MUET band 3)",
+        "programmes with higher English score requirements (no numbers published)",
+        "no scholarship for UG international students (per FAQ)",
+        "documents list",
+        "programme durations"
+      ]
+    },
+    {
+      "id": "um-asd-financial-aid",
+      "title": "Academic Services Department - Financial Aid for Undergraduate",
+      "publisher": "Universiti Malaya ASD",
+      "url": "https://aasd.um.edu.my/financial-aid-for-undergraduate",
+      "type": "primary-official",
+      "publishedOrRevised": "Page says 'Last Update: 14/10/2026'",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched in full. Lists external awards and loans UM publishes. Eligibility is stated only where the page says so; most entries are for Malaysian students, and others are not stated.",
+      "supports": [
+        "PTE x UM Scholarship 2026 (GBP 3,000 towards tuition, deadline 31 Dec 2026, international students)",
+        "other listed awards and their stated eligibility",
+        "PTPTN and RHB financing are loans or financing, not scholarships"
+      ]
+    },
+    {
+      "id": "mohe-mis-guidelines-2026",
+      "title": "Malaysia International Scholarship (MIS) 2026 Guidelines",
+      "publisher": "Ministry of Higher Education Malaysia (MOHE)",
+      "url": "https://biasiswa.mohe.gov.my/INTER/doc/MIS/Guidelines%20MIS%202026.pdf",
+      "type": "primary-official",
+      "publishedOrRevised": "Not stated in excerpt",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Read via search-result excerpt only. Stated that MIS is for full-time postgraduate study (Master's or PhD) for citizens of recipient countries, and that UM is a listed public university.",
+      "supports": [
+        "MIS is postgraduate only (not an undergraduate route)"
+      ]
+    },
+    {
+      "id": "pearson-pte-um-terms",
+      "title": "PTE x Universiti Malaya Scholarship 2026 - Terms and Conditions",
+      "publisher": "Pearson Malaysia Sdn. Bhd. and Universiti Malaya",
+      "url": "https://www.pearsonpte.com/pte-universiti-malaya-scholarship-2026/terms-and-conditions/",
+      "type": "primary-official",
+      "publishedOrRevised": "Competition runs 1 June 2026 to 31 Dec 2026 (as printed)",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched chunk 0 of 2 in full for sections A to G (eligibility, entry, judging, prize). Chunk 1 (remaining general terms) not read; it does not change eligibility or the prize.",
+      "supports": [
+        "entry open to international students aged 18+ in Malaysia or anywhere in the world",
+        "entry requires an application to at least one UM programme and a PTE score report code if shortlisted",
+        "one winner, GBP 3,000 towards UM studies, judged by a panel; no cash alternative",
+        "no financial-need or grade criterion"
+      ]
+    },
+    {
+      "id": "pearson-pte-um-page",
+      "title": "PTE x Universiti Malaya Scholarship 2026 (Pearson PTE page)",
+      "publisher": "Pearson PTE",
+      "url": "https://www.pearsonpte.com/pte-universiti-malaya-scholarship-2026/",
+      "type": "primary-official",
+      "publishedOrRevised": "Not stated on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched in full. Describes the contest: two written questions, GBP 3,000 towards tuition.",
+      "supports": [
+        "contest format: two written questions (why UM; best PTE tip)",
+        "GBP 3,000 towards tuition"
+      ]
+    },
+    {
+      "id": "hec-oman-ug-2026",
+      "title": "HEC Announcement: Omani Scholarship Program for Undergraduate Studies (2026-27)",
+      "publisher": "Higher Education Commission Pakistan",
+      "url": "https://www.hec.gov.pk/english/HECAnnouncements/Pages/Omani-Scholarship.aspx",
+      "type": "primary-official",
+      "publishedOrRevised": "Deadline extended to 16 July 2026 (as printed)",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Read via search-result excerpt only. Closed for the 2026-27 cycle.",
+      "supports": [
+        "the only HEC overseas undergraduate award found for Pakistani nationals in this build (Oman, 2 seats, closed)",
+        "HEC need-based undergraduate award is limited to public universities in Pakistan (secondary source only)"
+      ]
+    },
+    {
+      "id": "harvard-how-aid-works",
+      "title": "How Aid Works - Harvard College",
+      "publisher": "Harvard College",
+      "url": "https://college.harvard.edu/financial-aid/how-aid-works",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched chunk 0 of 2 in full: need-blind, 100% of demonstrated need, international students eligible for the same aid, parent contribution zero below $100k, aid covers tuition up to $200k income, 2026-27 cost of attendance.",
+      "supports": [
+        "need-blind admission",
+        "100% need met",
+        "international aid parity",
+        "2026-27 cost of attendance"
+      ]
+    },
+    {
+      "id": "harvard-international-applicants",
+      "title": "International Applicants - Harvard College",
+      "publisher": "Harvard College",
+      "url": "https://college.harvard.edu/admissions/apply/international-applicants",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: SAT or ACT required; English test not required for first-year applicants; AP/IB/A-level results accepted only in exceptional cases.",
+      "supports": [
+        "SAT or ACT required",
+        "English test not required"
+      ]
+    },
+    {
+      "id": "stanford-undergrad-aid",
+      "title": "Undergraduate Basics - Stanford Financial Aid",
+      "publisher": "Stanford University",
+      "url": "https://financialaid.stanford.edu/undergrad/index.html",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched in full: need-based program; admission need-blind except for some international applicants; 46% of students receive need-based Stanford scholarships (average $20,000 remaining after grants).",
+      "supports": [
+        "need-based program",
+        "need-blind except some international applicants",
+        "aid statistics"
+      ]
+    },
+    {
+      "id": "stanford-international-applicants",
+      "title": "International Applicants - Stanford Admission",
+      "publisher": "Stanford University",
+      "url": "https://admission.stanford.edu/apply/international/index.html",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: SAT or ACT required; no English proficiency exam required; fluency is a prerequisite; no minimum score published.",
+      "supports": [
+        "SAT or ACT required",
+        "no English exam required"
+      ]
+    },
+    {
+      "id": "oxford-international-applicants",
+      "title": "For international students - University of Oxford",
+      "publisher": "University of Oxford",
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/applying/for-international-students",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: no international quota for any course except Medicine; all applicants apply via UCAS by 15 October.",
+      "supports": [
+        "no international quota except Medicine",
+        "UCAS 15 October deadline"
+      ]
+    },
+    {
+      "id": "oxford-support",
+      "title": "Oxford Support - University of Oxford",
+      "publisher": "University of Oxford",
+      "url": "https://www.ox.ac.uk/students/fees-funding/ug-funding/oxford-support",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: bursaries are for Home and EU students (and specified groups); no international undergraduate bursary is listed.",
+      "supports": [
+        "bursaries limited to Home and EU groups"
+      ]
+    },
+    {
+      "id": "cambridge-international-financial-support",
+      "title": "International financial support - University of Cambridge",
+      "publisher": "University of Cambridge",
+      "url": "https://www.undergraduate.study.cam.ac.uk/international-students/financial-support",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: support for international undergraduates is limited; includes College awards, Cambridge Trust awards (after offer, means-tested) and country-specific scholarships; few full undergraduate scholarships.",
+      "supports": [
+        "limited international support",
+        "Cambridge Trust after offer",
+        "means-tested"
+      ]
+    },
+    {
+      "id": "imperial-inspires",
+      "title": "Imperial Inspires scholarships - Imperial College London",
+      "publisher": "Imperial College London",
+      "url": "https://www.imperial.ac.uk/study/fees-and-funding/imperial-inspires-scholarships/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched in full: at least 300 scholarships for 2027 entry, GBP 15,000 per year for international Overseas-fee students in Engineering, Natural Sciences, Medicine and Business; optional 250-word statement; scholarship application by 5 Feb 2027.",
+      "supports": [
+        "GBP 15,000 per year",
+        "at least 300 awards",
+        "eligibility",
+        "application deadlines"
+      ]
+    },
+    {
+      "id": "eth-international-scholarships",
+      "title": "ETH Scholarships for international students (cost of living)",
+      "publisher": "ETH Zurich",
+      "url": "https://ethz.ch/students/en/studies/financial/scholarships/cost-of-living/international-students.html",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: international Bachelor's students may apply after passing first-year exams; eSTIP window 1 Sep to 31 Oct 2026 for 2026/27.",
+      "supports": [
+        "aid only after the first year",
+        "eSTIP window"
+      ]
+    },
+    {
+      "id": "eth-solidarity-fund",
+      "title": "Solidarity Fund for Foreign Students (ETH)",
+      "publisher": "ETH Zurich",
+      "url": "https://ethz.ch/students/en/studies/financial/scholarships/solidarity-fund.html",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: for permit B students after first-year examination; cannot exceed ETH resources.",
+      "supports": [
+        "after first year",
+        "permit B students"
+      ]
+    },
+    {
+      "id": "ucl-global-undergraduate-scholarship",
+      "title": "UCL Global Undergraduate Scholarship",
+      "publisher": "UCL",
+      "url": "https://www.ucl.ac.uk/scholarships/ucl-global-undergraduate-scholarship",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: 10 full-cost awards (tuition, maintenance, fixed allowance) and 23 tuition-only awards; financial need; overseas fee status; 2026/27 deadline 27 April 2026 (closed).",
+      "supports": [
+        "10 full-cost awards",
+        "23 tuition-only awards",
+        "financial need",
+        "deadline passed for 2026/27"
+      ]
+    },
+    {
+      "id": "nus-international-undergraduate-scholarship",
+      "title": "NUS International Undergraduate Scholarship",
+      "publisher": "National University of Singapore",
+      "url": "https://nus.edu.sg/oam/scholarships/scholarships-for-freshmen-singapore-permanent-residents/nus-international-undergraduate-scholarship",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: open to international students from all countries except Singapore; merit-based; considered through the admission application; living S$5,800, computer S$1,750, accommodation S$5,000 per year.",
+      "supports": [
+        "merit-based",
+        "all countries except Singapore",
+        "benefit amounts"
+      ]
+    },
+    {
+      "id": "nus-moe-tuition-grant",
+      "title": "NUS Undergraduate Prospectus for International Students 2026/27 (MOE Tuition Grant and financial aid)",
+      "publisher": "National University of Singapore",
+      "url": "https://www.nus.edu.sg/oam/docs/default-source/nus-publications/intlprospectus.pdf",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official prospectus: MOE Tuition Grant awarded competitively to international students; financial aid application opens 23 Feb 2026 for 2026/27 (closing 15 April 2026 for early release).",
+      "supports": [
+        "MOE Tuition Grant competitive",
+        "financial aid timeline"
+      ]
+    },
+    {
+      "id": "hku-fees-2027",
+      "title": "HKU Undergraduate Admission Information for September 2027 (IAS/NJ/DAS)",
+      "publisher": "University of Hong Kong",
+      "url": "https://admissions.hku.hk/sites/default/files/2026-09/HKU_General_Information_NJ_2027.pdf",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official PDF: non-local non-STEM HK$250,000 per annum and STEM HK$280,000 for 2027-28 (tentative); MBBS and BDS HK$590,000; all applicants considered for entrance scholarships without separate application.",
+      "supports": [
+        "non-local fees 2027-28",
+        "entrance scholarships considered automatically"
+      ]
+    },
+    {
+      "id": "hku-belt-and-road-scholarship",
+      "title": "The Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU",
+      "publisher": "University of Hong Kong",
+      "url": "https://admissions.hku.hk/fees-and-scholarships/scholarships/belt-and-road-scholarship",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: for outstanding students from participating Belt and Road countries (Indonesia, Malaysia, Thailand, Myanmar listed); up to full tuition; 2026 deadline 31 Jan 2026; 2027 details subject to modification.",
+      "supports": [
+        "up to full tuition",
+        "participating countries list",
+        "2026 deadline passed"
+      ]
+    },
+    {
+      "id": "caltech-international-financial-aid",
+      "title": "International Financial Aid Statement of Intent - Caltech",
+      "publisher": "California Institute of Technology",
+      "url": "https://www.admissions.caltech.edu/documents/6959/International_Financial_Aid_Statement_of_Intent.pdf",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official PDF: need-aware for international applicants; need-based aid meets 100% of demonstrated need; must apply for aid at admission; CSS Profile deadline 1 Feb; no aid for transfer or 3/2 applicants.",
+      "supports": [
+        "need-aware for international",
+        "100% need met",
+        "aid must be requested at admission",
+        "no aid for transfer"
+      ]
+    },
+    {
+      "id": "caltech-application-requirements",
+      "title": "First-Year Application Requirements - Caltech",
+      "publisher": "California Institute of Technology",
+      "url": "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: international applicants must take the English proficiency exam before the application deadline.",
+      "supports": [
+        "English exam before deadline"
+      ]
+    },
+    {
+      "id": "tum-tuition-fees",
+      "title": "TUM: Tuition Fees for Students from Non-EU Countries",
+      "publisher": "Technical University of Munich",
+      "url": "https://www.tum.de/en/studies/fees/tuition",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Page fetched: bachelor's tuition usually 2,000 or 3,000 euros per semester; rises to 2,300 or 3,400 from winter 2027/28; applies to new non-EU/EEA students since winter 2024/25; Studienkolleg does not exempt; waivers must be applied for and are credited to fees.",
+      "supports": [
+        "Page fetched: bachelor's tuition usually 2,000 or 3,000 euro"
+      ]
+    },
+    {
+      "id": "tum-semester-fee",
+      "title": "TUM: Study fees and costs (semester fee)",
+      "publisher": "Technical University of Munich",
+      "url": "https://www.tum.de/en/studies/fees",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: semester fee 97 euros in Munich, Garching, Weihenstephan and Heilbronn for summer 2026 (82 in Straubing).",
+      "supports": [
+        "Search excerpt of the official page: semester fee 97 euros i"
+      ]
+    },
+    {
+      "id": "tum-scholarship-international",
+      "title": "TUM: Scholarships and waivers for international students",
+      "publisher": "Technical University of Munich",
+      "url": "https://www.tum.de/en/studies/fees/tuition/scholarships-and-waivers",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: waivers for non-EU/EEA students for outstanding performance or financial need, credited to tuition (not paid out); bachelor's application window listed as 15 May to 15 July for the following winter semester (excerpt wording, verify).",
+      "supports": [
+        "Search excerpt of the official page: waivers for non-EU/EEA "
+      ]
+    },
+    {
+      "id": "toronto-international-financial-aid",
+      "title": "U of T: Financial Aid for International Students",
+      "publisher": "University of Toronto",
+      "url": "https://future.utoronto.ca/international-student-financial-aid",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Page fetched: as a publicly funded institution U of T cannot offer direct financial aid to international students; all applicants automatically considered for scholarships; most do not cover full cost.",
+      "supports": [
+        "Page fetched: as a publicly funded institution U of T cannot"
+      ]
+    },
+    {
+      "id": "toronto-pearson-scholarship",
+      "title": "Lester B. Pearson International Scholarship - U of T",
+      "publisher": "University of Toronto",
+      "url": "https://future.utoronto.ca/pearson-scholarships",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: full 4-year award (tuition, books, incidental fees, residence) for international students nominated by their school; school nomination deadline 9 October 2026, for entry September 2027.",
+      "supports": [
+        "Search excerpt of the official page: full 4-year award (tuit"
+      ]
+    },
+    {
+      "id": "melbourne-mius",
+      "title": "Melbourne International Undergraduate Scholarship",
+      "publisher": "University of Melbourne",
+      "url": "https://scholarships.unimelb.edu.au/awards/melbourne-international-undergraduate-scholarship",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Page fetched: 20% fee remission for entry from 2027 (25% before 2027), for the course duration; citizens of countries with GDP per capita of US$10,000 or less (World Bank) and an Overseas Fee offer; automatic consideration; at least 110 awards (2027: 225 per page); cannot be combined with another fee sponsorship.",
+      "supports": [
+        "Page fetched: 20% fee remission for entry from 2027 (25% bef"
+      ]
+    },
+    {
+      "id": "melbourne-international-excellence",
+      "title": "Melbourne International Excellence Scholarship (Undergraduate)",
+      "publisher": "University of Melbourne",
+      "url": "https://scholarships.unimelb.edu.au/awards/melbourne-international-excellence-scholarship-undergraduate",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: 20% tuition fee sponsorship for students starting bachelor's in 2027 with an Overseas Fee offer and no prior tertiary study; at least 140 awards; no application required.",
+      "supports": [
+        "Search excerpt of the official page: 20% tuition fee sponsor"
+      ]
+    },
+    {
+      "id": "tokyo-tuition-fees",
+      "title": "University of Tokyo: Admission Fee and Tuition",
+      "publisher": "University of Tokyo",
+      "url": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Page fetched: admission fee 282,000 yen (one-time); undergraduate annual tuition 642,960 yen (535,800 yen for students who enrolled in or before 2024); MEXT scholarship holders do not pay tuition and certain other fees.",
+      "supports": [
+        "Page fetched: admission fee 282,000 yen (one-time); undergra"
+      ]
+    },
+    {
+      "id": "tokyo-mext-scholarship",
+      "title": "UTokyo: Japanese Government (MEXT) Scholarship",
+      "publisher": "University of Tokyo",
+      "url": "https://www.u-tokyo.ac.jp/en/prospective-students/mext_scholarship.html",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: MEXT undergraduate grantees spend one year at a designated preparatory school before university; selection by embassy recommendation or university recommendation (general category not expected from AY2026, per page).",
+      "supports": [
+        "Search excerpt of the official page: MEXT undergraduate gran"
+      ]
+    },
+    {
+      "id": "tokyo-peak-scholarship",
+      "title": "PEAK Programme: University of Tokyo Scholarship",
+      "publisher": "University of Tokyo (PEAK)",
+      "url": "https://peak.c.u-tokyo.ac.jp/fees_scholarships/l3/Vcms3_00000232.html",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official PEAK page (last updated 22 Nov 2023 per excerpt, so verify the current year): four-year scholarship for up to ten students covering admission fee, tuition and living expenses (126,000 yen per month).",
+      "supports": [
+        "Search excerpt of the official PEAK page (last updated 22 No"
+      ]
+    },
+    {
+      "id": "edinburgh-international-undergraduate",
+      "title": "Edinburgh: International and EU students (undergraduate funding)",
+      "publisher": "University of Edinburgh",
+      "url": "https://registryservices.ed.ac.uk/student-funding/undergraduate/international",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Page fetched: lists undergraduate international funding, including the Edinburgh Global Undergraduate Mathematics Scholarship, Asylum Seeker Scholarship, Defne-Muhtar Kent Scholarship (for students joining from Turkey) and the Rosedale OSSD Scholarship (GBP 10,000, first year). No Pakistan-specific award on this page.",
+      "supports": [
+        "Page fetched: lists undergraduate international funding, inc"
+      ]
+    },
+    {
+      "id": "edinburgh-maths-scholarship",
+      "title": "Edinburgh Global Undergraduate Mathematics Scholarships",
+      "publisher": "University of Edinburgh",
+      "url": "https://registryservices.ed.ac.uk/student-funding/undergraduate/international/mathematics",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: GBP 5,000 per year, paid in instalments toward living costs, for international fee-status students admitted full-time to undergraduate degrees in the School of Mathematics; not available to students already on programme.",
+      "supports": [
+        "Search excerpt of the official page: GBP 5,000 per year, pai"
+      ]
+    },
+    {
+      "id": "mit-subject-preparation",
+      "title": "MIT Admissions: Academic foundations (subject preparation)",
+      "publisher": "MIT Admissions",
+      "url": "https://mitadmissions.org/apply/prepare/foundations/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: calculus is the expected foundation by end of high school; physics, chemistry and biology recommended; MIT Science Core requires two semesters of calculus-based physics, one of chemistry and one of biology.",
+      "supports": [
+        "Search excerpt of the official page: calculus is the expecte"
+      ]
+    },
+    {
+      "id": "mit-admissions-faq-classes",
+      "title": "MIT Admissions FAQ: Does MIT have required classes or language requirements?",
+      "publisher": "MIT Admissions",
+      "url": "https://mitadmissions.org/help/faq/required-classes-language-requirements/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official FAQ: no required high school classes; ideal preparation includes calculus, physics, chemistry, biology and four years of English.",
+      "supports": [
+        "Search excerpt of the official FAQ: no required high school "
+      ]
+    },
+    {
+      "id": "um-cs-programme-page",
+      "title": "UM: Bachelor of Computer Science (Computer System and Network) programme page",
+      "publisher": "Universiti Malaya",
+      "url": "https://study.um.edu.my/bachelor-of-computer-science-computer-system-and-network",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Page fetched (first chunk): 3.5 years; international tuition RM 89,200 (not inclusive of 6% SST); intakes October and March. Entry rules listed are for Malaysian citizens (SPM, STPM, IB and others); the page does not separately state international subject rules.",
+      "supports": [
+        "Page fetched (first chunk): 3.5 years; international tuition"
+      ]
+    },
+    {
+      "id": "um-international-faq",
+      "title": "UM: FAQ Undergraduate International Admission",
+      "publisher": "Universiti Malaya",
+      "url": "https://aasd.um.edu.my/faq-ug-international-admission",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official FAQ: English requirements (IELTS 5.0; TOEFL iBT 60; MUET band 3; PTE 41) and document list (certified transcripts and English test certificate).",
+      "supports": [
+        "Search excerpt of the official FAQ: English requirements (IE"
+      ]
+    },
+    {
+      "id": "ntu-undergraduate-tuition",
+      "title": "NTU Singapore: Tuition fees for Academic Year 2026/2027",
+      "publisher": "Nanyang Technological University",
+      "url": "https://www.ntu.edu.sg/admissions/undergraduate/fees-and-funding/tuition-fees",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: 'All Other IS' subsidised (with MOE Tuition Grant) S$21,400 for most programmes; non-subsidised S$40,600 (most programmes, lab-based) and S$36,350 (non-lab); Business/Accountancy S$21,800 subsidised and S$45,600 non-subsidised.",
+      "supports": [
+        "Search excerpt of the official page: 'All Other IS' subsidis"
+      ]
+    },
+    {
+      "id": "ntu-undergraduate-scholarships-brochure",
+      "title": "NTU Undergraduate Scholarships Brochure AY2026-27",
+      "publisher": "Nanyang Technological University",
+      "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/scholarships/ntu_undergraduate_scholarships_brochure.pdf",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official brochure: NTU Scholarship (Nanyang) gives full coverage of subsidised tuition, S$6,500 living per year, up to S$2,000 accommodation for hostel residents, computer allowance S$2,000 (one-off), travel grant up to S$8,000. Aggregator sites give a S$1,750 computer allowance; conflict noted.",
+      "supports": [
+        "Search excerpt of the official brochure: NTU Scholarship (Na"
+      ]
+    },
+    {
+      "id": "kaist-international-scholarship",
+      "title": "KAIST Scholarship for international undergraduates (admission FAQ)",
+      "publisher": "KAIST",
+      "url": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: KAIST Scholarship has no separate application (tick it in the financial resources section); GPA above 2.7 out of 4.3 needed after the freshman year. Tuition amount and stipend from secondary sources only.",
+      "supports": [
+        "Search excerpt of the official page: KAIST Scholarship has n"
+      ]
+    },
+    {
+      "id": "kaist-application-guide",
+      "title": "KAIST: International applicants (eligibility and application fee)",
+      "publisher": "KAIST",
+      "url": "https://univapply.kaist.ac.kr/interapply/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official applicant page: foreign citizenship required (Korean citizens with dual citizenship are not eligible); application fee USD 80 or KRW 80,000, non-refundable. Deadlines for 2027 entry are from secondary sources only.",
+      "supports": [
+        "Search excerpt of the official applicant page: foreign citiz"
+      ]
+    },
+    {
+      "id": "sydney-international-student-award",
+      "title": "Sydney International Student Award",
+      "publisher": "University of Sydney",
+      "url": "https://www.sydney.edu.au/study/fees-and-loans/scholarships/sydney-international-student-award.html",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: 20% of tuition for the duration of the course for outstanding students from selected nationalities; applies to new commencements in 2027; no payment to the student.",
+      "supports": [
+        "Search excerpt of the official page: 20% of tuition for the "
+      ]
+    },
+    {
+      "id": "sydney-academic-excellence",
+      "title": "Sydney International Undergraduate Academic Excellence Scholarship",
+      "publisher": "University of Sydney",
+      "url": "https://www.sydney.edu.au/scholarships/e/sydney-international-undergraduate-academic-excellence-scholarship.html",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: 100% tuition and SSAF for the published full-time duration (max 4 years); for applicants who score top marks in their home curriculum; maintain Semester Average Mark of 65.",
+      "supports": [
+        "Search excerpt of the official page: 100% tuition and SSAF f"
+      ]
+    },
+    {
+      "id": "sydney-tuition-fees",
+      "title": "University of Sydney: International student tuition fees (2027 entry guide)",
+      "publisher": "University of Sydney",
+      "url": "https://www.sydney.edu.au/study/fees-and-loans/international-student-tuition-fees.html",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page (AUD, guide for 2027 entry): Engineering and computer science undergraduate A$63,600; Economics A$59,100; Arts and social sciences A$51,700 to A$59,100 per year (full-time 48 credit points).",
+      "supports": [
+        "Search excerpt of the official page (AUD, guide for 2027 ent"
+      ]
+    },
+    {
+      "id": "pku-isd-undergrad-2026",
+      "title": "Peking University 2026 Undergraduate Program Entrance Examination (International Students Division)",
+      "publisher": "Peking University International Students Division",
+      "url": "https://isd.pku.edu.cn/en/detail.php?id=818",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page. Shows 2026 rules: non-Chinese passport holders; age 18-25; scholarships listed; no separate scholarship application needed.",
+      "supports": [
+        "Eligibility (2026 cycle)",
+        "Scholarship route list",
+        "No separate scholarship application for undergraduate applicants"
+      ]
+    },
+    {
+      "id": "pku-isd-2026-no-exam",
+      "title": "2026 Undergraduate Program Without Written Examination (PKU ISD)",
+      "publisher": "Peking University International Students Division",
+      "url": "https://isd.pku.edu.cn/en/detail.php?id=813",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page. Describes eligibility and the Chinese Government Scholarship (CSCA required for Type A).",
+      "supports": [
+        "Eligibility",
+        "Chinese Government Scholarship requires CSCA for Type A"
+      ]
+    },
+    {
+      "id": "pku-scholarship-international",
+      "title": "Peking University Scholarship for International Students",
+      "publisher": "Peking University International Students Division",
+      "url": "https://isd.pku.edu.cn/en/detail.php?id=525",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: full or partial tuition, living stipend and medical insurance; eligibility rules.",
+      "supports": [
+        "Scope: tuition, living stipend and insurance",
+        "Eligibility: no other scholarship"
+      ]
+    },
+    {
+      "id": "pku-beijing-government-scholarship",
+      "title": "Beijing Government Scholarship (Types A, B, C)",
+      "publisher": "Peking University International Students Division",
+      "url": "https://isd.pku.edu.cn/en/detail.php?id=765",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page. The excerpt describes graduate-level prospective students; undergraduate coverage is not confirmed on this page.",
+      "supports": [
+        "Type A, B, C coverage levels"
+      ]
+    },
+    {
+      "id": "tsinghua-eligibility",
+      "title": "Eligibility: Tsinghua Undergraduate Admissions (International)",
+      "publisher": "Tsinghua University",
+      "url": "https://international.join-tsinghua.edu.cn/Admission1/Eligibility.htm",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official eligibility page: foreign nationals; high school diploma; transcripts; English tests for English programmes; age at 1 Sep 2027.",
+      "supports": [
+        "Eligibility",
+        "English test for English programmes",
+        "Age at 1 Sep 2027"
+      ]
+    },
+    {
+      "id": "tsinghua-schedule",
+      "title": "Schedule: Tsinghua Undergraduate Admissions (International)",
+      "publisher": "Tsinghua University",
+      "url": "https://international.join-tsinghua.edu.cn/Admission1/Schedule.htm",
+      "type": "primary-official",
+      "publishedOrRevised": "Schedule for 2027 entry",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official schedule: first round 30 Sep 2026 to 20 Nov 2026 (Beijing time); design and fine arts only in this round; result January 2027.",
+      "supports": [
+        "First-round dates for 2027 entry"
+      ]
+    },
+    {
+      "id": "tsinghua-application-procedures",
+      "title": "Application Procedures: Tsinghua Undergraduate Admissions (International)",
+      "publisher": "Tsinghua University",
+      "url": "https://international.join-tsinghua.edu.cn/Admission1/Application_Procedures.htm",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: online application; non-refundable application fee of 800 RMB; comprehensive evaluation.",
+      "supports": [
+        "Application fee 800 RMB",
+        "Comprehensive evaluation"
+      ]
+    },
+    {
+      "id": "unsw-2027-entry-table",
+      "title": "Undergraduate entry requirements for 2027 (international table, CRICOS 00098G)",
+      "publisher": "UNSW Sydney",
+      "url": "https://www.unsw.edu.au/content/dam/pdfs/future-students/2027-int-ug-entry-table.pdf",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official PDF table. Shows a row for Pakistan with code \"B4\". The code key is not in the excerpt.",
+      "supports": [
+        "Pakistan row in the 2027 entry table (code B4, meaning not verified)"
+      ]
+    },
+    {
+      "id": "unsw-admissions-info",
+      "title": "International student admissions (UNSW Sydney)",
+      "publisher": "UNSW Sydney",
+      "url": "https://www.unsw.edu.au/study/international-students/admissions-info",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: offers are merit-based; International Admissions Diversity Pathway needs an international ATAR of 75; no separate application for eligible markets.",
+      "supports": [
+        "Diversity Pathway: international ATAR 75 minimum",
+        "Automatic assessment for eligible markets"
+      ]
+    },
+    {
+      "id": "unsw-scholarships-term1-2027",
+      "title": "UNSW Scholarships for International Students commencing Term 1, 2027 (PUCA1029)",
+      "publisher": "UNSW Scholarships",
+      "url": "https://www.scholarships.unsw.edu.au/scholarships/id/1988",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official scholarship page: minimum value AUD 5,000 for 1 year; opens 15 Jul 2026, closes 30 Oct 2026; needs an offer by that date.",
+      "supports": [
+        "Value AUD 5,000 minimum for 1 year",
+        "Closing date 30 Oct 2026"
+      ]
+    },
+    {
+      "id": "unsw-international-student-award",
+      "title": "International Student Award (UNSW Scholarships)",
+      "publisher": "UNSW Scholarships",
+      "url": "https://www.scholarships.unsw.edu.au/international-student-award",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: 20% toward tuition each year for citizens of eligible countries starting in 2026 or 2027. The eligible-country list is not in the excerpt.",
+      "supports": [
+        "20% tuition toward each year for eligible countries",
+        "Eligibility: citizens of eligible countries"
+      ]
+    },
+    {
+      "id": "unsw-international-scholarships",
+      "title": "Scholarships for international students (UNSW Sydney)",
+      "publisher": "UNSW Sydney",
+      "url": "https://www.unsw.edu.au/study/your-future/international-scholarships",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: Term 1 2027 applications close 30 Oct 2026.",
+      "supports": [
+        "Term 1 2027 scholarship closing date"
+      ]
+    },
+    {
+      "id": "unsw-college-scholarships",
+      "title": "Regional Merit Scholarship (UNSW College)",
+      "publisher": "UNSW College",
+      "url": "https://www.unswcollege.edu.au/regional-merit-scholarship",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: South Asia region includes Pakistan. Value and terms not in the excerpt.",
+      "supports": [
+        "Eligible region includes Pakistan (UNSW College only)"
+      ]
+    },
+    {
+      "id": "cuhk-fees-2027",
+      "title": "Fees: CUHK Undergraduate Admissions",
+      "publisher": "The Chinese University of Hong Kong",
+      "url": "https://admission.cuhk.edu.hk/fees-financing-your-studies/fees/",
+      "type": "primary-official",
+      "publishedOrRevised": "2027-28 fees",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official fees page: HK$230,000 per year for non-local students in 2027-28; caution fee HK$450; yearly adjustment capped at 3%.",
+      "supports": [
+        "Non-local tuition HK$230,000 (2027-28)",
+        "Caution fee HK$450"
+      ]
+    },
+    {
+      "id": "cuhk-admission-scholarships",
+      "title": "Admission Scholarships (for undergraduates only): CUHK",
+      "publisher": "The Chinese University of Hong Kong",
+      "url": "https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/admission-scholarships-for-undergraduates-only/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: no application needed; value from HK$5,000 to full tuition; HKSAR Government Scholarship HK$40,000 (local) and HK$80,000 (non-local) per year.",
+      "supports": [
+        "Admission scholarships: automatic, HK$5,000 to full tuition",
+        "HKSAR Government Scholarship HK$80,000 per year for non-local students"
+      ]
+    },
+    {
+      "id": "cuhk-intl-requirements",
+      "title": "Requirements: CUHK International Students Admissions Scheme",
+      "publisher": "The Chinese University of Hong Kong",
+      "url": "https://admission.cuhk.edu.hk/application/overseas-other-qualifications-non-local-international-team/requirements/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official requirements page: GCE AL / International AL: 3 AL passes or 2 AL + 2 AS passes; IB Diploma with programme-specific subject requirements; European Baccalaureate average 80%.",
+      "supports": [
+        "GCE AL/IB/European Baccalaureate general requirements"
+      ]
+    },
+    {
+      "id": "cuhk-application-guides",
+      "title": "Application Guides: CUHK International Students Admissions",
+      "publisher": "The Chinese University of Hong Kong",
+      "url": "https://admission.cuhk.edu.hk/application/overseas-other-qualifications-non-local-international-team/application-guides/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official guide: regular round deadline 7 Jan 2027; non-refundable application fee HK$500; advance offer round exists.",
+      "supports": [
+        "Regular round deadline 7 Jan 2027",
+        "Application fee HK$500"
+      ]
+    },
+    {
+      "id": "cuhk-faq",
+      "title": "FAQ: CUHK International Students Admissions",
+      "publisher": "The Chinese University of Hong Kong",
+      "url": "https://admission.cuhk.edu.hk/application/overseas-other-qualifications-non-local-international-team/faq/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official FAQ: admission scholarships are automatic for full-time undergraduate offers; financial aid is not available to international students.",
+      "supports": [
+        "Financial aid not available to international students",
+        "Admission scholarships automatic"
+      ]
+    },
+    {
+      "id": "cuhk-home-2027-open",
+      "title": "CUHK Undergraduate Admissions homepage",
+      "publisher": "The Chinese University of Hong Kong",
+      "url": "https://admission.cuhk.edu.hk/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official homepage: 2027 entry applications open on 2 Oct 2026.",
+      "supports": [
+        "Applications for 2027 entry open 2 Oct 2026"
+      ]
+    },
+    {
+      "id": "yale-international",
+      "title": "International Students (Yale Undergraduate Admissions)",
+      "publisher": "Yale University",
+      "url": "https://admissions.yale.edu/international",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: all applicants considered without regard to ability to pay; international students eligible for the same need-based aid; aid includes housing, meals and travel allowances.",
+      "supports": [
+        "Need-blind admission for all applicants",
+        "Same need-based aid for international students"
+      ]
+    },
+    {
+      "id": "yale-affordability",
+      "title": "Affordable. For Everyone. (Yale admissions)",
+      "publisher": "Yale University",
+      "url": "https://admissions.yale.edu/affordability",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: aid offers meet 100% of demonstrated need regardless of citizenship; no loans; CSS Profile required (code 3987); FAFSA code 001426 for US applicants.",
+      "supports": [
+        "100% of demonstrated need regardless of citizenship",
+        "CSS Profile code 3987",
+        "Aid is scholarship, not loans"
+      ]
+    },
+    {
+      "id": "yale-finaid-prospective",
+      "title": "Prospective Students (Yale Financial Aid)",
+      "publisher": "Yale University Office of Financial Aid",
+      "url": "https://finaid.yale.edu/apply/prospective",
+      "type": "primary-official",
+      "publishedOrRevised": "2027-28 cycle",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: 2027-28 deadlines; early action for international citizens 1 Dec 2026; regular decision 15 Feb 2027; ISFAA not accepted in place of Yale forms.",
+      "supports": [
+        "Early action (international) 1 Dec 2026",
+        "Regular decision 15 Feb 2027",
+        "Yale forms required; ISFAA not accepted"
+      ]
+    },
+    {
+      "id": "yale-finaid-faq",
+      "title": "Financial Aid FAQ (Yale)",
+      "publisher": "Yale University Office of Financial Aid",
+      "url": "https://finaid.yale.edu/faq",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official FAQ: admissions are need-blind; aid is available regardless of citizenship; CSS Profile for international applicants is not required for evaluation unless requested.",
+      "supports": [
+        "Need-blind admissions",
+        "CSS Profile requirement for international applicants depends on request"
+      ]
+    },
+    {
+      "id": "cornell-first-year-applicants",
+      "title": "First-Year Applicants (Cornell Admissions)",
+      "publisher": "Cornell University",
+      "url": "https://admissions.cornell.edu/how-to-apply/first-year-applicants",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: international admission is need-aware; English proficiency required; 100% of demonstrated need met for admitted students; apply for aid with admission.",
+      "supports": [
+        "Need-aware for international applicants",
+        "Meets 100% of demonstrated need for admitted students"
+      ]
+    },
+    {
+      "id": "cornell-finaid-international",
+      "title": "First-Year and Transfer Students: International (Cornell Financial Aid)",
+      "publisher": "Cornell University Office of Financial Aid",
+      "url": "https://finaid.cornell.edu/first-year-and-transfer-students-international",
+      "type": "primary-official",
+      "publishedOrRevised": "Fall 2027 entry",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: CSS Profile required at admission; annual aid offer includes grants, work-study and reasonable loans; Early Decision 1 Nov 2026; Regular Decision 2 Jan 2027.",
+      "supports": [
+        "CSS Profile at admission",
+        "Aid includes grants, work-study and loans",
+        "Deadlines for Fall 2027 entry"
+      ]
+    },
+    {
+      "id": "cornell-finaid-faq",
+      "title": "Frequently Asked Questions About International Financial Aid (Cornell)",
+      "publisher": "Cornell University Office of Financial Aid",
+      "url": "https://finaid.cornell.edu/frequently-asked-questions-about-international-financial-aid",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official FAQ: admission for international applicants is need-aware; admitted applicants who applied for aid receive packages meeting 100% of need; no aid request later if not made at admission.",
+      "supports": [
+        "Need-aware admission for internationals",
+        "No late aid request for internationals"
+      ]
+    },
+    {
+      "id": "penn-srfs-international",
+      "title": "International Student Financial Aid (Penn Student Financial Services)",
+      "publisher": "University of Pennsylvania",
+      "url": "https://srfs.upenn.edu/financial-aid/international",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: admission is need-aware for international applicants; aid requested at admission; 100% of demonstrated need with grants and work-study for admitted students; no later aid requests.",
+      "supports": [
+        "Need-aware admissions for internationals",
+        "Meets 100% of demonstrated need with grants and work-study"
+      ]
+    },
+    {
+      "id": "penn-admissions-intl-aid",
+      "title": "International Aid (Penn Admissions)",
+      "publisher": "University of Pennsylvania",
+      "url": "https://admissions.upenn.edu/affording-penn/international-aid",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: need-aware policy for non-citizens who are not US/Canada/Mexico permanent residents; apply for aid at the same time as admission; aid covers four years.",
+      "supports": [
+        "Need-aware for international applicants",
+        "Aid applied for at admission"
+      ]
+    },
+    {
+      "id": "penn-admissions-financial-aid",
+      "title": "Financial Aid (Penn Admissions)",
+      "publisher": "University of Pennsylvania",
+      "url": "https://admissions.upenn.edu/affording-penn/financial-aid",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: all undergraduate aid is need-based (no merit scholarships); packages have no loans; 100% of demonstrated need.",
+      "supports": [
+        "No merit scholarships for undergraduates",
+        "Packages without loans"
+      ]
+    },
+    {
+      "id": "penn-cds-secondary",
+      "title": "University of Pennsylvania: Admission and Costs 2027 (StudyU)",
+      "publisher": "StudyU (secondary; cites Penn Common Data Set 2025-26)",
+      "url": "https://www.studyu.org/en/university-upenn",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Secondary source. Gives 2026-27 cost of attendance, admission figures for international applicants (441 admitted of 17,882) and deadlines (1 Nov 2026 binding ED; 5 Jan 2027 RD). Not verified on Penn's own page.",
+      "supports": [
+        "Cost of attendance 2026-27 (secondary)",
+        "International admission rate (secondary)"
+      ]
+    },
+    {
+      "id": "jhu-international-applicants",
+      "title": "International Applicants (Johns Hopkins Undergraduate Admissions)",
+      "publisher": "Johns Hopkins University",
+      "url": "https://apply.jhu.edu/international-applicants/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: no separate application; Certification of Finances (COF) required; CSS Profile for aid; need-aware for international students; aid must be requested as a first-year applicant.",
+      "supports": [
+        "Certification of Finances (COF) required",
+        "Need-aware for international students",
+        "Aid only at first-year entry"
+      ]
+    },
+    {
+      "id": "jhu-common-aid-questions",
+      "title": "Common Financial Aid Questions (Johns Hopkins)",
+      "publisher": "Johns Hopkins University Office of Student Financial Services",
+      "url": "https://apply.jhu.edu/tuition-aid/common-financial-aid-questions/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official FAQ: international applicants must submit CSS Profile and COF; no fee waivers for international CSS; aid renews automatically for international students; need-based aid, meets 100% of demonstrated need.",
+      "supports": [
+        "International applicants: CSS Profile and COF",
+        "No fee waivers for international CSS Profile",
+        "Aid renews for international students"
+      ]
+    },
+    {
+      "id": "jhu-deadlines",
+      "title": "Application Deadlines & Requirements (Johns Hopkins)",
+      "publisher": "Johns Hopkins University",
+      "url": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+      "type": "primary-official",
+      "publishedOrRevised": "2027 entry cycle",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: financial aid deadline 15 Nov 2026 (first round) and 15 Jan 2027 (later rounds); COF required for international applicants.",
+      "supports": [
+        "Financial aid deadline 15 Nov 2026",
+        "Financial aid deadline 15 Jan 2027"
+      ]
+    },
+    {
+      "id": "jhu-sfs-faq",
+      "title": "Frequently Asked Questions (Johns Hopkins Student Financial Services)",
+      "publisher": "Johns Hopkins University",
+      "url": "https://sfs.jhu.edu/frequently-asked-questions/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official FAQ: international students must indicate interest in aid as first-year applicants; need-based aid only; international students do not reapply each year.",
+      "supports": [
+        "Need-based only for international students",
+        "No annual reapplication"
+      ]
+    },
+    {
+      "id": "studyu-cornell-secondary",
+      "title": "Cornell University: Admission and Costs 2027 (StudyU)",
+      "publisher": "StudyU (secondary)",
+      "url": "https://www.studyu.org/en/university-cornell",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Secondary source. Summarises Cornell international aid policy and deadlines (CSS Profile by 1 Nov and 2 Jan). Consistent with Cornell's official pages.",
+      "supports": [
+        "International aid summary (secondary)"
+      ]
+    },
+    {
+      "id": "studyu-ivy-secondary",
+      "title": "Ivy League Admissions for International Students (StudyU)",
+      "publisher": "StudyU (secondary)",
+      "url": "https://www.studyu.org/en/blog-ivy-league-admissions",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Secondary source. Table lists Yale admit rate 4.7% (fall 2025) and aid policy as need-blind for international applicants. Not verified on Yale's own page.",
+      "supports": [
+        "Yale admit rate 4.7% (fall 2025, secondary)"
+      ]
+    },
+    {
+      "id": "studyu-jhu-secondary",
+      "title": "Johns Hopkins University: Admission and Costs 2027 (StudyU)",
+      "publisher": "StudyU (secondary)",
+      "url": "https://www.studyu.org/en/university-johns-hopkins",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Secondary source. States about 10% of international students receive aid (citing the university FAQ); Hopkins accepts its own free international aid form if the CSS Profile cannot be completed.",
+      "supports": [
+        "About 10% of international students receive aid (secondary, citing university)"
+      ]
+    },
+    {
+      "id": "princeton-intl-students",
+      "title": "For International Students (Princeton Admission)",
+      "publisher": "Princeton University",
+      "url": "https://admission.princeton.edu/apply/international-students",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: admission is need-blind for all applicants including international students; full need met; grants not loans; no academic or athletic merit scholarships.",
+      "supports": [
+        "Need-blind admission for international students",
+        "Full need met with grants",
+        "No merit scholarships"
+      ]
+    },
+    {
+      "id": "princeton-how-aid-works",
+      "title": "How Princeton's Aid Program Works (Princeton Admission)",
+      "publisher": "Princeton University",
+      "url": "https://admission.princeton.edu/how-princetons-aid-program-works",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: aid awarded solely on need; no merit scholarships; need-blind for all applicants.",
+      "supports": [
+        "Aid solely on need",
+        "No merit scholarships"
+      ]
+    },
+    {
+      "id": "princeton-finaid-faqs",
+      "title": "FAQs (Princeton Financial Aid)",
+      "publisher": "Princeton University Office of Financial Aid",
+      "url": "https://finaid.princeton.edu/faqs",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official FAQ: international students are not limited in aid; 100% of calculated need met; applying for aid has no admission disadvantage.",
+      "supports": [
+        "International students not limited in aid",
+        "100% of calculated need"
+      ]
+    },
+    {
+      "id": "princeton-apply-aid-prospective",
+      "title": "Apply for Aid: Prospective Students (Princeton Financial Aid)",
+      "publisher": "Princeton University Office of Financial Aid",
+      "url": "https://finaid.princeton.edu/apply-aid-prospective-students",
+      "type": "primary-official",
+      "publishedOrRevised": "2027-28 cycle",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: 2027-28 Princeton Financial Aid Application available 1 Oct 2026; Princeton does not use IDOC or the CSS Profile.",
+      "supports": [
+        "Princeton Financial Aid Application (PFAA)",
+        "No CSS Profile or IDOC",
+        "Available 1 Oct 2026"
+      ]
+    },
+    {
+      "id": "princeton-cost-aid",
+      "title": "Cost & Aid (Princeton Admission)",
+      "publisher": "Princeton University",
+      "url": "https://admission.princeton.edu/cost-aid",
+      "type": "primary-official",
+      "publishedOrRevised": "2026-27 year",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: tuition $68,140 for 2026-27.",
+      "supports": [
+        "Tuition $68,140 for 2026-27"
+      ]
+    },
+    {
+      "id": "princeton-secondary-titans",
+      "title": "Princeton International Financial Aid 2026 (TitansAbroad)",
+      "publisher": "TitansAbroad (secondary)",
+      "url": "https://titansabroad.org/scholarships/princeton-international-financial-aid",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Secondary source. Lists early action 1 Nov and regular decision 1 Jan as application deadlines. Not checked against the official admissions calendar.",
+      "supports": [
+        "Early action 1 Nov (secondary)",
+        "Regular decision 1 Jan (secondary)"
+      ]
+    },
+    {
+      "id": "berkeley-intl-students",
+      "title": "International Students (UC Berkeley Undergraduate Admissions)",
+      "publisher": "UC Berkeley",
+      "url": "https://admissions.berkeley.edu/apply-to-berkeley/international-students/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: applicants who need a visa or graduated outside the US apply as international applicants.",
+      "supports": [
+        "Who applies as an international applicant"
+      ]
+    },
+    {
+      "id": "berkeley-apply-main",
+      "title": "Apply to UC Berkeley (Office of Undergraduate Admissions)",
+      "publisher": "UC Berkeley",
+      "url": "https://admissions.berkeley.edu/apply-to-berkeley/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: application fee is $80 per UC campus, $95 for international and non-immigrant applicants; fee waivers for eligible students.",
+      "supports": [
+        "Application fee $95 for international applicants"
+      ]
+    },
+    {
+      "id": "berkeley-apply-aid",
+      "title": "Apply for Financial Aid (UC Berkeley Admissions)",
+      "publisher": "UC Berkeley",
+      "url": "https://admissions.berkeley.edu/cost/apply-for-financial-aid/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: admitted students are automatically considered for scholarships; international students are ineligible for federal, state and need-based university financial aid.",
+      "supports": [
+        "Automatic scholarship consideration",
+        "International students ineligible for need-based university aid"
+      ]
+    },
+    {
+      "id": "berkeley-types-of-aid",
+      "title": "Types of Financial Aid (UC Berkeley Admissions)",
+      "publisher": "UC Berkeley",
+      "url": "https://admissions.berkeley.edu/cost/apply-for-financial-aid/types-of-aid/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: international students are not eligible for federal financial aid or institutional aid managed by the Financial Aid and Scholarships Office.",
+      "supports": [
+        "International students not eligible for institutional aid managed by Financial Aid Office"
+      ]
+    },
+    {
+      "id": "berkeley-newly-admitted-faqs",
+      "title": "Newly Admitted Students FAQs (UC Berkeley Financial Aid)",
+      "publisher": "UC Berkeley Financial Aid and Scholarships",
+      "url": "https://financialaid.berkeley.edu/how-aid-works/newly-admitted-students-faqs/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official FAQ: newly admitted nonresident and international students are ineligible for need-based university gift aid; nonresident supplemental tuition applies.",
+      "supports": [
+        "Nonresident and international students ineligible for need-based gift aid",
+        "Nonresident supplemental tuition applies"
+      ]
+    },
+    {
+      "id": "uc-quick-reference-guide",
+      "title": "Quick Reference Guide to UC Admissions (University of California)",
+      "publisher": "University of California",
+      "url": "https://admission.universityofcalifornia.edu/counselors/_files/documents/quick-reference-guide-to-uc-admissions.pdf",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official guide: minimum GPA 3.0 for California residents and 3.4 for nonresidents; nonimmigrants are not California residents for admission.",
+      "supports": [
+        "Minimum GPA 3.4 for nonresidents"
+      ]
+    },
+    {
+      "id": "berkeley-secondary-unive",
+      "title": "UC Berkeley Admissions: Fall 2027 Guide (unive.ai)",
+      "publisher": "unive.ai (secondary)",
+      "url": "https://unive.ai/blogs/education/uc-berkeley-admissions-guide",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Secondary source. Gives nonresident supplemental tuition of $39,270 for 2026-27 on top of base tuition. Check against Berkeley's cost of attendance page.",
+      "supports": [
+        "Nonresident supplemental tuition $39,270 for 2026-27 (secondary)"
+      ]
+    },
+    {
+      "id": "epfl-bachelor-admission",
+      "title": "Bachelor/CMS admission criteria & application (EPFL)",
+      "publisher": "EPFL",
+      "url": "https://www.epfl.ch/education/admission/admission-2/bachelor-admission-criteria-and-application/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: level B2 in French required for bachelor programmes (C1 recommended); EU, EFTA, UK and IB routes described; other foreign diplomas need assessment.",
+      "supports": [
+        "French B2 required for bachelor",
+        "Route by certificate type"
+      ]
+    },
+    {
+      "id": "epfl-bachelor-fellowship-news",
+      "title": "EPFL introduces new Bachelor's excellence fellowships (EPFL News)",
+      "publisher": "EPFL",
+      "url": "https://actu.epfl.ch/news/epfl-introduces-new-bachelor-s-excellence-fellowsh/",
+      "type": "primary-official",
+      "publishedOrRevised": "2022 news item",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official news item: anyone joining a bachelor programme may apply with a GPA of at least 5.3 out of 6 (high school or CMS); application needs a maturité-style summary, cover letter, CV and two references. Award value not in the excerpt.",
+      "supports": [
+        "Bachelor excellence fellowship: GPA 5.3/6 threshold",
+        "Award value not stated"
+      ]
+    },
+    {
+      "id": "epfl-studyu-secondary",
+      "title": "EPFL Lausanne: Admission, Entrance Exam, Fees 2027 (StudyU)",
+      "publisher": "StudyU (secondary)",
+      "url": "https://www.studyu.org/en/university-epfl",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Secondary source. Gives entrance exam registration 1 Oct to 1 Dec 2026, science block 18 to 22 Jan 2027, the Master's fellowship (CHF 10,000 per semester) and per-semester fees (CHF 780 for most students). Not verified on EPFL's pages.",
+      "supports": [
+        "Entrance exam dates (secondary)",
+        "Semester fees CHF 780 (secondary)",
+        "Master's fellowship CHF 10,000 per semester (secondary)"
+      ]
+    },
+    {
+      "id": "anu-international-applications",
+      "title": "International undergraduate & postgraduate (ANU)",
+      "publisher": "Australian National University",
+      "url": "https://study.anu.edu.au/apply/international-applications",
+      "type": "primary-official",
+      "publishedOrRevised": "Excerpt",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: international applicants apply via UAC International for Australian Year 12, IB or NCEA; key dates include Semester 2 2027 closing on 15 May 2027. The Semester 1 2027 closing date is not clear in the excerpt.",
+      "supports": [
+        "Application route for international applicants",
+        "Semester 2 2027 closing 15 May 2027"
+      ]
+    },
+    {
+      "id": "anu-bapaf-program",
+      "title": "Bachelor of Asia-Pacific Affairs (ANU Programs and Courses)",
+      "publisher": "Australian National University",
+      "url": "https://programsandcourses.anu.edu.au/program/bapaf",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official program page: selection rank 82 (guaranteed entry at 82 or above); minimum unadjusted rank 70; IB score 32 quoted.",
+      "supports": [
+        "Programme selection rank 82 (example programme)"
+      ]
+    },
+    {
+      "id": "anu-ulec-secondary",
+      "title": "ANU International Admission Requirements and Application Guide 2027 (UNILINK)",
+      "publisher": "UNILINK Australia (secondary)",
+      "url": "https://ulec.com.au/guides/anu-international-admission-2027/",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Secondary source. Gives the general Semester 1 2027 international closing date as 15 Dec 2026 and the Semester 2 date as 15 May 2027. Consistent with other secondary sources; not on the ANU excerpt checked.",
+      "supports": [
+        "Semester 1 2027 closing 15 Dec 2026 (secondary)"
+      ]
+    },
+    {
+      "id": "anu-english-secondary",
+      "title": "ANU Admission Requirements and Rankings (kdinternational, secondary)",
+      "publisher": "kdinternational (secondary)",
+      "url": "https://kdinternational.com.au/anu-admission-requirements-saudi-students/",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Secondary source citing the ANU English language policy: IELTS Academic 6.5 overall with 6.0 in each band for undergraduate and postgraduate study.",
+      "supports": [
+        "IELTS 6.5 overall, 6.0 each band (secondary)"
+      ]
+    },
+    {
+      "id": "anu-chancellors-secondary",
+      "title": "Top Scholarships for Pakistani Students in Australia 2026 (The Migration)",
+      "publisher": "The Migration (secondary)",
+      "url": "https://themigration.com.au/blog/scholarships-for-pakistani-students-in-australia",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Secondary source. Gives the ANU Chancellor's International Scholarship as AUD 10,000 to AUD 25,000 toward tuition, with two rounds (15 May and 31 October). Not verified on ANU's official scholarship page.",
+      "supports": [
+        "Chancellor's International Scholarship AUD 10,000 to 25,000 (secondary)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2025 @@
+{
+  "datasetVersion": "2026.10.17-mvp1",
+  "classificationDefinitions": {
+    "full-tuition": "Covers the specified tuition charges only, subject to award terms. Never labelled a full ride.",
+    "full-ride": "Covers tuition AND the living or associated educational costs explicitly listed in the award.",
+    "full-cost-of-attendance": "Covers the institution's defined total cost of attendance, under documented award conditions.",
+    "partial": "Covers only part of the relevant costs.",
+    "unconfirmed": "Research has not established the exact coverage or eligibility."
+  },
+  "scholarships": [
+    {
+      "id": "mit-need-based-scholarship",
+      "universityId": "massachusetts-institute-technology-mit",
+      "name": "MIT Scholarship (need-based grant)",
+      "funder": "Massachusetts Institute of Technology (institutional aid)",
+      "awardType": "need-based",
+      "classification": "full-cost-of-attendance",
+      "classificationNote": "Institutional need-based aid that aims to meet 100% of demonstrated need. The amount is set per family, is not a fixed sum, and is not guaranteed to every applicant.",
+      "coverage": {
+        "tuition": "Covered to the extent of demonstrated need (official aid policy).",
+        "mandatoryFees": "Unverified for this build.",
+        "accommodationAndMeals": "Part of MIT's cost of attendance used to calculate need (SFS FAQ excerpt); award-level treatment unverified.",
+        "healthInsurance": "Unverified for this build.",
+        "booksAndPersonal": "Part of MIT's cost of attendance used to calculate need (SFS FAQ excerpt); award-level treatment unverified.",
+        "travelAndVisa": "Not verified as covered.",
+        "livingStipend": "Not stated; no separate stipend identified."
+      },
+      "eligibility": {
+        "citizenshipOrResidency": "Open to international applicants on the same aid process as domestic applicants (official SFS international page excerpt).",
+        "nonUsApplicantNote": "Applicants from outside the United States (for example from Pakistan, Malaysia, Egypt or Indonesia) follow the same international process. Parental income verification from abroad is required, which may need translation of tax documents (official SFS excerpt).",
+        "degreeAndProgramEligibility": "Undergraduate admitted students. Eligible programmes are not verified per degree family in this build.",
+        "academicConditions": "Not stated as a merit requirement; aid is need-based, not merit-based (official affordability page).",
+        "renewalConditions": "Not verified in detail. Official pages state aid covers the four undergraduate years; GPA and progress rules must be checked.",
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Applies to applicants whose country of citizenship differs from the university's country. Domestic applicants use a different process.",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Undergraduate admitted students; per-degree eligibility not verified."
+      },
+      "requiredDocuments": [
+        "CSS Profile",
+        "Parental tax returns or income documentation (translated into English where applicable)"
+      ],
+      "applicationMethod": "Separately applied for through MIT Student Financial Services, alongside admission.",
+      "deadlines": {
+        "earlyAction": "Financial aid application deadline quoted as 30 November (Early Action). Re-check each cycle.",
+        "regularAction": "Financial aid application deadline quoted as 15 February (Regular Action). Re-check each cycle."
+      },
+      "selectionStatistics": "Not verified. Need-based awards are not competitive in the merit sense, but no selection statistics are recorded.",
+      "uncoveredCosts": [
+        "Travel and visa costs (not verified as covered)",
+        "Health insurance (not verified)",
+        "Any part of the cost not met by the demonstrated-need calculation"
+      ],
+      "sources": [
+        "mit-affordability",
+        "mit-sfs-international",
+        "mit-sfs-faq",
+        "mit-admitted-affordability",
+        "mit-catalog-financial-aid"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "The MIT affordability page was fetched directly. The international aid page, FAQ and admitted-student page were read via search excerpts, not full fetches.",
+      "loansIncluded": false,
+      "loansNote": "MIT's official aid description states aid is grants and student work expectations and never includes loans (catalog.mit.edu excerpt).",
+      "scholarshipTypes": [
+        "need"
+      ]
+    },
+    {
+      "id": "um-pte-x-um-scholarship-2026",
+      "universityId": "universiti-malaya-um",
+      "name": "PTE x Universiti Malaya Scholarship 2026 (contest prize, one winner)",
+      "funder": "Pearson PTE (external sponsor, listed by UM ASD)",
+      "awardType": "external",
+      "classification": "partial",
+      "classificationNote": "A GBP 3,000 prize for one winner of a contest, paid towards UM tuition. It is not guaranteed and not a full ride. Entrants must write two short answers and apply to a UM programme.",
+      "coverage": {
+        "tuition": "GBP 3,000 towards UM tuition fees for the winner (no cash alternative)",
+        "living": "Not covered",
+        "travel": "Not covered"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Terms open entry to international students aged 18 or over, located in Malaysia or anywhere in the world (terms section C).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Entrant must apply to at least one UM programme (bachelor's, master's or doctoral) for an eligible intake (terms section D). The terms list Oct 2026 and Mar 2026 intakes only, so confirm whether a March 2027 application counts.",
+        "citizenshipOrResidency": "Entry open worldwide to international students aged 18+ (terms section C). Pakistani citizens are not excluded.",
+        "nonUsApplicantNote": "Nationality is not a criterion in the terms. Entry is judged on the two written answers and the PTE report.",
+        "academicConditions": "No grade minimum in the terms. Shortlisted entrants must provide a PTE score report code (terms section D).",
+        "renewalConditions": "Not applicable. A one-off prize."
+      },
+      "requiredDocuments": [
+        "Online entry form with two written answers in English: why study at UM, and your top PTE preparation tip (terms sections D and E)",
+        "An application to at least one UM programme via apply.um.edu.my",
+        "PTE score report code, if shortlisted"
+      ],
+      "applicationMethod": "Complete the online entry form linked from Pearson's page, and apply to a UM programme. A panel of two UM and two Pearson members judges entries. One winner is announced within about 20 working days of closing (terms sections D, E, F).",
+      "deadlines": {
+        "entry": "31 December 2026, 11:59 PM MYT (terms section B). Decision within two weeks of closing."
+      },
+      "selectionStatistics": "One winner is selected. The number of entrants is not published.",
+      "uncoveredCosts": [
+        "Everything beyond the GBP 3,000 prize, including living costs, travel and visa costs.",
+        "Prize is non-transferable and not paid in cash. Tax consequences are the winner's responsibility (terms section G6)."
+      ],
+      "loansIncluded": false,
+      "loansNote": "UM's official summary does not describe it as a loan.",
+      "sources": [
+        "pearson-pte-um-terms",
+        "pearson-pte-um-page",
+        "um-asd-financial-aid"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-verified",
+      "verificationNote": "Eligibility, entry steps, judging, deadline and prize are verified from the sponsor's terms. Whether a March 2027 application counts is not stated and should be confirmed with UM or Pearson.",
+      "scholarshipTypes": [
+        "merit"
+      ]
+    },
+    {
+      "id": "harvard-financial-aid",
+      "universityId": "harvard-university",
+      "name": "Harvard College need-based financial aid",
+      "funder": "Harvard College (institutional)",
+      "awardType": "need-based",
+      "classification": "full-tuition",
+      "classificationNote": "Harvard states that for family incomes up to $200,000 aid will cover at least the full cost of tuition, subject to assessment. Not a guaranteed full ride: housing, food and other costs depend on need and the student's own contribution.",
+      "coverage": {
+        "tuition": "At least full tuition for family incomes up to $200,000 (official statement, subject to assessment)",
+        "living": "Depends on demonstrated need; personal and travel allowances may be included",
+        "fees": "Covered within need-based aid (not itemised)"
+      },
+      "eligibility": {
+        "applicantScope": "all-applicants",
+        "applicantScopeNote": "International students are eligible for exactly the same aid as US students (official).",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Need-based aid applies to all concentrations. No merit awards.",
+        "citizenshipOrResidency": "No citizenship limit stated.",
+        "nonUsApplicantNote": "Financial documents from the applicant's country are assessed. Official translation rules not checked.",
+        "academicConditions": "Maintain satisfactory academic progress (not verified in detail).",
+        "renewalConditions": "Reassessed annually (not verified in detail)."
+      },
+      "requiredDocuments": [
+        "CSS Profile and financial aid application (not verified in detail for Pakistan)"
+      ],
+      "applicationMethod": "Submitted with the admission application; need is assessed by the Financial Aid Office.",
+      "deadlines": {
+        "see official": "Check Harvard's financial aid deadlines each cycle (not recorded)."
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Any part of cost not covered by need-based aid, and health insurance (2026-27: $4,954 unless covered by family plan, per official cost page)."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Harvard states aid is need-based grants; some students use loans or outside awards for their own contribution (official page). Loans are not the institutional award.",
+      "sources": [
+        "harvard-how-aid-works",
+        "harvard-international-applicants"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Policy and cost are from Harvard's official pages. Individual award amounts, the financial aid deadline for international applicants, and documents for Pakistan are not verified.",
+      "scholarshipTypes": [
+        "need",
+        "institutional"
+      ]
+    },
+    {
+      "id": "stanford-undergrad-aid",
+      "universityId": "stanford-university",
+      "name": "Stanford University need-based undergraduate aid",
+      "funder": "Stanford University (institutional)",
+      "awardType": "need-based",
+      "classification": "unconfirmed",
+      "classificationNote": "Stanford's official pages describe need-based scholarships and an average remaining payment for students who get aid. The page read does not state a 100% need-met policy, so full coverage is not confirmed.",
+      "coverage": {
+        "tuition": "Need-based; amount not confirmed as full tuition",
+        "living": "Not confirmed"
+      },
+      "eligibility": {
+        "applicantScope": "all-applicants",
+        "applicantScopeNote": "Admission is need-blind except for some international applicants, for whom requesting aid may affect the decision (official page).",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Not restricted by programme in the pages read.",
+        "citizenshipOrResidency": "Not stated.",
+        "nonUsApplicantNote": "Some international applicants are admitted need-aware, so an aid request can affect admission.",
+        "academicConditions": "Not verified.",
+        "renewalConditions": "Not verified."
+      },
+      "requiredDocuments": [
+        "Financial aid application (requirements not verified in detail)"
+      ],
+      "applicationMethod": "Requested through the application and Financial Aid Office (not verified in detail).",
+      "deadlines": {
+        "see official": "Check Stanford's financial aid deadlines each cycle (not recorded)."
+      },
+      "selectionStatistics": "Official page: 60% of undergraduates receive Stanford scholarships (including athletic); 46% receive need-based Stanford scholarships.",
+      "uncoveredCosts": [
+        "Any remaining cost after aid (official average for need-based recipients about $20,000)."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Official page distinguishes scholarships from federal and state grants, work and loans; the Stanford scholarship itself is not described as a loan.",
+      "sources": [
+        "stanford-undergrad-aid",
+        "stanford-international-applicants"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Need-based policy and statistics are verified. Full-need policy, deadlines and international documents are not verified.",
+      "scholarshipTypes": [
+        "need",
+        "institutional"
+      ]
+    },
+    {
+      "id": "imperial-inspires-2027",
+      "universityId": "imperial-college-london",
+      "name": "Imperial Inspires Scholarship (2027 entry)",
+      "funder": "Imperial College London (institutional)",
+      "awardType": "merit-based",
+      "classification": "partial",
+      "classificationNote": "GBP 15,000 per year for each year of the course, for at least 300 awards. This is a fixed sum, not a full tuition waiver unless it equals the Overseas tuition for the course. Overseas fee for the course not confirmed in this build.",
+      "coverage": {
+        "tuition": "GBP 15,000 per year towards tuition fees and living costs (official wording)",
+        "living": "Included in the GBP 15,000 at the student's discretion (official wording)"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Must be an international student paying the Overseas rate of tuition (official).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": [
+          "electrical-electronics-computer",
+          "mechanical-manufacturing-industrial",
+          "civil-construction-built-environment",
+          "chemical-materials",
+          "energy-mining-petroleum",
+          "aerospace-aviation",
+          "marine-naval-ocean",
+          "biomedical-bioengineering",
+          "biology-life-sciences",
+          "physical-sciences",
+          "earth-sciences",
+          "mathematics-statistics",
+          "medicine-clinical",
+          "business-management",
+          "accounting",
+          "finance-economics-actuarial",
+          "software-computing",
+          "ai-data-science",
+          "cybersecurity"
+        ],
+        "programmeScopeNote": "Official subject areas: Engineering, Natural Sciences, Medicine, Business. Mapped to the matching platform families (analyst mapping; confirm with Imperial).",
+        "citizenshipOrResidency": "Any nationality paying Overseas fees (Pakistani citizens are not excluded; fee status is decided by residency and nationality rules).",
+        "nonUsApplicantNote": "Fee status is assessed by Imperial; check your status before applying.",
+        "academicConditions": "Assessed on academic merit and potential through the UCAS application, admissions test and interview; optional 250-word statement.",
+        "renewalConditions": "Renewal per year is not verified in this build."
+      },
+      "requiredDocuments": [
+        "UCAS undergraduate application",
+        "Imperial Inspires application (invited if eligible and a place is available)",
+        "Optional 250-word statement"
+      ],
+      "applicationMethod": "Apply through UCAS; if eligible and an award exists for your course, you are invited to the scholarship application.",
+      "deadlines": {
+        "UCAS (most courses)": "13 January 2027",
+        "UCAS (Medicine)": "15 October 2026 (passed)",
+        "Imperial Inspires application": "5 February 2027, 23:59 UK time"
+      },
+      "selectionStatistics": "At least 300 awards for 2027 entry (official).",
+      "uncoveredCosts": [
+        "Overseas tuition above GBP 15,000 per year, if any (course fee not verified in this build).",
+        "Living costs beyond the amount the student chooses to allocate, visa, travel, health surcharge (not verified)."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not a loan per official page.",
+      "sources": [
+        "imperial-inspires"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-verified",
+      "verificationNote": "Amount, eligibility, scope and deadlines are verified from Imperial's official page. Overseas tuition for each course is not verified here.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
+    },
+    {
+      "id": "cambridge-trust-undergraduate",
+      "universityId": "university-cambridge",
+      "name": "Cambridge Trust awards for overseas undergraduates (means-tested)",
+      "funder": "Cambridge Trust (external to individual colleges)",
+      "awardType": "need-based",
+      "classification": "partial",
+      "classificationNote": "Official pages describe most international undergraduate support as a partial contribution, means-tested, and few full undergraduate scholarships exist. Amount and coverage per award are not verified here.",
+      "coverage": {
+        "tuition": "Partial (per official description; amount not verified)",
+        "living": "Not verified"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Official: Cambridge Trust offers awards to overseas students who have been accepted by a Cambridge College.",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Accepted students only. Not restricted by subject in the excerpt read.",
+        "citizenshipOrResidency": "Country-specific and Commonwealth awards exist; whether Pakistan qualifies was not verified.",
+        "nonUsApplicantNote": "Apply only after an offer from a College.",
+        "academicConditions": "Not verified.",
+        "renewalConditions": "Not verified."
+      },
+      "requiredDocuments": [
+        "Application form issued by the College after offer (not verified)"
+      ],
+      "applicationMethod": "Application made after receiving an offer from a Cambridge College.",
+      "deadlines": {
+        "see official": "Not recorded."
+      },
+      "selectionStatistics": "Official: few full undergraduate scholarships.",
+      "uncoveredCosts": [
+        "Most costs (not verified)."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not a loan per official description.",
+      "sources": [
+        "cambridge-international-financial-support"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Existence, eligibility route and means-testing are from the official excerpt. Pakistan eligibility, amounts and deadlines are not verified.",
+      "scholarshipTypes": [
+        "need"
+      ]
+    },
+    {
+      "id": "eth-international-scholarship",
+      "universityId": "eth-zurich",
+      "name": "ETH Scholarship and Solidarity Fund (international students)",
+      "funder": "ETH Zurich / ETH Foundation",
+      "awardType": "need-based",
+      "classification": "partial",
+      "classificationNote": "Official: aid for international students is available only after passing the first-year examinations (Bachelor's) and is not expected to cover all costs. Students are expected to seek funding at home first.",
+      "coverage": {
+        "tuition": "Not stated as full coverage",
+        "living": "Partial, need-based (official wording: does not cover all costs)"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Official pages for international students with permit B status.",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Bachelor's: first-year exams must be passed. Master's without an ETH Bachelor's: after first year and 40 ECTS.",
+        "citizenshipOrResidency": "Permit B status required (solidarity fund).",
+        "nonUsApplicantNote": "Not applicable to first-year students.",
+        "academicConditions": "Passing the first-year examinations (Bachelor's).",
+        "renewalConditions": "Renewal subject to progress (not verified in detail)."
+      },
+      "requiredDocuments": [
+        "eSTIP application"
+      ],
+      "applicationMethod": "Apply through eSTIP. 2026/27 window 1 Sep to 31 Oct 2026 (for students already at ETH).",
+      "deadlines": {
+        "eSTIP window 2026/27": "1 Sep to 31 Oct 2026"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Costs beyond the partial support"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "eth-international-scholarships",
+        "eth-solidarity-fund"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Route is after first year (official). Pakistan-specific terms not verified.",
+      "scholarshipTypes": [
+        "need",
+        "institutional"
+      ]
+    },
+    {
+      "id": "ucl-global-undergraduate-scholarship",
+      "universityId": "ucl",
+      "name": "UCL Global Undergraduate Scholarship",
+      "funder": "UCL (institutional)",
+      "awardType": "need-based",
+      "classification": "full-cost-of-attendance",
+      "classificationNote": "Official: 10 awards cover full tuition, maintenance allowance and a fixed allowance for visa and health surcharge. 23 awards cover full tuition only. Based on financial need. Competitive.",
+      "coverage": {
+        "tuition": "Full tuition (all 33 awards)",
+        "living": "Maintenance allowance for 10 full-cost awards (amount to be confirmed by UCL)",
+        "visa and health surcharge": "Fixed allowance for 10 full-cost awards"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Overseas fee status required (official).",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "All undergraduate degrees (official).",
+        "citizenshipOrResidency": "Non-UK nationals eligible (official, overseas fee status).",
+        "nonUsApplicantNote": "Nationality not a stated criterion.",
+        "academicConditions": "Selection on need and academic performance (not all criteria verified).",
+        "renewalConditions": "Valid for the standard duration of the programme (official)."
+      },
+      "requiredDocuments": [
+        "UCL admission application submitted",
+        "Financial need evidence"
+      ],
+      "applicationMethod": "Submit a UCL admission application, then the scholarship application before the deadline.",
+      "deadlines": {
+        "2026/27 deadline (closed)": "27 April 2026, 5pm BST",
+        "2027/28 deadline": "Not yet published"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Costs beyond the 10 full-cost awards and tuition-only awards"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "ucl-global-undergraduate-scholarship"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-verified",
+      "verificationNote": "Award types and deadline for 2026/27 are verified from UCL's official page. The 2027/28 cycle is not published.",
+      "scholarshipTypes": [
+        "need",
+        "institutional"
+      ]
+    },
+    {
+      "id": "nus-international-undergraduate-scholarship",
+      "universityId": "national-university-singapore-nus",
+      "name": "NUS International Undergraduate Scholarship",
+      "funder": "National University of Singapore (university-level)",
+      "awardType": "merit-based",
+      "classification": "unconfirmed",
+      "classificationNote": "Official: merit-based award for exceptional international students from all countries except Singapore. The official excerpt lists living, computer and accommodation allowances. Whether it includes tuition was not confirmed in the excerpt.",
+      "coverage": {
+        "living": "S$5,800 per year (official)",
+        "accommodation": "S$5,000 per year (official)",
+        "one-time": "S$1,750 computer allowance (official)",
+        "tuition": "Not confirmed in excerpt"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Official: open to international students from all countries except Singapore.",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Full-time undergraduate programmes at NUS (official).",
+        "citizenshipOrResidency": "Any nationality except Singapore (official).",
+        "nonUsApplicantNote": "Not applicable.",
+        "academicConditions": "Merit-based; competitive.",
+        "renewalConditions": "Renewal per year not verified."
+      },
+      "requiredDocuments": [
+        "Undergraduate admission application (no separate scholarship form for international students, per the applicant portal)"
+      ],
+      "applicationMethod": "Considered automatically through the NUS undergraduate admission application (official portal statement).",
+      "deadlines": {
+        "application": "Through admission application; check NUS for current dates"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Tuition beyond any confirmed coverage",
+        "Living costs beyond the allowance"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "nus-international-undergraduate-scholarship",
+        "nus-moe-tuition-grant"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Merit basis and amounts are from NUS's official page. Tuition coverage is not confirmed.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
+    },
+    {
+      "id": "hku-belt-and-road-scholarship",
+      "universityId": "university-hong-kong",
+      "name": "HKU Belt and Road Scholarship (HKSAR Government Scholarship Fund)",
+      "funder": "HKSAR Government / HKU",
+      "awardType": "merit-based",
+      "classification": "full-tuition",
+      "classificationNote": "Official: up to full tuition for outstanding students from participating Belt and Road countries. Pakistan's participation was not verified in this build.",
+      "coverage": {
+        "tuition": "Up to full tuition fees (official)"
+      },
+      "eligibility": {
+        "applicantScope": "nationalities",
+        "applicantScopeNote": "Official: outstanding students from participating Belt and Road countries (listed: Indonesia, Malaysia, Thailand, Myanmar, among others).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Undergraduate admission to HKU (assumed; check).",
+        "citizenshipOrResidency": "Pakistan not verified in the list read.",
+        "nonUsApplicantNote": "Pakistani applicants must check the current list.",
+        "academicConditions": "Merit-based (official).",
+        "renewalConditions": "Renewal not verified."
+      },
+      "requiredDocuments": [
+        "HKU admission application"
+      ],
+      "applicationMethod": "Apply through HKU admission/scholarship portal (not verified in detail).",
+      "deadlines": {
+        "2026 deadline (closed)": "31 Jan 2026",
+        "2027 entry": "Details subject to modification (not published)"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Living costs",
+        "Accommodation"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "hku-belt-and-road-scholarship",
+        "hku-fees-2027"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Full tuition is the official maximum. Pakistani eligibility and the 2027 deadline are not verified.",
+      "scholarshipTypes": [
+        "merit",
+        "regional"
+      ]
+    },
+    {
+      "id": "caltech-need-based-aid",
+      "universityId": "california-institute-technology-caltech",
+      "name": "Caltech need-based financial aid for international first-year students",
+      "funder": "California Institute of Technology (institutional)",
+      "awardType": "need-based",
+      "classification": "full-cost-of-attendance",
+      "classificationNote": "Official: need-based aid meets 100% of demonstrated financial need. Caltech is need-aware for international applicants because aid funds are limited. Not a full ride without need assessment.",
+      "coverage": {
+        "tuition": "Covered within 100% of demonstrated need (official)",
+        "living": "Covered within 100% of demonstrated need (official)"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Official: aid is need-aware for international applicants. Transfer and 3/2 applicants are not eligible.",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "First-year applicants only (official).",
+        "citizenshipOrResidency": "Citizens and permanent residents of Canada and Mexico have exceptions (official).",
+        "nonUsApplicantNote": "Must apply for aid when applying for admission. Late applications are not eligible for later aid (official).",
+        "academicConditions": "Not verified beyond the official aid statement.",
+        "renewalConditions": "Reapply each year (official)."
+      },
+      "requiredDocuments": [
+        "Caltech admission application with International Financial Aid Statement of Intent",
+        "CSS Profile (official)",
+        "Parents' tax return and Caltech scholarship data form (official)"
+      ],
+      "applicationMethod": "Choose aid at time of admission application; submit CSS Profile and documents by posted deadlines.",
+      "deadlines": {
+        "Restrictive Early Action": "1 Nov (official)",
+        "Regular Decision": "4 Jan (official)",
+        "CSS Profile": "1 Feb before the term (official)",
+        "Parents' tax form": "15 July before the term (official)"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Costs not covered by need assessment"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "caltech-international-financial-aid",
+        "caltech-application-requirements"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-verified",
+      "verificationNote": "Policy and deadlines from Caltech's official aid statement. Individual amounts depend on assessment.",
+      "scholarshipTypes": [
+        "need",
+        "institutional"
+      ]
+    },
+    {
+      "id": "tum-international-scholarship",
+      "universityId": "technical-university-munich",
+      "name": "TUM Scholarship for international students (grant and tuition waiver)",
+      "funder": "Technical University of Munich",
+      "awardType": "mixed",
+      "classification": "partial",
+      "classificationNote": "Official: a one-time study grant of 500 to 1,800 euros per semester, and tuition waivers for outstanding performance or financial need, credited against tuition (not paid out). Each application is reviewed individually.",
+      "coverage": {
+        "tuition": "Waiver credited against tuition (amount depends on award)",
+        "living": "Grant of 500 to 1,800 euros per semester (official)"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Non-EU/EEA students who must pay tuition (official).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Bachelor's and Master's programmes at TUM (official).",
+        "citizenshipOrResidency": "Non-EU/EEA citizenship; tuition payers.",
+        "nonUsApplicantNote": "Non-EU/EEA citizenship; tuition payers.",
+        "academicConditions": "Academic performance and financial circumstances (official).",
+        "renewalConditions": "Applications can be submitted again each semester (official)."
+      },
+      "requiredDocuments": [
+        "Application through TUM portal",
+        "Financial evidence (not verified in detail)"
+      ],
+      "applicationMethod": "Apply by the deadline (see official page); reviewed individually.",
+      "deadlines": {
+        "bachelor's window (excerpt, verify)": "15 May to 15 July for the following winter semester"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Tuition and semester fee beyond the award",
+        "Living costs beyond the grant"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "tum-tuition-fees",
+        "tum-scholarship-international"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open.",
+      "scholarshipTypes": [
+        "merit",
+        "need",
+        "institutional"
+      ]
+    },
+    {
+      "id": "u-toronto-international-scholar-award",
+      "universityId": "university-toronto",
+      "name": "University of Toronto International Scholar Award (faculty-dependent)",
+      "funder": "University of Toronto",
+      "awardType": "merit-based",
+      "classification": "partial",
+      "classificationNote": "Official Rotman page: automatic for selected international admits on merit, up to CAD 100,000 over four years (up to CAD 40,000 in year one). Values differ by faculty; the excerpt gives the Rotman figures only.",
+      "coverage": {
+        "tuition": "Part of tuition (amount depends on faculty and award)",
+        "living": "Not covered by the award"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "International students (official).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Faculty-dependent (Rotman example).",
+        "citizenshipOrResidency": "Non-Canadian admits.",
+        "nonUsApplicantNote": "Non-Canadian admits.",
+        "academicConditions": "Merit (official).",
+        "renewalConditions": "Not recorded beyond the award terms."
+      },
+      "requiredDocuments": [
+        "Admission (automatic)"
+      ],
+      "applicationMethod": "Automatic on admission; no separate application listed in the excerpt.",
+      "deadlines": {
+        "per-faculty": "Set at admission"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Most tuition and living costs (official: most scholarships do not cover full cost)"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "toronto-international-financial-aid"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
+    },
+    {
+      "id": "u-toronto-pearson-scholarship",
+      "universityId": "university-toronto",
+      "name": "Lester B. Pearson International Scholarship",
+      "funder": "University of Toronto",
+      "awardType": "merit-based",
+      "classification": "full-cost-of-attendance",
+      "classificationNote": "Official: tuition, books, incidental fees and full residence support for four years. Requires school nomination (one per school). For Sep 2027 entry the nomination deadline was 9 Oct 2026, which has passed.",
+      "coverage": {
+        "tuition": "Full (official)",
+        "living": "Full residence support (official; living allowance not specified)"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Non-Canadian citizens requiring a study permit (official).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "First-entry undergraduate programmes only (official).",
+        "citizenshipOrResidency": "Non-Canadians; school nomination required.",
+        "nonUsApplicantNote": "Non-Canadians; school nomination required.",
+        "academicConditions": "Nomination by school; selection on academics, creativity, leadership (official).",
+        "renewalConditions": "Four years (official)."
+      },
+      "requiredDocuments": [
+        "School nomination",
+        "Scholarship application (November 6, 2026 per excerpt)"
+      ],
+      "applicationMethod": "Nomination by secondary school via online process; scholarship is not open to direct applicants.",
+      "deadlines": {
+        "school nomination": "9 Oct 2026 (passed for 2027 entry)"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Living costs beyond residence support (not verified)"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "toronto-pearson-scholarship"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
+    },
+    {
+      "id": "melbourne-international-undergraduate-scholarship",
+      "universityId": "university-melbourne",
+      "name": "Melbourne International Undergraduate Scholarship",
+      "funder": "University of Melbourne",
+      "awardType": "merit-based",
+      "classification": "partial",
+      "classificationNote": "Official: 20% fee remission from 2027 entry (25% before), selection by final secondary school results. Eligibility requires citizenship of a country with GDP per capita of US$10,000 or less. Pakistan's status on the World Bank list was not checked in this batch.",
+      "coverage": {
+        "tuition": "20% fee remission (official, 2027 entry)",
+        "living": "Not covered"
+      },
+      "eligibility": {
+        "applicantScope": "nationalities",
+        "applicantScopeNote": "Citizens of countries with GDP per capita of US$10,000 or less (official). Pakistan not verified.",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Bachelor's degrees with an Overseas Fee offer (official).",
+        "citizenshipOrResidency": "Citizenship criterion (not confirmed for Pakistan).",
+        "nonUsApplicantNote": "Citizenship criterion (not confirmed for Pakistan).",
+        "academicConditions": "Ranked on final secondary school results (official).",
+        "renewalConditions": "Can be deferred to the following academic year (official)."
+      },
+      "requiredDocuments": [
+        "Overseas Fee offer (automatic consideration)"
+      ],
+      "applicationMethod": "Automatic consideration once you apply for a course.",
+      "deadlines": {
+        "outcome": "Within five working days of course offer (official)"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "80% of fees",
+        "All living costs"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "melbourne-mius"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
+    },
+    {
+      "id": "melbourne-international-excellence-undergraduate",
+      "universityId": "university-melbourne",
+      "name": "Melbourne International Excellence Scholarship (Undergraduate)",
+      "funder": "University of Melbourne",
+      "awardType": "merit-based",
+      "classification": "partial",
+      "classificationNote": "Official: 20% tuition fee sponsorship for students starting from 2027 with no previous tertiary study. Automatic, no application.",
+      "coverage": {
+        "tuition": "20% (official)",
+        "living": "Not covered"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "International students with an Overseas Fee offer for 2027 (official).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Bachelor's degrees (official).",
+        "citizenshipOrResidency": "Non-Australian and non-NZ (assumed; check).",
+        "nonUsApplicantNote": "Non-Australian and non-NZ (assumed; check).",
+        "academicConditions": "No previous tertiary study (official).",
+        "renewalConditions": "One or more years (official)."
+      },
+      "requiredDocuments": [
+        "Offer for an Overseas Fee place"
+      ],
+      "applicationMethod": "Automatic (no application required, per official page).",
+      "deadlines": {
+        "start": "2027 commencement"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "80% of fees",
+        "Living costs"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "melbourne-international-excellence"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
+    },
+    {
+      "id": "mext-japanese-government-scholarship",
+      "universityId": "university-tokyo",
+      "name": "Japanese Government (MEXT) Scholarship",
+      "funder": "Government of Japan (MEXT)",
+      "awardType": "external",
+      "classification": "full-tuition",
+      "classificationNote": "Official: MEXT grantees do not pay tuition and certain other fees (UTokyo tuition page). Stipend amount for undergraduates and airfare not verified from an official page in this batch (secondary sources only).",
+      "coverage": {
+        "tuition": "Covered (official)",
+        "living": "Monthly stipend (amount not verified for undergraduates)",
+        "travel": "Airfare (secondary sources only)"
+      },
+      "eligibility": {
+        "applicantScope": "nationalities",
+        "applicantScopeNote": "Embassy or university recommendation; eligibility depends on the embassy list for the applicant's country (Pakistan not verified).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Undergraduate and research student tracks (official).",
+        "citizenshipOrResidency": "Applicant's country and embassy list not verified.",
+        "nonUsApplicantNote": "Applicant's country and embassy list not verified.",
+        "academicConditions": "Embassy and university screening (official).",
+        "renewalConditions": "Scholarship period per MEXT rules."
+      },
+      "requiredDocuments": [
+        "Embassy or university application (see official pages)"
+      ],
+      "applicationMethod": "Through the Japanese embassy in the home country or the university recommendation route.",
+      "deadlines": {
+        "embassy route": "Usually March to May (secondary source; verify)"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Costs not listed as covered by MEXT (not verified)"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "tokyo-tuition-fees",
+        "tokyo-mext-scholarship"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open.",
+      "scholarshipTypes": [
+        "national"
+      ]
+    },
+    {
+      "id": "u-tokyo-peak-scholarship",
+      "universityId": "university-tokyo",
+      "name": "University of Tokyo Scholarship for PEAK students",
+      "funder": "University of Tokyo (PEAK)",
+      "awardType": "merit-based",
+      "classification": "full-cost-of-attendance",
+      "classificationNote": "Official excerpt of a PEAK page dated 2023: up to ten students, covering admission fee, tuition and living expenses (126,000 yen per month). Current-year terms must be verified.",
+      "coverage": {
+        "tuition": "Covered (dated page)",
+        "living": "126,000 yen per month (dated page)"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Students in the PEAK programme (English-taught).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "PEAK programme only.",
+        "citizenshipOrResidency": "Not verified.",
+        "nonUsApplicantNote": "Not verified.",
+        "academicConditions": "Exceptional merit (official).",
+        "renewalConditions": "Four years (dated page)."
+      },
+      "requiredDocuments": [
+        "PEAK application"
+      ],
+      "applicationMethod": "Apply through the PEAK programme application.",
+      "deadlines": {
+        "PEAK application": "Verify current year"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Costs beyond the stated coverage"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "tokyo-peak-scholarship"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "unverified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
+    },
+    {
+      "id": "edinburgh-global-mathematics-scholarship",
+      "universityId": "university-edinburgh",
+      "name": "Edinburgh Global Undergraduate Mathematics Scholarship",
+      "funder": "University of Edinburgh",
+      "awardType": "merit-based",
+      "classification": "partial",
+      "classificationNote": "Official: GBP 5,000 per year toward living costs, for international fee-status undergraduates in the School of Mathematics. It is not for students on other programmes.",
+      "coverage": {
+        "living": "GBP 5,000 per year (official)",
+        "tuition": "Not covered"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "International fee status (official).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": [
+          "mathematics-statistics"
+        ],
+        "programmeScopeNote": "Only undergraduate degrees hosted in the School of Mathematics (official). Mapped to the mathematics-statistics family.",
+        "citizenshipOrResidency": "Non-UK and non-Irish nationals with international fee status (official).",
+        "nonUsApplicantNote": "Non-UK and non-Irish nationals with international fee status (official).",
+        "academicConditions": "Outstanding academic performance (official).",
+        "renewalConditions": "Renewable (official wording: paid in instalments)."
+      },
+      "requiredDocuments": [
+        "UCAS application (official)"
+      ],
+      "applicationMethod": "Applied via UCAS; no offer needed to start the scholarship application (official).",
+      "deadlines": {
+        "deadline": "Check official page"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Tuition fees (international rate)",
+        "Most living costs"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "edinburgh-maths-scholarship",
+        "edinburgh-international-undergraduate"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
+    },
+    {
+      "id": "ntu-nanyang-scholarship",
+      "universityId": "nanyang-technological-university-singapore-ntu-singapore",
+      "name": "NTU Nanyang Scholarship (undergraduate)",
+      "funder": "Nanyang Technological University",
+      "awardType": "merit-based",
+      "classification": "full-tuition",
+      "classificationNote": "Official brochure: full coverage of subsidised tuition (after Tuition Grant), living allowance S$6,500 per year, accommodation up to S$2,000 for hostel residents, travel grant up to S$8,000. Eligibility for Pakistani applicants not verified.",
+      "coverage": {
+        "tuition": "Full subsidised tuition (after Tuition Grant)",
+        "living": "S$6,500 per year (official brochure)",
+        "accommodation": "Up to S$2,000 per year (hostel residents)",
+        "travel": "Up to S$8,000 (official brochure)",
+        "computer": "S$2,000 one-off (official brochure; aggregators say S$1,750, conflict)"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Official brochure: applies to undergraduate applicants (nationality rules not verified here).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Undergraduate programmes at NTU (official brochure).",
+        "citizenshipOrResidency": "Not verified for Pakistan.",
+        "nonUsApplicantNote": "Not verified for Pakistan.",
+        "academicConditions": "Merit (official brochure).",
+        "renewalConditions": "Renewal per academic performance (official brochure)."
+      },
+      "requiredDocuments": [
+        "NTU admission application (scholarship assessed with admission)"
+      ],
+      "applicationMethod": "Assessed through the NTU admission application.",
+      "deadlines": {
+        "UG international applications": "Opened 15 Oct 2026 per secondary sources; verify on official site"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Living costs beyond S$6,500 per year"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "ntu-undergraduate-scholarships-brochure",
+        "ntu-undergraduate-tuition"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; items marked not verified remain open.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
+    },
+    {
+      "id": "kaist-scholarship-undergraduate",
+      "universityId": "kaist",
+      "name": "KAIST Scholarship (international undergraduate)",
+      "funder": "KAIST",
+      "awardType": "merit-based",
+      "classification": "full-tuition",
+      "classificationNote": "Official KAIST admission FAQ: awarded to admitted international students with no separate application; GPA above 2.7 out of 4.3 after the freshman year. Tuition and stipend amounts from secondary sources, not the official pages read.",
+      "coverage": {
+        "tuition": "Full tuition for 8 semesters (secondary sources)",
+        "living": "Monthly stipend of KRW 350,000 (secondary sources)",
+        "health": "National health insurance (secondary sources)"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Foreign citizenship required; Korean citizens (including dual) cannot apply as international students (official applicant page).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Undergraduate admission (official).",
+        "citizenshipOrResidency": "Foreign citizenship (official applicant page).",
+        "nonUsApplicantNote": "Foreign citizenship (official applicant page).",
+        "academicConditions": "GPA above 2.7 out of 4.3 after freshman year (official).",
+        "renewalConditions": "Maintain GPA (official)."
+      },
+      "requiredDocuments": [
+        "KAIST international application (scholarship box ticked)"
+      ],
+      "applicationMethod": "No separate scholarship application; tick the KAIST Scholarship option in the financial resources section (official FAQ).",
+      "deadlines": {
+        "2027 entry (secondary sources, verify)": "Early round 22 Oct 2026; regular round 14 Jan 2027"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Costs not covered by tuition and stipend, e.g. housing, meals (secondary sources)"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "kaist-international-scholarship",
+        "kaist-application-guide"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; items marked not verified remain open.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
+    },
+    {
+      "id": "sydney-international-student-award",
+      "universityId": "university-sydney",
+      "name": "Sydney International Student Award",
+      "funder": "University of Sydney",
+      "awardType": "merit-based",
+      "classification": "partial",
+      "classificationNote": "Official: 20% of tuition for the duration of the course for outstanding students from selected nationalities. Pakistan not confirmed as a selected nationality in this batch.",
+      "coverage": {
+        "tuition": "20% of tuition (official)",
+        "living": "Not covered"
+      },
+      "eligibility": {
+        "applicantScope": "nationalities",
+        "applicantScopeNote": "Selected nationalities only (official). Pakistan not verified.",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Undergraduate and coursework postgraduate degrees where fees are payable to Sydney (official).",
+        "citizenshipOrResidency": "Selected nationalities (not verified for Pakistan).",
+        "nonUsApplicantNote": "Selected nationalities (not verified for Pakistan).",
+        "academicConditions": "Personal statement; entry criteria (official).",
+        "renewalConditions": "No outstanding fees (official)."
+      },
+      "requiredDocuments": [
+        "Personal statement with admission application"
+      ],
+      "applicationMethod": "Applied through the admission application (official).",
+      "deadlines": {
+        "commencing 2027": "Applies to new commencements in 2027 (official)"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "80% of tuition",
+        "Living costs"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "sydney-international-student-award"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; items marked not verified remain open.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
+    },
+    {
+      "id": "sydney-academic-excellence-undergraduate",
+      "universityId": "university-sydney",
+      "name": "Sydney International Undergraduate Academic Excellence Scholarship",
+      "funder": "University of Sydney",
+      "awardType": "merit-based",
+      "classification": "full-tuition",
+      "classificationNote": "Official: 100% tuition fees and SSAF for the published full-time duration of a single undergraduate degree (max 4 years); awarded to students with top marks in their home curriculum. Pakistan eligibility not verified.",
+      "coverage": {
+        "tuition": "100% (official)",
+        "fees": "Student Services and Amenities Fee (official)",
+        "living": "Not covered (official)"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "International applicants who have not commenced a single undergraduate coursework degree (official).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Single undergraduate degree (official).",
+        "citizenshipOrResidency": "Top marks in home curriculum (official).",
+        "nonUsApplicantNote": "Top marks in home curriculum (official).",
+        "academicConditions": "Semester Average Mark of 65 (official).",
+        "renewalConditions": "Maintain SAM 65 and complete within full-time duration (official)."
+      },
+      "requiredDocuments": [
+        "Application through admissions (not verified in detail)"
+      ],
+      "applicationMethod": "Apply through admission (per official excerpt).",
+      "deadlines": {
+        "status": "Open per official excerpt (verify)"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Living costs",
+        "Overseas health cover",
+        "Accommodation"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "sydney-academic-excellence",
+        "sydney-tuition-fees"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; items marked not verified remain open.",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ]
+    },
+    {
+      "id": "pku-international-scholarship",
+      "universityId": "peking-university",
+      "name": "Peking University Scholarship for International Students",
+      "funder": "Peking University (institutional)",
+      "awardType": "merit-based",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ],
+      "classification": "unconfirmed",
+      "classificationNote": "Official page: full or partial tuition exemption, living stipend and medical insurance. Amount for each award is not stated.",
+      "coverage": {
+        "tuition": "Full or partial exemption (official page).",
+        "livingStipend": "Monthly living expenses (official page).",
+        "healthInsurance": "Medical insurance (official page).",
+        "accommodationAndMeals": "Not stated.",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Open to non-Chinese citizens holding a valid foreign passport; undergraduate applicants are assessed automatically after admission.",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "Non-Chinese citizen with a valid foreign passport (official page).",
+        "nonUsApplicantNote": "Pakistan is not excluded in the official excerpt; no Pakistan-specific rule found.",
+        "academicConditions": "Must meet the international admission requirements; must not hold other scholarship funding (official page).",
+        "renewalConditions": "Not stated for undergraduates in the excerpt."
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "No separate application for undergraduate applicants: the university awards merit-based scholarships to admitted students (official page).",
+      "deadlines": {
+        "undergraduate": "Not stated for 2027 entry; the scholarship is decided after admission."
+      },
+      "selectionStatistics": "Not verified.",
+      "uncoveredCosts": [
+        "Accommodation, meals and travel not stated."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not stated in the source.",
+      "sources": [
+        "pku-isd-undergrad-2026",
+        "pku-scholarship-international"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Scope and value are from official excerpts. Selection rate and per-student amounts not verified."
+    },
+    {
+      "id": "beijing-government-scholarship-international",
+      "universityId": "peking-university",
+      "name": "Beijing Government Scholarship for International Students (Types A, B, C)",
+      "funder": "Beijing Municipal Government",
+      "awardType": "external",
+      "scholarshipTypes": [
+        "national"
+      ],
+      "classification": "unconfirmed",
+      "classificationNote": "Official page describes Type A (tuition, housing, stipend, insurance), Type B (tuition, housing, insurance) and Type C (tuition, insurance). Bachelor coverage is not confirmed on the excerpt.",
+      "coverage": {
+        "tuition": "Full or partial waiver by type (official page for graduate level).",
+        "livingStipend": "Type A only (official page).",
+        "healthInsurance": "Types A, B, C (official page).",
+        "accommodationAndMeals": "Types A and B (official page).",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Applies to international students admitted to Peking University; applicants are considered together with the PKU scholarship.",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "Non-Chinese citizen with a valid foreign passport (official page).",
+        "nonUsApplicantNote": "Pakistan is not excluded in the excerpt; not verified for undergraduates.",
+        "academicConditions": "Must meet the admission requirements; must not hold other government or university scholarships (official page; one-time merit awards excepted).",
+        "renewalConditions": "Not stated for undergraduate students."
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "Automatic from the PKU application system; no separate application is needed for undergraduate applicants (official page excerpt).",
+      "deadlines": {
+        "undergraduate": "Not verified for 2027 entry."
+      },
+      "selectionStatistics": "Not verified.",
+      "uncoveredCosts": [
+        "Type C does not cover living costs; amounts per type are not stated for undergraduates."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not stated in the source.",
+      "sources": [
+        "pku-beijing-government-scholarship",
+        "pku-isd-undergrad-2026"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "unverified",
+      "verificationNote": "Undergraduate coverage not confirmed on an official undergraduate page. The \"no separate application\" claim is from secondary sources only."
+    },
+    {
+      "id": "chinese-government-scholarship-peku",
+      "universityId": "peking-university",
+      "name": "Chinese Government Scholarship (CSC) via Peking University",
+      "funder": "China Scholarship Council (Ministry of Education)",
+      "awardType": "external",
+      "scholarshipTypes": [
+        "national"
+      ],
+      "classification": "unconfirmed",
+      "classificationNote": "Type A is processed through the home country dispatch route (Chinese embassy or consulate). Type B is applied for through the CSC system. Amounts are not stated in the excerpts.",
+      "coverage": {
+        "tuition": "Not stated in the excerpt.",
+        "livingStipend": "Not stated in the excerpt.",
+        "healthInsurance": "Not stated in the excerpt.",
+        "accommodationAndMeals": "Not stated in the excerpt.",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Open to non-Chinese citizens; Type A runs through the home country dispatch route.",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "Non-Chinese citizen with a valid foreign passport (official page).",
+        "nonUsApplicantNote": "Type A country list not verified for Pakistan.",
+        "academicConditions": "Type A for bachelor applicants requires a CSCA score (official page excerpt); Type B has its own CSC steps.",
+        "renewalConditions": "Not stated."
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "Type A: apply through the dispatch route, then complete the CSC registration. Type B: separate CSC registration after the PKU application (official page excerpt).",
+      "deadlines": {
+        "typeA": "Through the home country route; dates vary.",
+        "typeB": "Separate CSC application after the PKU application."
+      },
+      "selectionStatistics": "Not verified.",
+      "uncoveredCosts": [
+        "Not stated in the excerpt."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not stated in the source.",
+      "sources": [
+        "pku-isd-2026-no-exam"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Type A country eligibility for Pakistan not verified. CSCA requirements from the official excerpt."
+    },
+    {
+      "id": "cuhk-admission-scholarships-non-local",
+      "universityId": "chinese-university-hong-kong-cuhk",
+      "name": "CUHK Admission Scholarships (undergraduate, non-local)",
+      "funder": "The Chinese University of Hong Kong",
+      "awardType": "merit-based",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ],
+      "classification": "partial",
+      "classificationNote": "Official page: HK$5,000 to full tuition coverage per award; some awards add an allowance of up to HK$66,000 per year. Each award is set by CUHK.",
+      "coverage": {
+        "tuition": "HK$5,000 to full tuition (official page).",
+        "livingStipend": "Allowance up to HK$66,000 per year on some awards (official page).",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Not stated.",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Non-local applicants who need a student visa or entry permit to study in Hong Kong (official FAQ).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "Non-local status: needs a student visa or entry permit (official FAQ).",
+        "nonUsApplicantNote": "Non-local status applies; Pakistan has no separate rule in the excerpts.",
+        "academicConditions": "Admitted to a full-time undergraduate programme; the excerpt does not list a GPA rule for the first award.",
+        "renewalConditions": "Many awards renew for the normative period subject to satisfactory academic progress (official page)."
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "No application: CUHK selects recipients and sends offers with the admission offer (official FAQ).",
+      "deadlines": {
+        "applicationRound": "Application opened 2 Oct 2026 (official homepage). Regular round deadline 7 Jan 2027."
+      },
+      "selectionStatistics": "Not verified.",
+      "uncoveredCosts": [
+        "Accommodation, travel and visa not stated."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not stated in the source.",
+      "sources": [
+        "cuhk-admission-scholarships",
+        "cuhk-faq",
+        "cuhk-home-2027-open"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Value range and automatic selection are from the official page. Per-student amounts and criteria are not published."
+    },
+    {
+      "id": "hksar-government-scholarship-cuhk",
+      "universityId": "chinese-university-hong-kong-cuhk",
+      "name": "HKSAR Government Scholarship (non-local undergraduates)",
+      "funder": "Government of the Hong Kong Special Administrative Region (via CUHK nomination)",
+      "awardType": "external",
+      "scholarshipTypes": [
+        "national"
+      ],
+      "classification": "partial",
+      "classificationNote": "Official CUHK page: HK$80,000 per year for non-local students; HK$40,000 per year for local students. The excerpt does not state how the money is paid.",
+      "coverage": {
+        "tuition": "Not stated whether paid to the university or the student.",
+        "livingStipend": "Not stated.",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Not stated.",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "For non-local students nominated by CUHK to the Education Bureau.",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "Non-local student status (official page).",
+        "nonUsApplicantNote": "Pakistan has no separate rule in the excerpt.",
+        "academicConditions": "Nominated by CUHK; no separate application needed (official page and secondary sources).",
+        "renewalConditions": "Not stated."
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "No separate application: CUHK nominates suitable students (official page excerpt; secondary sources agree).",
+      "deadlines": {
+        "nomination": "Decided by CUHK when offers are issued."
+      },
+      "selectionStatistics": "Not verified.",
+      "uncoveredCosts": [
+        "Full coverage not implied: HK$80,000 is about one third of the HK$230,000 non-local tuition for 2027-28."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not stated in the source.",
+      "sources": [
+        "cuhk-admission-scholarships",
+        "cuhk-fees-2027"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Amount is from the official CUHK page. Payment method and whether it can be combined with other awards are not verified in the excerpt."
+    },
+    {
+      "id": "unsw-international-student-award",
+      "universityId": "university-new-south-wales-unsw-sydney",
+      "name": "International Student Award (UNSW Sydney)",
+      "funder": "UNSW Sydney",
+      "awardType": "mixed",
+      "scholarshipTypes": [
+        "institutional"
+      ],
+      "classification": "partial",
+      "classificationNote": "Official page: 20% toward tuition for every year of the programme for citizens of eligible countries starting 2026 or 2027.",
+      "coverage": {
+        "tuition": "20% of tuition each year (official page).",
+        "livingStipend": "Not included.",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Not included.",
+        "travelAndVisa": "Not included.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "nationalities",
+        "applicantScopeNote": "Citizens of eligible countries commencing full-time on-campus study in an eligible UNSW program (official page).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "Citizen of an eligible country (official page); the list was not fetched in full.",
+        "nonUsApplicantNote": "Pakistan appears in the 2027 entry table, but this does not prove it is on the award list.",
+        "academicConditions": "Must not be a current UNSW student; must be a new full-time on-campus student (official page).",
+        "renewalConditions": "Continues for each year of the programme (official page).",
+        "nationalities": [
+          "Eligible-country list (Pakistan status not verified from the UNSW list)"
+        ]
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "Automatic if eligible; no separate application stated on the excerpt.",
+      "deadlines": {
+        "start2027": "Starting in 2027 (official page)."
+      },
+      "selectionStatistics": "Not verified.",
+      "uncoveredCosts": [
+        "Living costs, fees and insurance not covered."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not stated in the source.",
+      "sources": [
+        "unsw-international-student-award",
+        "unsw-international-scholarships"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "The 20% value is from the official page. Pakistan eligibility must be checked on the full eligible-country list."
+    },
+    {
+      "id": "unsw-international-scholarship-term1-2027",
+      "universityId": "university-new-south-wales-unsw-sydney",
+      "name": "UNSW Scholarships for International Students commencing Term 1, 2027 (PUCA1029)",
+      "funder": "UNSW Scholarships",
+      "awardType": "merit-based",
+      "scholarshipTypes": [
+        "institutional"
+      ],
+      "classification": "partial",
+      "classificationNote": "Official page: minimum AUD 5,000 for one year. Larger values are not stated on this page.",
+      "coverage": {
+        "tuition": "Minimum AUD 5,000 toward the course (official page).",
+        "livingStipend": "Not stated.",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Not stated.",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "International student commencing full-time on-campus study in an eligible UNSW undergraduate coursework program in Term 1, 2027.",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "International student status (official page).",
+        "nonUsApplicantNote": "Pakistan has no separate rule in the excerpt.",
+        "academicConditions": "Must have an unconditional or eligible conditional offer by 30 Oct 2026 (official page).",
+        "renewalConditions": "Not stated."
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "Application through the UNSW Scholarships system before the closing date (official page excerpt).",
+      "deadlines": {
+        "closes": "30 Oct 2026 (official page). Opened 15 Jul 2026."
+      },
+      "selectionStatistics": "Not verified.",
+      "uncoveredCosts": [
+        "Most costs are not covered by the minimum award."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not stated in the source.",
+      "sources": [
+        "unsw-scholarships-term1-2027",
+        "unsw-international-scholarships"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Closing date 30 Oct 2026 is from the official page. The application steps are from the excerpt only."
+    },
+    {
+      "id": "unsw-college-regional-merit",
+      "universityId": "university-new-south-wales-unsw-sydney",
+      "name": "UNSW College Regional Merit Scholarship (South Asia)",
+      "funder": "UNSW College (for UNSW College courses)",
+      "awardType": "merit-based",
+      "scholarshipTypes": [
+        "regional"
+      ],
+      "classification": "unconfirmed",
+      "classificationNote": "Official page lists the eligible region and nationalities. Value and terms are not in the excerpt.",
+      "coverage": {
+        "tuition": "Not stated.",
+        "livingStipend": "Not stated.",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Not stated.",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "nationalities",
+        "applicantScopeNote": "Applies to UNSW College students from the listed South Asian regions (official page).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "South Asia region including Pakistan (official page).",
+        "nonUsApplicantNote": "Listed in the official excerpt for UNSW College.",
+        "academicConditions": "Not stated.",
+        "renewalConditions": "Not stated.",
+        "nationalities": [
+          "Bangladesh",
+          "India",
+          "Nepal",
+          "Pakistan",
+          "Sri Lanka"
+        ]
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "Not stated in the excerpt.",
+      "deadlines": {
+        "notStated": "Not stated in the excerpt."
+      },
+      "selectionStatistics": "Not verified.",
+      "uncoveredCosts": [
+        "Value and terms not stated."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not stated in the source.",
+      "sources": [
+        "unsw-college-scholarships"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "unverified",
+      "verificationNote": "Only the region list is verified. Amount and selection are not. This route is for UNSW College entry, not direct UNSW degree entry."
+    },
+    {
+      "id": "yale-need-based-aid-international",
+      "universityId": "yale-university",
+      "name": "Yale need-based financial aid (international applicants)",
+      "funder": "Yale University (institutional)",
+      "awardType": "need-based",
+      "scholarshipTypes": [
+        "need"
+      ],
+      "classification": "full-cost-of-attendance",
+      "classificationNote": "Yale states its aid meets 100% of demonstrated need, and international students get the same need-based aid as domestic applicants (official). Amounts are set per family.",
+      "coverage": {
+        "tuition": "Covered to the extent of need (official).",
+        "livingStipend": "Not stated; allowances for housing, meals and travel are included (official page).",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Housing and meals allowances included (official page).",
+        "travelAndVisa": "Travel to and from campus twice a year included (official page); visa not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "all-applicants",
+        "applicantScopeNote": "All admitted applicants are eligible regardless of citizenship; international students are considered need-blind (official).",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to all undergraduate programmes at the university (official aid policy).",
+        "citizenshipOrResidency": "International (non-US, non-permanent-resident) applicants are considered need-aware at admission (official page).",
+        "nonUsApplicantNote": "All admitted applicants are eligible regardless of citizenship; international students are considered need-blind (official).",
+        "academicConditions": "Admission is need-blind; an award depends on the aid application.",
+        "renewalConditions": "Aid renews for the normative length of the degree while need is unchanged (official page excerpts)."
+      },
+      "requiredDocuments": [
+        "CSS Profile (official page)",
+        "Parents' income documents (official page)"
+      ],
+      "applicationMethod": "Apply through the admissions application by indicating interest in aid; complete Yale's aid forms (CSS Profile code 3987) and submit income documents (official pages).",
+      "deadlines": {
+        "earlyActionInternational": "1 Dec 2026 (official finaid page)",
+        "regularDecision": "15 Feb 2027 (official finaid page)"
+      },
+      "selectionStatistics": "Not published for this award; university states it meets 100% of demonstrated need for admitted students who apply for aid.",
+      "uncoveredCosts": [
+        "Costs beyond the family's need are not covered by the award."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Scholarships, not loans (official page).",
+      "sources": [
+        "yale-international",
+        "yale-affordability",
+        "yale-finaid-prospective",
+        "yale-finaid-faq"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-verified",
+      "verificationNote": "Policy and deadlines from official pages. Yale's own FAQ and affordability page give different CSS Profile requirements for international applicants; the record follows the stated requirement on the prospective-student page."
+    },
+    {
+      "id": "cornell-international-need-aid",
+      "universityId": "cornell-university",
+      "name": "Cornell need-aware financial aid (international applicants)",
+      "funder": "Cornell University (institutional)",
+      "awardType": "need-based",
+      "scholarshipTypes": [
+        "need"
+      ],
+      "classification": "partial",
+      "classificationNote": "Cornell states it meets 100% of demonstrated need for admitted international undergraduates with grants, a work-study award and reasonable loans depending on family income (official).",
+      "coverage": {
+        "tuition": "Covered to the extent of need (official).",
+        "livingStipend": "Not stated.",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Included in cost of attendance used for need (official page excerpt; not confirmed as covered in award).",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "International applicants: admission is need-aware. Aid must be requested at the time of admission; no later request is possible (official).",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to all undergraduate programmes at the university (official aid policy).",
+        "citizenshipOrResidency": "International (non-US, non-permanent-resident) applicants are considered need-aware at admission (official page).",
+        "nonUsApplicantNote": "International applicants: admission is need-aware. Aid must be requested at the time of admission; no later request is possible (official).",
+        "academicConditions": "Admission is need-aware; the aid request must be made at application.",
+        "renewalConditions": "Aid renews for the normative length of the degree while need is unchanged (official page excerpts)."
+      },
+      "requiredDocuments": [
+        "CSS Profile (official page)",
+        "Parents' income documents (official page)"
+      ],
+      "applicationMethod": "Request aid on the admissions application and complete the CSS Profile at admission (official page).",
+      "deadlines": {
+        "earlyDecision": "1 Nov 2026 (official finaid page)",
+        "regularDecision": "2 Jan 2027 (official finaid page)"
+      },
+      "selectionStatistics": "Not published for this award; university states it meets 100% of demonstrated need for admitted students who apply for aid.",
+      "uncoveredCosts": [
+        "Loans may be included depending on income (official)."
+      ],
+      "loansIncluded": true,
+      "loansNote": "Reasonable loans may be included depending on total family income (official page).",
+      "sources": [
+        "cornell-first-year-applicants",
+        "cornell-finaid-international",
+        "cornell-finaid-faq",
+        "studyu-cornell-secondary"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-verified",
+      "verificationNote": "Policy and deadlines verified from official pages. Average award figures are not verified."
+    },
+    {
+      "id": "upenn-international-need-aid",
+      "universityId": "university-pennsylvania",
+      "name": "Penn need-based grant aid (international applicants)",
+      "funder": "University of Pennsylvania (institutional)",
+      "awardType": "need-based",
+      "scholarshipTypes": [
+        "need"
+      ],
+      "classification": "full-cost-of-attendance",
+      "classificationNote": "Penn meets 100% of demonstrated need for admitted international students with grants and work-study, with no loans (official). Grants are institutional because international students are not eligible for federal funds.",
+      "coverage": {
+        "tuition": "Covered to the extent of need (official).",
+        "livingStipend": "Not stated.",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Included in cost of attendance for need calculation (official).",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "International applicants (non-citizens and non-permanent residents of the US, Canada and Mexico) are need-aware; aid must be requested at admission (official).",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to all undergraduate programmes at the university (official aid policy).",
+        "citizenshipOrResidency": "International (non-US, non-permanent-resident) applicants are considered need-aware at admission (official page).",
+        "nonUsApplicantNote": "International applicants (non-citizens and non-permanent residents of the US, Canada and Mexico) are need-aware; aid must be requested at admission (official).",
+        "academicConditions": "Admission is need-aware; aid must be requested when applying.",
+        "renewalConditions": "Aid renews for the normative length of the degree while need is unchanged (official page excerpts)."
+      },
+      "requiredDocuments": [
+        "CSS Profile (official page)",
+        "Parents' income documents (official page)"
+      ],
+      "applicationMethod": "Submit the CSS Profile and tax or income documents with the admission application (official page).",
+      "deadlines": {
+        "applyForAid": "Same time as admission (official page); exact deadline on the aid checklist, not captured here."
+      },
+      "selectionStatistics": "Not published for this award; university states it meets 100% of demonstrated need for admitted students who apply for aid.",
+      "uncoveredCosts": [
+        "Any need not covered by the grant package."
+      ],
+      "loansIncluded": false,
+      "loansNote": "No loans in the package (official).",
+      "sources": [
+        "penn-srfs-international",
+        "penn-admissions-intl-aid",
+        "penn-admissions-financial-aid",
+        "penn-cds-secondary"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-verified",
+      "verificationNote": "Policy verified from official pages. Admission rate and average package are from secondary sources only."
+    },
+    {
+      "id": "jhu-international-need-aid",
+      "universityId": "johns-hopkins-university",
+      "name": "Johns Hopkins need-based aid (international applicants)",
+      "funder": "Johns Hopkins University (institutional)",
+      "awardType": "need-based",
+      "scholarshipTypes": [
+        "need"
+      ],
+      "classification": "full-cost-of-attendance",
+      "classificationNote": "Johns Hopkins states it meets 100% of demonstrated need for admitted students, including international students, without loans (official). About 10% of international students receive aid (secondary, citing the university).",
+      "coverage": {
+        "tuition": "Covered to the extent of need (official).",
+        "livingStipend": "Not stated.",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Included in cost of attendance for need (official).",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "International students are need-aware at admission; aid must be requested at first-year application (official).",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to all undergraduate programmes at the university (official aid policy).",
+        "citizenshipOrResidency": "International (non-US, non-permanent-resident) applicants are considered need-aware at admission (official page).",
+        "nonUsApplicantNote": "International students are need-aware at admission; aid must be requested at first-year application (official).",
+        "academicConditions": "Admission is need-aware; aid must be requested at first-year application.",
+        "renewalConditions": "Aid renews for the normative length of the degree while need is unchanged (official page excerpts)."
+      },
+      "requiredDocuments": [
+        "CSS Profile (official page)",
+        "Parents' income documents (official page)"
+      ],
+      "applicationMethod": "Indicate aid on the admissions application, submit the CSS Profile (or Johns Hopkins International Student Financial Aid Application if the CSS cannot be completed), and submit the Certification of Finances (official).",
+      "deadlines": {
+        "financialAid": "15 Nov 2026 (first round) and 15 Jan 2027 (later rounds) (official deadlines page)"
+      },
+      "selectionStatistics": "Not published for this award; university states it meets 100% of demonstrated need for admitted students who apply for aid.",
+      "uncoveredCosts": [
+        "Need not covered by the package."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Loan-free packages (official).",
+      "sources": [
+        "jhu-international-applicants",
+        "jhu-common-aid-questions",
+        "jhu-deadlines",
+        "jhu-sfs-faq",
+        "studyu-jhu-secondary"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-verified",
+      "verificationNote": "Policy and deadlines from official pages. The \"10%\" figure is from secondary sources."
+    },
+    {
+      "id": "princeton-need-based-aid-international",
+      "universityId": "princeton-university",
+      "name": "Princeton need-based financial aid (international applicants)",
+      "funder": "Princeton University (institutional)",
+      "awardType": "need-based",
+      "scholarshipTypes": [
+        "need"
+      ],
+      "classification": "full-cost-of-attendance",
+      "classificationNote": "Princeton states it meets 100% of calculated need for aid applicants, including international students, with grants and no loans (official). The award is set per family.",
+      "coverage": {
+        "tuition": "Covered to the extent of need (official).",
+        "livingStipend": "Not stated.",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Included in need calculation and grant (official average-grant table, US families).",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "all-applicants",
+        "applicantScopeNote": "Need-blind admission and aid for all applicants, including international students (official).",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed undergraduate programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "Non-US citizens are considered on the same aid basis (official).",
+        "nonUsApplicantNote": "Non-US citizen status does not limit aid (official FAQ).",
+        "academicConditions": "Need-blind admission; aid applicants are not disadvantaged (official).",
+        "renewalConditions": "Renews while need continues (official policy; not quoted in excerpts)."
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "Complete the Princeton Financial Aid Application (PFAA); no CSS Profile or IDOC (official).",
+      "deadlines": {
+        "applicationForAid": "Princeton Financial Aid Application available 1 Oct 2026 (official). Deadlines: early action 1 Nov and regular decision 1 Jan (secondary only)."
+      },
+      "selectionStatistics": "Not published.",
+      "uncoveredCosts": [
+        "Costs beyond the calculated need."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Grants, not loans (official).",
+      "sources": [
+        "princeton-intl-students",
+        "princeton-how-aid-works",
+        "princeton-finaid-faqs",
+        "princeton-apply-aid-prospective",
+        "princeton-secondary-titans"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-verified",
+      "verificationNote": "Policy and aid form verified from official pages. Deadlines are secondary only."
+    },
+    {
+      "id": "berkeley-automatic-scholarships",
+      "universityId": "university-california-berkeley-ucb",
+      "name": "UC Berkeley automatic scholarship consideration (admitted students)",
+      "funder": "UC Berkeley (institutional, various)",
+      "awardType": "merit-based",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ],
+      "classification": "unconfirmed",
+      "classificationNote": "Official page: admitted students are automatically considered for scholarships. The official excerpts do not list amounts or the names of individual awards.",
+      "coverage": {
+        "tuition": "Not stated.",
+        "livingStipend": "Not stated.",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Not stated.",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "all-applicants",
+        "applicantScopeNote": "Admitted students are automatically considered (official page). Nonresident and international students are not eligible for need-based university gift aid (official FAQ).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed undergraduate programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "Admitted student status.",
+        "nonUsApplicantNote": "Nonresident and international students are not eligible for need-based gift aid (official).",
+        "academicConditions": "Meet UC minimum requirements; nonresident GPA minimum 3.4 (official quick reference guide).",
+        "renewalConditions": "Not stated in excerpts."
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "Automatic on admission (official page excerpt).",
+      "deadlines": {
+        "applicationForScholarships": "Not stated; automatic on admission (official page)."
+      },
+      "selectionStatistics": "Not published.",
+      "uncoveredCosts": [
+        "Nonresident supplemental tuition; no institutional need-based aid for international students."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not stated in the source.",
+      "sources": [
+        "berkeley-apply-aid",
+        "berkeley-newly-admitted-faqs",
+        "uc-quick-reference-guide",
+        "berkeley-secondary-unive"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Automatic consideration is verified. Award names, amounts and selection criteria are not verified."
+    },
+    {
+      "id": "epfl-bachelor-excellence-fellowship",
+      "universityId": "epfl-ecole-polytechnique-federale-de-lausanne",
+      "name": "EPFL Bachelor Excellence Fellowship",
+      "funder": "EPFL (institutional)",
+      "awardType": "merit-based",
+      "scholarshipTypes": [
+        "merit"
+      ],
+      "classification": "unconfirmed",
+      "classificationNote": "EPFL news item: a GPA of at least 5.3 out of 6 (or CMS) qualifies a bachelor applicant to apply. The award value is not stated in the excerpt.",
+      "coverage": {
+        "tuition": "Not stated.",
+        "livingStipend": "Not stated.",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Not stated.",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "all-applicants",
+        "applicantScopeNote": "Any bachelor applicant meeting the GPA threshold may apply (official news item, 2022).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed undergraduate programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "Not restricted by nationality in the excerpt; Pakistani certificates not verified.",
+        "nonUsApplicantNote": "Foreign certificate route not verified for Pakistan.",
+        "academicConditions": "GPA at least 5.3 out of 6 or CMS; cover letter, CV and two references (official news item).",
+        "renewalConditions": "Not stated."
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "Submitted with the bachelor application; the current-cycle process is not verified.",
+      "deadlines": {
+        "application": "Not stated for current cycle."
+      },
+      "selectionStatistics": "Not published.",
+      "uncoveredCosts": [
+        "Not stated."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not stated in the source.",
+      "sources": [
+        "epfl-bachelor-fellowship-news",
+        "epfl-bachelor-admission"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "unverified",
+      "verificationNote": "Only the 2022 news item was checked. The current-cycle value and process are not verified."
+    },
+    {
+      "id": "anu-chancellors-international",
+      "universityId": "australian-national-university-anu",
+      "name": "ANU Chancellor's International Scholarship",
+      "funder": "Australian National University (institutional)",
+      "awardType": "merit-based",
+      "scholarshipTypes": [
+        "merit"
+      ],
+      "classification": "partial",
+      "classificationNote": "Secondary source: AUD 10,000 to AUD 25,000 toward tuition, one-off or recurring. Not confirmed on the ANU official page.",
+      "coverage": {
+        "tuition": "AUD 10,000 to 25,000 toward tuition (secondary).",
+        "livingStipend": "Not stated.",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Not stated.",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "For high-achieving international students with a confirmed ANU offer (secondary).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed undergraduate programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "International applicant with a confirmed offer (secondary).",
+        "nonUsApplicantNote": "Not verified for Pakistan on the official page.",
+        "academicConditions": "High-achieving international students (secondary).",
+        "renewalConditions": "Not stated."
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "Application route not verified on the official page.",
+      "deadlines": {
+        "rounds": "15 May and 31 October (secondary)"
+      },
+      "selectionStatistics": "Not published.",
+      "uncoveredCosts": [
+        "Living costs and travel are not covered."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not stated in the source.",
+      "sources": [
+        "anu-chancellors-secondary"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "unverified",
+      "verificationNote": "Secondary source only. Amounts, rounds and eligibility must be checked on ANU's official scholarships page."
+    }
+  ]
+}

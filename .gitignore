@@ -1,0 +1,45 @@
+# dependencies
+node_modules/
+
+# next.js / build output
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# test output
+coverage/
+
+# environment files: never commit real values
+.env
+.env.*
+!.env.example
+
+# vercel
+.vercel/
+
+# logs and OS/editor noise
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# generated research exports and local scratch files
+data/exports/
+*.local.json
+
+# playwright
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Static export and test output (generated; never commit)
+/out
+/playwright-report
+/test-results
+/blob-report
