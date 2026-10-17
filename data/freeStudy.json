@@ -1348,6 +1348,672 @@
           ]
         }
       ]
+    },
+    {
+      "id": "eth-zurich-free-study",
+      "universityId": "eth-zurich",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry). Degree-level programme checks are not yet researched for this university.",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Possibly, but only after meeting German-language and entrance-exam rules for your country. Those rules were not verified for Pakistan.",
+          "detail": "Official pages state that Bachelor's teaching is in German and a C1 German certificate is required by the application deadline. Entrance-exam requirements depend on the applicant's country list. The application window (1 Dec to 31 Mar for autumn entry) is from secondary sources and needs an official check.",
+          "sourceIds": [
+            "eth-international-scholarships"
+          ]
+        },
+        "free": {
+          "verdict": "No free route at entry. ETH's aid for international students starts only after the first year.",
+          "detail": "Official: international Bachelor's students may apply for ETH aid only after passing the first-year examinations. The Solidarity Fund for permit B students follows the same rule. Awards do not cover all costs, and ETH expects students to seek funding at home first.",
+          "sourceIds": [
+            "eth-international-scholarships",
+            "eth-solidarity-fund"
+          ]
+        },
+        "should": {
+          "verdict": "Decide on cost and language first. Not recommended without a funding plan for the full first year.",
+          "detail": "Tuition and living costs must be funded before the first-year aid becomes available.",
+          "sourceIds": [
+            "eth-international-scholarships"
+          ]
+        },
+        "how": [
+          "Check whether your country's school certificate needs an entrance exam (country list, official check).",
+          "Obtain a C1 German certificate by the deadline.",
+          "Apply through eApply in the window published by ETH (check official dates).",
+          "Fund the first year without ETH aid, then apply for ETH aid after passing first-year exams."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "German-language requirement",
+          "detail": "C1 German certificate required for Bachelor's teaching in German (official summary).",
+          "status": "partially-verified",
+          "sourceIds": [
+            "eth-international-scholarships"
+          ]
+        },
+        {
+          "item": "Entrance exam",
+          "detail": "Depends on country list. Pakistan not verified.",
+          "status": "not-verified",
+          "sourceIds": []
+        },
+        {
+          "item": "Financial aid timing",
+          "detail": "Only after first-year exams (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "eth-international-scholarships"
+          ]
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit-based",
+          "status": "none-found",
+          "detail": "Not verified.",
+          "sourceIds": []
+        },
+        {
+          "route": "Need-based (ETH)",
+          "status": "available-after-first-year",
+          "detail": "Need-based aid for international students after the first year (official).",
+          "sourceIds": [
+            "eth-international-scholarships"
+          ]
+        },
+        {
+          "route": "Solidarity Fund",
+          "status": "available-after-first-year",
+          "detail": "For permit B students, after first-year exams (official).",
+          "sourceIds": [
+            "eth-solidarity-fund"
+          ]
+        },
+        {
+          "route": "National (Pakistan)",
+          "status": "not-verified",
+          "detail": "Not verified.",
+          "sourceIds": []
+        },
+        {
+          "route": "Regional and sports",
+          "status": "not-verified",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [
+        {
+          "label": "eSTIP window for 2026/27 aid",
+          "value": "1 Sep to 31 Oct 2026 (official)",
+          "sourceId": "eth-international-scholarships",
+          "kind": "official"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "not-recorded",
+        "detail": "No verified student-reported or consultant trend data is recorded. Third-party admission-chance estimates are not used."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Strong public research university with aid after the first year (official)."
+        ],
+        "againstOrCaution": [
+          "No free route at entry (official).",
+          "German-language teaching and entrance-exam rules add time."
+        ],
+        "decisionTest": [
+          "Can you fund the first year fully?",
+          "Are you willing to learn German to C1 level?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "ETH has no degree-level programme mapping yet in this dataset.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now (October 2026)",
+          "steps": [
+            "Check ETH's country list for entrance exams.",
+            "Start German study toward C1."
+          ]
+        },
+        {
+          "window": "Before the ETH application deadline (check official dates)",
+          "steps": [
+            "Apply through eApply with the German certificate and school documents."
+          ]
+        },
+        {
+          "window": "After first year",
+          "steps": [
+            "Apply for ETH aid through eSTIP after passing first-year exams."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ucl-free-study",
+      "universityId": "ucl",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry). Degree-level programme checks are not yet researched for this university.",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Yes, the admissions route is open. Course requirements were not researched in this batch.",
+          "detail": "UCL admits overseas (international) undergraduates through UCAS. Entry requirements per course were not verified.",
+          "sourceIds": [
+            "ucl-global-undergraduate-scholarship"
+          ]
+        },
+        "free": {
+          "verdict": "Possible through a competitive scholarship. The 2026/27 round is closed.",
+          "detail": "UCL Global Undergraduate Scholarship (official): 10 full-cost awards (tuition, maintenance and a fixed allowance for visa and health surcharge) and 23 tuition-only awards. Financial need is a criterion. The 2026/27 deadline was 27 April 2026. The 2027/28 round is not yet published.",
+          "sourceIds": [
+            "ucl-global-undergraduate-scholarship"
+          ]
+        },
+        "should": {
+          "verdict": "Yes to apply if you are competitive and can fund any gap. Plan a backup.",
+          "detail": "Official: the scholarship is competitive and funding is not guaranteed at the outset.",
+          "sourceIds": [
+            "ucl-global-undergraduate-scholarship"
+          ]
+        },
+        "how": [
+          "Confirm course entry requirements and apply through UCAS.",
+          "Submit a UCL admission application before the scholarship deadline (2027/28 date to be published).",
+          "Submit financial need evidence with the scholarship application.",
+          "Check visa and health surcharge costs."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Scholarship eligibility",
+          "detail": "Overseas fee status, financial need (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "ucl-global-undergraduate-scholarship"
+          ]
+        },
+        {
+          "item": "Course entry requirements and English test",
+          "detail": "Not researched in this batch.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit-based",
+          "status": "none-found",
+          "detail": "Not recorded as merit-based. Selection is on need and academic performance.",
+          "sourceIds": [
+            "ucl-global-undergraduate-scholarship"
+          ]
+        },
+        {
+          "route": "Need-based (UCL Global Undergraduate Scholarship)",
+          "status": "available-conditional",
+          "detail": "10 full-cost and 23 tuition-only awards (2026/27, official).",
+          "sourceIds": [
+            "ucl-global-undergraduate-scholarship"
+          ]
+        },
+        {
+          "route": "National, regional, sports",
+          "status": "not-verified",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [
+        {
+          "label": "Full-cost and tuition-only awards (2026/27)",
+          "value": "10 full-cost, 23 tuition-only (official)",
+          "sourceId": "ucl-global-undergraduate-scholarship",
+          "kind": "official"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "not-recorded",
+        "detail": "No verified student-reported or consultant trend data is recorded. Third-party admission-chance estimates are not used."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Full tuition and maintenance for 10 awards (official).",
+          "Tuition-only awards for 23 more (official)."
+        ],
+        "againstOrCaution": [
+          "Very competitive; funding not guaranteed.",
+          "2027/28 deadline not yet published."
+        ],
+        "decisionTest": [
+          "Can you fund the full course if you do not win?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "UCL has no degree-level programme mapping yet in this dataset.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now (October 2026)",
+          "steps": [
+            "Check UCL's 2027/28 scholarship page for the deadline.",
+            "Prepare financial need evidence."
+          ]
+        },
+        {
+          "window": "Before the scholarship deadline (2027/28, to be published)",
+          "steps": [
+            "Submit the UCL admission application and then the scholarship application."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nus-free-study",
+      "universityId": "national-university-singapore-nus",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry). Degree-level programme checks are not yet researched for this university.",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Yes, international students can apply. Course requirements were not researched in this batch.",
+          "detail": "NUS considers all eligible international students for scholarships through the undergraduate admission application (official portal statement).",
+          "sourceIds": [
+            "nus-international-undergraduate-scholarship"
+          ]
+        },
+        "free": {
+          "verdict": "Possible through a merit-based scholarship. Tuition coverage is not confirmed.",
+          "detail": "The NUS International Undergraduate Scholarship is merit-based for international students from all countries except Singapore. Official listed benefits: S$5,800 per year living, S$5,000 per year accommodation and a S$1,750 computer allowance. Tuition coverage is not confirmed in the excerpt. International students who do not get the MOE Tuition Grant are not eligible for all NUS scholarships (official).",
+          "sourceIds": [
+            "nus-international-undergraduate-scholarship",
+            "nus-moe-tuition-grant"
+          ]
+        },
+        "should": {
+          "verdict": "Reasonable if you can meet the admission bar and the Singapore cost of living. Confirm tuition before deciding.",
+          "detail": "Tuition coverage is the key unknown from the official excerpt.",
+          "sourceIds": [
+            "nus-international-undergraduate-scholarship"
+          ]
+        },
+        "how": [
+          "Apply through NUS undergraduate admission (portal).",
+          "Apply for financial aid if needed (dates on NUS financial aid page).",
+          "Confirm whether tuition is covered before accepting.",
+          "Check the MOE Tuition Grant status (competitive)."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Scholarship route",
+          "detail": "Considered through undergraduate admission (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "nus-international-undergraduate-scholarship"
+          ]
+        },
+        {
+          "item": "Course entry requirements and English test",
+          "detail": "Not researched in this batch.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit-based (NUS International)",
+          "status": "available-conditional",
+          "detail": "Merit-based; living S$5,800, accommodation S$5,000, computer S$1,750 per year (official). Tuition not confirmed.",
+          "sourceIds": [
+            "nus-international-undergraduate-scholarship"
+          ]
+        },
+        {
+          "route": "MOE Tuition Grant",
+          "status": "available-conditional",
+          "detail": "Competitive grant for international students (official).",
+          "sourceIds": [
+            "nus-moe-tuition-grant"
+          ]
+        },
+        {
+          "route": "Need-based financial aid",
+          "status": "available-conditional",
+          "detail": "Financial aid application through NUS (official dates).",
+          "sourceIds": [
+            "nus-moe-tuition-grant"
+          ]
+        },
+        {
+          "route": "National, regional, sports",
+          "status": "not-verified",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [
+        {
+          "label": "International scholarship living allowance",
+          "value": "S$5,800 per year (official)",
+          "sourceId": "nus-international-undergraduate-scholarship",
+          "kind": "official"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "not-recorded",
+        "detail": "No verified student-reported or consultant trend data is recorded. Third-party admission-chance estimates are not used."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Merit-based scholarship open to all non-Singapore international students (official).",
+          "MOE Tuition Grant available competitively (official)."
+        ],
+        "againstOrCaution": [
+          "Tuition coverage not confirmed.",
+          "Singapore costs are high; living allowance may not cover all costs."
+        ],
+        "decisionTest": [
+          "Does the scholarship cover tuition, or only living costs?",
+          "Can you win the MOE grant or the scholarship?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "NUS has no degree-level programme mapping yet in this dataset.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now (October 2026)",
+          "steps": [
+            "Check NUS course entry requirements.",
+            "Check financial aid dates."
+          ]
+        },
+        {
+          "window": "Before NUS application deadline (check current year)",
+          "steps": [
+            "Submit the undergraduate application (scholarship considered automatically)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hku-free-study",
+      "universityId": "university-hong-kong",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry). Degree-level programme checks are not yet researched for this university.",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Yes, the international admissions route is open. Course requirements were not researched in this batch.",
+          "detail": "HKU's official document describes its International Admissions Scheme for applicants with international qualifications (2027 entry).",
+          "sourceIds": [
+            "hku-fees-2027"
+          ]
+        },
+        "free": {
+          "verdict": "Possible through the Belt and Road Scholarship, which can cover up to full tuition. Pakistan's eligibility and the 2027 deadline are not verified.",
+          "detail": "The Belt and Road Scholarship (HKSAR Government Scholarship Fund) gives up to full tuition for outstanding students from participating countries (official). The 2026 deadline was 31 Jan 2026. Details for 2027 are subject to modification.",
+          "sourceIds": [
+            "hku-belt-and-road-scholarship"
+          ]
+        },
+        "should": {
+          "verdict": "Decide on cost first. Non-local tuition is high (HK$250,000 to HK$590,000 per year for 2027-28, official).",
+          "detail": "Without a full award, the non-local fee is a major cost. Check the scholarship list for Pakistan.",
+          "sourceIds": [
+            "hku-fees-2027"
+          ]
+        },
+        "how": [
+          "Check whether Pakistan is a participating country for the Belt and Road Scholarship.",
+          "Apply to HKU through its admissions scheme and watch for the 2027 scholarship window.",
+          "Entrance scholarships are considered automatically with the admission application (official).",
+          "Budget non-local tuition for the whole programme."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Non-local tuition (2027-28)",
+          "detail": "HK$250,000 non-STEM; HK$280,000 STEM; HK$590,000 MBBS/BDS (tentative, official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "hku-fees-2027"
+          ]
+        },
+        {
+          "item": "Entrance scholarships",
+          "detail": "All applicants considered; no separate application (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "hku-fees-2027"
+          ]
+        },
+        {
+          "item": "Course entry requirements and English test",
+          "detail": "Not researched in this batch.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit-based (Belt and Road)",
+          "status": "available-conditional",
+          "detail": "Up to full tuition for outstanding students from participating countries. Pakistan not verified.",
+          "sourceIds": [
+            "hku-belt-and-road-scholarship"
+          ]
+        },
+        {
+          "route": "Entrance scholarships",
+          "status": "available-conditional",
+          "detail": "All applicants considered automatically (official). Amounts for non-local students not verified.",
+          "sourceIds": [
+            "hku-fees-2027"
+          ]
+        },
+        {
+          "route": "Need-based",
+          "status": "not-verified",
+          "detail": "Not researched.",
+          "sourceIds": []
+        },
+        {
+          "route": "National, regional, sports",
+          "status": "not-verified",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [
+        {
+          "label": "Non-local tuition 2027-28 (non-STEM)",
+          "value": "HK$250,000 per year (tentative, official)",
+          "sourceId": "hku-fees-2027",
+          "kind": "official"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "not-recorded",
+        "detail": "No verified student-reported or consultant trend data is recorded. Third-party admission-chance estimates are not used."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Up to full-tuition Belt and Road award for listed countries (official).",
+          "Entrance scholarships considered automatically (official)."
+        ],
+        "againstOrCaution": [
+          "High non-local tuition.",
+          "Pakistan eligibility for the Belt and Road Scholarship not verified."
+        ],
+        "decisionTest": [
+          "Is Pakistan a participating country for the scholarship?",
+          "Can you fund non-local tuition without an award?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "HKU has no degree-level programme mapping yet in this dataset.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now (October 2026)",
+          "steps": [
+            "Confirm Pakistan's status for the Belt and Road Scholarship with HKU.",
+            "Check course requirements."
+          ]
+        },
+        {
+          "window": "Before HKU's 2027 admission deadline (check current year)",
+          "steps": [
+            "Apply through HKU's admission scheme and scholarship window."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caltech-free-study",
+      "universityId": "california-institute-technology-caltech",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry). Degree-level programme checks are not yet researched for this university.",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Yes, international first-year applicants can apply. An English exam must be taken before the deadline. SAT or ACT requirements were not verified in this batch.",
+          "detail": "Caltech's official pages say international applicants must take an English proficiency exam before the application deadline.",
+          "sourceIds": [
+            "caltech-application-requirements"
+          ]
+        },
+        "free": {
+          "verdict": "Possible, through need-based aid that meets 100% of demonstrated need. Not automatic, and aid is need-aware for international applicants.",
+          "detail": "Official: need-based aid meets 100% of demonstrated financial need. International aid is need-aware because funds are limited, and aid must be requested with the admission application. Transfer and 3/2 applicants are not eligible. Students who do not get first-year aid cannot apply later.",
+          "sourceIds": [
+            "caltech-international-financial-aid"
+          ]
+        },
+        "should": {
+          "verdict": "Decide on need and admission odds. Plan a backup because aid requests can affect the decision.",
+          "detail": "Official: aid requests are considered for international applicants, so the decision depends on both admission and funds.",
+          "sourceIds": [
+            "caltech-international-financial-aid"
+          ]
+        },
+        "how": [
+          "Take the English proficiency exam before the deadline.",
+          "Choose Restrictive Early Action (1 Nov) or Regular Decision (4 Jan) and request aid at admission.",
+          "Submit the CSS Profile by the official deadline (1 Feb before the term).",
+          "Submit the parents' tax return and Caltech scholarship data form by 15 July before the term.",
+          "Compare the aid offer with your actual cost."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "English proficiency exam",
+          "detail": "Required before application deadline (official). Minimum score not verified.",
+          "status": "verified-official-partial",
+          "sourceIds": [
+            "caltech-application-requirements"
+          ]
+        },
+        {
+          "item": "Financial aid application",
+          "detail": "Request aid at admission. CSS Profile and tax documents (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "caltech-international-financial-aid"
+          ]
+        },
+        {
+          "item": "SAT or ACT and subject requirements",
+          "detail": "Not verified in this batch.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit-based",
+          "status": "none-found",
+          "detail": "Not verified.",
+          "sourceIds": []
+        },
+        {
+          "route": "Need-based (institutional)",
+          "status": "available-conditional",
+          "detail": "Meets 100% of demonstrated need. Need-aware for international applicants (official).",
+          "sourceIds": [
+            "caltech-international-financial-aid"
+          ]
+        },
+        {
+          "route": "National, regional, sports",
+          "status": "not-verified",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [
+        {
+          "label": "Aid policy for international applicants",
+          "value": "Need-aware; request at admission; no aid for transfer or 3/2 (official)",
+          "sourceId": "caltech-international-financial-aid",
+          "kind": "official"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "not-recorded",
+        "detail": "No verified student-reported or consultant trend data is recorded. Third-party admission-chance estimates are not used."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Need-based aid meets 100% of demonstrated need (official).",
+          "Strong research and STEM focus."
+        ],
+        "againstOrCaution": [
+          "Need-aware for international applicants: aid requests can affect admission.",
+          "Missing the aid request at admission bars aid for all later years."
+        ],
+        "decisionTest": [
+          "Would you still be admitted if you request aid?",
+          "Can you provide CSS and tax documents on time?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Caltech has no degree-level programme mapping yet in this dataset.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now (October 2026)",
+          "steps": [
+            "Book the English proficiency exam.",
+            "Check SAT or ACT requirements on Caltech's site."
+          ]
+        },
+        {
+          "window": "Before 1 Nov (Restrictive Early Action) or 4 Jan (Regular Decision)",
+          "steps": [
+            "Submit the application and choose aid in the application."
+          ]
+        },
+        {
+          "window": "Before 1 Feb (CSS Profile) and 15 July (tax form)",
+          "steps": [
+            "Submit the CSS Profile and parental tax and data forms."
+          ]
+        }
+      ]
     }
   ]
 }

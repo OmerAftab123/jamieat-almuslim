@@ -549,6 +549,137 @@
         "eligibility",
         "application deadlines"
       ]
+    },
+    {
+      "id": "eth-international-scholarships",
+      "title": "ETH Scholarships for international students (cost of living)",
+      "publisher": "ETH Zurich",
+      "url": "https://ethz.ch/students/en/studies/financial/scholarships/cost-of-living/international-students.html",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: international Bachelor's students may apply after passing first-year exams; eSTIP window 1 Sep to 31 Oct 2026 for 2026/27.",
+      "supports": [
+        "aid only after the first year",
+        "eSTIP window"
+      ]
+    },
+    {
+      "id": "eth-solidarity-fund",
+      "title": "Solidarity Fund for Foreign Students (ETH)",
+      "publisher": "ETH Zurich",
+      "url": "https://ethz.ch/students/en/studies/financial/scholarships/solidarity-fund.html",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: for permit B students after first-year examination; cannot exceed ETH resources.",
+      "supports": [
+        "after first year",
+        "permit B students"
+      ]
+    },
+    {
+      "id": "ucl-global-undergraduate-scholarship",
+      "title": "UCL Global Undergraduate Scholarship",
+      "publisher": "UCL",
+      "url": "https://www.ucl.ac.uk/scholarships/ucl-global-undergraduate-scholarship",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: 10 full-cost awards (tuition, maintenance, fixed allowance) and 23 tuition-only awards; financial need; overseas fee status; 2026/27 deadline 27 April 2026 (closed).",
+      "supports": [
+        "10 full-cost awards",
+        "23 tuition-only awards",
+        "financial need",
+        "deadline passed for 2026/27"
+      ]
+    },
+    {
+      "id": "nus-international-undergraduate-scholarship",
+      "title": "NUS International Undergraduate Scholarship",
+      "publisher": "National University of Singapore",
+      "url": "https://nus.edu.sg/oam/scholarships/scholarships-for-freshmen-singapore-permanent-residents/nus-international-undergraduate-scholarship",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: open to international students from all countries except Singapore; merit-based; considered through the admission application; living S$5,800, computer S$1,750, accommodation S$5,000 per year.",
+      "supports": [
+        "merit-based",
+        "all countries except Singapore",
+        "benefit amounts"
+      ]
+    },
+    {
+      "id": "nus-moe-tuition-grant",
+      "title": "NUS Undergraduate Prospectus for International Students 2026/27 (MOE Tuition Grant and financial aid)",
+      "publisher": "National University of Singapore",
+      "url": "https://www.nus.edu.sg/oam/docs/default-source/nus-publications/intlprospectus.pdf",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official prospectus: MOE Tuition Grant awarded competitively to international students; financial aid application opens 23 Feb 2026 for 2026/27 (closing 15 April 2026 for early release).",
+      "supports": [
+        "MOE Tuition Grant competitive",
+        "financial aid timeline"
+      ]
+    },
+    {
+      "id": "hku-fees-2027",
+      "title": "HKU Undergraduate Admission Information for September 2027 (IAS/NJ/DAS)",
+      "publisher": "University of Hong Kong",
+      "url": "https://admissions.hku.hk/sites/default/files/2026-09/HKU_General_Information_NJ_2027.pdf",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official PDF: non-local non-STEM HK$250,000 per annum and STEM HK$280,000 for 2027-28 (tentative); MBBS and BDS HK$590,000; all applicants considered for entrance scholarships without separate application.",
+      "supports": [
+        "non-local fees 2027-28",
+        "entrance scholarships considered automatically"
+      ]
+    },
+    {
+      "id": "hku-belt-and-road-scholarship",
+      "title": "The Belt and Road Scholarship (HKSAR Government Scholarship Fund) - HKU",
+      "publisher": "University of Hong Kong",
+      "url": "https://admissions.hku.hk/fees-and-scholarships/scholarships/belt-and-road-scholarship",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: for outstanding students from participating Belt and Road countries (Indonesia, Malaysia, Thailand, Myanmar listed); up to full tuition; 2026 deadline 31 Jan 2026; 2027 details subject to modification.",
+      "supports": [
+        "up to full tuition",
+        "participating countries list",
+        "2026 deadline passed"
+      ]
+    },
+    {
+      "id": "caltech-international-financial-aid",
+      "title": "International Financial Aid Statement of Intent - Caltech",
+      "publisher": "California Institute of Technology",
+      "url": "https://www.admissions.caltech.edu/documents/6959/International_Financial_Aid_Statement_of_Intent.pdf",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official PDF: need-aware for international applicants; need-based aid meets 100% of demonstrated need; must apply for aid at admission; CSS Profile deadline 1 Feb; no aid for transfer or 3/2 applicants.",
+      "supports": [
+        "need-aware for international",
+        "100% need met",
+        "aid must be requested at admission",
+        "no aid for transfer"
+      ]
+    },
+    {
+      "id": "caltech-application-requirements",
+      "title": "First-Year Application Requirements - Caltech",
+      "publisher": "California Institute of Technology",
+      "url": "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: international applicants must take the English proficiency exam before the application deadline.",
+      "supports": [
+        "English exam before deadline"
+      ]
     }
   ]
 }

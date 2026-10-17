@@ -525,20 +525,35 @@
       "qsProfileUrl": "https://www.topuniversities.com/universities/california-institute-technology-caltech",
       "country": "United States",
       "city": "Pasadena",
-      "officialWebsite": null,
+      "officialWebsite": "https://www.caltech.edu/",
       "dataStatus": {
         "qsRank": "verified-official-page",
         "programs": "not-researched",
-        "admissions": "not-researched",
-        "scholarships": "not-researched",
+        "admissions": "partially-researched",
+        "scholarships": "verified-official-page",
         "costs": "not-researched"
       },
       "lastVerified": "2026-10-17",
       "programs": [],
-      "admissions": null,
+      "admissions": {
+        "sourceId": "caltech-application-requirements",
+        "lastChecked": "2026-10-17",
+        "standardisedTests": "Not verified in this batch.",
+        "englishTests": [],
+        "englishRequirementNote": "Official: international applicants must take an English proficiency exam before the application deadline. Minimum score not verified.",
+        "gradeMinimum": null,
+        "testDeadlines": "Before the application deadline (official).",
+        "notes": [
+          "Caltech is need-aware for international applicants (official)."
+        ]
+      },
       "costs": null,
-      "scholarshipIds": [],
-      "notes": []
+      "scholarshipIds": [
+        "caltech-need-based-aid"
+      ],
+      "notes": [
+        "Official: need-based aid meets 100% of demonstrated need; international aid is need-aware and must be requested at admission."
+      ]
     },
     {
       "id": "eth-zurich",
@@ -555,20 +570,26 @@
       "qsProfileUrl": "https://www.topuniversities.com/universities/eth-zurich",
       "country": "Switzerland",
       "city": "Zürich",
-      "officialWebsite": null,
+      "officialWebsite": "https://ethz.ch/",
       "dataStatus": {
         "qsRank": "verified-official-page",
         "programs": "not-researched",
-        "admissions": "not-researched",
-        "scholarships": "not-researched",
+        "admissions": "partially-researched",
+        "scholarships": "partially-researched",
         "costs": "not-researched"
       },
       "lastVerified": "2026-10-17",
       "programs": [],
       "admissions": null,
       "costs": null,
-      "scholarshipIds": [],
-      "notes": []
+      "scholarshipIds": [
+        "eth-international-scholarship"
+      ],
+      "notes": [
+        "Bachelor's teaching is in German (secondary source studyu.org; official check pending). German certificate (C1) is required; entrance exam requirements depend on the applicant's country list (not verified for Pakistan).",
+        "Official: international Bachelor's students may apply for ETH aid only after passing the first-year examinations.",
+        "Bachelor's application window 1 Dec to 31 Mar for autumn 2027 entry (secondary source; official check pending)."
+      ]
     },
     {
       "id": "ucl",
@@ -585,20 +606,25 @@
       "qsProfileUrl": "https://www.topuniversities.com/universities/ucl",
       "country": "United Kingdom",
       "city": "London",
-      "officialWebsite": null,
+      "officialWebsite": "https://www.ucl.ac.uk/",
       "dataStatus": {
         "qsRank": "verified-official-page",
         "programs": "not-researched",
         "admissions": "not-researched",
-        "scholarships": "not-researched",
+        "scholarships": "verified-official-page",
         "costs": "not-researched"
       },
       "lastVerified": "2026-10-17",
       "programs": [],
       "admissions": null,
       "costs": null,
-      "scholarshipIds": [],
-      "notes": []
+      "scholarshipIds": [
+        "ucl-global-undergraduate-scholarship"
+      ],
+      "notes": [
+        "Official: UCL Global Undergraduate Scholarship (10 full-cost, 23 tuition-only awards for 2026/27; deadline 27 April 2026, closed). Overseas fee status required.",
+        "Admission requirements not researched in this batch."
+      ]
     },
     {
       "id": "national-university-singapore-nus",
@@ -615,20 +641,25 @@
       "qsProfileUrl": "https://www.topuniversities.com/universities/national-university-singapore-nus",
       "country": "Singapore",
       "city": "Singapore",
-      "officialWebsite": null,
+      "officialWebsite": "https://www.nus.edu.sg/",
       "dataStatus": {
         "qsRank": "verified-official-page",
         "programs": "not-researched",
         "admissions": "not-researched",
-        "scholarships": "not-researched",
+        "scholarships": "partially-researched",
         "costs": "not-researched"
       },
       "lastVerified": "2026-10-17",
       "programs": [],
       "admissions": null,
       "costs": null,
-      "scholarshipIds": [],
-      "notes": []
+      "scholarshipIds": [
+        "nus-international-undergraduate-scholarship"
+      ],
+      "notes": [
+        "Official: MOE Tuition Grant is competitive for international students. International students who reject or are not offered the MOE Tuition Grant are not eligible for all NUS scholarship schemes.",
+        "Admission requirements and fees not researched in this batch."
+      ]
     },
     {
       "id": "university-hong-kong",
@@ -645,20 +676,25 @@
       "qsProfileUrl": "https://www.topuniversities.com/universities/university-hong-kong",
       "country": "Hong Kong SAR",
       "city": "Hong Kong",
-      "officialWebsite": null,
+      "officialWebsite": "https://www.hku.hk/",
       "dataStatus": {
         "qsRank": "verified-official-page",
         "programs": "not-researched",
         "admissions": "not-researched",
-        "scholarships": "not-researched",
-        "costs": "not-researched"
+        "scholarships": "partially-researched",
+        "costs": "partially-researched"
       },
       "lastVerified": "2026-10-17",
       "programs": [],
       "admissions": null,
       "costs": null,
-      "scholarshipIds": [],
-      "notes": []
+      "scholarshipIds": [
+        "hku-belt-and-road-scholarship"
+      ],
+      "notes": [
+        "Official 2027-28 non-local fees (tentative, HKD): HK$250,000 non-STEM, HK$280,000 STEM, HK$590,000 MBBS and BDS. Currency is HKD.",
+        "Official: all applicants considered for entrance scholarships without a separate application."
+      ]
     },
     {
       "id": "nanyang-technological-university-singapore-ntu-singapore",

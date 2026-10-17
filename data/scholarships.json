@@ -298,6 +298,237 @@
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-partially-verified",
       "verificationNote": "Existence, eligibility route and means-testing are from the official excerpt. Pakistan eligibility, amounts and deadlines are not verified."
+    },
+    {
+      "id": "eth-international-scholarship",
+      "universityId": "eth-zurich",
+      "name": "ETH Scholarship and Solidarity Fund (international students)",
+      "funder": "ETH Zurich / ETH Foundation",
+      "awardType": "need-based",
+      "classification": "partial",
+      "classificationNote": "Official: aid for international students is available only after passing the first-year examinations (Bachelor's) and is not expected to cover all costs. Students are expected to seek funding at home first.",
+      "coverage": {
+        "tuition": "Not stated as full coverage",
+        "living": "Partial, need-based (official wording: does not cover all costs)"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Official pages for international students with permit B status.",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Bachelor's: first-year exams must be passed. Master's without an ETH Bachelor's: after first year and 40 ECTS.",
+        "citizenshipOrResidency": "Permit B status required (solidarity fund).",
+        "nonUsApplicantNote": "Not applicable to first-year students.",
+        "academicConditions": "Passing the first-year examinations (Bachelor's).",
+        "renewalConditions": "Renewal subject to progress (not verified in detail)."
+      },
+      "requiredDocuments": [
+        "eSTIP application"
+      ],
+      "applicationMethod": "Apply through eSTIP. 2026/27 window 1 Sep to 31 Oct 2026 (for students already at ETH).",
+      "deadlines": {
+        "eSTIP window 2026/27": "1 Sep to 31 Oct 2026"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Costs beyond the partial support"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "eth-international-scholarships",
+        "eth-solidarity-fund"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Route is after first year (official). Pakistan-specific terms not verified."
+    },
+    {
+      "id": "ucl-global-undergraduate-scholarship",
+      "universityId": "ucl",
+      "name": "UCL Global Undergraduate Scholarship",
+      "funder": "UCL (institutional)",
+      "awardType": "need-based",
+      "classification": "full-cost-of-attendance",
+      "classificationNote": "Official: 10 awards cover full tuition, maintenance allowance and a fixed allowance for visa and health surcharge. 23 awards cover full tuition only. Based on financial need. Competitive.",
+      "coverage": {
+        "tuition": "Full tuition (all 33 awards)",
+        "living": "Maintenance allowance for 10 full-cost awards (amount to be confirmed by UCL)",
+        "visa and health surcharge": "Fixed allowance for 10 full-cost awards"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Overseas fee status required (official).",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "All undergraduate degrees (official).",
+        "citizenshipOrResidency": "Non-UK nationals eligible (official, overseas fee status).",
+        "nonUsApplicantNote": "Nationality not a stated criterion.",
+        "academicConditions": "Selection on need and academic performance (not all criteria verified).",
+        "renewalConditions": "Valid for the standard duration of the programme (official)."
+      },
+      "requiredDocuments": [
+        "UCL admission application submitted",
+        "Financial need evidence"
+      ],
+      "applicationMethod": "Submit a UCL admission application, then the scholarship application before the deadline.",
+      "deadlines": {
+        "2026/27 deadline (closed)": "27 April 2026, 5pm BST",
+        "2027/28 deadline": "Not yet published"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Costs beyond the 10 full-cost awards and tuition-only awards"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "ucl-global-undergraduate-scholarship"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-verified",
+      "verificationNote": "Award types and deadline for 2026/27 are verified from UCL's official page. The 2027/28 cycle is not published."
+    },
+    {
+      "id": "nus-international-undergraduate-scholarship",
+      "universityId": "national-university-singapore-nus",
+      "name": "NUS International Undergraduate Scholarship",
+      "funder": "National University of Singapore (university-level)",
+      "awardType": "merit-based",
+      "classification": "unconfirmed",
+      "classificationNote": "Official: merit-based award for exceptional international students from all countries except Singapore. The official excerpt lists living, computer and accommodation allowances. Whether it includes tuition was not confirmed in the excerpt.",
+      "coverage": {
+        "living": "S$5,800 per year (official)",
+        "accommodation": "S$5,000 per year (official)",
+        "one-time": "S$1,750 computer allowance (official)",
+        "tuition": "Not confirmed in excerpt"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Official: open to international students from all countries except Singapore.",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Full-time undergraduate programmes at NUS (official).",
+        "citizenshipOrResidency": "Any nationality except Singapore (official).",
+        "nonUsApplicantNote": "Not applicable.",
+        "academicConditions": "Merit-based; competitive.",
+        "renewalConditions": "Renewal per year not verified."
+      },
+      "requiredDocuments": [
+        "Undergraduate admission application (no separate scholarship form for international students, per the applicant portal)"
+      ],
+      "applicationMethod": "Considered automatically through the NUS undergraduate admission application (official portal statement).",
+      "deadlines": {
+        "application": "Through admission application; check NUS for current dates"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Tuition beyond any confirmed coverage",
+        "Living costs beyond the allowance"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "nus-international-undergraduate-scholarship",
+        "nus-moe-tuition-grant"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Merit basis and amounts are from NUS's official page. Tuition coverage is not confirmed."
+    },
+    {
+      "id": "hku-belt-and-road-scholarship",
+      "universityId": "university-hong-kong",
+      "name": "HKU Belt and Road Scholarship (HKSAR Government Scholarship Fund)",
+      "funder": "HKSAR Government / HKU",
+      "awardType": "merit-based",
+      "classification": "full-tuition",
+      "classificationNote": "Official: up to full tuition for outstanding students from participating Belt and Road countries. Pakistan's participation was not verified in this build.",
+      "coverage": {
+        "tuition": "Up to full tuition fees (official)"
+      },
+      "eligibility": {
+        "applicantScope": "nationalities",
+        "applicantScopeNote": "Official: outstanding students from participating Belt and Road countries (listed: Indonesia, Malaysia, Thailand, Myanmar, among others).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Undergraduate admission to HKU (assumed; check).",
+        "citizenshipOrResidency": "Pakistan not verified in the list read.",
+        "nonUsApplicantNote": "Pakistani applicants must check the current list.",
+        "academicConditions": "Merit-based (official).",
+        "renewalConditions": "Renewal not verified."
+      },
+      "requiredDocuments": [
+        "HKU admission application"
+      ],
+      "applicationMethod": "Apply through HKU admission/scholarship portal (not verified in detail).",
+      "deadlines": {
+        "2026 deadline (closed)": "31 Jan 2026",
+        "2027 entry": "Details subject to modification (not published)"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Living costs",
+        "Accommodation"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "hku-belt-and-road-scholarship",
+        "hku-fees-2027"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Full tuition is the official maximum. Pakistani eligibility and the 2027 deadline are not verified."
+    },
+    {
+      "id": "caltech-need-based-aid",
+      "universityId": "california-institute-technology-caltech",
+      "name": "Caltech need-based financial aid for international first-year students",
+      "funder": "California Institute of Technology (institutional)",
+      "awardType": "need-based",
+      "classification": "full-cost-of-attendance",
+      "classificationNote": "Official: need-based aid meets 100% of demonstrated financial need. Caltech is need-aware for international applicants because aid funds are limited. Not a full ride without need assessment.",
+      "coverage": {
+        "tuition": "Covered within 100% of demonstrated need (official)",
+        "living": "Covered within 100% of demonstrated need (official)"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Official: aid is need-aware for international applicants. Transfer and 3/2 applicants are not eligible.",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "First-year applicants only (official).",
+        "citizenshipOrResidency": "Citizens and permanent residents of Canada and Mexico have exceptions (official).",
+        "nonUsApplicantNote": "Must apply for aid when applying for admission. Late applications are not eligible for later aid (official).",
+        "academicConditions": "Not verified beyond the official aid statement.",
+        "renewalConditions": "Reapply each year (official)."
+      },
+      "requiredDocuments": [
+        "Caltech admission application with International Financial Aid Statement of Intent",
+        "CSS Profile (official)",
+        "Parents' tax return and Caltech scholarship data form (official)"
+      ],
+      "applicationMethod": "Choose aid at time of admission application; submit CSS Profile and documents by posted deadlines.",
+      "deadlines": {
+        "Restrictive Early Action": "1 Nov (official)",
+        "Regular Decision": "4 Jan (official)",
+        "CSS Profile": "1 Feb before the term (official)",
+        "Parents' tax form": "15 July before the term (official)"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Costs not covered by need assessment"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "caltech-international-financial-aid",
+        "caltech-application-requirements"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-verified",
+      "verificationNote": "Policy and deadlines from Caltech's official aid statement. Individual amounts depend on assessment."
     }
   ]
 }
