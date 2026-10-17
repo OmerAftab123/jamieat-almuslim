@@ -327,20 +327,25 @@
       "qsProfileUrl": "https://www.topuniversities.com/universities/imperial-college-london",
       "country": "United Kingdom",
       "city": "London",
-      "officialWebsite": null,
+      "officialWebsite": "https://www.imperial.ac.uk/",
       "dataStatus": {
         "qsRank": "verified-official-page",
         "programs": "not-researched",
-        "admissions": "not-researched",
-        "scholarships": "not-researched",
+        "admissions": "partially-researched",
+        "scholarships": "partially-researched",
         "costs": "not-researched"
       },
       "lastVerified": "2026-10-17",
       "programs": [],
       "admissions": null,
       "costs": null,
-      "scholarshipIds": [],
-      "notes": []
+      "scholarshipIds": [
+        "imperial-inspires-2027"
+      ],
+      "notes": [
+        "Official: UCAS deadline 13 January 2027 for most courses; 15 October 2026 for Medicine (passed). Imperial Inspires is for Overseas-fee students in Engineering, Natural Sciences, Medicine and Business.",
+        "Admission test requirements (for example ESAT or TMUA) were not verified from an official page in this batch."
+      ]
     },
     {
       "id": "stanford-university",
@@ -357,20 +362,36 @@
       "qsProfileUrl": "https://www.topuniversities.com/universities/stanford-university",
       "country": "United States",
       "city": "Stanford",
-      "officialWebsite": null,
+      "officialWebsite": "https://www.stanford.edu/",
       "dataStatus": {
         "qsRank": "verified-official-page",
         "programs": "not-researched",
-        "admissions": "not-researched",
-        "scholarships": "not-researched",
+        "admissions": "partially-researched",
+        "scholarships": "partially-researched",
         "costs": "not-researched"
       },
       "lastVerified": "2026-10-17",
       "programs": [],
-      "admissions": null,
+      "admissions": {
+        "sourceId": "stanford-international-applicants",
+        "lastChecked": "2026-10-17",
+        "standardisedTests": "SAT or ACT required (official). No minimum score and no preferred test.",
+        "englishTests": [],
+        "englishRequirementNote": "No English proficiency exam required for undergraduate applicants (official). Fluency in English is a prerequisite. Self-reported exams are welcome.",
+        "gradeMinimum": null,
+        "testDeadlines": "Not recorded.",
+        "notes": [
+          "No minimum scores published for admission.",
+          "Some international applicants are considered need-aware (official): requesting aid can affect admission for them."
+        ]
+      },
       "costs": null,
-      "scholarshipIds": [],
-      "notes": []
+      "scholarshipIds": [
+        "stanford-undergrad-aid"
+      ],
+      "notes": [
+        "Stanford's need-blind policy does not apply to some international applicants (official). Cost and programme mapping not yet researched."
+      ]
     },
     {
       "id": "university-oxford",
@@ -387,12 +408,12 @@
       "qsProfileUrl": "https://www.topuniversities.com/universities/university-oxford",
       "country": "United Kingdom",
       "city": "Oxford",
-      "officialWebsite": null,
+      "officialWebsite": "https://www.ox.ac.uk/",
       "dataStatus": {
         "qsRank": "verified-official-page",
         "programs": "not-researched",
-        "admissions": "not-researched",
-        "scholarships": "not-researched",
+        "admissions": "partially-researched",
+        "scholarships": "partially-researched",
         "costs": "not-researched"
       },
       "lastVerified": "2026-10-17",
@@ -400,7 +421,10 @@
       "admissions": null,
       "costs": null,
       "scholarshipIds": [],
-      "notes": []
+      "notes": [
+        "Official: no international quota for any course except Medicine. All applicants apply through UCAS. The 15 October 2026 UCAS deadline for 2027 entry has passed.",
+        "Official: Oxford's own bursaries are for Home and EU students. No international undergraduate university-level award was found on the official pages read. External scholarships were not checked."
+      ]
     },
     {
       "id": "harvard-university",
@@ -417,20 +441,40 @@
       "qsProfileUrl": "https://www.topuniversities.com/universities/harvard-university",
       "country": "United States",
       "city": "Cambridge",
-      "officialWebsite": null,
+      "officialWebsite": "https://college.harvard.edu/",
       "dataStatus": {
         "qsRank": "verified-official-page",
         "programs": "not-researched",
-        "admissions": "not-researched",
-        "scholarships": "not-researched",
-        "costs": "not-researched"
+        "admissions": "partially-researched",
+        "scholarships": "partially-researched",
+        "costs": "partially-researched"
       },
       "lastVerified": "2026-10-17",
       "programs": [],
-      "admissions": null,
-      "costs": null,
-      "scholarshipIds": [],
-      "notes": []
+      "admissions": {
+        "sourceId": "harvard-international-applicants",
+        "lastChecked": "2026-10-17",
+        "standardisedTests": "SAT or ACT required (official). AP, IB, A-level or national exam results accepted only in exceptional cases.",
+        "englishTests": [],
+        "englishRequirementNote": "Harvard does not require an English test for first-year applicants (official). TOEFL, IELTS and Duolingo may be submitted but cannot replace SAT or ACT.",
+        "gradeMinimum": null,
+        "testDeadlines": "Not recorded.",
+        "notes": [
+          "No grade minimum published. Holistic review.",
+          "Application requirements are the same for international and US applicants (official)."
+        ]
+      },
+      "costs": {
+        "totalCostOfAttendance2026_27USD": 95134,
+        "sourceId": "harvard-how-aid-works",
+        "note": "Official 2026-27 total billed and unbilled costs range $95,134 to $100,134 (tuition $62,226, fees $6,216, housing $14,250, food $8,942, plus personal, books and transport). Health insurance ($4,954) is extra unless covered by a family plan."
+      },
+      "scholarshipIds": [
+        "harvard-financial-aid"
+      ],
+      "notes": [
+        "Harvard admissions and aid are the same for all applicants regardless of nationality (official). Degree-level programme mapping not yet researched."
+      ]
     },
     {
       "id": "university-cambridge",
@@ -447,20 +491,24 @@
       "qsProfileUrl": "https://www.topuniversities.com/universities/university-cambridge",
       "country": "United Kingdom",
       "city": "Cambridge",
-      "officialWebsite": null,
+      "officialWebsite": "https://www.undergraduate.study.cam.ac.uk/",
       "dataStatus": {
         "qsRank": "verified-official-page",
         "programs": "not-researched",
         "admissions": "not-researched",
-        "scholarships": "not-researched",
+        "scholarships": "partially-researched",
         "costs": "not-researched"
       },
       "lastVerified": "2026-10-17",
       "programs": [],
       "admissions": null,
       "costs": null,
-      "scholarshipIds": [],
-      "notes": []
+      "scholarshipIds": [
+        "cambridge-trust-undergraduate"
+      ],
+      "notes": [
+        "Official: international undergraduate support is limited. Few full scholarships exist, and most are partial and means-tested. Admission requirements not researched in this batch."
+      ]
     },
     {
       "id": "california-institute-technology-caltech",

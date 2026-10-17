@@ -113,6 +113,191 @@
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-verified",
       "verificationNote": "Eligibility, entry steps, judging, deadline and prize are verified from the sponsor's terms. Whether a March 2027 application counts is not stated and should be confirmed with UM or Pearson."
+    },
+    {
+      "id": "harvard-financial-aid",
+      "universityId": "harvard-university",
+      "name": "Harvard College need-based financial aid",
+      "funder": "Harvard College (institutional)",
+      "awardType": "need-based",
+      "classification": "full-tuition",
+      "classificationNote": "Harvard states that for family incomes up to $200,000 aid will cover at least the full cost of tuition, subject to assessment. Not a guaranteed full ride: housing, food and other costs depend on need and the student's own contribution.",
+      "coverage": {
+        "tuition": "At least full tuition for family incomes up to $200,000 (official statement, subject to assessment)",
+        "living": "Depends on demonstrated need; personal and travel allowances may be included",
+        "fees": "Covered within need-based aid (not itemised)"
+      },
+      "eligibility": {
+        "applicantScope": "all-applicants",
+        "applicantScopeNote": "International students are eligible for exactly the same aid as US students (official).",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Need-based aid applies to all concentrations. No merit awards.",
+        "citizenshipOrResidency": "No citizenship limit stated.",
+        "nonUsApplicantNote": "Financial documents from the applicant's country are assessed. Official translation rules not checked.",
+        "academicConditions": "Maintain satisfactory academic progress (not verified in detail).",
+        "renewalConditions": "Reassessed annually (not verified in detail)."
+      },
+      "requiredDocuments": [
+        "CSS Profile and financial aid application (not verified in detail for Pakistan)"
+      ],
+      "applicationMethod": "Submitted with the admission application; need is assessed by the Financial Aid Office.",
+      "deadlines": {
+        "see official": "Check Harvard's financial aid deadlines each cycle (not recorded)."
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Any part of cost not covered by need-based aid, and health insurance (2026-27: $4,954 unless covered by family plan, per official cost page)."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Harvard states aid is need-based grants; some students use loans or outside awards for their own contribution (official page). Loans are not the institutional award.",
+      "sources": [
+        "harvard-how-aid-works",
+        "harvard-international-applicants"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Policy and cost are from Harvard's official pages. Individual award amounts, the financial aid deadline for international applicants, and documents for Pakistan are not verified."
+    },
+    {
+      "id": "stanford-undergrad-aid",
+      "universityId": "stanford-university",
+      "name": "Stanford University need-based undergraduate aid",
+      "funder": "Stanford University (institutional)",
+      "awardType": "need-based",
+      "classification": "unconfirmed",
+      "classificationNote": "Stanford's official pages describe need-based scholarships and an average remaining payment for students who get aid. The page read does not state a 100% need-met policy, so full coverage is not confirmed.",
+      "coverage": {
+        "tuition": "Need-based; amount not confirmed as full tuition",
+        "living": "Not confirmed"
+      },
+      "eligibility": {
+        "applicantScope": "all-applicants",
+        "applicantScopeNote": "Admission is need-blind except for some international applicants, for whom requesting aid may affect the decision (official page).",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Not restricted by programme in the pages read.",
+        "citizenshipOrResidency": "Not stated.",
+        "nonUsApplicantNote": "Some international applicants are admitted need-aware, so an aid request can affect admission.",
+        "academicConditions": "Not verified.",
+        "renewalConditions": "Not verified."
+      },
+      "requiredDocuments": [
+        "Financial aid application (requirements not verified in detail)"
+      ],
+      "applicationMethod": "Requested through the application and Financial Aid Office (not verified in detail).",
+      "deadlines": {
+        "see official": "Check Stanford's financial aid deadlines each cycle (not recorded)."
+      },
+      "selectionStatistics": "Official page: 60% of undergraduates receive Stanford scholarships (including athletic); 46% receive need-based Stanford scholarships.",
+      "uncoveredCosts": [
+        "Any remaining cost after aid (official average for need-based recipients about $20,000)."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Official page distinguishes scholarships from federal and state grants, work and loans; the Stanford scholarship itself is not described as a loan.",
+      "sources": [
+        "stanford-undergrad-aid",
+        "stanford-international-applicants"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Need-based policy and statistics are verified. Full-need policy, deadlines and international documents are not verified."
+    },
+    {
+      "id": "imperial-inspires-2027",
+      "universityId": "imperial-college-london",
+      "name": "Imperial Inspires Scholarship (2027 entry)",
+      "funder": "Imperial College London (institutional)",
+      "awardType": "merit-based",
+      "classification": "partial",
+      "classificationNote": "GBP 15,000 per year for each year of the course, for at least 300 awards. This is a fixed sum, not a full tuition waiver unless it equals the Overseas tuition for the course. Overseas fee for the course not confirmed in this build.",
+      "coverage": {
+        "tuition": "GBP 15,000 per year towards tuition fees and living costs (official wording)",
+        "living": "Included in the GBP 15,000 at the student's discretion (official wording)"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Must be an international student paying the Overseas rate of tuition (official).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": [
+          "Engineering",
+          "Natural Sciences",
+          "Medicine",
+          "Business (Imperial Business School)"
+        ],
+        "programmeScopeNote": "Full-time, on-campus undergraduate courses in Engineering, Natural Sciences, Medicine and Imperial Business School. Other faculties are not in scope.",
+        "citizenshipOrResidency": "Any nationality paying Overseas fees (Pakistani citizens are not excluded; fee status is decided by residency and nationality rules).",
+        "nonUsApplicantNote": "Fee status is assessed by Imperial; check your status before applying.",
+        "academicConditions": "Assessed on academic merit and potential through the UCAS application, admissions test and interview; optional 250-word statement.",
+        "renewalConditions": "Renewal per year is not verified in this build."
+      },
+      "requiredDocuments": [
+        "UCAS undergraduate application",
+        "Imperial Inspires application (invited if eligible and a place is available)",
+        "Optional 250-word statement"
+      ],
+      "applicationMethod": "Apply through UCAS; if eligible and an award exists for your course, you are invited to the scholarship application.",
+      "deadlines": {
+        "UCAS (most courses)": "13 January 2027",
+        "UCAS (Medicine)": "15 October 2026 (passed)",
+        "Imperial Inspires application": "5 February 2027, 23:59 UK time"
+      },
+      "selectionStatistics": "At least 300 awards for 2027 entry (official).",
+      "uncoveredCosts": [
+        "Overseas tuition above GBP 15,000 per year, if any (course fee not verified in this build).",
+        "Living costs beyond the amount the student chooses to allocate, visa, travel, health surcharge (not verified)."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not a loan per official page.",
+      "sources": [
+        "imperial-inspires"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-verified",
+      "verificationNote": "Amount, eligibility, scope and deadlines are verified from Imperial's official page. Overseas tuition for each course is not verified here."
+    },
+    {
+      "id": "cambridge-trust-undergraduate",
+      "universityId": "university-cambridge",
+      "name": "Cambridge Trust awards for overseas undergraduates (means-tested)",
+      "funder": "Cambridge Trust (external to individual colleges)",
+      "awardType": "need-based",
+      "classification": "partial",
+      "classificationNote": "Official pages describe most international undergraduate support as a partial contribution, means-tested, and few full undergraduate scholarships exist. Amount and coverage per award are not verified here.",
+      "coverage": {
+        "tuition": "Partial (per official description; amount not verified)",
+        "living": "Not verified"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Official: Cambridge Trust offers awards to overseas students who have been accepted by a Cambridge College.",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Accepted students only. Not restricted by subject in the excerpt read.",
+        "citizenshipOrResidency": "Country-specific and Commonwealth awards exist; whether Pakistan qualifies was not verified.",
+        "nonUsApplicantNote": "Apply only after an offer from a College.",
+        "academicConditions": "Not verified.",
+        "renewalConditions": "Not verified."
+      },
+      "requiredDocuments": [
+        "Application form issued by the College after offer (not verified)"
+      ],
+      "applicationMethod": "Application made after receiving an offer from a Cambridge College.",
+      "deadlines": {
+        "see official": "Not recorded."
+      },
+      "selectionStatistics": "Official: few full undergraduate scholarships.",
+      "uncoveredCosts": [
+        "Most costs (not verified)."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not a loan per official description.",
+      "sources": [
+        "cambridge-international-financial-support"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Existence, eligibility route and means-testing are from the official excerpt. Pakistan eligibility, amounts and deadlines are not verified."
     }
   ]
 }

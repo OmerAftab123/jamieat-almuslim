@@ -557,6 +557,797 @@
           ]
         }
       ]
+    },
+    {
+      "id": "harvard-free-study",
+      "universityId": "harvard-university",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry). Degree-level programme checks are not yet researched for this university.",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Yes, you can apply. Admission is highly selective, and programme-level eligibility is not yet checked.",
+          "detail": "Harvard's official pages say admission and aid are the same for all applicants regardless of nationality. The SAT or ACT is required. No English test is required for first-year applicants, but you may submit one. No grade minimum is published.",
+          "sourceIds": [
+            "harvard-international-applicants"
+          ]
+        },
+        "free": {
+          "verdict": "Possibly. Harvard's need-based aid covers at least full tuition for family incomes up to $200,000, but it is not automatic and not a full ride for every expense.",
+          "detail": "Harvard says it meets 100% of demonstrated need and that international students are eligible for the same aid. For families with incomes below $100,000 the expected parent contribution is zero. For incomes up to $200,000 aid covers at least full tuition, subject to assessment. Health insurance and some costs are not covered by the tuition promise. Harvard's need-based aid is grants, not loans, although some students use loans for their own contribution.",
+          "sourceIds": [
+            "harvard-how-aid-works",
+            "harvard-international-applicants"
+          ]
+        },
+        "should": {
+          "verdict": "Depends on your family's finances and on whether you accept a low-probability application.",
+          "detail": "Apply only if your family can provide the aid forms and documents and you would accept the place at the cost you are offered after aid. Do not treat Harvard as your only option.",
+          "sourceIds": []
+        },
+        "how": [
+          "Confirm you have an SAT or ACT score (required).",
+          "Submit the Common Application with Harvard's supplements by the deadline on Harvard's admissions page.",
+          "Submit the financial aid application as early as possible, with translated financial documents.",
+          "Check your degree's concentration on Harvard's site (not yet mapped in this dataset).",
+          "Compare any aid offer with your actual costs before accepting."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Standardised test",
+          "detail": "SAT or ACT required.",
+          "status": "verified-official",
+          "sourceIds": [
+            "harvard-international-applicants"
+          ]
+        },
+        {
+          "item": "English-language test",
+          "detail": "Not required for first-year applicants. May be submitted but cannot replace SAT or ACT.",
+          "status": "verified-official",
+          "sourceIds": [
+            "harvard-international-applicants"
+          ]
+        },
+        {
+          "item": "Grade or percentage minimum",
+          "detail": "None published. Holistic review.",
+          "status": "verified-official-absence",
+          "sourceIds": [
+            "harvard-international-applicants"
+          ]
+        },
+        {
+          "item": "Subject-specific requirements",
+          "detail": "Not researched for each concentration.",
+          "status": "not-verified",
+          "sourceIds": []
+        },
+        {
+          "item": "Financial aid application",
+          "detail": "Required for need-based aid. Specific documents for Pakistan not verified.",
+          "status": "verified-official-partial",
+          "sourceIds": [
+            "harvard-how-aid-works"
+          ]
+        },
+        {
+          "item": "Student visa and travel",
+          "detail": "Not verified. Check US government and Harvard international office guidance.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit-based",
+          "status": "none",
+          "detail": "Harvard awards aid on need, not merit (official: 100% need-based aid).",
+          "sourceIds": [
+            "harvard-how-aid-works"
+          ]
+        },
+        {
+          "route": "Need-based (institutional)",
+          "status": "available-conditional",
+          "detail": "Harvard need-based aid; international students eligible on the same terms. At least full tuition for family incomes up to $200,000 (subject to assessment).",
+          "sourceIds": [
+            "harvard-how-aid-works"
+          ]
+        },
+        {
+          "route": "National (Pakistan government or HEC)",
+          "status": "not-verified",
+          "detail": "No Pakistani national award for Harvard undergraduate study was verified.",
+          "sourceIds": []
+        },
+        {
+          "route": "Regional",
+          "status": "not-verified",
+          "detail": "Not researched.",
+          "sourceIds": []
+        },
+        {
+          "route": "Sports",
+          "status": "not-verified",
+          "detail": "Athletic recruitment is not verified in this build.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [
+        {
+          "label": "Parent contribution",
+          "value": "Zero for families with income below $100,000; aid covers at least full tuition up to $200,000 (official).",
+          "sourceId": "harvard-how-aid-works",
+          "kind": "official"
+        },
+        {
+          "label": "Total billed and unbilled cost 2026-27",
+          "value": "$95,134 to $100,134 (official), plus $4,954 health insurance unless covered.",
+          "sourceId": "harvard-how-aid-works",
+          "kind": "official"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "not-recorded",
+        "detail": "No verified student-reported or consultant trend data is recorded. Third-party admission-chance estimates are not used."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Need-blind admission, 100% need met, and international students get the same aid (official).",
+          "Aid is grants, not loans, for the institutional award (official).",
+          "Harvard does not require an English test for first-year applicants (official)."
+        ],
+        "againstOrCaution": [
+          "Admission is highly selective and no international admit rate is recorded in this build.",
+          "Aid depends on your family's documents. Without them, the free route cannot be confirmed.",
+          "Costs beyond tuition, insurance and travel need planning."
+        ],
+        "decisionTest": [
+          "Can your family provide the financial aid documents on time?",
+          "Would you accept the place at the net cost after aid?",
+          "Is the degree you want offered by Harvard and does it fit your goals?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Harvard does not yet have a degree-level programme mapping in this dataset, so no degree score is shown.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now (October 2026)",
+          "steps": [
+            "Check Harvard's current deadlines for Regular Action and financial aid.",
+            "Book the SAT or ACT if you do not have a valid score.",
+            "Ask your family to start gathering income and asset documents, with translations."
+          ]
+        },
+        {
+          "window": "Before the Regular Action deadline (check the current year)",
+          "steps": [
+            "Submit the Common Application and Harvard supplements.",
+            "Complete and submit the financial aid application.",
+            "Keep copies of every document and confirmation."
+          ]
+        },
+        {
+          "window": "After decision",
+          "steps": [
+            "Compare the aid offer with your full expected costs, including health insurance and travel.",
+            "Check visa requirements and register with Harvard's international office."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stanford-free-study",
+      "universityId": "stanford-university",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry). Degree-level programme checks are not yet researched for this university.",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Yes, you can apply, subject to SAT or ACT and English fluency. Admission is highly selective.",
+          "detail": "Stanford requires the SAT or ACT, has no minimum score, and does not require an English exam for undergraduates. English fluency is a prerequisite. Some international applicants are considered need-aware, which means requesting aid can affect their admission decision.",
+          "sourceIds": [
+            "stanford-international-applicants",
+            "stanford-undergrad-aid"
+          ]
+        },
+        "free": {
+          "verdict": "Possibly, through need-based aid. Full coverage is not confirmed on the pages read.",
+          "detail": "Stanford runs a need-based aid program. Official statistics: 60% of undergraduates receive Stanford scholarships (including athletic scholarships), and 46% receive need-based Stanford scholarships, paying an average of $20,000 after grants. Whether a Pakistani applicant would receive full tuition depends on the assessment, and the full-need policy was not confirmed in the pages read.",
+          "sourceIds": [
+            "stanford-undergrad-aid"
+          ]
+        },
+        "should": {
+          "verdict": "Decide on need and admission odds. Do not treat Stanford as your only option.",
+          "detail": "The need-aware rule for some international applicants means a financial aid request can affect the admission decision. Plan a backup.",
+          "sourceIds": [
+            "stanford-undergrad-aid"
+          ]
+        },
+        "how": [
+          "Take the SAT or ACT and self-report scores with the application.",
+          "Submit the application by the deadline on Stanford's admission site.",
+          "Request need-based aid in the application (this can affect admission for some international applicants).",
+          "Complete the financial aid application with translated documents.",
+          "Compare any package with your full expected cost before accepting."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Standardised test",
+          "detail": "SAT or ACT required. No minimum score.",
+          "status": "verified-official",
+          "sourceIds": [
+            "stanford-international-applicants"
+          ]
+        },
+        {
+          "item": "English-language test",
+          "detail": "Not required for undergraduates. Fluency is a prerequisite.",
+          "status": "verified-official",
+          "sourceIds": [
+            "stanford-international-applicants"
+          ]
+        },
+        {
+          "item": "Grade or percentage minimum",
+          "detail": "None published.",
+          "status": "verified-official-absence",
+          "sourceIds": [
+            "stanford-international-applicants"
+          ]
+        },
+        {
+          "item": "Financial aid",
+          "detail": "Need-based. Admission need-aware for some international applicants.",
+          "status": "verified-official",
+          "sourceIds": [
+            "stanford-undergrad-aid"
+          ]
+        },
+        {
+          "item": "Subject-specific requirements",
+          "detail": "Not researched.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit-based",
+          "status": "none-found",
+          "detail": "No merit award was verified in the pages read.",
+          "sourceIds": []
+        },
+        {
+          "route": "Need-based (institutional)",
+          "status": "available-conditional",
+          "detail": "Stanford need-based aid. Full need coverage not confirmed on the pages read.",
+          "sourceIds": [
+            "stanford-undergrad-aid"
+          ]
+        },
+        {
+          "route": "National (Pakistan government or HEC)",
+          "status": "not-verified",
+          "detail": "Not verified.",
+          "sourceIds": []
+        },
+        {
+          "route": "Regional",
+          "status": "not-verified",
+          "detail": "Not researched.",
+          "sourceIds": []
+        },
+        {
+          "route": "Sports",
+          "status": "not-verified",
+          "detail": "Athletic scholarships exist (official statistic) but the criteria for international students were not verified.",
+          "sourceIds": [
+            "stanford-undergrad-aid"
+          ]
+        }
+      ],
+      "trends": [
+        {
+          "label": "Students receiving Stanford scholarships (incl. athletic)",
+          "value": "60% (official)",
+          "sourceId": "stanford-undergrad-aid",
+          "kind": "official"
+        },
+        {
+          "label": "Students receiving need-based Stanford scholarships",
+          "value": "46%, paying about $20,000 on average after grants (official)",
+          "sourceId": "stanford-undergrad-aid",
+          "kind": "official"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "not-recorded",
+        "detail": "No verified student-reported or consultant trend data is recorded. Third-party admission-chance estimates are not used."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Need-based program with official statistics on aid.",
+          "No English exam required for undergraduates (official)."
+        ],
+        "againstOrCaution": [
+          "Some international applicants are considered need-aware (official).",
+          "Full coverage for Pakistani families not confirmed.",
+          "Admission is highly selective."
+        ],
+        "decisionTest": [
+          "Would requesting need-based aid hurt your admission chances?",
+          "Would you still apply if aid were only partial?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Stanford has no degree-level programme mapping yet in this dataset, so no degree score is shown.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now (October 2026)",
+          "steps": [
+            "Take or book the SAT or ACT.",
+            "Read Stanford's current application and financial aid deadlines.",
+            "Start the family financial documents with translations."
+          ]
+        },
+        {
+          "window": "Before Stanford's deadlines (check the current year)",
+          "steps": [
+            "Submit the application and request need-based aid, knowing the admission effect for some international applicants.",
+            "Complete the financial aid application."
+          ]
+        },
+        {
+          "window": "After decision",
+          "steps": [
+            "Compare the package with your full expected cost.",
+            "Check visa requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oxford-free-study",
+      "universityId": "university-oxford",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry). Degree-level programme checks are not yet researched for this university.",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Yes, the admissions route is open to international students, but the 2027-entry UCAS deadline (15 October 2026) has passed.",
+          "detail": "Official: Oxford has no international quota for any course except Medicine. All applicants apply through UCAS. Entry requirements per course were not researched in this batch.",
+          "sourceIds": [
+            "oxford-international-applicants"
+          ]
+        },
+        "free": {
+          "verdict": "No university-level free route for international undergraduates was found on the official pages read.",
+          "detail": "Oxford's own bursaries and Crankstart scholarships are for Home and EU students. External scholarships were not checked in this batch. This is not proof that none exists.",
+          "sourceIds": [
+            "oxford-support"
+          ]
+        },
+        "should": {
+          "verdict": "Decide on cost first. No institutional free route is recorded.",
+          "detail": "Plan the full cost of the course before applying. Check external funders and Oxford's own pages for later updates.",
+          "sourceIds": [
+            "oxford-support"
+          ]
+        },
+        "how": [
+          "Check the course you want and its entry requirements on Oxford's course pages.",
+          "Apply through UCAS for the next intake (2027 entry deadline has passed; check the 2028 cycle).",
+          "Check external scholarships for Pakistani students (not yet researched).",
+          "Budget the full tuition and living cost before any application."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Application route",
+          "detail": "UCAS. No international quota except Medicine.",
+          "status": "verified-official",
+          "sourceIds": [
+            "oxford-international-applicants"
+          ]
+        },
+        {
+          "item": "UCAS deadline",
+          "detail": "15 October for the next entry cycle (2027 entry has passed).",
+          "status": "verified-official",
+          "sourceIds": [
+            "oxford-international-applicants"
+          ]
+        },
+        {
+          "item": "Course entry requirements",
+          "detail": "Not researched in this batch.",
+          "status": "not-verified",
+          "sourceIds": []
+        },
+        {
+          "item": "English-language test",
+          "detail": "Not researched in this batch.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit-based (university)",
+          "status": "none-found",
+          "detail": "Not found for international undergraduates on the official pages read.",
+          "sourceIds": [
+            "oxford-support"
+          ]
+        },
+        {
+          "route": "Need-based (university)",
+          "status": "none-found",
+          "detail": "Oxford bursaries are for Home and EU students (official).",
+          "sourceIds": [
+            "oxford-support"
+          ]
+        },
+        {
+          "route": "External",
+          "status": "not-verified",
+          "detail": "External scholarships not checked.",
+          "sourceIds": []
+        },
+        {
+          "route": "National, regional, sports",
+          "status": "not-verified",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [
+        {
+          "label": "International admission policy",
+          "value": "No quota except Medicine (official)",
+          "sourceId": "oxford-international-applicants",
+          "kind": "official"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "not-recorded",
+        "detail": "No verified student-reported or consultant trend data is recorded. Third-party admission-chance estimates are not used."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Official: no international quota for most courses."
+        ],
+        "againstOrCaution": [
+          "No university-level free route found for international undergraduates.",
+          "Costs not researched."
+        ],
+        "decisionTest": [
+          "Can you fund the full course without an institutional award?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Oxford has no degree-level programme mapping yet in this dataset.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now (October 2026)",
+          "steps": [
+            "Check the 2028 UCAS timeline on Oxford's site.",
+            "Research external scholarships for Pakistani students."
+          ]
+        },
+        {
+          "window": "Before the UCAS deadline for your intended entry year",
+          "steps": [
+            "Apply through UCAS and complete any required admission tests."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cambridge-free-study",
+      "universityId": "university-cambridge",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry). Degree-level programme checks are not yet researched for this university.",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Yes, the admissions route is open to international students. Admission requirements were not researched in this batch.",
+          "detail": "Cambridge admits international undergraduates through UCAS and colleges. Course entry requirements and English requirements were not verified in this batch.",
+          "sourceIds": [
+            "cambridge-international-financial-support"
+          ]
+        },
+        "free": {
+          "verdict": "Only partial, means-tested support is recorded. No full-cover route is confirmed.",
+          "detail": "Official: support for international undergraduates is limited, few full scholarships exist, and most support is a partial contribution. The Cambridge Trust awards are given after an offer and are means-tested. Whether Pakistan is eligible for the country-specific awards was not verified.",
+          "sourceIds": [
+            "cambridge-international-financial-support"
+          ]
+        },
+        "should": {
+          "verdict": "Decide on cost first. A free degree is not established.",
+          "detail": "Plan the full course cost. A partial award would not cover the whole course for most families.",
+          "sourceIds": [
+            "cambridge-international-financial-support"
+          ]
+        },
+        "how": [
+          "Check course entry requirements and any admissions test on Cambridge's course pages.",
+          "Apply through UCAS by the deadline for the intended intake.",
+          "If offered a place, apply for Cambridge Trust and college awards using the form the College sends.",
+          "Budget the full cost before accepting."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Application route",
+          "detail": "UCAS and college application.",
+          "status": "verified-official-partial",
+          "sourceIds": [
+            "cambridge-international-financial-support"
+          ]
+        },
+        {
+          "item": "Course entry requirements and English test",
+          "detail": "Not researched in this batch.",
+          "status": "not-verified",
+          "sourceIds": []
+        },
+        {
+          "item": "Financial support application",
+          "detail": "Cambridge Trust after offer (official). Documents not verified.",
+          "status": "verified-official-partial",
+          "sourceIds": [
+            "cambridge-international-financial-support"
+          ]
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit-based",
+          "status": "none-found",
+          "detail": "Not verified.",
+          "sourceIds": []
+        },
+        {
+          "route": "Need-based (Cambridge Trust, means-tested)",
+          "status": "available-conditional",
+          "detail": "Partial, means-tested awards after offer. Eligibility for Pakistani applicants not verified.",
+          "sourceIds": [
+            "cambridge-international-financial-support"
+          ]
+        },
+        {
+          "route": "National (Pakistan)",
+          "status": "not-verified",
+          "detail": "Not verified.",
+          "sourceIds": []
+        },
+        {
+          "route": "Regional",
+          "status": "not-verified",
+          "detail": "Not researched.",
+          "sourceIds": []
+        },
+        {
+          "route": "Sports",
+          "status": "not-verified",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [
+        {
+          "label": "Support for international undergraduates",
+          "value": "Limited; few full scholarships; most support partial and means-tested (official)",
+          "sourceId": "cambridge-international-financial-support",
+          "kind": "official"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "not-recorded",
+        "detail": "No verified student-reported or consultant trend data is recorded. Third-party admission-chance estimates are not used."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Official: Cambridge Trust and college awards exist for overseas students who are accepted."
+        ],
+        "againstOrCaution": [
+          "Official: few full scholarships; most support is partial.",
+          "Full free study not established."
+        ],
+        "decisionTest": [
+          "Can you fund the full course without a full award?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Cambridge has no degree-level programme mapping yet in this dataset.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now (October 2026)",
+          "steps": [
+            "Check the course's entry requirements and any admissions test.",
+            "Research College-specific awards."
+          ]
+        },
+        {
+          "window": "Before the UCAS deadline for your intended year",
+          "steps": [
+            "Apply through UCAS."
+          ]
+        },
+        {
+          "window": "After offer",
+          "steps": [
+            "Apply for Cambridge Trust and college awards using the forms sent by the College."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "imperial-free-study",
+      "universityId": "imperial-college-london",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry). Degree-level programme checks are not yet researched for this university.",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Yes, you can apply through UCAS. Course requirements and admission tests were not verified in this batch.",
+          "detail": "Imperial's official pages set UCAS deadlines of 13 January 2027 for most courses and 15 October 2026 for Medicine (passed). Imperial Inspires is for international Overseas-fee students on eligible courses.",
+          "sourceIds": [
+            "imperial-inspires"
+          ]
+        },
+        "free": {
+          "verdict": "Partial: GBP 15,000 per year is recorded for at least 300 international awards. This is not a full ride unless it covers the whole Overseas fee.",
+          "detail": "Imperial Inspires gives GBP 15,000 per year for each year of an eligible full-time undergraduate course in Engineering, Natural Sciences, Medicine or Business. The award is merit-based and competitive. The Overseas tuition for each course was not verified in this build, so whether the award is a full tuition cover is not established.",
+          "sourceIds": [
+            "imperial-inspires"
+          ]
+        },
+        "should": {
+          "verdict": "Reasonable if the course fits and the award matches your fee; decide on the full fee first.",
+          "detail": "If the course is in scope and the Overseas fee is close to the award, the scholarship is significant. Otherwise the remaining cost must be funded.",
+          "sourceIds": [
+            "imperial-inspires"
+          ]
+        },
+        "how": [
+          "Check the course and its entry requirements on Imperial's course pages.",
+          "Apply through UCAS by 13 January 2027 (Medicine: 15 October 2026, passed).",
+          "If eligible and an award is available, complete the optional 250-word statement and submit the Imperial Inspires application by 5 February 2027.",
+          "Confirm the Overseas fee for your course before accepting."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "UCAS deadline",
+          "detail": "13 January 2027 for most courses. Medicine: 15 October 2026 (passed).",
+          "status": "verified-official",
+          "sourceIds": [
+            "imperial-inspires"
+          ]
+        },
+        {
+          "item": "Imperial Inspires application deadline",
+          "detail": "5 February 2027, 23:59 UK time.",
+          "status": "verified-official",
+          "sourceIds": [
+            "imperial-inspires"
+          ]
+        },
+        {
+          "item": "Course entry requirements and admission tests",
+          "detail": "Not verified from an official Imperial page in this batch.",
+          "status": "not-verified",
+          "sourceIds": []
+        },
+        {
+          "item": "English-language test",
+          "detail": "Not researched in this batch.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit-based",
+          "status": "available-conditional",
+          "detail": "Imperial Inspires: GBP 15,000 per year, at least 300 awards for 2027 entry, Overseas-fee students in eligible courses (official).",
+          "sourceIds": [
+            "imperial-inspires"
+          ]
+        },
+        {
+          "route": "Need-based",
+          "status": "none-found",
+          "detail": "Not found for international undergraduates on the official pages read.",
+          "sourceIds": []
+        },
+        {
+          "route": "National (Pakistan)",
+          "status": "not-verified",
+          "detail": "Not verified.",
+          "sourceIds": []
+        },
+        {
+          "route": "Regional",
+          "status": "not-verified",
+          "detail": "Not researched.",
+          "sourceIds": []
+        },
+        {
+          "route": "Sports",
+          "status": "not-verified",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [
+        {
+          "label": "Imperial Inspires awards for 2027 entry",
+          "value": "At least 300, GBP 15,000 per year (official)",
+          "sourceId": "imperial-inspires",
+          "kind": "official"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "not-recorded",
+        "detail": "No verified student-reported or consultant trend data is recorded. Third-party admission-chance estimates are not used."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Official: GBP 15,000 per year for at least 300 international awards.",
+          "Eligibility is nationality-neutral within Overseas fee status (official)."
+        ],
+        "againstOrCaution": [
+          "Partial unless it covers the full Overseas fee for your course.",
+          "Competitive: assessed on merit and potential.",
+          "Only Engineering, Natural Sciences, Medicine and Business courses are in scope."
+        ],
+        "decisionTest": [
+          "Does your chosen course fall in an eligible faculty?",
+          "Does GBP 15,000 per year cover the course's Overseas fee?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Imperial has no degree-level programme mapping yet in this dataset.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now (October 2026)",
+          "steps": [
+            "Choose eligible courses and check their entry requirements.",
+            "Prepare for any admission tests Imperial requires (check the official page)."
+          ]
+        },
+        {
+          "window": "Before 13 January 2027",
+          "steps": [
+            "Submit the UCAS application."
+          ]
+        },
+        {
+          "window": "Before 5 February 2027",
+          "steps": [
+            "If invited, complete the Imperial Inspires application and optional statement."
+          ]
+        }
+      ]
     }
   ]
 }

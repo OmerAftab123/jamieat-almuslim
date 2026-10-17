@@ -432,6 +432,123 @@
         "the only HEC overseas undergraduate award found for Pakistani nationals in this build (Oman, 2 seats, closed)",
         "HEC need-based undergraduate award is limited to public universities in Pakistan (secondary source only)"
       ]
+    },
+    {
+      "id": "harvard-how-aid-works",
+      "title": "How Aid Works - Harvard College",
+      "publisher": "Harvard College",
+      "url": "https://college.harvard.edu/financial-aid/how-aid-works",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched chunk 0 of 2 in full: need-blind, 100% of demonstrated need, international students eligible for the same aid, parent contribution zero below $100k, aid covers tuition up to $200k income, 2026-27 cost of attendance.",
+      "supports": [
+        "need-blind admission",
+        "100% need met",
+        "international aid parity",
+        "2026-27 cost of attendance"
+      ]
+    },
+    {
+      "id": "harvard-international-applicants",
+      "title": "International Applicants - Harvard College",
+      "publisher": "Harvard College",
+      "url": "https://college.harvard.edu/admissions/apply/international-applicants",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: SAT or ACT required; English test not required for first-year applicants; AP/IB/A-level results accepted only in exceptional cases.",
+      "supports": [
+        "SAT or ACT required",
+        "English test not required"
+      ]
+    },
+    {
+      "id": "stanford-undergrad-aid",
+      "title": "Undergraduate Basics - Stanford Financial Aid",
+      "publisher": "Stanford University",
+      "url": "https://financialaid.stanford.edu/undergrad/index.html",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched in full: need-based program; admission need-blind except for some international applicants; 46% of students receive need-based Stanford scholarships (average $20,000 remaining after grants).",
+      "supports": [
+        "need-based program",
+        "need-blind except some international applicants",
+        "aid statistics"
+      ]
+    },
+    {
+      "id": "stanford-international-applicants",
+      "title": "International Applicants - Stanford Admission",
+      "publisher": "Stanford University",
+      "url": "https://admission.stanford.edu/apply/international/index.html",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: SAT or ACT required; no English proficiency exam required; fluency is a prerequisite; no minimum score published.",
+      "supports": [
+        "SAT or ACT required",
+        "no English exam required"
+      ]
+    },
+    {
+      "id": "oxford-international-applicants",
+      "title": "For international students - University of Oxford",
+      "publisher": "University of Oxford",
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/applying/for-international-students",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: no international quota for any course except Medicine; all applicants apply via UCAS by 15 October.",
+      "supports": [
+        "no international quota except Medicine",
+        "UCAS 15 October deadline"
+      ]
+    },
+    {
+      "id": "oxford-support",
+      "title": "Oxford Support - University of Oxford",
+      "publisher": "University of Oxford",
+      "url": "https://www.ox.ac.uk/students/fees-funding/ug-funding/oxford-support",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: bursaries are for Home and EU students (and specified groups); no international undergraduate bursary is listed.",
+      "supports": [
+        "bursaries limited to Home and EU groups"
+      ]
+    },
+    {
+      "id": "cambridge-international-financial-support",
+      "title": "International financial support - University of Cambridge",
+      "publisher": "University of Cambridge",
+      "url": "https://www.undergraduate.study.cam.ac.uk/international-students/financial-support",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: support for international undergraduates is limited; includes College awards, Cambridge Trust awards (after offer, means-tested) and country-specific scholarships; few full undergraduate scholarships.",
+      "supports": [
+        "limited international support",
+        "Cambridge Trust after offer",
+        "means-tested"
+      ]
+    },
+    {
+      "id": "imperial-inspires",
+      "title": "Imperial Inspires scholarships - Imperial College London",
+      "publisher": "Imperial College London",
+      "url": "https://www.imperial.ac.uk/study/fees-and-funding/imperial-inspires-scholarships/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Fetched in full: at least 300 scholarships for 2027 entry, GBP 15,000 per year for international Overseas-fee students in Engineering, Natural Sciences, Medicine and Business; optional 250-word statement; scholarship application by 5 Feb 2027.",
+      "supports": [
+        "GBP 15,000 per year",
+        "at least 300 awards",
+        "eligibility",
+        "application deadlines"
+      ]
     }
   ]
 }
