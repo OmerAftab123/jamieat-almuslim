@@ -2014,6 +2014,675 @@
           ]
         }
       ]
+    },
+    {
+      "id": "tum-free-study",
+      "universityId": "technical-university-munich",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry). Programme-level checks are not yet researched for this university.",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Possibly, subject to German-language and entrance requirements that were not verified in this batch.",
+          "detail": "TUM admits non-EU students to bachelor's programmes, but tuition applies to you (official). Language and entrance rules were not researched here.",
+          "sourceIds": [
+            "tum-tuition-fees"
+          ]
+        },
+        "free": {
+          "verdict": "No. Tuition applies to non-EU/EEA students. A grant or waiver is possible but not automatic.",
+          "detail": "Official: non-EU/EEA students newly enrolling in a bachelor's programme usually pay 2,000 or 3,000 euros per semester (2,300 or 3,400 from winter 2027/28). A semester fee also applies. Grants of 500 to 1,800 euros per semester and waivers are competitive and reviewed individually (official).",
+          "sourceIds": [
+            "tum-tuition-fees",
+            "tum-semester-fee",
+            "tum-scholarship-international"
+          ]
+        },
+        "should": {
+          "verdict": "Only with a funding plan that covers tuition, living costs and the semester fee for the full degree.",
+          "detail": "Compare the total cost with a free-tuition option for EU students at public universities. The degree choice and German level need checking before deciding.",
+          "sourceIds": [
+            "tum-tuition-fees"
+          ]
+        },
+        "how": [
+          "Confirm your programme's language requirement (German) and entrance rules.",
+          "Apply through TUM's application portal in the official window.",
+          "Apply for a TUM scholarship or waiver by its deadline (check the official window).",
+          "Budget tuition and living costs for every semester before accepting."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Tuition fee",
+          "detail": "2,000 or 3,000 euros per semester for bachelor's programmes (usual figures, official); 2,300 or 3,400 from winter 2027/28 (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "tum-tuition-fees"
+          ]
+        },
+        {
+          "item": "Semester fee",
+          "detail": "97 euros in Munich, Garching, Weihenstephan and Heilbronn for summer 2026 (official search excerpt).",
+          "status": "verified-official",
+          "sourceIds": [
+            "tum-semester-fee"
+          ]
+        },
+        {
+          "item": "German-language and entrance requirements",
+          "detail": "Not verified in this batch. Check the programme page.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit and need (TUM scholarship)",
+          "status": "available-conditional",
+          "detail": "One-time grant of 500 to 1,800 euros per semester plus waivers for outstanding performance or need; credited against fees; competitive (official).",
+          "sourceIds": [
+            "tum-scholarship-international"
+          ]
+        },
+        {
+          "route": "National (Pakistan)",
+          "status": "not-verified",
+          "detail": "Not researched.",
+          "sourceIds": []
+        },
+        {
+          "route": "Regional or sports",
+          "status": "not-verified",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [
+        {
+          "label": "Tuition for non-EU bachelor's students",
+          "value": "2,000 or 3,000 euros per semester (official, usual figures)",
+          "sourceId": "tum-tuition-fees",
+          "kind": "official"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "not-recorded",
+        "detail": "No verified student-reported or consultant trend data is recorded for this university in this batch. Third-party admission-chance estimates are not used."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Public research university with no tuition for EU/EEA students (official).",
+          "Grants and waivers exist for outstanding and needy students (official)."
+        ],
+        "againstOrCaution": [
+          "Tuition applies to Pakistani students (official).",
+          "Waivers are competitive and not automatic.",
+          "German-language requirement is likely (not verified)."
+        ],
+        "decisionTest": [
+          "Can you fund about 2,000 to 3,000 euros per semester without a waiver?",
+          "Are you willing to study in German?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "TUM has no degree-level mapping in this dataset yet.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now (October 2026)",
+          "steps": [
+            "Check your programme's language and entrance requirements.",
+            "Estimate tuition and living costs for the full degree."
+          ]
+        },
+        {
+          "window": "Before the TUM application deadline (check official dates)",
+          "steps": [
+            "Apply through TUM's portal."
+          ]
+        },
+        {
+          "window": "Scholarship window (per official excerpt: 15 May to 15 July for the following winter semester; verify)",
+          "steps": [
+            "Apply for the TUM scholarship or waiver."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toronto-free-study",
+      "universityId": "university-toronto",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry). Programme-level checks are not yet researched for this university.",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Yes, international students can apply. Admission requirements were not verified in this batch.",
+          "detail": "Official: all students are automatically considered for scholarships during admission (U of T international financial aid page).",
+          "sourceIds": [
+            "toronto-international-financial-aid"
+          ]
+        },
+        "free": {
+          "verdict": "No full-cost route for most international students. Merit awards are partial. The full-ride Pearson award is closed for 2027 entry.",
+          "detail": "Official: U of T cannot offer direct financial aid to international students. Most scholarships do not cover the full cost. The Pearson scholarship covers tuition, books, fees and residence for four years, but the school nomination deadline (9 Oct 2026) has passed for September 2027 entry.",
+          "sourceIds": [
+            "toronto-international-financial-aid",
+            "toronto-pearson-scholarship"
+          ]
+        },
+        "should": {
+          "verdict": "Only if you can fund most of the cost yourself or win a partial merit award.",
+          "detail": "Official: students need a plan for proof of funds for a Canadian study permit (official). The Pearson route is not open for the 2027 intake.",
+          "sourceIds": [
+            "toronto-international-financial-aid"
+          ]
+        },
+        "how": [
+          "Check course admission requirements (not verified here).",
+          "Apply to U of T. You are considered automatically for merit awards.",
+          "Confirm proof-of-funds requirements for a Canadian study permit.",
+          "Plan for the full cost if no award is offered."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Direct financial aid for international students",
+          "detail": "Not offered (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "toronto-international-financial-aid"
+          ]
+        },
+        {
+          "item": "Pearson school nomination",
+          "detail": "Required. The 9 Oct 2026 deadline for September 2027 entry has passed (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "toronto-pearson-scholarship"
+          ]
+        },
+        {
+          "item": "Course admission requirements and English test",
+          "detail": "Not verified in this batch.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit (U of T International Scholar Award)",
+          "status": "available-conditional",
+          "detail": "Automatic on admission; up to CAD 100,000 over four years in the Rotman example; amounts differ by faculty (official Rotman page).",
+          "sourceIds": [
+            "toronto-international-financial-aid"
+          ]
+        },
+        {
+          "route": "Merit (Lester B. Pearson)",
+          "status": "closed-for-2027",
+          "detail": "Full four-year award; nomination closed 9 Oct 2026 for September 2027 entry (official).",
+          "sourceIds": [
+            "toronto-pearson-scholarship"
+          ]
+        },
+        {
+          "route": "Need-based (institutional)",
+          "status": "not-available",
+          "detail": "Not offered to international students (official).",
+          "sourceIds": [
+            "toronto-international-financial-aid"
+          ]
+        },
+        {
+          "route": "National, regional, sports",
+          "status": "not-verified",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [
+        {
+          "label": "Direct need-based aid for international students",
+          "value": "Not offered (official)",
+          "sourceId": "toronto-international-financial-aid",
+          "kind": "official"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "not-recorded",
+        "detail": "No verified student-reported or consultant trend data is recorded for this university in this batch. Third-party admission-chance estimates are not used."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Automatic consideration for merit awards (official).",
+          "Large research university with international scholarship options."
+        ],
+        "againstOrCaution": [
+          "No institutional need-based aid for international students (official).",
+          "Pearson window for 2027 has closed.",
+          "Most awards are partial."
+        ],
+        "decisionTest": [
+          "Can you fund the full cost plus Canadian proof of funds?",
+          "Would you accept a partial merit award as the main funding?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "U of T has no degree-level mapping in this dataset yet.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now (October 2026)",
+          "steps": [
+            "Confirm course requirements.",
+            "Plan a full-cost budget."
+          ]
+        },
+        {
+          "window": "Application cycle for 2027 entry (check the official deadline)",
+          "steps": [
+            "Apply to U of T; merit awards are considered automatically."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "melbourne-free-study",
+      "universityId": "university-melbourne",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry). Programme-level checks are not yet researched for this university.",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Yes, through direct application for the start-year or mid-year intake (official applications page). Requirements not verified here.",
+          "detail": "Official: international applicants can apply directly; some scholarships are considered automatically.",
+          "sourceIds": [
+            "melbourne-mius"
+          ]
+        },
+        "free": {
+          "verdict": "No full-cost route found. A 20% fee remission is possible only if Pakistan meets the GDP criterion, which is not verified.",
+          "detail": "Official: the Melbourne International Undergraduate Scholarship gives 20% fee remission for 2027 entry, for citizens of countries with GDP per capita of US$10,000 or less. Pakistan's status on that list was not checked. The Melbourne International Excellence Scholarship gives 20% tuition sponsorship to students with no previous tertiary study.",
+          "sourceIds": [
+            "melbourne-mius",
+            "melbourne-international-excellence"
+          ]
+        },
+        "should": {
+          "verdict": "Only with a plan to cover at least 80% of fees and all living costs.",
+          "detail": "The 20% remission cannot be combined with another fee sponsorship (official). Tuition figures were not recorded in this batch.",
+          "sourceIds": [
+            "melbourne-mius"
+          ]
+        },
+        "how": [
+          "Check whether Pakistan meets the GDP criterion on the official eligible-countries list.",
+          "Apply for an Overseas Fee place; the scholarships are automatic.",
+          "Check the official deadline for your intake.",
+          "Budget the remaining fees and living costs."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Scholarship eligibility",
+          "detail": "GDP criterion for the MIUS (official); Pakistan not verified.",
+          "status": "not-verified",
+          "sourceIds": [
+            "melbourne-mius"
+          ]
+        },
+        {
+          "item": "Overseas Fee offer",
+          "detail": "Required for both scholarships (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "melbourne-mius",
+            "melbourne-international-excellence"
+          ]
+        },
+        {
+          "item": "Course admission requirements",
+          "detail": "Not verified in this batch.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Need-based or merit (MIUS)",
+          "status": "not-verified",
+          "detail": "20% fee remission for 2027 entry; GDP criterion; Pakistan not verified (official).",
+          "sourceIds": [
+            "melbourne-mius"
+          ]
+        },
+        {
+          "route": "Merit (Melbourne International Excellence)",
+          "status": "available-conditional",
+          "detail": "20% tuition sponsorship for 2027 students with no previous tertiary study (official).",
+          "sourceIds": [
+            "melbourne-international-excellence"
+          ]
+        },
+        {
+          "route": "National, regional, sports",
+          "status": "not-verified",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [
+        {
+          "label": "MIUS fee remission",
+          "value": "20% for 2027 entry; 25% before 2027 (official)",
+          "sourceId": "melbourne-mius",
+          "kind": "official"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "not-recorded",
+        "detail": "No verified student-reported or consultant trend data is recorded for this university in this batch. Third-party admission-chance estimates are not used."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Automatic scholarship consideration (official).",
+          "Possible partial fee remission."
+        ],
+        "againstOrCaution": [
+          "Remission covers only part of fees.",
+          "Pakistan's eligibility not verified.",
+          "Living costs not covered."
+        ],
+        "decisionTest": [
+          "Can you fund at least 80% of fees and living costs?",
+          "Is Pakistan on the GDP list?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Melbourne has no degree-level mapping in this dataset yet.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now (October 2026)",
+          "steps": [
+            "Check the eligible-countries list for Pakistan.",
+            "Check course entry requirements."
+          ]
+        },
+        {
+          "window": "Application (check official intake deadlines)",
+          "steps": [
+            "Apply for an Overseas Fee place; scholarships are automatic."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tokyo-free-study",
+      "universityId": "university-tokyo",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry). Programme-level checks are not yet researched for this university.",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Possibly, subject to admission requirements and language route (not verified in this batch). Some programmes are taught in English (PEAK).",
+          "detail": "Official: the University of Tokyo admits international undergraduates; the PEAK programme is in English (official pages, not fully read in this batch).",
+          "sourceIds": [
+            "tokyo-tuition-fees",
+            "tokyo-peak-scholarship"
+          ]
+        },
+        "free": {
+          "verdict": "Possibly, through MEXT, but not guaranteed to place you at UTokyo. The PEAK scholarship is for up to ten students (dated page).",
+          "detail": "Official: MEXT grantees do not pay tuition and certain fees. Undergraduate MEXT grantees study a year at a designated preparatory school and then go to a university designated by MEXT, which may not be UTokyo (official). PEAK: four-year scholarship for up to ten students, covering admission fee, tuition and living costs (official 2023 page; verify).",
+          "sourceIds": [
+            "tokyo-tuition-fees",
+            "tokyo-mext-scholarship",
+            "tokyo-peak-scholarship"
+          ]
+        },
+        "should": {
+          "verdict": "Yes if you accept a possible MEXT placement elsewhere, or win PEAK. Otherwise the full undergraduate cost is high.",
+          "detail": "Tuition is 642,960 yen per year for new undergraduates, plus an admission fee of 282,000 yen (official). Cost depends on MEXT or PEAK.",
+          "sourceIds": [
+            "tokyo-tuition-fees"
+          ]
+        },
+        "how": [
+          "Check the admission route and language requirements for your chosen programme.",
+          "Apply to MEXT through the Japanese embassy in Pakistan or the university route (check current dates).",
+          "Apply for PEAK if you want an English-taught programme and scholarship (check current year).",
+          "Budget the full cost if neither route is awarded."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Tuition (new undergraduates)",
+          "detail": "642,960 yen per year; admission fee 282,000 yen one-time (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "tokyo-tuition-fees"
+          ]
+        },
+        {
+          "item": "Language requirement",
+          "detail": "Varies by programme; not verified in this batch.",
+          "status": "not-verified",
+          "sourceIds": []
+        },
+        {
+          "item": "MEXT preparatory year",
+          "detail": "One year of Japanese-language and preparatory study (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "tokyo-mext-scholarship"
+          ]
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "National (MEXT)",
+          "status": "available-conditional",
+          "detail": "Tuition and certain fees covered; competitive; embassy or university route; undergrad placement may not be UTokyo (official). Stipend and airfare not verified from official pages here.",
+          "sourceIds": [
+            "tokyo-mext-scholarship"
+          ]
+        },
+        {
+          "route": "Merit (PEAK)",
+          "status": "unverified",
+          "detail": "Four-year scholarship for up to ten students, covering admission fee, tuition and living costs (dated official page).",
+          "sourceIds": [
+            "tokyo-peak-scholarship"
+          ]
+        },
+        {
+          "route": "Regional, sports",
+          "status": "not-verified",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [
+        {
+          "label": "Undergraduate annual tuition",
+          "value": "642,960 yen (new students); 535,800 yen (enrolled in or before 2024) (official)",
+          "sourceId": "tokyo-tuition-fees",
+          "kind": "official"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "not-recorded",
+        "detail": "No verified student-reported or consultant trend data is recorded for this university in this batch. Third-party admission-chance estimates are not used."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Full MEXT funding is possible (official).",
+          "PEAK offers an English-taught route (official)."
+        ],
+        "againstOrCaution": [
+          "MEXT undergraduate placement may not be UTokyo (official).",
+          "The regular programme may require Japanese.",
+          "Non-scholarship cost is high."
+        ],
+        "decisionTest": [
+          "Would you accept any MEXT university placement?",
+          "Can you fund the full cost if you do not win an award?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "UTokyo has no degree-level mapping in this dataset yet.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now (October 2026)",
+          "steps": [
+            "Check the MEXT route with the Japanese embassy in Pakistan.",
+            "Check PEAK's current-year details."
+          ]
+        },
+        {
+          "window": "Embassy or university deadlines (check official dates; embassy route is usually March to May, secondary)",
+          "steps": [
+            "Apply for MEXT.",
+            "Apply for PEAK in its window."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "edinburgh-free-study",
+      "universityId": "university-edinburgh",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry). Programme-level checks are not yet researched for this university.",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Yes, international students can apply. Admission requirements were not verified in this batch.",
+          "detail": "Official: undergraduate international funding pages exist (official registry page).",
+          "sourceIds": [
+            "edinburgh-international-undergraduate"
+          ]
+        },
+        "free": {
+          "verdict": "No. No full-funding undergraduate route for Pakistani students was found. The Mathematics scholarship covers part of living costs only.",
+          "detail": "Official: the Mathematics scholarship (GBP 5,000 per year, for living costs) is limited to the School of Mathematics. Other awards listed are for Turkey, asylum seekers and Olympiad medallists, or do not show Pakistan eligibility.",
+          "sourceIds": [
+            "edinburgh-maths-scholarship",
+            "edinburgh-international-undergraduate"
+          ]
+        },
+        "should": {
+          "verdict": "Only if you can fund the international fee and living costs, or qualify for the Mathematics award.",
+          "detail": "The Mathematics award is partial (living costs only), and tuition is not covered (official).",
+          "sourceIds": [
+            "edinburgh-maths-scholarship"
+          ]
+        },
+        "how": [
+          "Check the programme's entry requirements.",
+          "Apply through UCAS.",
+          "If you study Mathematics, apply for the scholarship as the official page describes.",
+          "Budget international tuition and living costs."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Scholarship eligibility",
+          "detail": "International fee status; School of Mathematics for the Maths award (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "edinburgh-maths-scholarship"
+          ]
+        },
+        {
+          "item": "Course admission requirements and English test",
+          "detail": "Not verified in this batch.",
+          "status": "not-verified",
+          "sourceIds": []
+        },
+        {
+          "item": "International tuition",
+          "detail": "Not recorded in this batch.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit (Mathematics)",
+          "status": "available-conditional",
+          "detail": "GBP 5,000 per year for living costs; School of Mathematics only (official).",
+          "sourceIds": [
+            "edinburgh-maths-scholarship"
+          ]
+        },
+        {
+          "route": "Need or other (Defne, Asylum, Rosedale)",
+          "status": "not-applicable",
+          "detail": "Turkey, asylum-seeker and other eligibility rules apply; not verified for Pakistan (official page).",
+          "sourceIds": [
+            "edinburgh-international-undergraduate"
+          ]
+        },
+        {
+          "route": "National, regional, sports",
+          "status": "not-verified",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [
+        {
+          "label": "Mathematics scholarship",
+          "value": "GBP 5,000 per year, living costs (official)",
+          "sourceId": "edinburgh-maths-scholarship",
+          "kind": "official"
+        }
+      ],
+      "unofficialTrends": {
+        "status": "not-recorded",
+        "detail": "No verified student-reported or consultant trend data is recorded for this university in this batch. Third-party admission-chance estimates are not used."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Strong institution with a partial Mathematics award (official)."
+        ],
+        "againstOrCaution": [
+          "No general undergraduate fee-funding route for Pakistan found (official pages read).",
+          "International tuition not recorded here."
+        ],
+        "decisionTest": [
+          "Can you fund international tuition without a university award?",
+          "Would you study Mathematics for the partial award?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Edinburgh has no degree-level mapping in this dataset yet.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now (October 2026)",
+          "steps": [
+            "Check entry requirements.",
+            "Confirm the international tuition figure."
+          ]
+        },
+        {
+          "window": "UCAS and scholarship window (check official dates)",
+          "steps": [
+            "Apply through UCAS.",
+            "Apply for the Mathematics scholarship if eligible."
+          ]
+        }
+      ]
     }
   ]
 }

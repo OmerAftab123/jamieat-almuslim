@@ -1041,20 +1041,26 @@
       "qsProfileUrl": "https://www.topuniversities.com/universities/university-melbourne",
       "country": "Australia",
       "city": "Melbourne",
-      "officialWebsite": null,
+      "officialWebsite": "https://www.unimelb.edu.au/",
       "dataStatus": {
         "qsRank": "verified-official-page",
         "programs": "not-researched",
         "admissions": "not-researched",
-        "scholarships": "not-researched",
+        "scholarships": "partially-researched",
         "costs": "not-researched"
       },
       "lastVerified": "2026-10-17",
       "programs": [],
       "admissions": null,
       "costs": null,
-      "scholarshipIds": [],
-      "notes": []
+      "scholarshipIds": [
+        "melbourne-international-undergraduate-scholarship",
+        "melbourne-international-excellence-undergraduate"
+      ],
+      "notes": [
+        "Official: Melbourne International Undergraduate Scholarship is 20% fee remission for 2027 entry; country-eligibility list (GDP per capita) not checked for Pakistan.",
+        "Tuition figures not recorded in this batch."
+      ]
     },
     {
       "id": "university-chicago",
@@ -1101,20 +1107,26 @@
       "qsProfileUrl": "https://www.topuniversities.com/universities/technical-university-munich",
       "country": "Germany",
       "city": "Munich",
-      "officialWebsite": null,
+      "officialWebsite": "https://www.tum.de/",
       "dataStatus": {
         "qsRank": "verified-official-page",
         "programs": "not-researched",
         "admissions": "not-researched",
-        "scholarships": "not-researched",
-        "costs": "not-researched"
+        "scholarships": "partially-researched",
+        "costs": "partially-researched"
       },
       "lastVerified": "2026-10-17",
       "programs": [],
       "admissions": null,
       "costs": null,
-      "scholarshipIds": [],
-      "notes": []
+      "scholarshipIds": [
+        "tum-international-scholarship"
+      ],
+      "notes": [
+        "Official: tuition for non-EU/EEA bachelor's students is usually 2,000 or 3,000 euros per semester (2,300 or 3,400 from winter 2027/28), plus a semester fee (97 euros, summer 2026).",
+        "Official: tuition waivers and grants are reviewed individually and credited against fees.",
+        "Bachelor's German-language and entrance requirements not verified in this batch."
+      ]
     },
     {
       "id": "fudan-university",
@@ -1311,20 +1323,26 @@
       "qsProfileUrl": "https://www.topuniversities.com/universities/university-toronto",
       "country": "Canada",
       "city": "Toronto",
-      "officialWebsite": null,
+      "officialWebsite": "https://www.utoronto.ca/",
       "dataStatus": {
         "qsRank": "verified-official-page",
         "programs": "not-researched",
         "admissions": "not-researched",
-        "scholarships": "not-researched",
+        "scholarships": "partially-researched",
         "costs": "not-researched"
       },
       "lastVerified": "2026-10-17",
       "programs": [],
       "admissions": null,
       "costs": null,
-      "scholarshipIds": [],
-      "notes": []
+      "scholarshipIds": [
+        "u-toronto-international-scholar-award",
+        "u-toronto-pearson-scholarship"
+      ],
+      "notes": [
+        "Official: U of T cannot offer direct financial aid to international students (publicly funded institution).",
+        "Pearson nomination deadline 9 Oct 2026 has passed for September 2027 entry."
+      ]
     },
     {
       "id": "hong-kong-university-science-technology",
@@ -1401,20 +1419,25 @@
       "qsProfileUrl": "https://www.topuniversities.com/universities/university-edinburgh",
       "country": "United Kingdom",
       "city": "Edinburgh",
-      "officialWebsite": null,
+      "officialWebsite": "https://www.ed.ac.uk/",
       "dataStatus": {
         "qsRank": "verified-official-page",
         "programs": "not-researched",
         "admissions": "not-researched",
-        "scholarships": "not-researched",
+        "scholarships": "partially-researched",
         "costs": "not-researched"
       },
       "lastVerified": "2026-10-17",
       "programs": [],
       "admissions": null,
       "costs": null,
-      "scholarshipIds": [],
-      "notes": []
+      "scholarshipIds": [
+        "edinburgh-global-mathematics-scholarship"
+      ],
+      "notes": [
+        "Official: the only general international undergraduate award listed in this batch is the Mathematics scholarship (School of Mathematics). Other awards listed are for Turkey, asylum seekers and Olympiad medallists, or are not verified for Pakistan.",
+        "Edinburgh international tuition not recorded in this batch."
+      ]
     },
     {
       "id": "shanghai-jiao-tong-university",
@@ -1521,20 +1544,26 @@
       "qsProfileUrl": "https://www.topuniversities.com/universities/university-tokyo",
       "country": "Japan",
       "city": "Tokyo",
-      "officialWebsite": null,
+      "officialWebsite": "https://www.u-tokyo.ac.jp/en/",
       "dataStatus": {
         "qsRank": "verified-official-page",
         "programs": "not-researched",
         "admissions": "not-researched",
-        "scholarships": "not-researched",
-        "costs": "not-researched"
+        "scholarships": "partially-researched",
+        "costs": "verified-official-page"
       },
       "lastVerified": "2026-10-17",
       "programs": [],
       "admissions": null,
       "costs": null,
-      "scholarshipIds": [],
-      "notes": []
+      "scholarshipIds": [
+        "mext-japanese-government-scholarship",
+        "u-tokyo-peak-scholarship"
+      ],
+      "notes": [
+        "Official tuition: 642,960 yen per year for new undergraduates; 535,800 yen for those enrolled in or before 2024; admission fee 282,000 yen.",
+        "MEXT is the main full-cost route; Pakistan's embassy list not verified."
+      ]
     },
     {
       "id": "university-manchester",

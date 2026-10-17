@@ -529,6 +529,360 @@
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-verified",
       "verificationNote": "Policy and deadlines from Caltech's official aid statement. Individual amounts depend on assessment."
+    },
+    {
+      "id": "tum-international-scholarship",
+      "universityId": "technical-university-munich",
+      "name": "TUM Scholarship for international students (grant and tuition waiver)",
+      "funder": "Technical University of Munich",
+      "awardType": "mixed",
+      "classification": "partial",
+      "classificationNote": "Official: a one-time study grant of 500 to 1,800 euros per semester, and tuition waivers for outstanding performance or financial need, credited against tuition (not paid out). Each application is reviewed individually.",
+      "coverage": {
+        "tuition": "Waiver credited against tuition (amount depends on award)",
+        "living": "Grant of 500 to 1,800 euros per semester (official)"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Non-EU/EEA students who must pay tuition (official).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Bachelor's and Master's programmes at TUM (official).",
+        "citizenshipOrResidency": "Non-EU/EEA citizenship; tuition payers.",
+        "nonUsApplicantNote": "Non-EU/EEA citizenship; tuition payers.",
+        "academicConditions": "Academic performance and financial circumstances (official).",
+        "renewalConditions": "Applications can be submitted again each semester (official)."
+      },
+      "requiredDocuments": [
+        "Application through TUM portal",
+        "Financial evidence (not verified in detail)"
+      ],
+      "applicationMethod": "Apply by the deadline (see official page); reviewed individually.",
+      "deadlines": {
+        "bachelor's window (excerpt, verify)": "15 May to 15 July for the following winter semester"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Tuition and semester fee beyond the award",
+        "Living costs beyond the grant"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "tum-tuition-fees",
+        "tum-scholarship-international"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open."
+    },
+    {
+      "id": "u-toronto-international-scholar-award",
+      "universityId": "university-toronto",
+      "name": "University of Toronto International Scholar Award (faculty-dependent)",
+      "funder": "University of Toronto",
+      "awardType": "merit-based",
+      "classification": "partial",
+      "classificationNote": "Official Rotman page: automatic for selected international admits on merit, up to CAD 100,000 over four years (up to CAD 40,000 in year one). Values differ by faculty; the excerpt gives the Rotman figures only.",
+      "coverage": {
+        "tuition": "Part of tuition (amount depends on faculty and award)",
+        "living": "Not covered by the award"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "International students (official).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Faculty-dependent (Rotman example).",
+        "citizenshipOrResidency": "Non-Canadian admits.",
+        "nonUsApplicantNote": "Non-Canadian admits.",
+        "academicConditions": "Merit (official).",
+        "renewalConditions": "Not recorded beyond the award terms."
+      },
+      "requiredDocuments": [
+        "Admission (automatic)"
+      ],
+      "applicationMethod": "Automatic on admission; no separate application listed in the excerpt.",
+      "deadlines": {
+        "per-faculty": "Set at admission"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Most tuition and living costs (official: most scholarships do not cover full cost)"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "toronto-international-financial-aid"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open."
+    },
+    {
+      "id": "u-toronto-pearson-scholarship",
+      "universityId": "university-toronto",
+      "name": "Lester B. Pearson International Scholarship",
+      "funder": "University of Toronto",
+      "awardType": "merit-based",
+      "classification": "full-cost-of-attendance",
+      "classificationNote": "Official: tuition, books, incidental fees and full residence support for four years. Requires school nomination (one per school). For Sep 2027 entry the nomination deadline was 9 Oct 2026, which has passed.",
+      "coverage": {
+        "tuition": "Full (official)",
+        "living": "Full residence support (official; living allowance not specified)"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Non-Canadian citizens requiring a study permit (official).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "First-entry undergraduate programmes only (official).",
+        "citizenshipOrResidency": "Non-Canadians; school nomination required.",
+        "nonUsApplicantNote": "Non-Canadians; school nomination required.",
+        "academicConditions": "Nomination by school; selection on academics, creativity, leadership (official).",
+        "renewalConditions": "Four years (official)."
+      },
+      "requiredDocuments": [
+        "School nomination",
+        "Scholarship application (November 6, 2026 per excerpt)"
+      ],
+      "applicationMethod": "Nomination by secondary school via online process; scholarship is not open to direct applicants.",
+      "deadlines": {
+        "school nomination": "9 Oct 2026 (passed for 2027 entry)"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Living costs beyond residence support (not verified)"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "toronto-pearson-scholarship"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open."
+    },
+    {
+      "id": "melbourne-international-undergraduate-scholarship",
+      "universityId": "university-melbourne",
+      "name": "Melbourne International Undergraduate Scholarship",
+      "funder": "University of Melbourne",
+      "awardType": "merit-based",
+      "classification": "partial",
+      "classificationNote": "Official: 20% fee remission from 2027 entry (25% before), selection by final secondary school results. Eligibility requires citizenship of a country with GDP per capita of US$10,000 or less. Pakistan's status on the World Bank list was not checked in this batch.",
+      "coverage": {
+        "tuition": "20% fee remission (official, 2027 entry)",
+        "living": "Not covered"
+      },
+      "eligibility": {
+        "applicantScope": "nationalities",
+        "applicantScopeNote": "Citizens of countries with GDP per capita of US$10,000 or less (official). Pakistan not verified.",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Bachelor's degrees with an Overseas Fee offer (official).",
+        "citizenshipOrResidency": "Citizenship criterion (not confirmed for Pakistan).",
+        "nonUsApplicantNote": "Citizenship criterion (not confirmed for Pakistan).",
+        "academicConditions": "Ranked on final secondary school results (official).",
+        "renewalConditions": "Can be deferred to the following academic year (official)."
+      },
+      "requiredDocuments": [
+        "Overseas Fee offer (automatic consideration)"
+      ],
+      "applicationMethod": "Automatic consideration once you apply for a course.",
+      "deadlines": {
+        "outcome": "Within five working days of course offer (official)"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "80% of fees",
+        "All living costs"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "melbourne-mius"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open."
+    },
+    {
+      "id": "melbourne-international-excellence-undergraduate",
+      "universityId": "university-melbourne",
+      "name": "Melbourne International Excellence Scholarship (Undergraduate)",
+      "funder": "University of Melbourne",
+      "awardType": "merit-based",
+      "classification": "partial",
+      "classificationNote": "Official: 20% tuition fee sponsorship for students starting from 2027 with no previous tertiary study. Automatic, no application.",
+      "coverage": {
+        "tuition": "20% (official)",
+        "living": "Not covered"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "International students with an Overseas Fee offer for 2027 (official).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Bachelor's degrees (official).",
+        "citizenshipOrResidency": "Non-Australian and non-NZ (assumed; check).",
+        "nonUsApplicantNote": "Non-Australian and non-NZ (assumed; check).",
+        "academicConditions": "No previous tertiary study (official).",
+        "renewalConditions": "One or more years (official)."
+      },
+      "requiredDocuments": [
+        "Offer for an Overseas Fee place"
+      ],
+      "applicationMethod": "Automatic (no application required, per official page).",
+      "deadlines": {
+        "start": "2027 commencement"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "80% of fees",
+        "Living costs"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "melbourne-international-excellence"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open."
+    },
+    {
+      "id": "mext-japanese-government-scholarship",
+      "universityId": "university-tokyo",
+      "name": "Japanese Government (MEXT) Scholarship",
+      "funder": "Government of Japan (MEXT)",
+      "awardType": "external",
+      "classification": "full-tuition",
+      "classificationNote": "Official: MEXT grantees do not pay tuition and certain other fees (UTokyo tuition page). Stipend amount for undergraduates and airfare not verified from an official page in this batch (secondary sources only).",
+      "coverage": {
+        "tuition": "Covered (official)",
+        "living": "Monthly stipend (amount not verified for undergraduates)",
+        "travel": "Airfare (secondary sources only)"
+      },
+      "eligibility": {
+        "applicantScope": "nationalities",
+        "applicantScopeNote": "Embassy or university recommendation; eligibility depends on the embassy list for the applicant's country (Pakistan not verified).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Undergraduate and research student tracks (official).",
+        "citizenshipOrResidency": "Applicant's country and embassy list not verified.",
+        "nonUsApplicantNote": "Applicant's country and embassy list not verified.",
+        "academicConditions": "Embassy and university screening (official).",
+        "renewalConditions": "Scholarship period per MEXT rules."
+      },
+      "requiredDocuments": [
+        "Embassy or university application (see official pages)"
+      ],
+      "applicationMethod": "Through the Japanese embassy in the home country or the university recommendation route.",
+      "deadlines": {
+        "embassy route": "Usually March to May (secondary source; verify)"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Costs not listed as covered by MEXT (not verified)"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "tokyo-tuition-fees",
+        "tokyo-mext-scholarship"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open."
+    },
+    {
+      "id": "u-tokyo-peak-scholarship",
+      "universityId": "university-tokyo",
+      "name": "University of Tokyo Scholarship for PEAK students",
+      "funder": "University of Tokyo (PEAK)",
+      "awardType": "merit-based",
+      "classification": "full-cost-of-attendance",
+      "classificationNote": "Official excerpt of a PEAK page dated 2023: up to ten students, covering admission fee, tuition and living expenses (126,000 yen per month). Current-year terms must be verified.",
+      "coverage": {
+        "tuition": "Covered (dated page)",
+        "living": "126,000 yen per month (dated page)"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "Students in the PEAK programme (English-taught).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "PEAK programme only.",
+        "citizenshipOrResidency": "Not verified.",
+        "nonUsApplicantNote": "Not verified.",
+        "academicConditions": "Exceptional merit (official).",
+        "renewalConditions": "Four years (dated page)."
+      },
+      "requiredDocuments": [
+        "PEAK application"
+      ],
+      "applicationMethod": "Apply through the PEAK programme application.",
+      "deadlines": {
+        "PEAK application": "Verify current year"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Costs beyond the stated coverage"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "tokyo-peak-scholarship"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "unverified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open."
+    },
+    {
+      "id": "edinburgh-global-mathematics-scholarship",
+      "universityId": "university-edinburgh",
+      "name": "Edinburgh Global Undergraduate Mathematics Scholarship",
+      "funder": "University of Edinburgh",
+      "awardType": "merit-based",
+      "classification": "partial",
+      "classificationNote": "Official: GBP 5,000 per year toward living costs, for international fee-status undergraduates in the School of Mathematics. It is not for students on other programmes.",
+      "coverage": {
+        "living": "GBP 5,000 per year (official)",
+        "tuition": "Not covered"
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "International fee status (official).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "School of Mathematics undergraduate degrees only (official).",
+        "citizenshipOrResidency": "Non-UK and non-Irish nationals with international fee status (official).",
+        "nonUsApplicantNote": "Non-UK and non-Irish nationals with international fee status (official).",
+        "academicConditions": "Outstanding academic performance (official).",
+        "renewalConditions": "Renewable (official wording: paid in instalments)."
+      },
+      "requiredDocuments": [
+        "UCAS application (official)"
+      ],
+      "applicationMethod": "Applied via UCAS; no offer needed to start the scholarship application (official).",
+      "deadlines": {
+        "deadline": "Check official page"
+      },
+      "selectionStatistics": "Not recorded.",
+      "uncoveredCosts": [
+        "Tuition fees (international rate)",
+        "Most living costs"
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not described as a loan in the official excerpt.",
+      "sources": [
+        "edinburgh-maths-scholarship",
+        "edinburgh-international-undergraduate"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Built from official pages fetched or search-excerpted on 17 Oct 2026; see sources. Items marked not verified remain open."
     }
   ]
 }

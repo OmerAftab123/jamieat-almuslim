@@ -680,6 +680,162 @@
       "supports": [
         "English exam before deadline"
       ]
+    },
+    {
+      "id": "tum-tuition-fees",
+      "title": "TUM: Tuition Fees for Students from Non-EU Countries",
+      "publisher": "Technical University of Munich",
+      "url": "https://www.tum.de/en/studies/fees/tuition",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Page fetched: bachelor's tuition usually 2,000 or 3,000 euros per semester; rises to 2,300 or 3,400 from winter 2027/28; applies to new non-EU/EEA students since winter 2024/25; Studienkolleg does not exempt; waivers must be applied for and are credited to fees.",
+      "supports": [
+        "Page fetched: bachelor's tuition usually 2,000 or 3,000 euro"
+      ]
+    },
+    {
+      "id": "tum-semester-fee",
+      "title": "TUM: Study fees and costs (semester fee)",
+      "publisher": "Technical University of Munich",
+      "url": "https://www.tum.de/en/studies/fees",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: semester fee 97 euros in Munich, Garching, Weihenstephan and Heilbronn for summer 2026 (82 in Straubing).",
+      "supports": [
+        "Search excerpt of the official page: semester fee 97 euros i"
+      ]
+    },
+    {
+      "id": "tum-scholarship-international",
+      "title": "TUM: Scholarships and waivers for international students",
+      "publisher": "Technical University of Munich",
+      "url": "https://www.tum.de/en/studies/fees/tuition/scholarships-and-waivers",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: waivers for non-EU/EEA students for outstanding performance or financial need, credited to tuition (not paid out); bachelor's application window listed as 15 May to 15 July for the following winter semester (excerpt wording, verify).",
+      "supports": [
+        "Search excerpt of the official page: waivers for non-EU/EEA "
+      ]
+    },
+    {
+      "id": "toronto-international-financial-aid",
+      "title": "U of T: Financial Aid for International Students",
+      "publisher": "University of Toronto",
+      "url": "https://future.utoronto.ca/international-student-financial-aid",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Page fetched: as a publicly funded institution U of T cannot offer direct financial aid to international students; all applicants automatically considered for scholarships; most do not cover full cost.",
+      "supports": [
+        "Page fetched: as a publicly funded institution U of T cannot"
+      ]
+    },
+    {
+      "id": "toronto-pearson-scholarship",
+      "title": "Lester B. Pearson International Scholarship - U of T",
+      "publisher": "University of Toronto",
+      "url": "https://future.utoronto.ca/pearson-scholarships",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: full 4-year award (tuition, books, incidental fees, residence) for international students nominated by their school; school nomination deadline 9 October 2026, for entry September 2027.",
+      "supports": [
+        "Search excerpt of the official page: full 4-year award (tuit"
+      ]
+    },
+    {
+      "id": "melbourne-mius",
+      "title": "Melbourne International Undergraduate Scholarship",
+      "publisher": "University of Melbourne",
+      "url": "https://scholarships.unimelb.edu.au/awards/melbourne-international-undergraduate-scholarship",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Page fetched: 20% fee remission for entry from 2027 (25% before 2027), for the course duration; citizens of countries with GDP per capita of US$10,000 or less (World Bank) and an Overseas Fee offer; automatic consideration; at least 110 awards (2027: 225 per page); cannot be combined with another fee sponsorship.",
+      "supports": [
+        "Page fetched: 20% fee remission for entry from 2027 (25% bef"
+      ]
+    },
+    {
+      "id": "melbourne-international-excellence",
+      "title": "Melbourne International Excellence Scholarship (Undergraduate)",
+      "publisher": "University of Melbourne",
+      "url": "https://scholarships.unimelb.edu.au/awards/melbourne-international-excellence-scholarship-undergraduate",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: 20% tuition fee sponsorship for students starting bachelor's in 2027 with an Overseas Fee offer and no prior tertiary study; at least 140 awards; no application required.",
+      "supports": [
+        "Search excerpt of the official page: 20% tuition fee sponsor"
+      ]
+    },
+    {
+      "id": "tokyo-tuition-fees",
+      "title": "University of Tokyo: Admission Fee and Tuition",
+      "publisher": "University of Tokyo",
+      "url": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Page fetched: admission fee 282,000 yen (one-time); undergraduate annual tuition 642,960 yen (535,800 yen for students who enrolled in or before 2024); MEXT scholarship holders do not pay tuition and certain other fees.",
+      "supports": [
+        "Page fetched: admission fee 282,000 yen (one-time); undergra"
+      ]
+    },
+    {
+      "id": "tokyo-mext-scholarship",
+      "title": "UTokyo: Japanese Government (MEXT) Scholarship",
+      "publisher": "University of Tokyo",
+      "url": "https://www.u-tokyo.ac.jp/en/prospective-students/mext_scholarship.html",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: MEXT undergraduate grantees spend one year at a designated preparatory school before university; selection by embassy recommendation or university recommendation (general category not expected from AY2026, per page).",
+      "supports": [
+        "Search excerpt of the official page: MEXT undergraduate gran"
+      ]
+    },
+    {
+      "id": "tokyo-peak-scholarship",
+      "title": "PEAK Programme: University of Tokyo Scholarship",
+      "publisher": "University of Tokyo (PEAK)",
+      "url": "https://peak.c.u-tokyo.ac.jp/fees_scholarships/l3/Vcms3_00000232.html",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official PEAK page (last updated 22 Nov 2023 per excerpt, so verify the current year): four-year scholarship for up to ten students covering admission fee, tuition and living expenses (126,000 yen per month).",
+      "supports": [
+        "Search excerpt of the official PEAK page (last updated 22 No"
+      ]
+    },
+    {
+      "id": "edinburgh-international-undergraduate",
+      "title": "Edinburgh: International and EU students (undergraduate funding)",
+      "publisher": "University of Edinburgh",
+      "url": "https://registryservices.ed.ac.uk/student-funding/undergraduate/international",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Page fetched: lists undergraduate international funding, including the Edinburgh Global Undergraduate Mathematics Scholarship, Asylum Seeker Scholarship, Defne-Muhtar Kent Scholarship (for students joining from Turkey) and the Rosedale OSSD Scholarship (GBP 10,000, first year). No Pakistan-specific award on this page.",
+      "supports": [
+        "Page fetched: lists undergraduate international funding, inc"
+      ]
+    },
+    {
+      "id": "edinburgh-maths-scholarship",
+      "title": "Edinburgh Global Undergraduate Mathematics Scholarships",
+      "publisher": "University of Edinburgh",
+      "url": "https://registryservices.ed.ac.uk/student-funding/undergraduate/international/mathematics",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: GBP 5,000 per year, paid in instalments toward living costs, for international fee-status students admitted full-time to undergraduate degrees in the School of Mathematics; not available to students already on programme.",
+      "supports": [
+        "Search excerpt of the official page: GBP 5,000 per year, pai"
+      ]
     }
   ]
 }
