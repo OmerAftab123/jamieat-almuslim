@@ -1811,6 +1811,215 @@
       "lastVerified": "2026-10-17",
       "verificationStatus": "official-sources-verified",
       "verificationNote": "Policy and deadlines from official pages. The \"10%\" figure is from secondary sources."
+    },
+    {
+      "id": "princeton-need-based-aid-international",
+      "universityId": "princeton-university",
+      "name": "Princeton need-based financial aid (international applicants)",
+      "funder": "Princeton University (institutional)",
+      "awardType": "need-based",
+      "scholarshipTypes": [
+        "need"
+      ],
+      "classification": "full-cost-of-attendance",
+      "classificationNote": "Princeton states it meets 100% of calculated need for aid applicants, including international students, with grants and no loans (official). The award is set per family.",
+      "coverage": {
+        "tuition": "Covered to the extent of need (official).",
+        "livingStipend": "Not stated.",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Included in need calculation and grant (official average-grant table, US families).",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "all-applicants",
+        "applicantScopeNote": "Need-blind admission and aid for all applicants, including international students (official).",
+        "requiresFinancialNeed": true,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed undergraduate programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "Non-US citizens are considered on the same aid basis (official).",
+        "nonUsApplicantNote": "Non-US citizen status does not limit aid (official FAQ).",
+        "academicConditions": "Need-blind admission; aid applicants are not disadvantaged (official).",
+        "renewalConditions": "Renews while need continues (official policy; not quoted in excerpts)."
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "Complete the Princeton Financial Aid Application (PFAA); no CSS Profile or IDOC (official).",
+      "deadlines": {
+        "applicationForAid": "Princeton Financial Aid Application available 1 Oct 2026 (official). Deadlines: early action 1 Nov and regular decision 1 Jan (secondary only)."
+      },
+      "selectionStatistics": "Not published.",
+      "uncoveredCosts": [
+        "Costs beyond the calculated need."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Grants, not loans (official).",
+      "sources": [
+        "princeton-intl-students",
+        "princeton-how-aid-works",
+        "princeton-finaid-faqs",
+        "princeton-apply-aid-prospective",
+        "princeton-secondary-titans"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-verified",
+      "verificationNote": "Policy and aid form verified from official pages. Deadlines are secondary only."
+    },
+    {
+      "id": "berkeley-automatic-scholarships",
+      "universityId": "university-california-berkeley-ucb",
+      "name": "UC Berkeley automatic scholarship consideration (admitted students)",
+      "funder": "UC Berkeley (institutional, various)",
+      "awardType": "merit-based",
+      "scholarshipTypes": [
+        "merit",
+        "institutional"
+      ],
+      "classification": "unconfirmed",
+      "classificationNote": "Official page: admitted students are automatically considered for scholarships. The official excerpts do not list amounts or the names of individual awards.",
+      "coverage": {
+        "tuition": "Not stated.",
+        "livingStipend": "Not stated.",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Not stated.",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "all-applicants",
+        "applicantScopeNote": "Admitted students are automatically considered (official page). Nonresident and international students are not eligible for need-based university gift aid (official FAQ).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed undergraduate programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "Admitted student status.",
+        "nonUsApplicantNote": "Nonresident and international students are not eligible for need-based gift aid (official).",
+        "academicConditions": "Meet UC minimum requirements; nonresident GPA minimum 3.4 (official quick reference guide).",
+        "renewalConditions": "Not stated in excerpts."
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "Automatic on admission (official page excerpt).",
+      "deadlines": {
+        "applicationForScholarships": "Not stated; automatic on admission (official page)."
+      },
+      "selectionStatistics": "Not published.",
+      "uncoveredCosts": [
+        "Nonresident supplemental tuition; no institutional need-based aid for international students."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not stated in the source.",
+      "sources": [
+        "berkeley-apply-aid",
+        "berkeley-newly-admitted-faqs",
+        "uc-quick-reference-guide",
+        "berkeley-secondary-unive"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "official-sources-partially-verified",
+      "verificationNote": "Automatic consideration is verified. Award names, amounts and selection criteria are not verified."
+    },
+    {
+      "id": "epfl-bachelor-excellence-fellowship",
+      "universityId": "epfl-ecole-polytechnique-federale-de-lausanne",
+      "name": "EPFL Bachelor Excellence Fellowship",
+      "funder": "EPFL (institutional)",
+      "awardType": "merit-based",
+      "scholarshipTypes": [
+        "merit"
+      ],
+      "classification": "unconfirmed",
+      "classificationNote": "EPFL news item: a GPA of at least 5.3 out of 6 (or CMS) qualifies a bachelor applicant to apply. The award value is not stated in the excerpt.",
+      "coverage": {
+        "tuition": "Not stated.",
+        "livingStipend": "Not stated.",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Not stated.",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "all-applicants",
+        "applicantScopeNote": "Any bachelor applicant meeting the GPA threshold may apply (official news item, 2022).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed undergraduate programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "Not restricted by nationality in the excerpt; Pakistani certificates not verified.",
+        "nonUsApplicantNote": "Foreign certificate route not verified for Pakistan.",
+        "academicConditions": "GPA at least 5.3 out of 6 or CMS; cover letter, CV and two references (official news item).",
+        "renewalConditions": "Not stated."
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "Submitted with the bachelor application; the current-cycle process is not verified.",
+      "deadlines": {
+        "application": "Not stated for current cycle."
+      },
+      "selectionStatistics": "Not published.",
+      "uncoveredCosts": [
+        "Not stated."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not stated in the source.",
+      "sources": [
+        "epfl-bachelor-fellowship-news",
+        "epfl-bachelor-admission"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "unverified",
+      "verificationNote": "Only the 2022 news item was checked. The current-cycle value and process are not verified."
+    },
+    {
+      "id": "anu-chancellors-international",
+      "universityId": "australian-national-university-anu",
+      "name": "ANU Chancellor's International Scholarship",
+      "funder": "Australian National University (institutional)",
+      "awardType": "merit-based",
+      "scholarshipTypes": [
+        "merit"
+      ],
+      "classification": "partial",
+      "classificationNote": "Secondary source: AUD 10,000 to AUD 25,000 toward tuition, one-off or recurring. Not confirmed on the ANU official page.",
+      "coverage": {
+        "tuition": "AUD 10,000 to 25,000 toward tuition (secondary).",
+        "livingStipend": "Not stated.",
+        "healthInsurance": "Not stated.",
+        "accommodationAndMeals": "Not stated.",
+        "travelAndVisa": "Not stated.",
+        "mandatoryFees": "Not stated."
+      },
+      "eligibility": {
+        "applicantScope": "international-only",
+        "applicantScopeNote": "For high-achieving international students with a confirmed ANU offer (secondary).",
+        "requiresFinancialNeed": false,
+        "degreeFamilyScope": "any",
+        "programmeScopeNote": "Applies to the listed undergraduate programmes in this record; subject scope is not restricted in the source.",
+        "citizenshipOrResidency": "International applicant with a confirmed offer (secondary).",
+        "nonUsApplicantNote": "Not verified for Pakistan on the official page.",
+        "academicConditions": "High-achieving international students (secondary).",
+        "renewalConditions": "Not stated."
+      },
+      "requiredDocuments": [
+        "Not verified for this record."
+      ],
+      "applicationMethod": "Application route not verified on the official page.",
+      "deadlines": {
+        "rounds": "15 May and 31 October (secondary)"
+      },
+      "selectionStatistics": "Not published.",
+      "uncoveredCosts": [
+        "Living costs and travel are not covered."
+      ],
+      "loansIncluded": false,
+      "loansNote": "Not stated in the source.",
+      "sources": [
+        "anu-chancellors-secondary"
+      ],
+      "lastVerified": "2026-10-17",
+      "verificationStatus": "unverified",
+      "verificationNote": "Secondary source only. Amounts, rounds and eligibility must be checked on ANU's official scholarships page."
     }
   ]
 }

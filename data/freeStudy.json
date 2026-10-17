@@ -4470,6 +4470,680 @@
           ]
         }
       ]
+    },
+    {
+      "id": "princeton-university-free-study",
+      "universityId": "princeton-university",
+      "applicant": "Pakistani citizen applying as an international undergraduate (first-year entry, 2027-28).",
+      "status": "verified-official-page",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Possibly. Princeton admits applicants without regard to ability to pay. Admission is highly selective; no admit rate is verified on official pages.",
+          "detail": "Official: admission is need-blind for all applicants including international students. Pakistani qualification requirements are not verified on the pages checked.",
+          "sourceIds": [
+            "princeton-intl-students"
+          ]
+        },
+        "free": {
+          "verdict": "Possibly, not automatic. Princeton meets 100% of calculated need for admitted applicants who apply for aid, with grants and no loans. It does not offer merit scholarships.",
+          "detail": "Official: the full need of admitted international students is met the same as for US students. The amount depends on the family's financial information.",
+          "sourceIds": [
+            "princeton-intl-students",
+            "princeton-finaid-faqs",
+            "princeton-how-aid-works"
+          ]
+        },
+        "should": {
+          "verdict": "Depends on whether your family needs aid, and whether you can meet the admission standard and the programme's requirements.",
+          "detail": "Princeton uses its own financial aid application (PFAA), not the CSS Profile, which can reduce cost for applicants who apply to other colleges.",
+          "sourceIds": [
+            "princeton-apply-aid-prospective"
+          ]
+        },
+        "how": [
+          "Apply for admission, then complete the Princeton Financial Aid Application (PFAA), available from 1 Oct 2026 for 2027-28 (official).",
+          "Submit tax documents as the PFAA requires; Princeton does not use IDOC or the CSS Profile (official).",
+          "Confirm deadlines on the admissions calendar; early action and regular decision dates from secondary sources are 1 Nov and 1 Jan.",
+          "Check the aid offer, which is a grant package."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Admission policy",
+          "detail": "Need-blind for all applicants, including international students (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "princeton-intl-students"
+          ]
+        },
+        {
+          "item": "Financial aid application",
+          "detail": "PFAA; no CSS Profile or IDOC (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "princeton-apply-aid-prospective"
+          ]
+        },
+        {
+          "item": "Deadlines",
+          "detail": "PFAA available 1 Oct 2026 (official). EA 1 Nov and RD 1 Jan are from secondary only.",
+          "status": "partially-verified",
+          "sourceIds": [
+            "princeton-apply-aid-prospective",
+            "princeton-secondary-titans"
+          ]
+        },
+        {
+          "item": "Tuition 2026-27",
+          "detail": "$68,140 (official cost page).",
+          "status": "verified-official",
+          "sourceIds": [
+            "princeton-cost-aid"
+          ]
+        },
+        {
+          "item": "Academic and English requirements (Pakistan)",
+          "detail": "Not verified on the pages checked.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Need-based (Princeton grants)",
+          "status": "available-conditional",
+          "detail": "Grants meeting 100% of calculated need for aid applicants, no loans; per family.",
+          "sourceIds": [
+            "princeton-how-aid-works",
+            "princeton-finaid-faqs"
+          ]
+        },
+        {
+          "route": "Merit",
+          "status": "not-available",
+          "detail": "Princeton does not offer academic or athletic merit scholarships (official).",
+          "sourceIds": [
+            "princeton-how-aid-works"
+          ]
+        },
+        {
+          "route": "National",
+          "status": "not-recorded",
+          "detail": "Not researched for international students.",
+          "sourceIds": []
+        },
+        {
+          "route": "Regional",
+          "status": "not-recorded",
+          "detail": "Not researched.",
+          "sourceIds": []
+        },
+        {
+          "route": "Institutional",
+          "status": "available-conditional",
+          "detail": "Need-based institutional grants are the route.",
+          "sourceIds": [
+            "princeton-intl-students"
+          ]
+        },
+        {
+          "route": "Sports",
+          "status": "not-available",
+          "detail": "No athletic merit scholarships (official).",
+          "sourceIds": [
+            "princeton-how-aid-works"
+          ]
+        }
+      ],
+      "trends": [],
+      "unofficialTrends": {
+        "status": "not-researched",
+        "detail": "No admit-rate or average-award trend recorded for international applicants from official pages."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Need-blind admission and need-based grants for international students (official).",
+          "No loans in aid packages (official)."
+        ],
+        "againstOrCaution": [
+          "Very selective admission; no verified international admit rate.",
+          "Aid depends on family finances; living costs may remain.",
+          "Deadlines from secondary sources need checking."
+        ],
+        "decisionTest": [
+          "Can you complete the PFAA and tax documents?",
+          "Can your family meet the expected contribution?",
+          "Are you ready for a very selective process?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Degree ranking for Princeton is not verified in this batch.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "From 1 Oct 2026",
+          "steps": [
+            "The 2027-28 Princeton Financial Aid Application opens (official).",
+            "Gather tax documents and family financial records."
+          ]
+        },
+        {
+          "window": "Application window (confirm dates)",
+          "steps": [
+            "Apply for admission and complete the PFAA."
+          ]
+        },
+        {
+          "window": "After decision",
+          "steps": [
+            "Review the grant package and confirm enrolment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uc-berkeley-free-study",
+      "universityId": "university-california-berkeley-ucb",
+      "applicant": "Pakistani citizen applying as an international (nonresident) undergraduate.",
+      "status": "verified-official-page",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Possibly. International applicants follow the same UC admission criteria as other nonresidents: A-G course pattern, a minimum GPA of 3.4 and English proficiency.",
+          "detail": "Official: all students including international must meet UC minimum requirements, including the A-G course pattern and a 3.4 GPA for nonresidents (UC quick reference guide). Pakistani qualification rules are not verified on Berkeley's pages.",
+          "sourceIds": [
+            "uc-quick-reference-guide",
+            "berkeley-intl-students"
+          ]
+        },
+        "free": {
+          "verdict": "No on recorded routes. International students are ineligible for need-based university aid managed by Berkeley Financial Aid. Admitted students are automatically considered for scholarships, but no amounts are verified.",
+          "detail": "Official: nonresident and international students are not eligible for need-based gift aid; nonresident supplemental tuition applies. Secondary source gives $39,270 for 2026-27.",
+          "sourceIds": [
+            "berkeley-apply-aid",
+            "berkeley-newly-admitted-faqs",
+            "berkeley-secondary-unive"
+          ]
+        },
+        "should": {
+          "verdict": "Depends on whether you can pay the full nonresident cost, including nonresident supplemental tuition, unless an award is given.",
+          "detail": "Plan for total cost without need-based aid. The UC application fee for international applicants is $95 (official).",
+          "sourceIds": [
+            "berkeley-newly-admitted-faqs",
+            "berkeley-secondary-unive"
+          ]
+        },
+        "how": [
+          "Apply through the UC application for international applicants; pay the $95 fee or request a waiver if eligible (official).",
+          "Meet the A-G and 3.4 GPA rules and show English proficiency.",
+          "Watch for automatic scholarship notices after admission.",
+          "Budget for nonresident supplemental tuition and living costs."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Admission minimum",
+          "detail": "A-G course pattern; GPA 3.4 for nonresidents (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "uc-quick-reference-guide",
+            "berkeley-intl-students"
+          ]
+        },
+        {
+          "item": "Application fee",
+          "detail": "$95 for international and non-immigrant applicants (official UC page).",
+          "status": "verified-official",
+          "sourceIds": [
+            "berkeley-apply-main"
+          ]
+        },
+        {
+          "item": "English proficiency",
+          "detail": "Required (official page list). Test minimums not verified in this batch.",
+          "status": "partially-verified",
+          "sourceIds": [
+            "berkeley-intl-students"
+          ]
+        },
+        {
+          "item": "Test scores",
+          "detail": "A dated official guide (2019) mentions SAT or ACT. Current policy not verified.",
+          "status": "not-verified",
+          "sourceIds": []
+        },
+        {
+          "item": "Pakistani qualifications",
+          "detail": "Not verified.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Need-based (university aid)",
+          "status": "not-available",
+          "detail": "International students are ineligible for need-based university gift aid (official).",
+          "sourceIds": [
+            "berkeley-newly-admitted-faqs"
+          ]
+        },
+        {
+          "route": "Merit",
+          "status": "available-conditional",
+          "detail": "Admitted students automatically considered for scholarships; amounts and names not verified.",
+          "sourceIds": [
+            "berkeley-apply-aid"
+          ]
+        },
+        {
+          "route": "National",
+          "status": "not-available",
+          "detail": "Federal and state aid are for US citizens and eligible non-citizens (official).",
+          "sourceIds": [
+            "berkeley-types-of-aid"
+          ]
+        },
+        {
+          "route": "Regional",
+          "status": "not-available",
+          "detail": "State aid is not available to international students (official).",
+          "sourceIds": [
+            "berkeley-types-of-aid"
+          ]
+        },
+        {
+          "route": "Institutional",
+          "status": "not-available",
+          "detail": "Institutional aid managed by Berkeley Financial Aid is not available to international students (official).",
+          "sourceIds": [
+            "berkeley-types-of-aid"
+          ]
+        },
+        {
+          "route": "Sports",
+          "status": "not-recorded",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [],
+      "unofficialTrends": {
+        "status": "not-researched",
+        "detail": "No admit-rate or award trend recorded from official pages."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Public research university with a strong reputation (ranking from the QS dataset).",
+          "Automatic scholarship consideration on admission (official)."
+        ],
+        "againstOrCaution": [
+          "No need-based aid for international students (official).",
+          "Nonresident supplemental tuition adds cost (secondary figure).",
+          "Competitive admission; no verified admit rate for international applicants."
+        ],
+        "decisionTest": [
+          "Can you fund the full nonresident cost for four years?",
+          "Do you meet the 3.4 GPA and English rules?",
+          "Are you willing to study in California with no need-based aid?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Degree ranking for Berkeley is not verified in this batch.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now to the UC application deadline (check the current year)",
+          "steps": [
+            "Confirm A-G and GPA requirements.",
+            "Prepare English proficiency evidence."
+          ]
+        },
+        {
+          "window": "Application",
+          "steps": [
+            "Submit the UC application for international applicants and pay the $95 fee."
+          ]
+        },
+        {
+          "window": "After admission",
+          "steps": [
+            "Check automatic scholarship notices; plan nonresident tuition and living costs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "epfl-free-study",
+      "universityId": "epfl-ecole-polytechnique-federale-de-lausanne",
+      "applicant": "Pakistani citizen applying for a bachelor's degree (first-year entry). The bachelor is taught in French.",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Possibly, only through an entrance route. EPFL bachelor teaching is in French (B2 required). Pakistani certificates are not on the direct-admission list checked; the entrance exam or the preparatory course may apply.",
+          "detail": "Official: level B2 in French is required for bachelor programmes, C1 recommended. Routes depend on the certificate: EU, EFTA, UK and IB routes are described; other diplomas need assessment (official). The route for Pakistani certificates is not verified.",
+          "sourceIds": [
+            "epfl-bachelor-admission"
+          ]
+        },
+        "free": {
+          "verdict": "No on recorded routes. No verified bachelor scholarship amount exists. The 2022 excellence fellowship has a GPA threshold but no verified amount. Master's fellowships are for Master's students, not bachelor applicants.",
+          "detail": "Secondary sources give a Master's fellowship of CHF 10,000 per semester; this is not a bachelor route.",
+          "sourceIds": [
+            "epfl-bachelor-fellowship-news",
+            "epfl-studyu-secondary"
+          ]
+        },
+        "should": {
+          "verdict": "Depends on French proficiency at B2 (or higher), passing the entrance route, and the cost of tuition and living in Switzerland, which is not verified for a bachelor.",
+          "detail": "Secondary tuition figure is CHF 780 per semester for most students; check EPFL's official fee page before deciding.",
+          "sourceIds": [
+            "epfl-studyu-secondary"
+          ]
+        },
+        "how": [
+          "Check whether your Pakistani certificate is on EPFL's equivalence list, or whether the entrance exam or preparatory course is needed.",
+          "Reach French B2 (or C1 recommended) before applying.",
+          "Watch the entrance exam registration window (1 Oct to 1 Dec 2026 per secondary sources).",
+          "Check the bachelor excellence fellowship GPA threshold (5.3 out of 6) if relevant."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "French for bachelor",
+          "detail": "B2 required; C1 recommended (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "epfl-bachelor-admission"
+          ]
+        },
+        {
+          "item": "Certificate route",
+          "detail": "EU, EFTA, UK and IB routes described (official). Pakistani route not verified.",
+          "status": "partially-verified",
+          "sourceIds": [
+            "epfl-bachelor-admission"
+          ]
+        },
+        {
+          "item": "Entrance exam dates",
+          "detail": "Registration 1 Oct to 1 Dec 2026; science block 18 to 22 Jan 2027 (secondary only).",
+          "status": "not-verified",
+          "sourceIds": [
+            "epfl-studyu-secondary"
+          ]
+        },
+        {
+          "item": "Academic requirement (bachelor)",
+          "detail": "Ranked by grade average for EU, EFTA, UK; others by route (official).",
+          "status": "partially-verified",
+          "sourceIds": [
+            "epfl-bachelor-admission"
+          ]
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit (Bachelor Excellence Fellowship)",
+          "status": "unverified",
+          "detail": "GPA threshold 5.3 out of 6 (2022 news); award value not verified.",
+          "sourceIds": [
+            "epfl-bachelor-fellowship-news"
+          ]
+        },
+        {
+          "route": "Need-based",
+          "status": "not-recorded",
+          "detail": "Not researched.",
+          "sourceIds": []
+        },
+        {
+          "route": "National",
+          "status": "not-recorded",
+          "detail": "Swiss government scholarships are for research-level study, not bachelor (secondary).",
+          "sourceIds": []
+        },
+        {
+          "route": "Regional",
+          "status": "not-recorded",
+          "detail": "Not researched.",
+          "sourceIds": []
+        },
+        {
+          "route": "Institutional (Master's fellowship)",
+          "status": "not-available",
+          "detail": "Master's only (secondary).",
+          "sourceIds": [
+            "epfl-studyu-secondary"
+          ]
+        },
+        {
+          "route": "Sports",
+          "status": "not-recorded",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [],
+      "unofficialTrends": {
+        "status": "not-researched",
+        "detail": "No admission or competitiveness data recorded."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Strong engineering and science reputation (QS ranking in the dataset).",
+          "Clear official route descriptions by certificate type."
+        ],
+        "againstOrCaution": [
+          "Bachelor taught in French (B2 required).",
+          "Pakistani certificate route not verified.",
+          "No verified bachelor scholarship amount."
+        ],
+        "decisionTest": [
+          "Can you reach B2 French before entry?",
+          "Do you have the preparation for the entrance exam?",
+          "Can you fund tuition and living costs in Switzerland?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Degree ranking for EPFL is not verified in this batch.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now",
+          "steps": [
+            "Confirm your certificate route and French level.",
+            "Plan the entrance exam or preparatory course if needed."
+          ]
+        },
+        {
+          "window": "Autumn 2026 (confirm)",
+          "steps": [
+            "Check the entrance exam registration window on EPFL's site."
+          ]
+        },
+        {
+          "window": "Early 2027 (confirm)",
+          "steps": [
+            "Sit the science block exam if required.",
+            "Apply for the bachelor route that matches your certificate."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anu-free-study",
+      "universityId": "australian-national-university-anu",
+      "applicant": "Pakistani citizen applying as an international undergraduate (Semester 1 2027 entry).",
+      "status": "partially-researched",
+      "lastChecked": "2026-10-17",
+      "answers": {
+        "can": {
+          "verdict": "Possibly. ANU assesses secondary certificates against its country equivalency tables. Selection rank varies by programme, for example 82 for the Bachelor of Asia-Pacific Affairs (official programme page).",
+          "detail": "Official: international applicants apply through UAC International for some certificates (Australian Year 12, IB, NCEA) and directly for others. The Pakistan equivalency table is not verified on the pages checked.",
+          "sourceIds": [
+            "anu-international-applications",
+            "anu-bapaf-program"
+          ]
+        },
+        "free": {
+          "verdict": "Not established. The Chancellor's International Scholarship (AUD 10,000 to 25,000 toward tuition) is from secondary sources only.",
+          "detail": "Australia Awards are for Pakistani citizens at Master's level in the sources checked; they are not an undergraduate route.",
+          "sourceIds": [
+            "anu-chancellors-secondary",
+            "anu-chancellors-secondary"
+          ]
+        },
+        "should": {
+          "verdict": "Depends on your selection rank, English level (IELTS 6.5 overall per secondary sources), and whether you can fund tuition in Canberra.",
+          "detail": "Tuition and living costs are not verified in this batch.",
+          "sourceIds": [
+            "anu-english-secondary"
+          ]
+        },
+        "how": [
+          "Check the equivalency table for Pakistani certificates and your selection rank for the programme.",
+          "Prepare IELTS (6.5 overall, 6.0 each band, per secondary sources; check ANU's policy).",
+          "Apply for Semester 1 2027 by the closing date (15 Dec 2026, secondary; the official excerpt is unclear).",
+          "Check the Chancellor's International Scholarship rounds on ANU's official site."
+        ]
+      },
+      "officialRequirements": [
+        {
+          "item": "Application route",
+          "detail": "UAC International for Australian Year 12, IB or NCEA; direct application otherwise (official).",
+          "status": "verified-official",
+          "sourceIds": [
+            "anu-international-applications"
+          ]
+        },
+        {
+          "item": "Semester 1 2027 closing date",
+          "detail": "Official excerpt unclear; secondary sources say 15 Dec 2026.",
+          "status": "partially-verified",
+          "sourceIds": [
+            "anu-ulec-secondary",
+            "anu-international-applications"
+          ]
+        },
+        {
+          "item": "Selection rank",
+          "detail": "Programme-specific; example 82 for the Bachelor of Asia-Pacific Affairs (official programme page).",
+          "status": "verified-official",
+          "sourceIds": [
+            "anu-bapaf-program"
+          ]
+        },
+        {
+          "item": "English",
+          "detail": "IELTS 6.5 overall, 6.0 each band (secondary); not verified on ANU's policy page.",
+          "status": "not-verified",
+          "sourceIds": [
+            "anu-english-secondary"
+          ]
+        },
+        {
+          "item": "Pakistani certificate equivalency",
+          "detail": "Not verified.",
+          "status": "not-verified",
+          "sourceIds": []
+        }
+      ],
+      "scholarships": [
+        {
+          "route": "Merit (Chancellor's International Scholarship)",
+          "status": "unverified",
+          "detail": "AUD 10,000 to 25,000 toward tuition (secondary only); two rounds.",
+          "sourceIds": [
+            "anu-chancellors-secondary"
+          ]
+        },
+        {
+          "route": "Need-based",
+          "status": "not-recorded",
+          "detail": "Not researched.",
+          "sourceIds": []
+        },
+        {
+          "route": "National (Australia Awards)",
+          "status": "not-available",
+          "detail": "Master's-level route in the sources checked, not undergraduate (secondary).",
+          "sourceIds": [
+            "anu-chancellors-secondary"
+          ]
+        },
+        {
+          "route": "Regional",
+          "status": "not-recorded",
+          "detail": "Not researched.",
+          "sourceIds": []
+        },
+        {
+          "route": "Institutional",
+          "status": "unverified",
+          "detail": "As Chancellor's International Scholarship above.",
+          "sourceIds": [
+            "anu-chancellors-secondary"
+          ]
+        },
+        {
+          "route": "Sports",
+          "status": "not-recorded",
+          "detail": "Not researched.",
+          "sourceIds": []
+        }
+      ],
+      "trends": [],
+      "unofficialTrends": {
+        "status": "not-researched",
+        "detail": "No admit rate or competitiveness trend recorded."
+      },
+      "reasoning": {
+        "forStudy": [
+          "Research-intensive national university in Australia (QS ranking in the dataset).",
+          "Clear application route and deadlines (secondary for one date)."
+        ],
+        "againstOrCaution": [
+          "Tuition and living costs not verified.",
+          "Chancellor's scholarship is secondary only.",
+          "Selection rank varies by programme."
+        ],
+        "decisionTest": [
+          "Can you meet the selection rank for your programme?",
+          "Can you fund tuition and living costs in Canberra?",
+          "Can you reach the English requirement?"
+        ]
+      },
+      "degreeRanking": {
+        "note": "Degree ranking for ANU is not verified in this batch.",
+        "sourceIds": []
+      },
+      "roadmap": [
+        {
+          "window": "Now to 15 Dec 2026 (secondary date)",
+          "steps": [
+            "Check the programme selection rank and the Pakistani certificate equivalency.",
+            "Take IELTS if needed."
+          ]
+        },
+        {
+          "window": "Application",
+          "steps": [
+            "Apply for Semester 1 2027 on ANU's international application page."
+          ]
+        },
+        {
+          "window": "After offer",
+          "steps": [
+            "Accept the offer within the deadline; check Chancellor's scholarship rounds."
+          ]
+        }
+      ]
     }
   ]
 }

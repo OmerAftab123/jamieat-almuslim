@@ -1494,6 +1494,293 @@
       "supports": [
         "About 10% of international students receive aid (secondary, citing university)"
       ]
+    },
+    {
+      "id": "princeton-intl-students",
+      "title": "For International Students (Princeton Admission)",
+      "publisher": "Princeton University",
+      "url": "https://admission.princeton.edu/apply/international-students",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: admission is need-blind for all applicants including international students; full need met; grants not loans; no academic or athletic merit scholarships.",
+      "supports": [
+        "Need-blind admission for international students",
+        "Full need met with grants",
+        "No merit scholarships"
+      ]
+    },
+    {
+      "id": "princeton-how-aid-works",
+      "title": "How Princeton's Aid Program Works (Princeton Admission)",
+      "publisher": "Princeton University",
+      "url": "https://admission.princeton.edu/how-princetons-aid-program-works",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: aid awarded solely on need; no merit scholarships; need-blind for all applicants.",
+      "supports": [
+        "Aid solely on need",
+        "No merit scholarships"
+      ]
+    },
+    {
+      "id": "princeton-finaid-faqs",
+      "title": "FAQs (Princeton Financial Aid)",
+      "publisher": "Princeton University Office of Financial Aid",
+      "url": "https://finaid.princeton.edu/faqs",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official FAQ: international students are not limited in aid; 100% of calculated need met; applying for aid has no admission disadvantage.",
+      "supports": [
+        "International students not limited in aid",
+        "100% of calculated need"
+      ]
+    },
+    {
+      "id": "princeton-apply-aid-prospective",
+      "title": "Apply for Aid: Prospective Students (Princeton Financial Aid)",
+      "publisher": "Princeton University Office of Financial Aid",
+      "url": "https://finaid.princeton.edu/apply-aid-prospective-students",
+      "type": "primary-official",
+      "publishedOrRevised": "2027-28 cycle",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: 2027-28 Princeton Financial Aid Application available 1 Oct 2026; Princeton does not use IDOC or the CSS Profile.",
+      "supports": [
+        "Princeton Financial Aid Application (PFAA)",
+        "No CSS Profile or IDOC",
+        "Available 1 Oct 2026"
+      ]
+    },
+    {
+      "id": "princeton-cost-aid",
+      "title": "Cost & Aid (Princeton Admission)",
+      "publisher": "Princeton University",
+      "url": "https://admission.princeton.edu/cost-aid",
+      "type": "primary-official",
+      "publishedOrRevised": "2026-27 year",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: tuition $68,140 for 2026-27.",
+      "supports": [
+        "Tuition $68,140 for 2026-27"
+      ]
+    },
+    {
+      "id": "princeton-secondary-titans",
+      "title": "Princeton International Financial Aid 2026 (TitansAbroad)",
+      "publisher": "TitansAbroad (secondary)",
+      "url": "https://titansabroad.org/scholarships/princeton-international-financial-aid",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Secondary source. Lists early action 1 Nov and regular decision 1 Jan as application deadlines. Not checked against the official admissions calendar.",
+      "supports": [
+        "Early action 1 Nov (secondary)",
+        "Regular decision 1 Jan (secondary)"
+      ]
+    },
+    {
+      "id": "berkeley-intl-students",
+      "title": "International Students (UC Berkeley Undergraduate Admissions)",
+      "publisher": "UC Berkeley",
+      "url": "https://admissions.berkeley.edu/apply-to-berkeley/international-students/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: applicants who need a visa or graduated outside the US apply as international applicants.",
+      "supports": [
+        "Who applies as an international applicant"
+      ]
+    },
+    {
+      "id": "berkeley-apply-main",
+      "title": "Apply to UC Berkeley (Office of Undergraduate Admissions)",
+      "publisher": "UC Berkeley",
+      "url": "https://admissions.berkeley.edu/apply-to-berkeley/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: application fee is $80 per UC campus, $95 for international and non-immigrant applicants; fee waivers for eligible students.",
+      "supports": [
+        "Application fee $95 for international applicants"
+      ]
+    },
+    {
+      "id": "berkeley-apply-aid",
+      "title": "Apply for Financial Aid (UC Berkeley Admissions)",
+      "publisher": "UC Berkeley",
+      "url": "https://admissions.berkeley.edu/cost/apply-for-financial-aid/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: admitted students are automatically considered for scholarships; international students are ineligible for federal, state and need-based university financial aid.",
+      "supports": [
+        "Automatic scholarship consideration",
+        "International students ineligible for need-based university aid"
+      ]
+    },
+    {
+      "id": "berkeley-types-of-aid",
+      "title": "Types of Financial Aid (UC Berkeley Admissions)",
+      "publisher": "UC Berkeley",
+      "url": "https://admissions.berkeley.edu/cost/apply-for-financial-aid/types-of-aid/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: international students are not eligible for federal financial aid or institutional aid managed by the Financial Aid and Scholarships Office.",
+      "supports": [
+        "International students not eligible for institutional aid managed by Financial Aid Office"
+      ]
+    },
+    {
+      "id": "berkeley-newly-admitted-faqs",
+      "title": "Newly Admitted Students FAQs (UC Berkeley Financial Aid)",
+      "publisher": "UC Berkeley Financial Aid and Scholarships",
+      "url": "https://financialaid.berkeley.edu/how-aid-works/newly-admitted-students-faqs/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official FAQ: newly admitted nonresident and international students are ineligible for need-based university gift aid; nonresident supplemental tuition applies.",
+      "supports": [
+        "Nonresident and international students ineligible for need-based gift aid",
+        "Nonresident supplemental tuition applies"
+      ]
+    },
+    {
+      "id": "uc-quick-reference-guide",
+      "title": "Quick Reference Guide to UC Admissions (University of California)",
+      "publisher": "University of California",
+      "url": "https://admission.universityofcalifornia.edu/counselors/_files/documents/quick-reference-guide-to-uc-admissions.pdf",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official guide: minimum GPA 3.0 for California residents and 3.4 for nonresidents; nonimmigrants are not California residents for admission.",
+      "supports": [
+        "Minimum GPA 3.4 for nonresidents"
+      ]
+    },
+    {
+      "id": "berkeley-secondary-unive",
+      "title": "UC Berkeley Admissions: Fall 2027 Guide (unive.ai)",
+      "publisher": "unive.ai (secondary)",
+      "url": "https://unive.ai/blogs/education/uc-berkeley-admissions-guide",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Secondary source. Gives nonresident supplemental tuition of $39,270 for 2026-27 on top of base tuition. Check against Berkeley's cost of attendance page.",
+      "supports": [
+        "Nonresident supplemental tuition $39,270 for 2026-27 (secondary)"
+      ]
+    },
+    {
+      "id": "epfl-bachelor-admission",
+      "title": "Bachelor/CMS admission criteria & application (EPFL)",
+      "publisher": "EPFL",
+      "url": "https://www.epfl.ch/education/admission/admission-2/bachelor-admission-criteria-and-application/",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: level B2 in French required for bachelor programmes (C1 recommended); EU, EFTA, UK and IB routes described; other foreign diplomas need assessment.",
+      "supports": [
+        "French B2 required for bachelor",
+        "Route by certificate type"
+      ]
+    },
+    {
+      "id": "epfl-bachelor-fellowship-news",
+      "title": "EPFL introduces new Bachelor's excellence fellowships (EPFL News)",
+      "publisher": "EPFL",
+      "url": "https://actu.epfl.ch/news/epfl-introduces-new-bachelor-s-excellence-fellowsh/",
+      "type": "primary-official",
+      "publishedOrRevised": "2022 news item",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official news item: anyone joining a bachelor programme may apply with a GPA of at least 5.3 out of 6 (high school or CMS); application needs a maturité-style summary, cover letter, CV and two references. Award value not in the excerpt.",
+      "supports": [
+        "Bachelor excellence fellowship: GPA 5.3/6 threshold",
+        "Award value not stated"
+      ]
+    },
+    {
+      "id": "epfl-studyu-secondary",
+      "title": "EPFL Lausanne: Admission, Entrance Exam, Fees 2027 (StudyU)",
+      "publisher": "StudyU (secondary)",
+      "url": "https://www.studyu.org/en/university-epfl",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Secondary source. Gives entrance exam registration 1 Oct to 1 Dec 2026, science block 18 to 22 Jan 2027, the Master's fellowship (CHF 10,000 per semester) and per-semester fees (CHF 780 for most students). Not verified on EPFL's pages.",
+      "supports": [
+        "Entrance exam dates (secondary)",
+        "Semester fees CHF 780 (secondary)",
+        "Master's fellowship CHF 10,000 per semester (secondary)"
+      ]
+    },
+    {
+      "id": "anu-international-applications",
+      "title": "International undergraduate & postgraduate (ANU)",
+      "publisher": "Australian National University",
+      "url": "https://study.anu.edu.au/apply/international-applications",
+      "type": "primary-official",
+      "publishedOrRevised": "Excerpt",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official page: international applicants apply via UAC International for Australian Year 12, IB or NCEA; key dates include Semester 2 2027 closing on 15 May 2027. The Semester 1 2027 closing date is not clear in the excerpt.",
+      "supports": [
+        "Application route for international applicants",
+        "Semester 2 2027 closing 15 May 2027"
+      ]
+    },
+    {
+      "id": "anu-bapaf-program",
+      "title": "Bachelor of Asia-Pacific Affairs (ANU Programs and Courses)",
+      "publisher": "Australian National University",
+      "url": "https://programsandcourses.anu.edu.au/program/bapaf",
+      "type": "primary-official",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Search excerpt of the official program page: selection rank 82 (guaranteed entry at 82 or above); minimum unadjusted rank 70; IB score 32 quoted.",
+      "supports": [
+        "Programme selection rank 82 (example programme)"
+      ]
+    },
+    {
+      "id": "anu-ulec-secondary",
+      "title": "ANU International Admission Requirements and Application Guide 2027 (UNILINK)",
+      "publisher": "UNILINK Australia (secondary)",
+      "url": "https://ulec.com.au/guides/anu-international-admission-2027/",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Secondary source. Gives the general Semester 1 2027 international closing date as 15 Dec 2026 and the Semester 2 date as 15 May 2027. Consistent with other secondary sources; not on the ANU excerpt checked.",
+      "supports": [
+        "Semester 1 2027 closing 15 Dec 2026 (secondary)"
+      ]
+    },
+    {
+      "id": "anu-english-secondary",
+      "title": "ANU Admission Requirements and Rankings (kdinternational, secondary)",
+      "publisher": "kdinternational (secondary)",
+      "url": "https://kdinternational.com.au/anu-admission-requirements-saudi-students/",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Secondary source citing the ANU English language policy: IELTS Academic 6.5 overall with 6.0 in each band for undergraduate and postgraduate study.",
+      "supports": [
+        "IELTS 6.5 overall, 6.0 each band (secondary)"
+      ]
+    },
+    {
+      "id": "anu-chancellors-secondary",
+      "title": "Top Scholarships for Pakistani Students in Australia 2026 (The Migration)",
+      "publisher": "The Migration (secondary)",
+      "url": "https://themigration.com.au/blog/scholarships-for-pakistani-students-in-australia",
+      "type": "credible-secondary-research",
+      "publishedOrRevised": "As shown on page",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Secondary source. Gives the ANU Chancellor's International Scholarship as AUD 10,000 to AUD 25,000 toward tuition, with two rounds (15 May and 31 October). Not verified on ANU's official scholarship page.",
+      "supports": [
+        "Chancellor's International Scholarship AUD 10,000 to 25,000 (secondary)"
+      ]
     }
   ]
 }
