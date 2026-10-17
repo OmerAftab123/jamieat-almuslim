@@ -1,0 +1,185 @@
+# Research coverage: top 150 QS universities
+
+Generated from `data/` on 17 October 2026. This is the honest state of research for each university, not a claim of completeness. "Not researched" means no verified record exists, not that the answer is "no".
+
+## Summary
+
+- Universities in dataset: **150** (QS 2027, ranks 1 to =150).
+- With at least one verified undergraduate programme record: **2**.
+- With an admissions record: **2**.
+- With a free-study dossier (can / free / should / how, with official requirements, scholarship routes and roadmap): **2**.
+- Scholarship records in `data/scholarships.json`: **2**.
+
+## What the dossiers cover, and what is still missing
+
+Every university still needs, for each bachelor's degree family the platform offers:
+
+1. Official programme page and title (mapping to the 102 catalogue degrees).
+2. Official international undergraduate admission requirements: qualification, English minimum, any subject prerequisites, and deadlines.
+3. Official international undergraduate scholarships by type: merit-based, need-based, institutional, national, regional, sports and external.
+4. Official cost of attendance (currency and basis stated).
+5. Unofficial or trend data, labelled as such, with sources.
+
+Items 1 to 4 are not yet researched for 148 universities. Only MIT and Universiti Malaya have any dossier.
+
+## National route for Pakistani students
+
+- HEC need-based undergraduate aid is for public universities in Pakistan, not for study abroad (secondary sources; not verified against an HEC primary page in this build).
+- HEC overseas awards found are postgraduate (Master's or PhD).
+- The one overseas undergraduate HEC award found is the Omani Scholarship (2 seats, closed for 2026-27; source `hec-oman-ug-2026`).
+- No national undergraduate scholarship for Pakistani students to a QS top-150 university is verified in this build.
+
+## Per-university coverage
+
+| QS rank | University | Country | Verified programme records | Admissions | Scholarships | Free-study dossier |
+|---|---|---|---|---|---|---|
+| 1 | Massachusetts Institute of Technology (MIT) | United States | 22 | verified (partial) | 1 record(s) | yes |
+| =2 | Imperial College London | United Kingdom | 0 | not researched | not researched | no |
+| =2 | Stanford University | United States | 0 | not researched | not researched | no |
+| 4 | University of Oxford | United Kingdom | 0 | not researched | not researched | no |
+| 5 | Harvard University | United States | 0 | not researched | not researched | no |
+| 6 | University of Cambridge | United Kingdom | 0 | not researched | not researched | no |
+| 7 | California Institute of Technology (Caltech) | United States | 0 | not researched | not researched | no |
+| =8 | ETH Zurich | Switzerland | 0 | not researched | not researched | no |
+| =8 | UCL | United Kingdom | 0 | not researched | not researched | no |
+| 10 | National University of Singapore (NUS) | Singapore | 0 | not researched | not researched | no |
+| 11 | The University of Hong Kong | Hong Kong SAR | 0 | not researched | not researched | no |
+| 12 | Nanyang Technological University, Singapore (NTU Singapore) | Singapore | 0 | not researched | not researched | no |
+| 13 | Peking University | China (Mainland) | 0 | not researched | not researched | no |
+| 14 | Tsinghua University | China (Mainland) | 0 | not researched | not researched | no |
+| 15 | University of Pennsylvania | United States | 0 | not researched | not researched | no |
+| =16 | Cornell University | United States | 0 | not researched | not researched | no |
+| =16 | Yale University | United States | 0 | not researched | not researched | no |
+| 18 | The Chinese University of Hong Kong (CUHK) | Hong Kong SAR | 0 | not researched | not researched | no |
+| 19 | The University of New South Wales (UNSW Sydney) | Australia | 0 | not researched | not researched | no |
+| =20 | Johns Hopkins University | United States | 0 | not researched | not researched | no |
+| =20 | University of California, Berkeley (UCB) | United States | 0 | not researched | not researched | no |
+| =22 | EPFL – École polytechnique fédérale de Lausanne | Switzerland | 0 | not researched | not researched | no |
+| =22 | The University of Melbourne | Australia | 0 | not researched | not researched | no |
+| 24 | University of Chicago | United States | 0 | not researched | not researched | no |
+| 25 | Technical University of Munich | Germany | 0 | not researched | not researched | no |
+| 26 | Fudan University | China (Mainland) | 0 | not researched | not researched | no |
+| 27 | Princeton University | United States | 0 | not researched | not researched | no |
+| 28 | The University of Sydney | Australia | 0 | not researched | not researched | no |
+| 29 | Australian National University (ANU) | Australia | 0 | not researched | not researched | no |
+| 30 | McGill University | Canada | 0 | not researched | not researched | no |
+| 31 | Monash University | Australia | 0 | not researched | not researched | no |
+| 32 | University of Toronto | Canada | 0 | not researched | not researched | no |
+| 33 | The Hong Kong University of Science and Technology | Hong Kong SAR | 0 | not researched | not researched | no |
+| 34 | Université PSL | France | 0 | not researched | not researched | no |
+| 35 | The University of Edinburgh | United Kingdom | 0 | not researched | not researched | no |
+| 36 | Shanghai Jiao Tong University | China (Mainland) | 0 | not researched | not researched | no |
+| 37 | King's College London | United Kingdom | 0 | not researched | not researched | no |
+| 38 | Seoul National University | South Korea | 0 | not researched | not researched | no |
+| 39 | The University of Tokyo | Japan | 0 | not researched | not researched | no |
+| =40 | The University of Manchester | United Kingdom | 0 | not researched | not researched | no |
+| =40 | The University of Queensland | Australia | 0 | not researched | not researched | no |
+| 42 | Yonsei University | South Korea | 0 | not researched | not researched | no |
+| =43 | Columbia University | United States | 0 | not researched | not researched | no |
+| =43 | Institut Polytechnique de Paris | France | 0 | not researched | not researched | no |
+| =45 | Northwestern University | United States | 0 | not researched | not researched | no |
+| =45 | University of British Columbia | Canada | 0 | not researched | not researched | no |
+| 47 | Zhejiang University | China (Mainland) | 0 | not researched | not researched | no |
+| 48 | Delft University of Technology | Netherlands | 0 | not researched | not researched | no |
+| 49 | University of California, Los Angeles (UCLA) | United States | 0 | not researched | not researched | no |
+| 50 | The Hong Kong Polytechnic University | Hong Kong SAR | 0 | not researched | not researched | no |
+| 51 | University of Michigan-Ann Arbor | United States | 0 | not researched | not researched | no |
+| =52 | City University of Hong Kong (CityUHK) | Hong Kong SAR | 0 | not researched | not researched | no |
+| =52 | Korea University | South Korea | 0 | not researched | not researched | no |
+| 54 | National Taiwan University (NTU) | Taiwan | 0 | not researched | not researched | no |
+| 55 | Carnegie Mellon University | United States | 0 | not researched | not researched | no |
+| 56 | Universiti Malaya (UM) | Malaysia | 42 | verified (partial) | 1 record(s) | yes |
+| 57 | University of Bristol | United Kingdom | 0 | not researched | not researched | no |
+| 58 | New York University (NYU) | United States | 0 | not researched | not researched | no |
+| 59 | KU Leuven | Belgium | 0 | not researched | not researched | no |
+| 60 | University of Amsterdam | Netherlands | 0 | not researched | not researched | no |
+| 61 | Ludwig-Maximilians-Universität München | Germany | 0 | not researched | not researched | no |
+| 62 | The London School of Economics and Political Science (LSE) | United Kingdom | 0 | not researched | not researched | no |
+| 63 | KFUPM | Saudi Arabia | 0 | not researched | not researched | no |
+| 64 | Kyoto University | Japan | 0 | not researched | not researched | no |
+| 65 | KAIST | South Korea | 0 | not researched | not researched | no |
+| 66 | Brown University | United States | 0 | not researched | not researched | no |
+| 67 | The University of Auckland | New Zealand | 0 | not researched | not researched | no |
+| =68 | University of Warwick | United Kingdom | 0 | not researched | not researched | no |
+| =68 | University of Birmingham | United Kingdom | 0 | not researched | not researched | no |
+| 70 | Duke University | United States | 0 | not researched | not researched | no |
+| 71 | Lund University | Sweden | 0 | not researched | not researched | no |
+| 72 | University of Texas at Austin | United States | 0 | not researched | not researched | no |
+| 73 | Sorbonne University | France | 0 | not researched | not researched | no |
+| 74 | University of Illinois Urbana-Champaign | United States | 0 | not researched | not researched | no |
+| 75 | Trinity College Dublin, The University of Dublin | Ireland | 0 | not researched | not researched | no |
+| 76 | Université Paris-Saclay | France | 0 | not researched | not researched | no |
+| =77 | The University of Western Australia | Australia | 0 | not researched | not researched | no |
+| =77 | University of Leeds | United Kingdom | 0 | not researched | not researched | no |
+| 79 | Adelaide University | Australia | 0 | not researched | not researched | no |
+| 80 | University of Glasgow | United Kingdom | 0 | not researched | not researched | no |
+| 81 | University of California, San Diego (UCSD) | United States | 0 | not researched | not researched | no |
+| =82 | KTH Royal Institute of Technology | Sweden | 0 | not researched | not researched | no |
+| =82 | The University of Sheffield | United Kingdom | 0 | not researched | not researched | no |
+| 84 | Universidad de Buenos Aires (UBA) | Argentina | 0 | not researched | not researched | no |
+| 85 | Durham University | United Kingdom | 0 | not researched | not researched | no |
+| 86 | Universität Heidelberg | Germany | 0 | not researched | not researched | no |
+| =87 | Politecnico di Milano | Italy | 0 | not researched | not researched | no |
+| =87 | The University of Technology Sydney (UTS) | Australia | 0 | not researched | not researched | no |
+| =87 | Uppsala University | Sweden | 0 | not researched | not researched | no |
+| =90 | Nanjing University | China (Mainland) | 0 | not researched | not researched | no |
+| =90 | University of Copenhagen | Denmark | 0 | not researched | not researched | no |
+| =92 | Pennsylvania State University | United States | 0 | not researched | not researched | no |
+| =92 | University of Washington | United States | 0 | not researched | not researched | no |
+| 94 | Boston University | United States | 0 | not researched | not researched | no |
+| 95 | The University of Osaka | Japan | 0 | not researched | not researched | no |
+| 96 | University of Alberta | Canada | 0 | not researched | not researched | no |
+| =97 | Institute of Science Tokyo | Japan | 0 | not researched | not researched | no |
+| =97 | University of Nottingham | United Kingdom | 0 | not researched | not researched | no |
+| =98 | Freie Universitaet Berlin | Germany | 0 | not researched | not researched | no |
+| =98 | University of Zurich | Switzerland | 0 | not researched | not researched | no |
+| =100 | Purdue University | United States | 0 | not researched | not researched | no |
+| =100 | University College Dublin | Ireland | 0 | not researched | not researched | no |
+| 102 | Tohoku University | Japan | 0 | not researched | not researched | no |
+| 103 | Queen Mary University of London | United Kingdom | 0 | not researched | not researched | no |
+| 104 | RWTH Aachen University | Germany | 0 | not researched | not researched | no |
+| 105 | Technical University of Denmark | Denmark | 0 | not researched | not researched | no |
+| 106 | Pohang University of Science And Technology (POSTECH) | South Korea | 0 | not researched | not researched | no |
+| 107 | King Saud University | Saudi Arabia | 0 | not researched | not researched | no |
+| 108 | Sungkyunkwan University (SKKU) | South Korea | 0 | not researched | not researched | no |
+| 109 | Qatar University | Qatar | 0 | not researched | not researched | no |
+| 110 | KIT, Karlsruhe Institute of Technology | Germany | 0 | not researched | not researched | no |
+| =111 | Sapienza University of Rome | Italy | 0 | not researched | not researched | no |
+| =111 | University of Southampton | United Kingdom | 0 | not researched | not researched | no |
+| =113 | University of Waterloo | Canada | 0 | not researched | not researched | no |
+| =113 | Utrecht University | Netherlands | 0 | not researched | not researched | no |
+| =115 | Lomonosov Moscow State University | Russia | 0 | not researched | not researched | no |
+| =115 | University of St Andrews | United Kingdom | 0 | not researched | not researched | no |
+| 118 | Indian Institute of Technology Delhi (IITD) | India | 0 | not researched | not researched | no |
+| =119 | Leiden University | Netherlands | 0 | not researched | not researched | no |
+| =119 | Pontificia Universidad Católica de Chile (UC) | Chile | 0 | not researched | not researched | no |
+| =119 | RMIT University | Australia | 0 | not researched | not researched | no |
+| 122 | Rice University | United States | 0 | not researched | not researched | no |
+| =123 | Alma Mater Studiorum - Università di Bologna | Italy | 0 | not researched | not researched | no |
+| =123 | University of Helsinki | Finland | 0 | not researched | not researched | no |
+| 125 | University of Bath | United Kingdom | 0 | not researched | not researched | no |
+| =126 | Aalto University | Finland | 0 | not researched | not researched | no |
+| =126 | Macquarie University (Sydney, Australia) | Australia | 0 | not researched | not researched | no |
+| =128 | Aarhus University | Denmark | 0 | not researched | not researched | no |
+| =128 | Universiti Sains Malaysia (USM) | Malaysia | 0 | not researched | not researched | no |
+| 130 | Universiti Kebangsaan Malaysia (UKM) | Malaysia | 0 | not researched | not researched | no |
+| =131 | University of Oslo | Norway | 0 | not researched | not researched | no |
+| =131 | University of Wisconsin-Madison | United States | 0 | not researched | not researched | no |
+| 133 | Universidade de São Paulo | Brazil | 0 | not researched | not researched | no |
+| =134 | Indian Institute of Technology Bombay (IITB) | India | 0 | not researched | not researched | no |
+| =134 | University of Science and Technology of China | China | 0 | not researched | not researched | no |
+| 136 | University of Exeter | United Kingdom | 0 | not researched | not researched | no |
+| 137 | University of California, Davis | United States | 0 | not researched | not researched | no |
+| 138 | Universiti Putra Malaysia (UPM) | Malaysia | 0 | not researched | not researched | no |
+| 139 | University of Liverpool | United Kingdom | 0 | not researched | not researched | no |
+| =140 | Humboldt-Universität zu Berlin | Germany | 0 | not researched | not researched | no |
+| =140 | University of Vienna | Austria | 0 | not researched | not researched | no |
+| =142 | Georgia Institute of Technology | United States | 0 | not researched | not researched | no |
+| =142 | National Tsing Hua University - NTHU | Taiwan | 0 | not researched | not researched | no |
+| =142 | Western University | Canada | 0 | not researched | not researched | no |
+| 145 | Universidad Nacional Autónoma de México (UNAM) | Mexico | 0 | not researched | not researched | no |
+| 146 | Tongji University | China | 0 | not researched | not researched | no |
+| 147 | Khalifa University | United Arab Emirates | 0 | not researched | not researched | no |
+| 148 | Erasmus University Rotterdam | Netherlands | 0 | not researched | not researched | no |
+| 149 | Newcastle University | United Kingdom | 0 | not researched | not researched | no |
+| =150 | Ghent University | Belgium | 0 | not researched | not researched | no |

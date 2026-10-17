@@ -418,6 +418,20 @@
         "contest format: two written questions (why UM; best PTE tip)",
         "GBP 3,000 towards tuition"
       ]
+    },
+    {
+      "id": "hec-oman-ug-2026",
+      "title": "HEC Announcement: Omani Scholarship Program for Undergraduate Studies (2026-27)",
+      "publisher": "Higher Education Commission Pakistan",
+      "url": "https://www.hec.gov.pk/english/HECAnnouncements/Pages/Omani-Scholarship.aspx",
+      "type": "primary-official",
+      "publishedOrRevised": "Deadline extended to 16 July 2026 (as printed)",
+      "lastChecked": "2026-10-17",
+      "verificationMethod": "Read via search-result excerpt only. Closed for the 2026-27 cycle.",
+      "supports": [
+        "the only HEC overseas undergraduate award found for Pakistani nationals in this build (Oman, 2 seats, closed)",
+        "HEC need-based undergraduate award is limited to public universities in Pakistan (secondary source only)"
+      ]
     }
   ]
 }

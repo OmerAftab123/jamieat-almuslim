@@ -77,6 +77,7 @@ docs/           Mission, roadmap, architecture, methodology, coverage, launch gu
 - [Data coverage](docs/DATA_COVERAGE.md)
 - [How the answer is built (can, free, should)](docs/ANSWER_LOGIC.md)
 - [Universiti Malaya research record](docs/UM_RESEARCH.md)
+- [Research coverage for all 150 QS universities](docs/RESEARCH_COVERAGE.md)
 - [Beginner launch guide (Windows / PowerShell first)](docs/BEGINNER_LAUNCH_GUIDE.md)
 
 ## Contributing and corrections
