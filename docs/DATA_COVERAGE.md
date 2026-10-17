@@ -86,3 +86,10 @@ The matcher therefore reports `program-not-verified` for pairs without a verifie
   - CUHK: non-local tuition HK$230,000 for 2027-28. HKSAR Government Scholarship HK$80,000 a year for non-local students. Admission scholarships are automatic. Regular round deadline 7 Jan 2027.
 - Not free on any verified route: UNSW, CUHK. Possibly free (not guaranteed): Peking. Not established: Tsinghua.
 - Scholarship ID for UNSW's Scientia award is not recorded: only secondary sources mention it.
+
+## Batches 6 and 7 (17 Oct 2026): Yale, Cornell, Penn, Johns Hopkins, Princeton, UC Berkeley, EPFL, ANU
+
+- Batch 6: four dossiers and four need-based aid records. Yale is need-blind for all applicants and meets 100% of need. Cornell, Penn and Johns Hopkins are need-aware for international applicants and must receive the aid request at admission. None of the four offers merit scholarships for undergraduates in the sources checked.
+- Batch 7: four dossiers. Princeton is need-blind and meets full need with grants, using its own aid form (no CSS Profile). UC Berkeley gives international undergraduates no need-based university aid (official). EPFL bachelor teaching is in French (B2 required); the Pakistani certificate route is not verified. ANU's Semester 1 2027 closing date is unclear on the official excerpt.
+- Totals after batch 7: 32 dossiers, 39 scholarship records, 129 sources. 118 of 150 universities still have no dossier.
+- Secondary-only items (not verified on official pages): Penn admission rate and cost of attendance; Yale admit rate; Princeton early action and regular decision dates; EPFL entrance-exam dates and fees; ANU Chancellor's scholarship amounts; Berkeley non-resident tuition figure.
